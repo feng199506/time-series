@@ -25,7 +25,16 @@
   "pdf_url": "https://arxiv.org/pdf/2412.17323v3",
   "version_label": "arXiv 2412.17323v3",
   "pages": 25,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 25,
+   "text_chars": 110114,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS002": {
   "title": "BASTION: A Bayesian Framework for Trend and Seasonality Decomposition",
@@ -53,7 +62,16 @@
   "pdf_url": "https://arxiv.org/pdf/2601.18052v1",
   "version_label": "arXiv 2601.18052v1",
   "pages": 28,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 28,
+   "text_chars": 73570,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS003": {
   "title": "Time Series Analysis in Frequency Domain: A Survey of Open Challenges, Opportunities and Benchmarks",
@@ -81,7 +99,16 @@
   "pdf_url": "https://arxiv.org/pdf/2504.07099v5",
   "version_label": "arXiv 2504.07099v5",
   "pages": 39,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 39,
+   "text_chars": 167300,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS004": {
   "title": "Frequency Adaptive Normalization For Non-stationary Time Series Forecasting",
@@ -109,7 +136,16 @@
   "pdf_url": "https://arxiv.org/pdf/2409.20371v1",
   "version_label": "arXiv 2409.20371v1",
   "pages": 23,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 23,
+   "text_chars": 81736,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS005": {
   "title": "Battling the Non-stationarity in Time Series Forecasting via Test-time Adaptation",
@@ -137,7 +173,16 @@
   "pdf_url": "https://arxiv.org/pdf/2501.04970v1",
   "version_label": "arXiv 2501.04970v1",
   "pages": 15,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 15,
+   "text_chars": 72475,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS006": {
   "title": "FreDF: Learning to Forecast in the Frequency Domain",
@@ -165,7 +210,16 @@
   "pdf_url": "https://arxiv.org/pdf/2402.02399v3",
   "version_label": "arXiv 2402.02399v3",
   "pages": 33,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 33,
+   "text_chars": 121029,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS007": {
   "title": "ABC-based Forecasting in State Space Models",
@@ -193,7 +247,16 @@
   "pdf_url": "https://arxiv.org/pdf/2311.01021v1",
   "version_label": "arXiv 2311.01021v1",
   "pages": 25,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 25,
+   "text_chars": 74495,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS008": {
   "title": "Is Mamba Effective for Time Series Forecasting?",
@@ -221,7 +284,16 @@
   "pdf_url": "https://arxiv.org/pdf/2403.11144v3",
   "version_label": "arXiv 2403.11144v3",
   "pages": 14,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 14,
+   "text_chars": 87291,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS009": {
   "title": "Testing for multiple change-points in macroeconometrics: an empirical guide and recent developments",
@@ -249,7 +321,16 @@
   "pdf_url": "https://arxiv.org/pdf/2507.22204v1",
   "version_label": "arXiv 2507.22204v1",
   "pages": 34,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 34,
+   "text_chars": 101953,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS010": {
   "title": "Interval Forecasts for Gas Prices in the Face of Structural Breaks -- Statistical Models vs. Neural Networks",
@@ -277,7 +358,17 @@
   "pdf_url": "https://arxiv.org/pdf/2407.16723v1",
   "version_label": "arXiv 2407.16723v1",
   "pages": 18,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 59658,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  },
+  "reason": ""
  },
  "TS011": {
   "title": "A Novel Theoretical Framework for Exponential Smoothing",
@@ -305,7 +396,16 @@
   "pdf_url": "https://arxiv.org/pdf/2403.04345v1",
   "version_label": "arXiv 2403.04345v1",
   "pages": 12,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 12,
+   "text_chars": 26891,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS012": {
   "title": "Vector AutoRegressive Moving Average Models: A Review",
@@ -333,7 +433,16 @@
   "pdf_url": "https://arxiv.org/pdf/2406.19702v1",
   "version_label": "arXiv 2406.19702v1",
   "pages": 47,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 47,
+   "text_chars": 111578,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS013": {
   "title": "From Vector Autoregressions to AI-based Time Series Forecasting: A Review",
@@ -361,7 +470,16 @@
   "pdf_url": "https://arxiv.org/pdf/2607.14279v1",
   "version_label": "arXiv 2607.14279v1",
   "pages": 26,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 26,
+   "text_chars": 86711,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS014": {
   "title": "Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data",
@@ -389,7 +507,16 @@
   "pdf_url": "https://arxiv.org/pdf/2609.13345v1",
   "version_label": "arXiv 2609.13345v1",
   "pages": 77,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 77,
+   "text_chars": 308934,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS015": {
   "title": "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation",
@@ -417,7 +544,16 @@
   "pdf_url": "https://arxiv.org/pdf/2407.00650v1",
   "version_label": "arXiv 2407.00650v1",
   "pages": 46,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 46,
+   "text_chars": 146353,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS016": {
   "title": "A Gentle Introduction to Conformal Time Series Forecasting",
@@ -445,7 +581,16 @@
   "pdf_url": "https://arxiv.org/pdf/2511.13608v1",
   "version_label": "arXiv 2511.13608v1",
   "pages": 31,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 31,
+   "text_chars": 72160,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS017": {
   "title": "Online conformal inference for multi-step time series forecasting",
@@ -473,7 +618,16 @@
   "pdf_url": "https://arxiv.org/pdf/2410.13115v2",
   "version_label": "arXiv 2410.13115v2",
   "pages": 40,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 40,
+   "text_chars": 74362,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS018": {
   "title": "Scalable Probabilistic Forecasting in Retail with Gradient Boosted Trees: A Practitioner's Approach",
@@ -501,7 +655,16 @@
   "pdf_url": "https://arxiv.org/pdf/2311.00993v1",
   "version_label": "arXiv 2311.00993v1",
   "pages": 29,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 29,
+   "text_chars": 75504,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS019": {
   "title": "How Much Can Time-related Features Enhance Time Series Forecasting?",
@@ -529,7 +692,16 @@
   "pdf_url": "https://arxiv.org/pdf/2412.01557v1",
   "version_label": "arXiv 2412.01557v1",
   "pages": 13,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 13,
+   "text_chars": 73888,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS020": {
   "title": "Sliding-Window Signatures as Features for Time Series Forecasting",
@@ -557,7 +729,16 @@
   "pdf_url": "https://arxiv.org/pdf/2510.12337v2",
   "version_label": "arXiv 2510.12337v2",
   "pages": 24,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 24,
+   "text_chars": 84430,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS021": {
   "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
@@ -585,7 +766,16 @@
   "pdf_url": "https://arxiv.org/pdf/2501.02945v4",
   "version_label": "arXiv 2501.02945v4",
   "pages": 26,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 26,
+   "text_chars": 67943,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS022": {
   "title": "Intermittent time series forecasting: local vs global models",
@@ -613,7 +803,16 @@
   "pdf_url": "https://arxiv.org/pdf/2601.14031v2",
   "version_label": "arXiv 2601.14031v2",
   "pages": 28,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 28,
+   "text_chars": 74228,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS023": {
   "title": "Deep Time Series Models: A Comprehensive Survey and Benchmark",
@@ -641,7 +840,16 @@
   "pdf_url": "https://arxiv.org/pdf/2407.13278v3",
   "version_label": "arXiv 2407.13278v3",
   "pages": 20,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 125491,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS024": {
   "title": "xLSTM-Mixer: Multivariate Time Series Forecasting by Mixing via Scalar Memories",
@@ -669,7 +877,16 @@
   "pdf_url": "https://arxiv.org/pdf/2410.16928v4",
   "version_label": "arXiv 2410.16928v4",
   "pages": 34,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 34,
+   "text_chars": 120050,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS025": {
   "title": "TSLANet: Rethinking Transformers for Time Series Representation Learning",
@@ -697,7 +914,16 @@
   "pdf_url": "https://arxiv.org/pdf/2404.08472v2",
   "version_label": "arXiv 2404.08472v2",
   "pages": 20,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 84449,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS026": {
   "title": "TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables",
@@ -725,7 +951,16 @@
   "pdf_url": "https://arxiv.org/pdf/2402.19072v4",
   "version_label": "arXiv 2402.19072v4",
   "pages": 30,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 30,
+   "text_chars": 109943,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS027": {
   "title": "Are Self-Attentions Effective for Time Series Forecasting?",
@@ -753,7 +988,16 @@
   "pdf_url": "https://arxiv.org/pdf/2405.16877v3",
   "version_label": "arXiv 2405.16877v3",
   "pages": 23,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 23,
+   "text_chars": 79131,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS028": {
   "title": "TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting",
@@ -781,7 +1025,16 @@
   "pdf_url": "https://arxiv.org/pdf/2405.14616v1",
   "version_label": "arXiv 2405.14616v1",
   "pages": 28,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 28,
+   "text_chars": 90884,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS029": {
   "title": "SparseTSF: Modeling Long-term Time Series Forecasting with 1k Parameters",
@@ -809,7 +1062,16 @@
   "pdf_url": "https://arxiv.org/pdf/2405.00946v2",
   "version_label": "arXiv 2405.00946v2",
   "pages": 16,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 16,
+   "text_chars": 68243,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS030": {
   "title": "CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns",
@@ -837,7 +1099,16 @@
   "pdf_url": "https://arxiv.org/pdf/2409.18479v2",
   "version_label": "arXiv 2409.18479v2",
   "pages": 31,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 31,
+   "text_chars": 113661,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS031": {
   "title": "An Analysis of Linear Time Series Forecasting Models",
@@ -865,7 +1136,16 @@
   "pdf_url": "https://arxiv.org/pdf/2403.14587v2",
   "version_label": "arXiv 2403.14587v2",
   "pages": 20,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 75689,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS032": {
   "title": "Chronos: Learning the Language of Time Series",
@@ -893,7 +1173,16 @@
   "pdf_url": "https://arxiv.org/pdf/2403.07815v3",
   "version_label": "arXiv 2403.07815v3",
   "pages": 43,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 43,
+   "text_chars": 339458,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS033": {
   "title": "Unified Training of Universal Time Series Forecasting Transformers",
@@ -921,7 +1210,16 @@
   "pdf_url": "https://arxiv.org/pdf/2402.02592v2",
   "version_label": "arXiv 2402.02592v2",
   "pages": 25,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 25,
+   "text_chars": 93822,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS034": {
   "title": "Timer: Generative Pre-trained Transformers Are Large Time Series Models",
@@ -949,7 +1247,16 @@
   "pdf_url": "https://arxiv.org/pdf/2402.02368v3",
   "version_label": "arXiv 2402.02368v3",
   "pages": 31,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 31,
+   "text_chars": 136999,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS035": {
   "title": "Tiny Time Mixers (TTMs): Fast Pre-trained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series",
@@ -977,7 +1284,16 @@
   "pdf_url": "https://arxiv.org/pdf/2401.03955v8",
   "version_label": "arXiv 2401.03955v8",
   "pages": 32,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 32,
+   "text_chars": 109384,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS036": {
   "title": "Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts",
@@ -1005,7 +1321,16 @@
   "pdf_url": "https://arxiv.org/pdf/2409.16040v4",
   "version_label": "arXiv 2409.16040v4",
   "pages": 33,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 33,
+   "text_chars": 102456,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS037": {
   "title": "This Time is Different: An Observability Perspective on Time Series Foundation Models",
@@ -1033,7 +1358,16 @@
   "pdf_url": "https://arxiv.org/pdf/2505.14766v2",
   "version_label": "arXiv 2505.14766v2",
   "pages": 38,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 38,
+   "text_chars": 126630,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS038": {
   "title": "TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning",
@@ -1061,7 +1395,16 @@
   "pdf_url": "https://arxiv.org/pdf/2505.23719v2",
   "version_label": "arXiv 2505.23719v2",
   "pages": 45,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 45,
+   "text_chars": 137616,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS039": {
   "title": "Sundial: A Family of Highly Capable Time Series Foundation Models",
@@ -1089,7 +1432,16 @@
   "pdf_url": "https://arxiv.org/pdf/2502.00816v4",
   "version_label": "arXiv 2502.00816v4",
   "pages": 23,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 23,
+   "text_chars": 81111,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS040": {
   "title": "Chronos-2: From Univariate to Universal Forecasting",
@@ -1117,7 +1469,16 @@
   "pdf_url": "https://arxiv.org/pdf/2510.15821v1",
   "version_label": "arXiv 2510.15821v1",
   "pages": 31,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 31,
+   "text_chars": 114219,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS041": {
   "title": "ChronosX: Adapting Pretrained Time Series Models with Exogenous Variables",
@@ -1145,7 +1506,16 @@
   "pdf_url": "https://arxiv.org/pdf/2503.12107v1",
   "version_label": "arXiv 2503.12107v1",
   "pages": 53,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 53,
+   "text_chars": 181356,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS042": {
   "title": "In-Context Fine-Tuning for Time-Series Foundation Models",
@@ -1173,7 +1543,16 @@
   "pdf_url": "https://arxiv.org/pdf/2410.24087v1",
   "version_label": "arXiv 2410.24087v1",
   "pages": 24,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 24,
+   "text_chars": 59925,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS043": {
   "title": "Are Language Models Actually Useful for Time Series Forecasting?",
@@ -1201,7 +1580,16 @@
   "pdf_url": "https://arxiv.org/pdf/2406.16964v2",
   "version_label": "arXiv 2406.16964v2",
   "pages": 28,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 28,
+   "text_chars": 100399,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS044": {
   "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
@@ -1229,7 +1617,16 @@
   "pdf_url": "https://arxiv.org/pdf/2403.14735v3",
   "version_label": "arXiv 2403.14735v3",
   "pages": 12,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 12,
+   "text_chars": 85182,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS045": {
   "title": "GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation",
@@ -1257,7 +1654,16 @@
   "pdf_url": "https://arxiv.org/pdf/2410.10393v2",
   "version_label": "arXiv 2410.10393v2",
   "pages": 28,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 28,
+   "text_chars": 163877,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS046": {
   "title": "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods",
@@ -1285,7 +1691,16 @@
   "pdf_url": "https://arxiv.org/pdf/2403.20150v4",
   "version_label": "arXiv 2403.20150v4",
   "pages": 14,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 14,
+   "text_chars": 94601,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS047": {
   "title": "fev-bench: A Realistic Benchmark for Time Series Forecasting",
@@ -1313,7 +1728,16 @@
   "pdf_url": "https://arxiv.org/pdf/2509.26468v4",
   "version_label": "arXiv 2509.26468v4",
   "pages": 27,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 27,
+   "text_chars": 107270,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS048": {
   "title": "There are no Champions in Supervised Long-Term Time Series Forecasting",
@@ -1341,7 +1765,16 @@
   "pdf_url": "https://arxiv.org/pdf/2502.14045v2",
   "version_label": "arXiv 2502.14045v2",
   "pages": 29,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 29,
+   "text_chars": 117226,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS049": {
   "title": "Rethinking Evaluation in the Era of Time Series Foundation Models: (Un)known Information Leakage Challenges",
@@ -1369,7 +1802,16 @@
   "pdf_url": "https://arxiv.org/pdf/2510.13654v3",
   "version_label": "arXiv 2510.13654v3",
   "pages": 19,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 19,
+   "text_chars": 70689,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS050": {
   "title": "TempusBench: An Evaluation Framework for Time-Series Forecasting",
@@ -1397,7 +1839,16 @@
   "pdf_url": "https://arxiv.org/pdf/2604.11529v3",
   "version_label": "arXiv 2604.11529v3",
   "pages": 49,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 49,
+   "text_chars": 126428,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS051": {
   "title": "Hidden Leaks in Time Series Forecasting: How Data Leakage Affects LSTM Evaluation Across Configurations and Validation Strategies",
@@ -1425,7 +1876,16 @@
   "pdf_url": "https://arxiv.org/pdf/2512.06932v1",
   "version_label": "arXiv 2512.06932v1",
   "pages": 16,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 16,
+   "text_chars": 39384,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS052": {
   "title": "A Note on the Finite Sample Bias in Time Series Cross-Validation",
@@ -1453,7 +1913,16 @@
   "pdf_url": "https://arxiv.org/pdf/2512.05900v1",
   "version_label": "arXiv 2512.05900v1",
   "pages": 9,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 9,
+   "text_chars": 20078,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS053": {
   "title": "Model selection with proper scoring rules on data sets of time series: prefer the mean scaled score",
@@ -1481,7 +1950,16 @@
   "pdf_url": "https://arxiv.org/pdf/2606.24715v2",
   "version_label": "arXiv 2606.24715v2",
   "pages": 13,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 13,
+   "text_chars": 36391,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS054": {
   "title": "Automatic Time Series Forecasting: The <b>forecast</b> Package for <i>R</i>",
@@ -1509,7 +1987,16 @@
   "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/download/v027i03/255",
   "version_label": "candidate",
   "pages": 22,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 22,
+   "text_chars": 54542,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS055": {
   "title": "Another look at measures of forecast accuracy",
@@ -1537,7 +2024,16 @@
   "pdf_url": "https://robjhyndman.com/papers/mase.pdf",
   "version_label": "candidate",
   "pages": 18,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 30619,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS056": {
   "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
@@ -1565,7 +2061,16 @@
   "pdf_url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
   "version_label": "candidate",
   "pages": 20,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 113221,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS057": {
   "title": "A note on the validity of cross-validation for evaluating autoregressive time series prediction",
@@ -1593,7 +2098,16 @@
   "pdf_url": "https://robjhyndman.com/papers/cv-wp.pdf",
   "version_label": "candidate",
   "pages": 18,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 42082,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  },
  "TS058": {
   "title": "Are Transformers Effective for Time Series Forecasting?",
@@ -1621,6 +2135,15 @@
   "pdf_url": "https://arxiv.org/pdf/2205.13504v3",
   "version_label": "arXiv 2205.13504v3",
   "pages": 15,
-  "title_match": 1.0
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 15,
+   "text_chars": 63643,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  }
 }

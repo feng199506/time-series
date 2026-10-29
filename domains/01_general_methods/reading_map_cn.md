@@ -1,22 +1,22 @@
-# 阅读路线图（按主题）
+# 通用方法：阅读路线图（按主题）
 
-编号对应 [catalog_cn.csv](catalog_cn.csv)，PDF 在 [pdfs/](pdfs/)。【旧】为三年前的补充/基础文献（不计入近三年数量）。
+编号对应 [catalog_cn.csv](catalog_cn.csv)，PDF 在 [pdfs/](../../pdfs/)。【旧】为三年前的补充/基础文献（不计入近三年数量）。
 简介与判断依据均为摘要，未读全文；文中“作者称”的结论未经核实。
 
 ## 0. 建议最先阅读的 10 篇
 
 | 顺序 | 编号 | 文献 | 理由 |
 |---|---|---|---|
-| 1 | TS054【旧】 | Hyndman & Khandakar 2008，auto.arima / ETS | 近期基准里的统计基线（AutoARIMA/AutoETS）都按此文定义；先弄清“基线是什么”。[PDF](pdfs/2008_Hyndman_AutomaticTimeSeriesForecasting_en.pdf) |
-| 2 | TS055【旧】 | Hyndman & Koehler 2006，MASE | GIFT-Eval、fev-bench、Chronos 的主指标之一；理解 MAPE 等指标为何会退化。[PDF](pdfs/2006_Hyndman_AnotherLookMeasuresForecast_en.pdf) |
-| 3 | TS056【旧】 | Gneiting & Raftery 2007，严格正常评分规则 | CRPS / WQL / 区间分数的理论来源，读懂所有概率预测评测的前提。[PDF](pdfs/2007_Gneiting_StrictlyProperScoringRules_en.pdf) |
-| 4 | TS058【旧】 | Zeng et al. 2022，DLinear | 近三年深度/基础模型论文的必比简单基线；TS027、TS029、TS031 都在回应它。[PDF](pdfs/2022_Zeng_TransformersEffectiveTimeSeries_en.pdf) |
-| 5 | TS023 | Deep Time Series Models 综述 + TSLib | 深度学习路线的地图（模块、架构、统一基准），读完再看单篇模型更高效。[PDF](pdfs/2024_Wang_DeepTimeSeriesModels_en.pdf) |
-| 6 | TS048 | There are no Champions（长期预测） | 说明 LTSF 排名对设定极敏感，读其他模型论文时用来校准对“SOTA”结论的信任度。[PDF](pdfs/2025_Brigato_ThereNoChampionsSupervised_en.pdf) |
-| 7 | TS049 | TSFM 评测中的信息泄漏 | 基础模型零样本结论是否可信的关键：预训练-测试重叠与时间重叠。[PDF](pdfs/2025_Meyer_RethinkingEvaluationEraTime_en.pdf) |
-| 8 | TS047 | fev-bench | 现行基础模型基准之一，且给出统计上更严谨的汇总（自助法置信区间、胜率与技能分）。[PDF](pdfs/2025_Shchur_FevBench_en.pdf) |
-| 9 | TS032 | Chronos | 基础模型路线的代表与后续工作（Chronos-2、ChronosX、fev-bench）的起点。[PDF](pdfs/2024_Ansari_Chronos_en.pdf) |
-| 10 | TS016 | 共形时间序列预测入门综述 | 预测区间与校准的现代方法总览，补足点预测之外的不确定性评估。[PDF](pdfs/2025_Stocker_GentleIntroductionConformalTime_en.pdf) |
+| 1 | TS054【旧】 | Hyndman & Khandakar 2008，auto.arima / ETS | 近期基准里的统计基线（AutoARIMA/AutoETS）都按此文定义；先弄清“基线是什么”。[PDF](../../pdfs/2008_Hyndman_AutomaticTimeSeriesForecasting_en.pdf) |
+| 2 | TS055【旧】 | Hyndman & Koehler 2006，MASE | GIFT-Eval、fev-bench、Chronos 的主指标之一；理解 MAPE 等指标为何会退化。[PDF](../../pdfs/2006_Hyndman_AnotherLookMeasuresForecast_en.pdf) |
+| 3 | TS056【旧】 | Gneiting & Raftery 2007，严格正常评分规则 | CRPS / WQL / 区间分数的理论来源，读懂所有概率预测评测的前提。[PDF](../../pdfs/2007_Gneiting_StrictlyProperScoringRules_en.pdf) |
+| 4 | TS058【旧】 | Zeng et al. 2022，DLinear | 近三年深度/基础模型论文的必比简单基线；TS027、TS029、TS031 都在回应它。[PDF](../../pdfs/2022_Zeng_TransformersEffectiveTimeSeries_en.pdf) |
+| 5 | TS023 | Deep Time Series Models 综述 + TSLib | 深度学习路线的地图（模块、架构、统一基准），读完再看单篇模型更高效。[PDF](../../pdfs/2024_Wang_DeepTimeSeriesModels_en.pdf) |
+| 6 | TS048 | There are no Champions（长期预测） | 说明 LTSF 排名对设定极敏感，读其他模型论文时用来校准对“SOTA”结论的信任度。[PDF](../../pdfs/2025_Brigato_ThereNoChampionsSupervised_en.pdf) |
+| 7 | TS049 | TSFM 评测中的信息泄漏 | 基础模型零样本结论是否可信的关键：预训练-测试重叠与时间重叠。[PDF](../../pdfs/2025_Meyer_RethinkingEvaluationEraTime_en.pdf) |
+| 8 | TS047 | fev-bench | 现行基础模型基准之一，且给出统计上更严谨的汇总（自助法置信区间、胜率与技能分）。[PDF](../../pdfs/2025_Shchur_FevBench_en.pdf) |
+| 9 | TS032 | Chronos | 基础模型路线的代表与后续工作（Chronos-2、ChronosX、fev-bench）的起点。[PDF](../../pdfs/2024_Ansari_Chronos_en.pdf) |
+| 10 | TS016 | 共形时间序列预测入门综述 | 预测区间与校准的现代方法总览，补足点预测之外的不确定性评估。[PDF](../../pdfs/2025_Stocker_GentleIntroductionConformalTime_en.pdf) |
 
 紧随其后：TS043（LLM 是否真的有用）、TS040（Chronos-2）、TS045（GIFT-Eval）、TS031（线性模型分析）、TS057【旧】（交叉验证有效性）。
 
