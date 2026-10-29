@@ -64,9 +64,9 @@
   "spatial": "待全文核实",
   "split": "待全文核实",
   "code": "",
-  "field_basis": "摘要",
+  "field_basis": "题名与元数据（无摘要）",
   "summary": "Nature Water 上关于深度学习在水质研究中应用的综述（OpenAlex 未提供摘要，具体覆盖内容待全文核实）。作者为 Zhi、Appling、Golden、Podgorski、Li。",
-  "summary_basis": "摘要",
+  "summary_basis": "无摘要（OpenAlex 未提供），仅依据题名与元数据；内容待全文核实",
   "reason": "领域权威综述，可作为本类阅读起点与方法地图。",
   "priority": 1
  },

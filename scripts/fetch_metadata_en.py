@@ -111,6 +111,9 @@ def crossref(doi):
         "volume": m.get("volume", ""), "issue": m.get("issue", ""), "page": m.get("page", ""),
         "type": m.get("type", ""), "url": m.get("URL", ""), "publisher": m.get("publisher", ""),
         "abstract": m.get("abstract", ""),
+        # e.g. Copernicus discussion papers / posted preprints of the same work
+        "preprints": [r.get("id", "") for r in (m.get("relation") or {}).get("has-preprint", [])
+                      if r.get("id-type") == "doi"],
     }
 
 
@@ -139,6 +142,20 @@ def openalex(doi):
             "locations": locs, "arxiv_ids": arxiv_ids, "abstract": abstract}
 
 
+def publisher_page(url):
+    """Standard citation_* <meta> tags (Highwire/Google Scholar) of an official landing page."""
+    status, body = get(url, accept="text/html")
+    if status != 200:
+        return {"error": f"status {status}", "url": url}
+    html = body.decode("utf-8", "replace")
+    tags = re.findall(r'<meta\s+name="(citation_[a-z_]+)"\s+content="([^"]*)"', html)
+    pick = lambda k: [v for n, v in tags if n == k]
+    date = (pick("citation_publication_date") or pick("citation_date") or [""])[0].replace("/", "-")
+    return {"url": url, "title": (pick("citation_title") or [""])[0], "authors": pick("citation_author"),
+            "publication_date": date, "pdf_url": (pick("citation_pdf_url") or [""])[0],
+            "venue": (pick("citation_conference_title") or pick("citation_journal_title") or [""])[0]}
+
+
 def main():
     proj = Path(sys.argv[1])
     reg = json.loads((proj / "scripts/registry_cn.json").read_text())
@@ -163,7 +180,7 @@ def main():
     for e in reg:
         rec = cache[e["id"]]
         ax = e.get("arxiv") or next(iter((rec.get("openalex") or {}).get("arxiv_ids") or []), "")
-        if ax and "arxiv" not in rec:
+        if ax and not (rec.get("arxiv") or {}).get("title"):   # missing or earlier failure (e.g. 429)
             want[ax] = e["id"]
             if not e.get("arxiv"):
                 rec["arxiv_via_openalex"] = ax
@@ -182,6 +199,29 @@ def main():
             if "openalex" not in rec:
                 rec["openalex"] = openalex(doi.lower())
             save()
+    # 5) entries with neither DOI nor arXiv id: read the official landing page's citation tags
+    for e in reg:
+        rec = cache[e["id"]]
+        if not e.get("doi") and not e.get("arxiv") and e.get("landing") and "publisher_page" not in rec:
+            rec["publisher_page"] = publisher_page(e["landing"])
+            save()
+    # 4) dates of registered preprints (Crossref relation has-preprint), which may make a
+    #    journal paper older than its own publication date suggests
+    for e in reg:
+        rec = cache[e["id"]]
+        cr = rec.get("crossref") or {}
+        if cr.get("title") and "preprints" not in cr:      # cached before this field existed
+            doi = e.get("doi") or ((rec.get("arxiv") or {}).get("doi") or "").lower()
+            if doi:
+                rec["crossref"] = crossref(doi)
+                cr = rec["crossref"]
+                save()
+        for pdoi in cr.get("preprints", []) or []:
+            rec.setdefault("preprint_dates", {})
+            if pdoi.lower() not in rec["preprint_dates"]:
+                pr = crossref(pdoi.lower())
+                rec["preprint_dates"][pdoi.lower()] = (pr.get("dates") or {}) if pr.get("title") else {}
+                save()
     save()
     print(f"done: {len(cache)} records -> {cache_path}")
 

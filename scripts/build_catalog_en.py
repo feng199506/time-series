@@ -24,7 +24,8 @@ from pathlib import Path
 
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from meta_utils_en import first_public, resolve_authors, resolve_title, window_status  # noqa: E402
+from meta_utils_en import (all_titles, first_public, norm, resolve_authors, resolve_title,  # noqa: E402
+                           window_status)
 
 SLUGS = [("01_general_methods", "通用方法"), ("02_finance", "金融"), ("03_air_quality", "空气质量"),
          ("04_water_quality", "水质"), ("05_weather_climate", "气象与气候"), ("06_energy_power", "能源与电力"),
@@ -53,6 +54,10 @@ OLD_VERSION = {
     "TS057": ("作者主页工作论文/投稿版（robjhyndman.com/papers/cv-wp.pdf，首页注 Preprint submitted），非出版社排版版", "2017-07-23（PDF 元数据创建日期）"),
 }
 STATUS_CN = {"ok": "已核验全文", "pending": "待核验（不计入）", "failed": "下载失败（不计入）"}
+
+
+def basis_text(b):
+    return b if "未读全文" in b or "待全文核实" in b else b + "；未读全文，未核实全文结论"
 
 
 def members(e):
@@ -91,6 +96,10 @@ def venue_info(sid, e, rec, vc):
         formal = dates.get("published-online") or dates.get("published-print") or str(cr.get("year") or "")
         prec = {10: "日", 7: "月", 4: "年"}.get(len(formal), "")
         return v, "Crossref（DOI 元数据）", f"{formal}（精度：{prec}，Crossref）" if formal else "未核实"
+    pp = rec.get("publisher_page") or {}
+    if pp.get("venue"):
+        return pp["venue"], f"出版方官方页面 citation 元数据：{pp['url']}", \
+            f"{pp.get('publication_date')}（出版方页面）"
     if vc.get(sid):
         m = vc[sid][0]
         yr = re.search(r"20[0-9]{2}", m["venue"]).group(0)
@@ -156,11 +165,14 @@ def main():
             "交叉分类": "; ".join(e.get("cross", [])), "交叉分类依据": " | ".join(e.get("cross_basis", [])),
             "子方向": e.get("sub", "") or e.get("topic", ""),
             "时间窗口": "三年前（补充/基础）" if window == "三年前" else window, "时间核验备注": flag,
-            "标题": title, "作者": "; ".join(authors),
+            "标题": title,
+            "其他题名（版本间差异）": " | ".join(t for t in all_titles(rec, {}) if norm(t) != norm(title)),
+            "作者": "; ".join(authors),
             "首次公开日期": fp, "日期精度": prec, "首次公开依据": fsrc, "正式发表日期": formal,
             "渠道": venue, "渠道核验依据": vbasis, "DOI": doi, "arXiv ID": e.get("arxiv") or rec.get("arxiv_via_openalex", ""),
             "原始页面": landing, "PDF URL": d.get("pdf_url", ""), "本地相对路径": d.get("local_path", ""),
-            "版本": version, "下载版本日期": vdate, "版本说明": VERSION_NOTES.get(sid, ""),
+            "版本": version, "下载版本日期": vdate, "版本说明": "；".join(x for x in (VERSION_NOTES.get(sid, ""), e.get("title_note", ""),
+                                             e.get("doi_note", "")) if x),
             "下载状态": STATUS_CN.get(st, st), "核验状态": check, "SHA256": d.get("sha256", ""),
             "任务类型": e.get("task_type", ""), "预测目标": e.get("target", ""), "数据集": e.get("dataset", ""),
             "数据频率": e.get("frequency", ""), "预测跨度": e.get("horizon", ""),
@@ -169,7 +181,7 @@ def main():
             "代码链接": e.get("code", ""), "字段依据": e.get("field_basis", ""),
             "选入理由": e.get("reason", ""), "三年前保留理由": e.get("old_reason", ""),
             "内容简介": e.get("summary", ""),
-            "简介依据": (e.get("summary_basis") or "摘要") + "；未读全文，未核实全文结论",
+            "简介依据": basis_text(e.get("summary_basis") or "摘要"),
             "阅读优先级": {1: "高", 2: "中", 3: "低"}.get(e.get("priority"), ""),
             "_members": mem, "_status": st, "_window": window,
             "_ranks": e.get("ranks", {}),

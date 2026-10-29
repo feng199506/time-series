@@ -44,8 +44,8 @@ from pathlib import Path
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ratelimit_en  # noqa: E402
-from meta_utils_en import (fold, first_public, norm, resolve_authors, resolve_title,  # noqa: E402
-                           surname, title_similarity, tokens)
+from meta_utils_en import (all_titles, fold, first_public, norm, resolve_authors,  # noqa: E402
+                           resolve_title, surname, title_similarity, tokens)
 
 UA = "time_series_literature/1.0 (literature collection; low rate)"
 SLUGS = ["01_general_methods", "02_finance", "03_air_quality", "04_water_quality",
@@ -110,7 +110,19 @@ def fetch(url, dest):
     return {"http_status": None, "error": err, "attempts": 3}
 
 
-def inspect_pdf(path, title, author_surname):
+def inspect_pdf(path, titles, author_surname):
+    if isinstance(titles, str):
+        titles = [titles]
+    best = None
+    for t in titles or [""]:
+        info = _inspect_pdf(path, t, author_surname)
+        if best is None or info.get("title_match", 0) > best.get("title_match", 0):
+            best = info
+            best["matched_title"] = t
+    return best
+
+
+def _inspect_pdf(path, title, author_surname):
     import pypdf
     info = {}
     with open(path, "rb") as f:
@@ -241,7 +253,7 @@ def main():
         if r.get("status") == "pending" and sid in reg and (proj / r["local_path"]).exists():
             rec = meta.get(sid, {})
             title, authors = resolve_title(rec, reg[sid]), resolve_authors(rec, reg[sid])
-            info = inspect_pdf(proj / r["local_path"], title, raw_surname(authors))
+            info = inspect_pdf(proj / r["local_path"], all_titles(rec, reg[sid]), raw_surname(authors))
             if classify(info)[0] == "ok":
                 newp = pdf_dir / Path(r["local_path"]).name
                 shutil.move(str(proj / r["local_path"]), newp)
@@ -251,7 +263,7 @@ def main():
         if r.get("status") == "ok" and not r.get("checks_v2") and sid in reg:
             rec = meta.get(sid, {})
             title, authors = resolve_title(rec, reg[sid]), resolve_authors(rec, reg[sid])
-            info = inspect_pdf(proj / r["local_path"], title, raw_surname(authors))
+            info = inspect_pdf(proj / r["local_path"], all_titles(rec, reg[sid]), raw_surname(authors))
             verdict, why = classify(info)
             r["checks_v2"] = {k: info.get(k) for k in ("pages", "text_chars", "title_match", "author_found",
                                                        "references_found", "supplement_only", "lang")}
@@ -285,11 +297,11 @@ def main():
             title, authors = resolve_title(rec, e), resolve_authors(rec, e)
             out = {"title": title, "tries": [], "category_attempt": slug}
             if not title or not authors:
-                out.update(status="failed", reason="metadata not resolvable from arXiv/Crossref/OpenAlex")
-                results[sid] = out
-                save()
+                # metadata not fetched yet (e.g. API rate limit): skip without recording, retry next run
+                print(f"  skip {sid}: metadata missing, will retry on next run", file=sys.stderr)
                 continue
-            if e.get("title") and title_similarity(e["title"], title) < 0.6:
+            if e.get("title") and max(title_similarity(e["title"], t)
+                                      for t in all_titles(rec, {})) < 0.6 if all_titles(rec, {}) else False:
                 out.update(status="failed",
                            reason=f"identifier/title mismatch: seed '{e['title'][:80]}' vs source '{title[:80]}'")
                 results[sid] = out
@@ -309,7 +321,7 @@ def main():
                 print(f"[{slug} {count[slug]}/{a.target}] {sid} GET {url}", file=sys.stderr)
                 t = {"label": label, "url": url, **fetch(url, dest)}
                 if t.get("http_status") == 200 and dest.exists():
-                    info = inspect_pdf(dest, title, raw_surname(authors))
+                    info = inspect_pdf(dest, all_titles(rec, e), raw_surname(authors))
                     t.update({k: info.get(k) for k in ("magic_ok", "parse_ok", "pages", "text_chars",
                                                        "title_match", "author_found", "references_found",
                                                        "supplement_only", "lang", "error",

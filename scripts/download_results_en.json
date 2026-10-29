@@ -2145,5 +2145,2521 @@
    "supplement_only": false,
    "lang": "en"
   }
+ },
+ "TS059": {
+  "title": "A foundation model for the Earth system",
+  "tries": [
+   {
+    "label": "arXiv 2405.13063v3（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2405.13063v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2405.13063v3",
+    "attempts": 1,
+    "bytes": 11177528,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 82,
+    "text_chars": 234344,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "A Foundation Model for the Earth System Cristian Bodnar1,2†, Wessel P. Bruinsma1†, Ana Lucic1,3†, Megan Stanley1†, Anna Vaughan4†, Johannes Brandstetter1,5, Patrick Garvan1, Maik Riechert1, Jonathan A. Weyn6, Haiyu Dong6, Jayesh K. Gupta2,7, Kit Thambiratnam6, Alexander T. Archibald4, Chun-Chieh Wu8",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Bodnar_FoundationModelEarthSystem_en.pdf",
+  "sha256": "9351129fa61cb978322fb2539544f7f6c3e2a6a3fac03e57edab73abc79fdf48",
+  "size": 11177528,
+  "pdf_url": "https://arxiv.org/pdf/2405.13063v3",
+  "version_label": "arXiv 2405.13063v3（预印本/作者版）",
+  "pages": 82,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 82,
+   "text_chars": 234344,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS060": {
+  "title": "AIFS-COMPO: A Global Data-Driven Atmospheric Composition Forecasting System",
+  "tries": [
+   {
+    "label": "arXiv 2604.03300v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2604.03300v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2604.03300v1",
+    "attempts": 1,
+    "bytes": 7289597,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 14,
+    "text_chars": 46379,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "AIFS-COMPO : A GLOBALDATA-DRIVENATMOSPHERIC COMPOSITIONFORECASTINGSYSTEM Paula Harder, Johannes Flemming, Mihai Alexe, Gert Mertes, Baudouin Raoult, Matthew Chantry European Centre for Medium-Range Weather Forecasts (ECMWF) ABSTRACT We introduce AIFS-COMPO, a skilful medium-range data-driven global ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Harder_AIFSCOMPO_en.pdf",
+  "sha256": "f53d9adaac61d3ffce328a3451bf4c4f8c4f44999cc10cba28adad117f83f652",
+  "size": 7289597,
+  "pdf_url": "https://arxiv.org/pdf/2604.03300v1",
+  "version_label": "arXiv 2604.03300v1（预印本/作者版）",
+  "pages": 14,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 14,
+   "text_chars": 46379,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS061": {
+  "title": "Advancing global aerosol forecasting with artificial intelligence",
+  "tries": [
+   {
+    "label": "arXiv 2412.02498v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2412.02498v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2412.02498v1",
+    "attempts": 1,
+    "bytes": 19912880,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 37,
+    "text_chars": 61627,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Advancing global aerosol forecasting with artificial intelligence KeGui1,#,XutaoZhang1,#,HuizhengChe1,*,LeiLi1,YuZheng1,LinchangAn2,YucongMiao1,Hujia Zhao3,OlegDubovik4,BrentHolben5,JunWang6,PawanGupta7,8,ElenaS.Lind9,CarlosToledano10, HongWang1,ZhiliWang1,YaqiangWang11,XiaomengHuang12,KanDai2,Xiang",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Gui_AdvancingGlobalAerosolForecasting_en.pdf",
+  "sha256": "9ec49365250828dd6b4a93271af55245a65037ea099f4330a9e4da072bd1e152",
+  "size": 19912880,
+  "pdf_url": "https://arxiv.org/pdf/2412.02498v1",
+  "version_label": "arXiv 2412.02498v1（预印本/作者版）",
+  "pages": 37,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 37,
+   "text_chars": 61627,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS062": {
+  "title": "Diffusion-based Probabilistic Air Quality Forecasting with Mechanistic Insight",
+  "tries": [
+   {
+    "label": "arXiv 2603.21131v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2603.21131v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2603.21131v1",
+    "attempts": 1,
+    "bytes": 7806445,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 42,
+    "text_chars": 64136,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Diffusion-based Probabilistic Air Quality F orecasting with Mechanistic Insight Ao Ding1,2,3,4, Aoxing Zhang3,4*, Tzung-May Fu3,4,5*, Yuanlong Huang1*, Qianjie Chen2*, Yuyang Chen3,4, Jiajia Mo3,4, Wei Tao3,4, Wai-Chi Cheng3,4, Lei Zhu3,4, Xin Yang3,4, Guy Brasseur6 1School of the Environment and Su",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Ding_DiffusionProbabilisticAirQuality_en.pdf",
+  "sha256": "384419fb2610fe260ed96a921fae8c877df289113f03c11cc4a11b922db034a4",
+  "size": 7806445,
+  "pdf_url": "https://arxiv.org/pdf/2603.21131v1",
+  "version_label": "arXiv 2603.21131v1（预印本/作者版）",
+  "pages": 42,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 42,
+   "text_chars": 64136,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS063": {
+  "title": "Global probabilistic forecasting of air pollution",
+  "tries": [
+   {
+    "label": "arXiv 2610.25941v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2610.25941v1",
+    "http_status": null,
+    "error": "truncated (23068672/23171162 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2610.25941v1（预印本/作者版）: truncated (23068672/23171162 bytes)"
+ },
+ "TS064": {
+  "title": "Advancing operational PM2.5 forecasting with dual deep neural networks (D-DNet)",
+  "tries": [
+   {
+    "label": "arXiv 2406.19154v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2406.19154v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2406.19154v1",
+    "attempts": 1,
+    "bytes": 14621923,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 46,
+    "text_chars": 74902,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Title: Advancing operational PM2.5 forecasting with dual deep neural networks (D-DNet) Authors: Shengjuan Cai1,2, Fangxin Fang1,2*, Vincent-Henri Peuch3, Mihai Alexe3, Ionel Michael Navon4, Yanghua Wang1,2 Affiliations: 1Resource Geophysics Academy, Imperial College London; London, SW7 2BP, UK. 2Dep",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Cai_AdvancingOperationalPM25_en.pdf",
+  "sha256": "ae6d906bb8fa817e63b4980944392336b667fe434d55b09d6b46878e0b45d41f",
+  "size": 14621923,
+  "pdf_url": "https://arxiv.org/pdf/2406.19154v1",
+  "version_label": "arXiv 2406.19154v1（预印本/作者版）",
+  "pages": 46,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 46,
+   "text_chars": 74902,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS065": {
+  "title": "FuXi-Air: air quality forecasting based on emission-meteorology-pollutant multimodal machine learning",
+  "tries": [
+   {
+    "label": "arXiv 2506.07616v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2506.07616v1",
+    "http_status": null,
+    "error": "truncated (47185920/47275736 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ npj Clean Air",
+    "url": "https://www.nature.com/articles/s44407-026-00061-w.pdf",
+    "http_status": null,
+    "error": "truncated (3407872/3423349 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2506.07616v1（预印本/作者版）: truncated (47185920/47275736 bytes); OpenAlex OA: publishedVersion @ npj Clean Air: truncated (3407872/3423349 bytes)"
+ },
+ "TS066": {
+  "title": "TopoFlow: Topography-aware Pollutant Flow Learning for High-Resolution Air Quality Prediction",
+  "tries": [
+   {
+    "label": "arXiv 2602.16821v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2602.16821v2",
+    "http_status": null,
+    "error": "truncated (27525120/27570371 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2602.16821v2（预印本/作者版）: truncated (27525120/27570371 bytes)"
+ },
+ "TS067": {
+  "title": "AirPhyNet: Harnessing Physics-Guided Neural Networks for Air Quality Prediction",
+  "tries": [
+   {
+    "label": "arXiv 2402.03784v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2402.03784v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2402.03784v2",
+    "attempts": 1,
+    "bytes": 7514591,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 16,
+    "text_chars": 57899,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Published as a conference paper at ICLR 2024 AIRPHYNET: H ARNESSING PHYSICS -GUIDED NEU- RAL NETWORKS FOR AIR QUALITY PREDICTION Kethmi Hirushini Hettige1, Jiahao Ji3, Shili Xiang2, Cheng Long1, Gao Cong1, Jingyuan Wang3 1School of Computer Science and Engineering, Nanyang Technological University, ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Hettige_AirPhyNet_en.pdf",
+  "sha256": "8c0ac824c2cebf88a9450bc54ea33b28ca5501985c3749096e3e1e6ff5a5b70c",
+  "size": 7514591,
+  "pdf_url": "https://arxiv.org/pdf/2402.03784v2",
+  "version_label": "arXiv 2402.03784v2（预印本/作者版）",
+  "pages": 16,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 16,
+   "text_chars": 57899,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS068": {
+  "title": "Air Quality Prediction with Physics-Guided Dual Neural ODEs in Open Systems",
+  "tries": [
+   {
+    "label": "arXiv 2410.19892v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2410.19892v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2410.19892v2",
+    "attempts": 1,
+    "bytes": 4193487,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 23,
+    "text_chars": 75269,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Published as a conference paper at ICLR 2025 AIR QUALITY PREDICTION WITH PHYSICS -GUIDED DUAL NEURAL ODE S IN OPEN SYSTEMS Jindong Tian1, Yuxuan Liang2, Ronghui Xu1, Peng Chen1, Chenjuan Guo1, Aoying Zhou1, Lujia Pan3, Zhongwen Rao3, Bin Yang1∗ 1East China Normal University, 3Huawei Noah’s Ark Lab 2",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Tian_AirQualityPredictionPhysics_en.pdf",
+  "sha256": "c401ef2a3c5acf97dca73e9db66c701ea26eab02313fdd6639c9884af49ae10e",
+  "size": 4193487,
+  "pdf_url": "https://arxiv.org/pdf/2410.19892v2",
+  "version_label": "arXiv 2410.19892v2（预印本/作者版）",
+  "pages": 23,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 23,
+   "text_chars": 75269,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS069": {
+  "title": "PCDCNet: A Surrogate Model for Air Quality Forecasting with Physical-Chemical Dynamics and Constraints",
+  "tries": [
+   {
+    "label": "arXiv 2505.19842v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2505.19842v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2505.19842v2",
+    "attempts": 1,
+    "bytes": 15444848,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 18,
+    "text_chars": 74062,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "PCDCNet: A Surrogate Model for Air Quality Forecasting with Physical-Chemical Dynamics and Constraints Shuo Wang shuowang.ai@gmail.com School of Systems Science Beijing Normal University Beijing, China D-ITET, ETH Zurich Zurich, Switzerland Yun Cheng yun.cheng@sdsc.ethz.ch Swiss Data Science Center ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Wang_PCDCNet_en.pdf",
+  "sha256": "db9917a03f61cd2522bda2e7f17998fbe57f94369cfb40f531f8c0d421296033",
+  "size": 15444848,
+  "pdf_url": "https://arxiv.org/pdf/2505.19842v2",
+  "version_label": "arXiv 2505.19842v2（预印本/作者版）",
+  "pages": 18,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 74062,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS070": {
+  "title": "TransNet: a transport-informed graph neural network for forecasting PM2.5 concentrations across South Korea",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ npj Clean Air",
+    "url": "https://www.nature.com/articles/s44407-026-00052-x.pdf",
+    "http_status": null,
+    "error": "truncated (4456448/4494912 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ npj Clean Air: truncated (4456448/4494912 bytes)"
+ },
+ "TS071": {
+  "title": "AGATNet: An Adaptive Graph Attention Network for Bias Correction of CMAQ‐Forecasted PM2.5 Concentrations Over South Korea",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Journal of Geophysical Research Machine Learning and Computation",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JH000244",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Journal of Geophysical Research Machine Learning and Computation: HTTP 403"
+ },
+ "TS072": {
+  "title": "Machine learning post-processing for air quality prediction in Japan",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Progress in Earth and Planetary Science",
+    "url": "https://link.springer.com/content/pdf/10.1186/s40645-026-00830-x.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1186/s40645-026-00830-x.pdf?error=cookies_not_supported&code=0d668932-ba7e-42b2-9be4-f1541fa0523c",
+    "attempts": 1,
+    "bytes": 3350519,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 14,
+    "text_chars": 55522,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Yumimoto et al. Progress in Earth and Planetary Science (2026) 13:37 https://doi.org/10.1186/s40645-026-00830-x RESEARCH ARTICLE Open Access © The Author(s) 2026, modified publication 2026. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which per",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Yumimoto_MachineLearningPostProcessing_en.pdf",
+  "sha256": "6613f5a7d71408f62fa314290e50312c7b88af8c4a6a755e1a424d12af0e97b2",
+  "size": 3350519,
+  "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40645-026-00830-x.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Progress in Earth and Planetary Science",
+  "pages": 14,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 14,
+   "text_chars": 55522,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS073": {
+  "title": "Transferable Hourly Ozone Forecasting with Transformers",
+  "tries": [
+   {
+    "label": "OpenAlex OA: acceptedVersion @ 未知来源",
+    "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1562/egusphere-2026-1562.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1562/egusphere-2026-1562.pdf",
+    "attempts": 1,
+    "bytes": 4418914,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 44,
+    "text_chars": 102797,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Transferable Hourly Ozone Forecasting with Transformers Sindhu Vasireddy1, Michael Langguth2, and Martin Schultz1 1Jülich Supercomputing Centre, Forschungszentrum Jülich GmBH, Jülich, Germany 2Now at Quadra Energy, Dusseldorf, Germany, Previously Jülich Supercomputing Centre, Forschungszentrum Jülic",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Vasireddy_TransferableHourlyOzoneForecasting_en.pdf",
+  "sha256": "82007855f8dd2e1b8b46a8ceca73e8e43a165f920c7815789ea540f47ba08acd",
+  "size": 4418914,
+  "pdf_url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1562/egusphere-2026-1562.pdf",
+  "version_label": "OpenAlex OA: acceptedVersion @ 未知来源",
+  "pages": 44,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 44,
+   "text_chars": 102797,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS074": {
+  "title": "E-STGCN: extreme spatio-temporal graph convolutional networks for air quality forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2411.12258v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2411.12258v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2411.12258v2",
+    "attempts": 1,
+    "bytes": 2773570,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 38,
+    "text_chars": 158531,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "arXiv:2411.12258v2 [stat.AP] 25 Jun 2025 E-STGCN: Extreme Spatiotemporal Graph Convolutional Networks for Air Quality Forecasting Madhurima Panja1, 0 , Tanujit Chakraborty1, 0, 2 5 , Anubhab Biswas3, Soudeep Deb4 1 Department of Science and Engineering, Sorbonne University Abu Dhabi, UAE. 2 Sorbonne",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Panja_ESTGCN_en.pdf",
+  "sha256": "51a9003eba1ec223a779d5da5358b0ce15f903b94c4d09a6002ee727dfe61d8a",
+  "size": 2773570,
+  "pdf_url": "https://arxiv.org/pdf/2411.12258v2",
+  "version_label": "arXiv 2411.12258v2（预印本/作者版）",
+  "pages": 38,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 38,
+   "text_chars": 158531,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS075": {
+  "title": "Synergistic neural forecasting of air pollution with stochastic sampling",
+  "tries": [
+   {
+    "label": "arXiv 2510.23977v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2510.23977v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2510.23977v1",
+    "attempts": 1,
+    "bytes": 14365932,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 23,
+    "text_chars": 50299,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Synergistic Neural Forecasting of Air Pollution with Stochastic Sampling Yohan Abeysinghe1, Muhammad Akhtar Munir1*, Sanoojan Baliah1, Ron Sarafian2, Fahad Shahbaz Khan1,3, Yinon Rudich2, Salman Khan1,4 1Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, United Arab Emirates. 2Weizm",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Abeysinghe_SynergisticNeuralForecastingAir_en.pdf",
+  "sha256": "4bb3f92d7107360ab8a9bb9c5857af874452c03a0d6c7d76425f4c9804385aa2",
+  "size": 14365932,
+  "pdf_url": "https://arxiv.org/pdf/2510.23977v1",
+  "version_label": "arXiv 2510.23977v1（预印本/作者版）",
+  "pages": 23,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 23,
+   "text_chars": 50299,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS076": {
+  "title": "AirCast: Improving Air Pollution Forecasting Through Multi-Variable Data Alignment",
+  "tries": [
+   {
+    "label": "arXiv 2502.17919v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2502.17919v1",
+    "http_status": null,
+    "error": "truncated (1310720/1407636 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://edepot.wur.nl/707392",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://edepot.wur.nl/707392",
+    "attempts": 1,
+    "bytes": 1310720,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 18,
+    "text_chars": 49914,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "AirCast: Improving Air Pollution Forecasting Through Multi- Variable Data Alignment Proceedings of Machine Learning Research Nedungadi, V.; Akhtar Munir, Muhammad; Rußwurm, Marc; Sarafian, Ron; Athanasiadis, I.N. et al https://proceedings.mlr.press/v292/nedungadi25a.html This publication is made pub",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Nedungadi_AirCast_en.pdf",
+  "sha256": "036876b4f66da77062ef08dddd53d084d7a5de24ad82a5541bcc49032818d66f",
+  "size": 1316130,
+  "pdf_url": "https://edepot.wur.nl/707392",
+  "version_label": "种子列表提供的 OA 链接（版本未标注）",
+  "pages": 18,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 49914,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS077": {
+  "title": "Spatiotemporal fusion of reanalysis and in situ data for censored threshold exceedances of PM2.5",
+  "tries": [
+   {
+    "label": "arXiv 2504.20268v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2504.20268v2",
+    "http_status": null,
+    "error": "truncated (11796480/11910192 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: submittedVersion @ ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam)",
+    "url": "https://eprints.gla.ac.uk/391629/1/391629.pdf",
+    "http_status": null,
+    "error": "truncated (15728640/15734129 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2504.20268v2（预印本/作者版）: truncated (11796480/11910192 bytes); OpenAlex OA: submittedVersion @ ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam): truncated (15728640/15734129 bytes)"
+ },
+ "TS078": {
+  "title": "Multiagency Ensemble Forecast of Wildfire Air Quality in the United States: Toward Community Consensus of Early Warning",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Bulletin of the American Meteorological Society",
+    "url": "https://journals.ametsoc.org/downloadpdf/view/journals/bams/aop/BAMS-D-23-0208.1/BAMS-D-23-0208.1.pdf",
+    "http_status": null,
+    "error": "HTTP 405",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Bulletin of the American Meteorological Society: HTTP 405"
+ },
+ "TS079": {
+  "title": "Are Hourly PM2.5 Forecasts Sufficiently Accurate to Plan Your Day? Individual Decision-Making in the Face of Increasing Wildfire Smoke",
+  "tries": [
+   {
+    "label": "arXiv 2409.05866v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2409.05866v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2409.05866v2",
+    "attempts": 1,
+    "bytes": 490429,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 20,
+    "text_chars": 59119,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Are Hourly PM2.5 Forecasts Sufficiently Accurate to Plan Your Day? Individual Decision Making in the Face of Increasing Wildfire Smoke Renato Berlinghieri∗1, David R. Burt∗1, Paolo Giani2, Arlene Fiore2, and Tamara Broderick1 1MIT LIDS and MIT-IBM Watson AI Lab 2MIT EAPS Abstract Wildfire frequency ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Berlinghieri_HourlyPM25Forecasts_en.pdf",
+  "sha256": "365a8093bbfb69b6576b3abd971c6ea971005ad0da436357bb75a1ab151c5e4a",
+  "size": 490429,
+  "pdf_url": "https://arxiv.org/pdf/2409.05866v2",
+  "version_label": "arXiv 2409.05866v2（预印本/作者版）",
+  "pages": 20,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 59119,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS080": {
+  "title": "Simulating the air quality impact of prescribed fires using graph neural network-based PM 2.5 forecasts",
+  "tries": [
+   {
+    "label": "arXiv 2312.04291v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2312.04291v2",
+    "http_status": null,
+    "error": "truncated (2359296/2434005 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Environmental Data Science",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A93DD21899CA00208E0DE3F3B0C4DC3C/S2634460225000044a.pdf/div-class-title-simulating-the-air-quality-impact-of-prescribed-fires-using-graph-neural-network-based-pm-span-class-sub-2-5-span-forecasts-div.pdf",
+    "http_status": null,
+    "error": "truncated (2359296/2429443 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2312.04291v2（预印本/作者版）: truncated (2359296/2434005 bytes); OpenAlex OA: publishedVersion @ Environmental Data Science: truncated (2359296/2429443 bytes)"
+ },
+ "TS081": {
+  "title": "An artificial intelligence model for sand and dust storm forecast driven by AI weather forecasts",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ npj Clean Air",
+    "url": "https://www.nature.com/articles/s44407-025-00048-z.pdf",
+    "http_status": null,
+    "error": "truncated (4194304/4250545 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ npj Clean Air: truncated (4194304/4250545 bytes)"
+ },
+ "TS082": {
+  "title": "OmniPMNet: Bridging discrete and gridded PM10 forecasts via omni-query neural processes",
+  "tries": [
+   {
+    "label": "arXiv 2607.11896v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2607.11896v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2607.11896v1",
+    "attempts": 1,
+    "bytes": 6504791,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 28,
+    "text_chars": 54061,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "OmniPM-Net: Bridging discrete and griddedPM 10 forecasts via omni-query neural processes Shuangshuang He 1 and Shuo Wang 2, 3 1ColorfulClouds Technology Co., Ltd., 100875 Beijing, China. ∗ 2School of Systems Science, Beijing Normal University, 100875 Beijing, China. 3D-ITET, ETH Zurich, 8092 Zurich,",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_He_OmniPMNet_en.pdf",
+  "sha256": "e8bf78d35833b61d4ecf5476041546374708870f389b94f2a4c6e2db2cf77781",
+  "size": 6504791,
+  "pdf_url": "https://arxiv.org/pdf/2607.11896v1",
+  "version_label": "arXiv 2607.11896v1（预印本/作者版）",
+  "pages": 28,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 28,
+   "text_chars": 54061,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS083": {
+  "title": "A skillful hybrid framework for seamless subseasonal PM2.5 prediction over North China",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ npj Clean Air",
+    "url": "https://www.nature.com/articles/s44407-026-00074-5.pdf",
+    "http_status": null,
+    "error": "truncated (3407872/3436889 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ npj Clean Air: truncated (3407872/3436889 bytes)"
+ },
+ "TS084": {
+  "title": "Seasonal predictability of winter PM 2.5 pollution severity in India through a strong pollution–extratropical storm connection",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13557088/pdf/sciadv.aee4549.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13557088/pdf/sciadv.aee4549.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: submittedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS085": {
+  "title": "Air Quality Arena: A Large-Scale Multi-Region Ground Monitoring Dataset and Benchmark for Air Quality Forecasting with Time-Series Foundation Models",
+  "tries": [
+   {
+    "label": "arXiv 2607.19381v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2607.19381v1",
+    "http_status": null,
+    "error": "truncated (1572864/1638451 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2607.19381v1（预印本/作者版）: truncated (1572864/1638451 bytes)"
+ },
+ "TS086": {
+  "title": "AirQualityBench: A Realistic Evaluation Benchmark for Global Air Quality Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2605.05854v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2605.05854v1",
+    "http_status": null,
+    "error": "truncated (2883584/2942411 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2605.05854v1（预印本/作者版）: truncated (2883584/2942411 bytes)"
+ },
+ "TS087": {
+  "title": "Cost-aware evaluation of time-series foundation models for urban air-quality and temperature forecasting",
+  "tries": [
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://www.nature.com/articles/s41598-026-73372-3.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.nature.com/articles/s41598-026-73372-3?error=cookies_not_supported&code=c175c66b-0c73-4545-9fbb-ff7f75827523",
+    "attempts": 1,
+    "bytes": 230394,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF:      <!DOCTYPE html> <html lang=\"en\" class=\"grade-c\"> <head>     <title>Cost-awa",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF:      <!DOCTYPE html> <html lang=\"en\" class=\"grade-c\"> <head>     <title>Cost-awa"
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-026-73372-3_reference.pdf",
+    "http_status": null,
+    "error": "truncated (1835008/1907019 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: acceptedVersion @ Research Square",
+    "url": "https://www.researchsquare.com/article/rs-10515545/latest.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://assets-eu.researchsquare.com/files/rs-10515545/v1_covered_714e1e68-8730-494a-8722-17e8565aca12.pdf?c=1793031215",
+    "attempts": 1,
+    "bytes": 497240,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 20,
+    "text_chars": 82252,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": false,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Cost-Aware Evaluation of Time-Series Foundation Models for Urban Air-Quality and Temperature Forecasting Md Muhtasim Munif Fahim University of Rajshahi Md. Rezaul Karim University of Rajshahi Article Keywords: time-series foundation models, air-quality forecasting, temperature forecasting, neural ar",
+    "verdict": "pending",
+    "why": "no references section detected"
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "pending",
+  "local_path": "pending_pdfs/2026_Fahim_CostAwareEvaluationTime_en.pdf",
+  "sha256": "23bb54a81d3947b2e6490a2b0028c63316147732af868033c9bf5a0ca2def863",
+  "size": 497240,
+  "pdf_url": "https://www.researchsquare.com/article/rs-10515545/latest.pdf",
+  "version_label": "OpenAlex OA: acceptedVersion @ Research Square",
+  "pages": 20,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 82252,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": false,
+   "supplement_only": false,
+   "lang": "en"
+  },
+  "reason": "no references section detected"
+ },
+ "TS088": {
+  "title": "Meteorology-Driven GPT4AP: A Multi-Task Forecasting LLM for Atmospheric Air Pollution in Data-Scarce Settings",
+  "tries": [
+   {
+    "label": "arXiv 2603.29974v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2603.29974v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2603.29974v1",
+    "attempts": 1,
+    "bytes": 920269,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 11,
+    "text_chars": 66773,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "IEEE TRANSACTIONS ON ARTIFICIAL INTELLIGENCE , VOL. XX, NO. XX, XX 2026 1 Meteorology-Driven GPT4AP: A Multi-Task Forecasting LLM for Atmospheric Air Pollution in Data-Scarce Settings Prasanjit Dey, Soumyabrata Dev,Member, IEEE, and Bianca Schoen Phelan, Abstract—Accurate forecasting of air pollutio",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Dey_MeteorologyDrivenGPT4AP_en.pdf",
+  "sha256": "af2000f8e8ed3007b7e6979002c1489563d7f03b8cacccbe128087c98e3d83e3",
+  "size": 920269,
+  "pdf_url": "https://arxiv.org/pdf/2603.29974v1",
+  "version_label": "arXiv 2603.29974v1（预印本/作者版）",
+  "pages": 11,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 11,
+   "text_chars": 66773,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS089": {
+  "title": "Back to the Future: GNN-based NO$_2$ Forecasting via Future Covariates",
+  "tries": [
+   {
+    "label": "arXiv 2404.05324v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2404.05324v1",
+    "http_status": null,
+    "error": "truncated (2359296/2489614 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2404.05324v1（预印本/作者版）: truncated (2359296/2489614 bytes)"
+ },
+ "TS090": {
+  "title": "Air Quality Prediction With a Meteorology-Guided Modality-Decoupled Spatiotemporal Network",
+  "tries": [
+   {
+    "label": "arXiv 2504.10014v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2504.10014v1",
+    "http_status": null,
+    "error": "truncated (5242880/5267736 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2504.10014v1（预印本/作者版）: truncated (5242880/5267736 bytes)"
+ },
+ "TS091": {
+  "title": "Interpretable Air Pollution Forecasting by Physics-Guided Spatiotemporal Decoupling",
+  "tries": [
+   {
+    "label": "arXiv 2511.20257v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2511.20257v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2511.20257v2",
+    "attempts": 1,
+    "bytes": 714104,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 6,
+    "text_chars": 28730,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Accepted to 2025 IEEE International Conference on Big Data Interpretable Air Pollution Forecasting by Physics-Guided Spatiotemporal Decoupling Zhiguo Zhang KTH Royal Institute of Technology Stockholm, Sweden zhiguo@kth.se Xiaoliang Ma∗ KTH Royal Institute of Technology Stockholm, Sweden liang@kth.se",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Zhang_InterpretableAirPollutionForecasting_en.pdf",
+  "sha256": "242a8b07bb5de8314b4ec5eb0a5c94469921968e43e28eae76f32d337ccadbe0",
+  "size": 714104,
+  "pdf_url": "https://arxiv.org/pdf/2511.20257v2",
+  "version_label": "arXiv 2511.20257v2（预印本/作者版）",
+  "pages": 6,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 6,
+   "text_chars": 28730,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS092": {
+  "title": "Difference Learning for Air Quality Forecasting Transport Emulation",
+  "tries": [
+   {
+    "label": "arXiv 2402.14806v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2402.14806v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2402.14806v1",
+    "attempts": 1,
+    "bytes": 5193064,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 7,
+    "text_chars": 20771,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Difference Learning for Air Quality Forecasting Transport Emulation Reed R. Chen Johns Hopkins Applied Physics Laboratory Laurel, MD 20723 reed.chen@jhuapl.edu Christopher Ribaudo Johns Hopkins Applied Physics Laboratory Laurel, MD 20723 chris.ribaudo@jhuapl.edu Jennifer Sleeman Johns Hopkins Applie",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Chen_DifferenceLearningAirQuality_en.pdf",
+  "sha256": "99feef733bbeda5a142950bebecc2c8ba33b92bc722b1be111193243e9ceb0d8",
+  "size": 5193064,
+  "pdf_url": "https://arxiv.org/pdf/2402.14806v1",
+  "version_label": "arXiv 2402.14806v1（预印本/作者版）",
+  "pages": 7,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 7,
+   "text_chars": 20771,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS093": {
+  "title": "Improving PM2.5 and Visibility Predictions in China Using Machine Learning and Ensemble Forecasting",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Journal of Geophysical Research Machine Learning and Computation",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2025JH000640",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Journal of Geophysical Research Machine Learning and Computation: HTTP 403"
+ },
+ "TS094": {
+  "title": "Forecasting 24 h averaged PM 2.5 concentration in the Aburrá Valley using tree-based machine learning models, global forecasts, and satellite information",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Advances in statistical climatology, meteorology and oceanography",
+    "url": "https://ascmo.copernicus.org/articles/9/121/2023/ascmo-9-121-2023.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://ascmo.copernicus.org/articles/9/121/2023/ascmo-9-121-2023.pdf",
+    "attempts": 1,
+    "bytes": 3065154,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 15,
+    "text_chars": 5366,
+    "title_match": 0.0,
+    "author_found": false,
+    "references_found": false,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "",
+    "verdict": "reject",
+    "why": "wrong document (title match 0.0)"
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Advances in statistical climatology, meteorology and oceanography: wrong document (title match 0.0)"
+ },
+ "TS095": {
+  "title": "Gaussian Processes for Monitoring Air-Quality in Kampala",
+  "tries": [
+   {
+    "label": "arXiv 2311.16625v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2311.16625v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2311.16625v1",
+    "attempts": 1,
+    "bytes": 522172,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 8,
+    "text_chars": 25451,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Gaussian Processes for Monitoring Air-Quality in Kampala Clara Stoddart Dept. of Computing Imperial College London London, UK Lauren Shrack Dept. of Computer Science MIT MA, USA Richard Sserunjogi Dept. of Computer Science Makerere University / AirQo Kampala, Uganda Usman Abdul-Ganiy Dept. of Comput",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2023_Stoddart_GaussianProcessesMonitoringAir_en.pdf",
+  "sha256": "e1d5a5b14c8e6381303f1cd17d0c2a1a9cd0b81212d66a06556b8853414b8c42",
+  "size": 522172,
+  "pdf_url": "https://arxiv.org/pdf/2311.16625v1",
+  "version_label": "arXiv 2311.16625v1（预印本/作者版）",
+  "pages": 8,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 8,
+   "text_chars": 25451,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS096": {
+  "title": "STeP-Diff: Spatio-Temporal Physics-Informed Diffusion Models for Mobile Fine-Grained Pollution Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2512.04385v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2512.04385v1",
+    "http_status": null,
+    "error": "truncated (16252928/16362766 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2512.04385v1（预印本/作者版）: truncated (16252928/16362766 bytes)"
+ },
+ "TS097": {
+  "title": "A Novel Hybrid Approach For Efficiently Forecasting Air Quality Data",
+  "tries": [
+   {
+    "label": "arXiv 2404.05482v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2404.05482v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2404.05482v1",
+    "attempts": 1,
+    "bytes": 980427,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 6,
+    "text_chars": 26361,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "1 WaveCatBoost for Probabilistic Forecasting of Regional Air Quality Data Jintu Borah, Graduate Student Member, IEEE,Tanujit Chakraborty, Md. Shahrul Md. Nadzir, Mylene G. Cayetano, and Shubhankar Majumdar, Senior Member, IEEE Abstract—Accurate and reliable air quality forecasting is essential for p",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Borah_NovelHybridApproachEfficiently_en.pdf",
+  "sha256": "c7c1e206863f7aaeb24e9653373368acf768fa55b08a055fbdd34b184f977417",
+  "size": 980427,
+  "pdf_url": "https://arxiv.org/pdf/2404.05482v1",
+  "version_label": "arXiv 2404.05482v1（预印本/作者版）",
+  "pages": 6,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 6,
+   "text_chars": 26361,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS098": {
+  "title": "Indoor PM2.5 forecasting and the association with outdoor air pollution: a modelling study based on sensor data in Australia",
+  "tries": [
+   {
+    "label": "arXiv 2405.07404v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2405.07404v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2405.07404v1",
+    "attempts": 1,
+    "bytes": 761104,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 22,
+    "text_chars": 42665,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "1 Indoor PM2.5 forecasting and the association with outdoor air pollution: a modelling study based on sensor data in Australia Wenhua Yu1, Bahareh Nakisa2, Seng W. Loke 2, Svetlana Stevanovic 3, Yuming Guo 1, Mohammad Naim Rastgoo2, Affiliations: 1Climate, Air Quality Research Unit, School of Public",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Yu_IndoorPM25Forecasting_en.pdf",
+  "sha256": "b350c1c19ef4edb8142267496f6272f07a2b367751766379b4743051bd433133",
+  "size": 761104,
+  "pdf_url": "https://arxiv.org/pdf/2405.07404v1",
+  "version_label": "arXiv 2405.07404v1（预印本/作者版）",
+  "pages": 22,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 22,
+   "text_chars": 42665,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS099": {
+  "title": "Monitoring and forecasting of urban air pollution and exceedance events: implications for environmental risk assessment and early warning communication using machine learning in sustainable cities",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Sustainable Cities and Society",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2210670726009194/pdf",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Sustainable Cities and Society: HTTP 403"
+ },
+ "TS100": {
+  "title": "CoNOAir: A Neural Operator for Forecasting Carbon Monoxide Evolution in Cities",
+  "tries": [
+   {
+    "label": "arXiv 2501.06007v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2501.06007v2",
+    "http_status": null,
+    "error": "truncated (23855104/23893974 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2501.06007v2（预印本/作者版）: truncated (23855104/23893974 bytes)"
+ },
+ "TS101": {
+  "title": "A physics-guided machine learning framework for enhancing dust storm visibility prediction in arid and semi-arid regions",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13065753/pdf/41598_2026_Article_39766.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13065753/pdf/41598_2026_Article_39766.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   },
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://www.nature.com/articles/s41598-026-39766-z.pdf",
+    "http_status": null,
+    "error": "truncated (5767168/5820877 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-026-39766-z_reference.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.nature.com/articles/s41598-026-39766-z_reference.pdf?error=cookies_not_supported&code=4880df34-f17a-458b-8a67-31eec7377917",
+    "attempts": 1,
+    "bytes": 3843991,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 37,
+    "text_chars": 72919,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "ARTICLE IN PRESS Article in Press A physics-guided machine learning framework for enhancing dust storm visibility prediction in arid and semi-arid regions Scientific Reports Received: 5 November 2025 Accepted: 6 February 2026 Cite this article as: Xu C., Zhang H., Luo K. et al. A physics-guided mach",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Xu_PhysicsGuidedMachineLearning_en.pdf",
+  "sha256": "bc99db8cf22c5ea03cd7feb3ac557b6fbb5a15454983c7e1479bdb0a4a7689a4",
+  "size": 3843991,
+  "pdf_url": "https://www.nature.com/articles/s41598-026-39766-z_reference.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Scientific Reports",
+  "pages": 37,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 37,
+   "text_chars": 72919,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS102": {
+  "title": "Explainable PSO-optimised machine learning models for multi-pollutant air quality forecasting in major African cities with transfer learning",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Frontiers in Environmental Science",
+    "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1828162/pdf",
+    "http_status": null,
+    "error": "truncated (4194304/4239405 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Frontiers in Environmental Science: truncated (4194304/4239405 bytes)"
+ },
+ "TS103": {
+  "title": "Tackling air quality with SAPIENS",
+  "tries": [
+   {
+    "label": "arXiv 2601.23215v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2601.23215v1",
+    "http_status": null,
+    "error": "truncated (12845056/12868803 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2601.23215v1（预印本/作者版）: truncated (12845056/12868803 bytes)"
+ },
+ "TS104": {
+  "title": "Applications of Machine Learning and Artificial Intelligence in Tropospheric Ozone Research",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Geoscientific model development",
+    "url": "https://gmd.copernicus.org/articles/18/8777/2025/gmd-18-8777-2025.pdf",
+    "http_status": null,
+    "error": "truncated (2359296/2419628 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Geoscientific model development: truncated (2359296/2419628 bytes)"
+ },
+ "TS105": {
+  "title": "Deep-learning architecture for PM2.5 concentration prediction: A review",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10910069/pdf/main.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10910069/pdf/main.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS106": {
+  "title": "Deep learning for air pollutant forecasting: opportunities, challenges, and future directions",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Frontiers of Environmental Science & Engineering",
+    "url": "https://link.springer.com/content/pdf/10.1007/s11783-025-2092-6.pdf",
+    "http_status": null,
+    "error": "truncated (5767168/5837151 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Frontiers of Environmental Science & Engineering: truncated (5767168/5837151 bytes)"
+ },
+ "TS107": {
+  "title": "Indoor Air Quality Forecasting With Machine Learning: A Systematic Review",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Indoor Air",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/ina/8524332",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://cronfa.swan.ac.uk/Record/cronfa72764/Download/72764__37854__1c7a6e73346740cb8e3ae32e850fd4cd.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://cronfa.swan.ac.uk/Record/cronfa72764/Download/72764__37854__1c7a6e73346740cb8e3ae32e850fd4cd.pdf",
+    "attempts": 1,
+    "bytes": 1043184,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 24,
+    "text_chars": 135395,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Indoor Air, 2026; 2026:8524332 https://doi.org/10.1155/ina/8524332 1 of 24 REVIEW ARTICLE OPEN ACCESS Indoor Air Quality Forecasting With Machine Learning: A Systematic Review Lewis Hall Rudford 1 | Sara Sharifzadeh 1 | Nicholas Micallef1 | Paul Lewis2,3 | Philip Webb4 | Daniele Doneddu5,6 1Faculty ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Rudford_IndoorAirQualityForecasting_en.pdf",
+  "sha256": "fa12a5d9763ee7cd906ed4e9b09f5203c55b6f8d02ff9febd58f52cc67a64a73",
+  "size": 1043184,
+  "pdf_url": "https://cronfa.swan.ac.uk/Record/cronfa72764/Download/72764__37854__1c7a6e73346740cb8e3ae32e850fd4cd.pdf",
+  "version_label": "种子列表提供的 OA 链接（版本未标注）",
+  "pages": 24,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 24,
+   "text_chars": 135395,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS108": {
+  "title": "PM2.5-GNN",
+  "tries": [],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "identifier/title mismatch: seed 'PM2.5-GNN: A Domain Knowledge Enhanced Graph Neural Network For PM2.5 Forecastin' vs source 'PM2.5-GNN'"
+ },
+ "TS109": {
+  "title": "MVAR: MultiVariate AutoRegressive Air Pollutants Forecasting Model",
+  "tries": [
+   {
+    "label": "arXiv 2507.12023v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2507.12023v1",
+    "http_status": null,
+    "error": "truncated (1835008/1917085 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2507.12023v1（预印本/作者版）: truncated (1835008/1917085 bytes)"
+ },
+ "TS110": {
+  "title": "A Causality-Aware Spatiotemporal Model for Multi-Region and Multi-Pollutant Air Quality Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2509.21260v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2509.21260v1",
+    "http_status": null,
+    "error": "truncated (18612224/18717313 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2509.21260v1（预印本/作者版）: truncated (18612224/18717313 bytes)"
+ },
+ "TS111": {
+  "title": "Lagged sea-surface-temperature precursors of the leading PM2.5 mode in China",
+  "tries": [
+   {
+    "label": "arXiv 2605.25436v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2605.25436v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2605.25436v1",
+    "attempts": 1,
+    "bytes": 4621134,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 16,
+    "text_chars": 23885,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Lagged sea-surface-temperature precursors of the leading PM2.5 mode in China Yuan Chen1,2†, Dan Zhao1,2†, Xu Li1,2∗ 1Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming University of Science and Technology, Kunming 650500, Yunnan, China. 2FacultyofScience,KunmingUnivers",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Chen_LaggedSeaSurfaceTemperature_en.pdf",
+  "sha256": "6362be82b8d53e304d1601f48968ee7a0a8ed1fc0438b104854b075565db1c13",
+  "size": 4621134,
+  "pdf_url": "https://arxiv.org/pdf/2605.25436v1",
+  "version_label": "arXiv 2605.25436v1（预印本/作者版）",
+  "pages": 16,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 16,
+   "text_chars": 23885,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS112": {
+  "title": "Zeeman: A Deep Learning Regional Atmospheric Chemistry Transport Model",
+  "tries": [
+   {
+    "label": "arXiv 2510.06140v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2510.06140v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2510.06140v1",
+    "attempts": 1,
+    "bytes": 10160135,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 26,
+    "text_chars": 78989,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "ZEEMAN: A DEEPLEARNINGREGIONALATMOSPHERIC CHEMISTRYTRANSPORTMODEL Mijie Pang1, Jianbing Jin2,∗, Arjo Segers3, Hai Xiang Lin1,4, Guoqiang Wang5, Hong Liao2, Wei Han6∗ ∗Corresponding authors: Jianbing Jin (jianbing.jin@nuist.edu.cn) and Wei Han (hanwei@cma.gov.cn) 1Delft Institute of Applied Mathemati",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Pang_Zeeman_en.pdf",
+  "sha256": "63fd6758c1138e3d9b0fc60e48e9bf7804a7497e36c07ab6e6fc48a919182301",
+  "size": 10160135,
+  "pdf_url": "https://arxiv.org/pdf/2510.06140v1",
+  "version_label": "arXiv 2510.06140v1（预印本/作者版）",
+  "pages": 26,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 26,
+   "text_chars": 78989,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS113": {
+  "title": "A deep-learning model for predicting daily PM2.5 concentration in response to emission reduction",
+  "tries": [
+   {
+    "label": "arXiv 2506.18018v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2506.18018v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2506.18018v1",
+    "attempts": 1,
+    "bytes": 3139085,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 53,
+    "text_chars": 87029,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "1 A deep -learning model for predicting daily PM2.5 concentration in response to emission reduction Shigan Liu1, Guannan Geng2, Yanfei Xiang1, Hejun Hu1, Xiaodong Liu2, Xiaomeng Huang1, and Qiang Zhang1 1 Ministry of Education Key Laboratory for Earth System Modeling, Department of Earth System Scie",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Liu_DeepLearningModelPredicting_en.pdf",
+  "sha256": "a853aebf980fe608aeab09932813419755450faa55917d810f689630a9b12855",
+  "size": 3139085,
+  "pdf_url": "https://arxiv.org/pdf/2506.18018v1",
+  "version_label": "arXiv 2506.18018v1（预印本/作者版）",
+  "pages": 53,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 53,
+   "text_chars": 87029,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS114": {
+  "title": "Applying deep learning to a chemistry-climate model for improved ozone prediction",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Atmospheric chemistry and physics",
+    "url": "https://acp.copernicus.org/articles/25/16969/2025/acp-25-16969-2025.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://acp.copernicus.org/articles/25/16969/2025/acp-25-16969-2025.pdf",
+    "attempts": 1,
+    "bytes": 5171979,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 13,
+    "text_chars": 60073,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Atmos. Chem. Phys., 25, 16969–16981, 2025 https://doi.org/10.5194/acp-25-16969-2025 © Author(s) 2025. This work is distributed under the Creative Commons Attribution 4.0 License. Research article Applying deep learning to a chemistry-climate model for improved ozone prediction Zhenze Liu1, Ke Li1, O",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Liu_ApplyingDeepLearningChemistry_en.pdf",
+  "sha256": "4ca6adbb241826a514eff66c1ba96ccc58aca3e1aa5af2c4bc951335c3ea31af",
+  "size": 5171979,
+  "pdf_url": "https://acp.copernicus.org/articles/25/16969/2025/acp-25-16969-2025.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Atmospheric chemistry and physics",
+  "pages": 13,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 13,
+   "text_chars": 60073,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS115": {
+  "title": "A Novel Wind-Aware Dynamic Graph Neural Network for Urban Ground-Level Ozone Concentration Prediction",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ ISPRS International Journal of Geo-Information",
+    "url": "https://www.mdpi.com/2220-9964/15/3/101/pdf?version=1772673785",
+    "http_status": 200,
+    "content_type": "",
+    "final_url": "https://www.mdpi.com/2220-9964/15/3/101/pdf?version=1772673785",
+    "attempts": 1,
+    "bytes": 4880369,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 26,
+    "text_chars": 71208,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Academic Editors: Wolfgang Kainz, Suzana Dragicevic, Shivanand Balram and Eric Vaz Received: 15 January 2026 Revised: 26 February 2026 Accepted: 27 February 2026 Published: 28 February 2026 Copyright: © 2026 by the authors. Published by MDPI on behalf of the International Society for Photogrammetry ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Wu_NovelWindAwareDynamic_en.pdf",
+  "sha256": "5550faa4ec216f74d0f84c5c75bda3949bca0b6869fe46dbcce6b384d1bb9f11",
+  "size": 4880369,
+  "pdf_url": "https://www.mdpi.com/2220-9964/15/3/101/pdf?version=1772673785",
+  "version_label": "OpenAlex OA: publishedVersion @ ISPRS International Journal of Geo-Information",
+  "pages": 26,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 26,
+   "text_chars": 71208,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS116": {
+  "title": "Bi Directional Feedback Fusion for Activity Aware Forecasting of Indoor CO2 and PM2.5",
+  "tries": [
+   {
+    "label": "arXiv 2603.06724v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2603.06724v1",
+    "http_status": null,
+    "error": "truncated (1835008/1842886 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2603.06724v1（预印本/作者版）: truncated (1835008/1842886 bytes)"
+ },
+ "TS117": {
+  "title": "Urban Air Pollution Forecasting: a Machine Learning Approach leveraging Satellite Observations and Meteorological Forecasts",
+  "tries": [
+   {
+    "label": "arXiv 2405.19901v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2405.19901v1",
+    "http_status": null,
+    "error": "truncated (8388608/8410450 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2405.19901v1（预印本/作者版）: truncated (8388608/8410450 bytes)"
+ },
+ "TS118": {
+  "title": "Interpretable PM2.5 Forecasting for Urban Air Quality: A Comparative Study of Adaptive Time-Series Models",
+  "tries": [
+   {
+    "label": "arXiv 2603.25495v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2603.25495v2",
+    "http_status": null,
+    "error": "truncated (524288/558346 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2603.25495v2（预印本/作者版）: truncated (524288/558346 bytes)"
+ },
+ "TS119": {
+  "title": "Quantile-based causal inference for spatio-temporal processes: Assessing the impacts of wildfires on US air quality",
+  "tries": [
+   {
+    "label": "arXiv 2512.16603v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2512.16603v1",
+    "http_status": null,
+    "error": "truncated (6815744/6932223 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2512.16603v1（预印本/作者版）: truncated (6815744/6932223 bytes)"
+ },
+ "TS120": {
+  "title": "Enhanced Forecasting and Assessment of Urban Air Quality by an Automated Machine Learning System: The AI‐Air",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Earth and Space Science",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024EA003942",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Earth and Space Science: HTTP 403"
+ },
+ "TS121": {
+  "title": "Atmospheric Chemistry-Climate Modeling with an AI Foundation Model",
+  "tries": [
+   {
+    "label": "arXiv 2610.22555v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2610.22555v1",
+    "http_status": null,
+    "error": "truncated (25690112/25773276 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "failed",
+  "reason": "arXiv 2610.22555v1（预印本/作者版）: truncated (25690112/25773276 bytes)"
+ },
+ "TS122": {
+  "title": "Criticality and reduced dynamical resilience in PM2.5 pollution systems",
+  "tries": [
+   {
+    "label": "arXiv 2607.14632v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2607.14632v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2607.14632v1",
+    "attempts": 1,
+    "bytes": 4108965,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 33,
+    "text_chars": 47691,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": false,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Criticality and reduced dynamical resilience in PM2.5 pol- lution systems Yuan Chen1,2,8, Yongwen Zhang1,2,8,∗, Xu Li 1,2, Dean Chen 3, Jingfang Fan4, Yosef Ashkenazy5, Deliang Chen6, Shlomo Havlin7 1Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming Univer- sity of Sc",
+    "verdict": "pending",
+    "why": "no references section detected"
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "pending",
+  "local_path": "pending_pdfs/2026_Chen_CriticalityReducedDynamicalResilience_en.pdf",
+  "sha256": "d0e26a5a5c9d0448c0713f8f2a9b3d273569650aab97ecdd3330dcf718dd2a4d",
+  "size": 4108965,
+  "pdf_url": "https://arxiv.org/pdf/2607.14632v1",
+  "version_label": "arXiv 2607.14632v1（预印本/作者版）",
+  "pages": 33,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 33,
+   "text_chars": 47691,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": false,
+   "supplement_only": false,
+   "lang": "en"
+  },
+  "reason": "no references section detected"
+ },
+ "TS123": {
+  "title": "Valid time shifting ensemble Kalman filter (VTS-EnKF) for dust storm forecasting",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Geoscientific model development",
+    "url": "https://gmd.copernicus.org/articles/17/8223/2024/gmd-17-8223-2024.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://gmd.copernicus.org/articles/17/8223/2024/gmd-17-8223-2024.pdf",
+    "attempts": 1,
+    "bytes": 7582410,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 20,
+    "text_chars": 92838,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Geosci. Model Dev., 17, 8223–8242, 2024 https://doi.org/10.5194/gmd-17-8223-2024 © Author(s) 2024. This work is distributed under the Creative Commons Attribution 4.0 License. Development and technical paper Valid time shifting ensemble Kalman ﬁlter (VTS-EnKF) for dust storm forecasting Mijie Pang1,",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "03_air_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Pang_ValidTimeShiftingEnsemble_en.pdf",
+  "sha256": "b875ec705be68e71e14688675f03936cde91e5bc49273621a7e35976cdedd554",
+  "size": 7582410,
+  "pdf_url": "https://gmd.copernicus.org/articles/17/8223/2024/gmd-17-8223-2024.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Geoscientific model development",
+  "pages": 20,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 92838,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS124": {
+  "title": "Extended-range forecasting of stream water temperature with deep-learning models",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Hydrology and earth system sciences",
+    "url": "https://hess.copernicus.org/articles/29/1685/2025/hess-29-1685-2025.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://hess.copernicus.org/articles/29/1685/2025/hess-29-1685-2025.pdf",
+    "attempts": 1,
+    "bytes": 7001554,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 18,
+    "text_chars": 73116,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Hydrol. Earth Syst. Sci., 29, 1685–1702, 2025 https://doi.org/10.5194/hess-29-1685-2025 © Author(s) 2025. This work is distributed under the Creative Commons Attribution 4.0 License. Extended-range forecasting of stream water temperature with deep-learning models Ryan S. Padrón1,2, Massimiliano Zapp",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Padron_ExtendedRangeForecastingStream_en.pdf",
+  "sha256": "de1094523062051317c64908279d81f20beafe53b2ea61d371c171ec56935116",
+  "size": 7001554,
+  "pdf_url": "https://hess.copernicus.org/articles/29/1685/2025/hess-29-1685-2025.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Hydrology and earth system sciences",
+  "pages": 18,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 73116,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS125": {
+  "title": "Deep learning for water quality",
+  "tries": [
+   {
+    "label": "OpenAlex OA: acceptedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11151732/pdf/nihms-1994529.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11151732/pdf/nihms-1994529.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   },
+   {
+    "label": "OpenAlex OA: submittedVersion @ DORA Eawag (Swiss Federal Institute of Aquatic Science and Technology (Eawag))",
+    "url": "https://www.dora.lib4ri.ch/eawag/dload/eawag:33957/PDF2/view",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.dora.lib4ri.ch/eawag/dload/eawag:33957/PDF2/view",
+    "attempts": 1,
+    "bytes": 5947672,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 38,
+    "text_chars": 106368,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": false,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "1 Deep Learning for Water Quality1 Wei Zhi1, 2, Alison P. Appling3, Heather E. Golden4, Joel Podgorski5, Li Li2 * 2 3 1 The National Key Laboratory of Water Disaster Prevention , Yangtze Institute for Conservation and 4 Development, Key Laboratory of Hydrologic -Cycle and Hydrodynamic -System of Min",
+    "verdict": "pending",
+    "why": "no references section detected"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "pending",
+  "local_path": "pending_pdfs/2024_Zhi_DeepLearningWaterQuality_en.pdf",
+  "sha256": "9042b366d8700f43e1bf0dfddf0d39a672f8e44fa35e2c41689a638188cec8f1",
+  "size": 5947672,
+  "pdf_url": "https://www.dora.lib4ri.ch/eawag/dload/eawag:33957/PDF2/view",
+  "version_label": "OpenAlex OA: submittedVersion @ DORA Eawag (Swiss Federal Institute of Aquatic Science and Technology (Eawag))",
+  "pages": 38,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 38,
+   "text_chars": 106368,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": false,
+   "supplement_only": false,
+   "lang": "en"
+  },
+  "reason": "no references section detected"
+ },
+ "TS126": {
+  "title": "Identifying trustworthiness challenges in deep learning models for continental-scale water quality prediction",
+  "tries": [
+   {
+    "label": "arXiv 2503.09947v3（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2503.09947v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2503.09947v3",
+    "attempts": 1,
+    "bytes": 23248569,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 61,
+    "text_chars": 369800,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Identifying Trustworthiness Challenges in Deep Learning Models for Continental-Scale Water Quality Prediction Xiaobo Xia1,2 Xiaofeng Liu3,4 Jiale Liu5 Kuai Fang6 Lu Lu2 Samet Oymak7 William S. Currie3,4 Tongliang Liu1† 1School of Computer Science, University of Sydney, Sydney, NSW 2008, Australia 2D",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Xia_IdentifyingTrustworthinessChallengesDeep_en.pdf",
+  "sha256": "95e1e31db5666498081a1ebba03fe35e0242dcd6003551ce8f918171aff46519",
+  "size": 23248569,
+  "pdf_url": "https://arxiv.org/pdf/2503.09947v3",
+  "version_label": "arXiv 2503.09947v3（预印本/作者版）",
+  "pages": 61,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 61,
+   "text_chars": 369800,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS127": {
+  "title": "What can we learn from 100,000 freshwater forecasts? A synthesis from the NEON Ecological Forecasting Challenge",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Ecological Applications",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eap.70004",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "OpenAlex OA: submittedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816007/pdf/EAP-35-e70004.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816007/pdf/EAP-35-e70004.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Ecological Applications: HTTP 403; OpenAlex OA: submittedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS128": {
+  "title": "Explainable deep learning for multi-horizon water quality forecasting: cross-continental transferability for environmental decision support",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Modeling Earth Systems and Environment",
+    "url": "https://link.springer.com/content/pdf/10.1007/s40808-026-02944-z.pdf",
+    "http_status": null,
+    "error": "truncated (3407872/3480779 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Modeling Earth Systems and Environment: truncated (3407872/3480779 bytes)"
+ },
+ "TS129": {
+  "title": "LSTM networks provide efficient cyanobacterial blooms forecasting even with incomplete spatio-temporal data",
+  "tries": [
+   {
+    "label": "arXiv 2410.08237v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2410.08237v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2410.08237v1",
+    "attempts": 1,
+    "bytes": 6513882,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 12,
+    "text_chars": 67691,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "LSTM networks provide efficient cyanobacterial blooms forecasting even with incomplete spatio-temporal data Claudia Fournier a , Raúl Fernandez-Fernandez b , Samuel Cir ´es a , Jos ´e A. L ´opez-Orozco b , Eva Besada-Portas b , Antonio Quesada a , * a Departamento de Biología, Universidad Aut ´onoma",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Fournier_LSTMNetworksProvideEfficient_en.pdf",
+  "sha256": "f8ddf1d305824f884d19686757da173204a005dda13ae5136ddeab8050767f2b",
+  "size": 6513882,
+  "pdf_url": "https://arxiv.org/pdf/2410.08237v1",
+  "version_label": "arXiv 2410.08237v1（预印本/作者版）",
+  "pages": 12,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 12,
+   "text_chars": 67691,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS130": {
+  "title": "Deep Learning Prediction and Interpretation of Riverine Nitrate Export Across the Mississippi River Basin",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12425153/pdf/nihms-2105382.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12425153/pdf/nihms-2105382.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   },
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024WR039207",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: submittedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google; 种子列表提供的 OA 链接（版本未标注）: HTTP 403"
+ },
+ "TS131": {
+  "title": "LakeFM : Toward a Foundation Model for Aquatic Ecosystems Using Irregular Multivariate Multi-depth Time Series Data",
+  "tries": [
+   {
+    "label": "arXiv 2606.11268v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2606.11268v1",
+    "http_status": null,
+    "error": "truncated (10223616/10288958 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "arXiv 2606.11268v1（预印本/作者版）: truncated (10223616/10288958 bytes)"
+ },
+ "TS132": {
+  "title": "Forecasting coastal hypoxia using a blend of mechanistic and artificial intelligence models",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-025-17053-7.pdf",
+    "http_status": null,
+    "error": "truncated (3407872/3461057 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Scientific Reports: truncated (3407872/3461057 bytes)"
+ },
+ "TS133": {
+  "title": "Deep forecasting architectures mirror ecological time scales in water quality prediction",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Environmental Science and Ecotechnology",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666498426001006/pdf",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545705/pdf/main.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545705/pdf/main.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Environmental Science and Ecotechnology: HTTP 403; 种子列表提供的 OA 链接（版本未标注）: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS134": {
+  "title": "Forecasting freshwater cyanobacterial harmful algal blooms for Sentinel-3 satellite resolved U.S. lakes and reservoirs",
+  "tries": [
+   {
+    "label": "OpenAlex OA: acceptedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10842250/pdf/nihms-1943945.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10842250/pdf/nihms-1943945.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: acceptedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS135": {
+  "title": "Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models",
+  "tries": [
+   {
+    "label": "arXiv 2410.19865v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2410.19865v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2410.19865v1",
+    "attempts": 1,
+    "bytes": 6453329,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 79,
+    "text_chars": 184328,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "manuscript submitted to Water Resources Research Evaluating Deep Learning Approaches for Predictions in Unmonitored Basins with Continental-scale Stream Temperature Models Jared D. Willard1, Fabio Ciulla2, Helen Weierbach2, Vipin Kumar3, Charuleka Varadharajan2 1Computing Sciences Area, Lawrence Ber",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Willard_EvaluatingDeepLearningApproaches_en.pdf",
+  "sha256": "ad51e8d6cd12c5aaaf4679406d8b2a6bcceb35aab54c6a1548a3ded4d5cbc905",
+  "size": 6453329,
+  "pdf_url": "https://arxiv.org/pdf/2410.19865v1",
+  "version_label": "arXiv 2410.19865v1（预印本/作者版）",
+  "pages": 79,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 79,
+   "text_chars": 184328,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS136": {
+  "title": "Time-series foundation modeling enables accurate lake ecosystem forecasting",
+  "tries": [
+   {
+    "label": "OpenAlex OA: acceptedVersion @ bioRxiv (Cold Spring Harbor Laboratory)",
+    "url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/17/2026.09.13.751332.full.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/17/2026.09.13.751332.full.pdf",
+    "attempts": 1,
+    "bytes": 3034297,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 39,
+    "text_chars": 60984,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "1 Time-series foundation modeling enables accurate lake ecosystem forecasting 2 3 Asuka Matsushita1, and Hideyuki Doi1,* 4 5 1 Graduate School of Informatics, Kyoto University, 6 Yoshida-honmachi, Sakyo-ku, Kyoto, 606-8501, Japan 7 8 9 *Corresponding author: Hideyuki Doi 10 Graduate School of Inform",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Matsushita_TimeSeriesFoundationModeling_en.pdf",
+  "sha256": "4fe95960d089575659fce325f51c7a21a2a430306760a3b6edc525d9c1b3b59c",
+  "size": 3034297,
+  "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/17/2026.09.13.751332.full.pdf",
+  "version_label": "OpenAlex OA: acceptedVersion @ bioRxiv (Cold Spring Harbor Laboratory)",
+  "pages": 39,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 39,
+   "text_chars": 60984,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  }
 }

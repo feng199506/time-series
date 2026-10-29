@@ -28,7 +28,7 @@ NAME = dict(SLUGS)
 FIELDS = ["sub", "task_type", "target", "dataset", "frequency", "horizon", "method_class", "exogenous",
           "spatial", "split", "code", "field_basis", "summary", "summary_basis", "reason", "priority",
           "era", "old_reason", "title", "first_author", "first_public_date", "date_source", "venue",
-          "landing"]
+          "landing", "title_note", "doi_note"]
 
 
 def norm_title(t):
