@@ -4661,5 +4661,1498 @@
    "supplement_only": false,
    "lang": "en"
   }
+ },
+ "TS137": {
+  "title": "Deep representation learning enables cross-basin water quality prediction under data-scarce conditions",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ npj Clean Water",
+    "url": "https://www.nature.com/articles/s41545-025-00466-2.pdf",
+    "http_status": null,
+    "error": "truncated (2883584/2933485 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ npj Clean Water: truncated (2883584/2933485 bytes)"
+ },
+ "TS138": {
+  "title": "Enhanced water quality prediction by LSTM and graph attention network (L-GAT): An analytical study of the Pearl River Basin",
+  "tries": [],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "no legal public PDF route found (link only)"
+ },
+ "TS139": {
+  "title": "A Multi‐Model Ensemble of Baseline and Process‐Based Models Improves the Predictive Skill of Near‐Term Lake Forecasts",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Water Resources Research",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023WR035901",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "OpenAlex OA: submittedVersion @ VTechWorks (Virginia Tech)",
+    "url": "https://vtechworks.lib.vt.edu/bitstreams/f68f623f-b490-470d-85b3-2fc59c09d125/download",
+    "http_status": null,
+    "error": "truncated (1572864/1637440 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Water Resources Research: HTTP 403; OpenAlex OA: submittedVersion @ VTechWorks (Virginia Tech): truncated (1572864/1637440 bytes)"
+ },
+ "TS140": {
+  "title": "Adaptive Process-Guided Learning: An Application in Predicting Lake DO Concentrations",
+  "tries": [
+   {
+    "label": "arXiv 2411.12973v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2411.12973v1",
+    "http_status": null,
+    "error": "truncated (5242880/5266011 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "arXiv 2411.12973v1（预印本/作者版）: truncated (5242880/5266011 bytes)"
+ },
+ "TS141": {
+  "title": "Assimilation of machine‐learning‐predicted nitrate to improve the quality of phytoplankton forecasting in the shelf‐sea environment",
+  "tries": [
+   {
+    "label": "arXiv 2508.02400v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2508.02400v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2508.02400v2",
+    "attempts": 1,
+    "bytes": 2838313,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 23,
+    "text_chars": 61989,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "manuscript submitted toQJRMS Assimilation of machine learning-predicted nitrate to improve the quality of phytoplankton forecasting in the shelf sea environment. Deep S. Banerjee1,2, Jozef Sk´ akala1,2, David Ford3 1Plymouth Marine Laboratory, Plymouth, UK 2National Centre for Earth Observation, Ply",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Banerjee_AssimilationMachineLearningPredicted_en.pdf",
+  "sha256": "56e8b87e278c2a61f8d13c340bacb55b50f3e8c47f06c71ddb993194712ebe50",
+  "size": 2838313,
+  "pdf_url": "https://arxiv.org/pdf/2508.02400v2",
+  "version_label": "arXiv 2508.02400v2（预印本/作者版）",
+  "pages": 23,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 23,
+   "text_chars": 61989,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS142": {
+  "title": "From Rivers to Floodplains: Leveraging Transfer Learning to Predict Floodplain Dissolved Oxygen",
+  "tries": [
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024WR039820",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "种子列表提供的 OA 链接（版本未标注）: HTTP 403"
+ },
+ "TS143": {
+  "title": "Increasing phosphorus loss despite widespread concentration decline in US rivers",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Proceedings of the National Academy of Sciences",
+    "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2402028121",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11621846/pdf/pnas.202402028.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11621846/pdf/pnas.202402028.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Proceedings of the National Academy of Sciences: HTTP 403; OpenAlex OA: publishedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS144": {
+  "title": "A probabilistic deep learning approach to enhance the prediction of wastewater treatment plant effluent quality under shocking load events",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11667701/pdf/main.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11667701/pdf/main.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: submittedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS145": {
+  "title": "ST-GPINN: a spatio-temporal graph physics-informed neural network for enhanced water quality prediction in water distribution systems",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ npj Clean Water",
+    "url": "https://www.nature.com/articles/s41545-025-00499-7.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.nature.com/articles/s41545-025-00499-7.pdf?error=cookies_not_supported&code=4bcc5dea-90f3-424f-a3c5-9ab0fbf06f8a",
+    "attempts": 1,
+    "bytes": 2611219,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 15,
+    "text_chars": 84895,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "npj |clean water Article Published in partnership with King Fahd University of Petroleum & Minerals https://doi.org/10.1038/s41545-025-00499-7 ST-GPINN: a spatio-temporal graph physics-informed neural network for enhanced water quality prediction in water distribution systems Check for updates Tianw",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Mu_STGPINN_en.pdf",
+  "sha256": "83cfa866414257684f20c51aa51b87d9bf7ab38abcea7dfb9b8bc4202f0fec9d",
+  "size": 2611219,
+  "pdf_url": "https://www.nature.com/articles/s41545-025-00499-7.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ npj Clean Water",
+  "pages": 15,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 15,
+   "text_chars": 84895,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS146": {
+  "title": "Deep learning of estuary salinity dynamics is physically accurate at a fraction of hydrodynamic model computational cost",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Limnology and Oceanography",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lno.12549",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Limnology and Oceanography: HTTP 403"
+ },
+ "TS147": {
+  "title": "Predictive Understanding of Stream Salinization in a Developed Watershed Using Machine Learning",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Environmental Science & Technology",
+    "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.4c05004",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Europe PMC (PubMed Central)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11500705/pdf/es4c05004.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11500705/pdf/es4c05004.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Environmental Science & Technology: HTTP 403; OpenAlex OA: publishedVersion @ Europe PMC (PubMed Central): not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS148": {
+  "title": "Deep learning methods for multi-horizon long-term forecasting of Harmful Algal Blooms",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ EPrints IMDEA Water Institute",
+    "url": "http://eprints.imdea-agua.org:13000/1651/1/1-s2.0-S0950705124009134-main%20%281%29.pdf",
+    "http_status": null,
+    "error": "URLError(TimeoutError('timed out'))",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: submittedVersion @ UPM Digital Archive (Technical University of Madrid)",
+    "url": "https://oa.upm.es/84623/1/10243619.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://oa.upm.es/84623/1/10243619.pdf",
+    "attempts": 1,
+    "bytes": 3065411,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 19,
+    "text_chars": 123013,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Contents lists available at ScienceDirect Knowledge-Based Systems journal homepage: www.elsevier.com/locate/knosys Deep learning methods for multi-horizon long-term forecasting of Harmful Algal Blooms Silvia Martín-Suazoa, Jesús Morón-Lópezb, Stanislav Vakaruka, Amit Karamchandania, Juan Antonio Pas",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_MartinSuazo_DeepLearningMethodsMulti_en.pdf",
+  "sha256": "f2f7e93f9389f119dc2beff31e1fa15466cdefe48b3a167f425c26e67959e4a3",
+  "size": 3065411,
+  "pdf_url": "https://oa.upm.es/84623/1/10243619.pdf",
+  "version_label": "OpenAlex OA: submittedVersion @ UPM Digital Archive (Technical University of Madrid)",
+  "pages": 19,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 19,
+   "text_chars": 123013,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS149": {
+  "title": "Advancing Near-Term Water Quality Forecasting with Explainable Machine Learning and Probabilistic Uncertainty Quantification",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13660380/pdf/ew6c00757.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13660380/pdf/ew6c00757.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   },
+   {
+    "label": "OpenAlex OA: acceptedVersion @ 未知来源",
+    "url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.15002809/v3",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: submittedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google; OpenAlex OA: acceptedVersion @ 未知来源: HTTP 403"
+ },
+ "TS150": {
+  "title": "Forecasting short-term chlorophyll a concentration in Lake Erie using the machine learning XGBoost algorithm",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Environmental Research Letters",
+    "url": "https://iopscience.iop.org/article/10.1088/1748-9326/add6b7/pdf",
+    "http_status": 200,
+    "content_type": "application/pdf;charset=UTF-8",
+    "final_url": "https://iopscience.iop.org/article/10.1088/1748-9326/add6b7/pdf",
+    "attempts": 1,
+    "bytes": 1572864,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 11,
+    "text_chars": 38288,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "LETTER • OPEN ACCESS Forecasting short-term chlorophyll a concentration in Lake Erie using the machine learning XGBoost algorithm To cite this article: Yang Song 2025 Environ. Res. Lett. 20 064029 View the article online for updates and enhancements. You may also like Accelerated northward shift of ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Song_ForecastingShortTermChlorophyll_en.pdf",
+  "sha256": "994101eb0e6c9a422a0821a3fa6fa2c0f2aa803a0f353adfbaa3ca43185ee799",
+  "size": 1702377,
+  "pdf_url": "https://iopscience.iop.org/article/10.1088/1748-9326/add6b7/pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Environmental Research Letters",
+  "pages": 11,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 11,
+   "text_chars": 38288,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS151": {
+  "title": "Ecosystem Metabolism as an Early Warning Indicator of Lake Algal Blooms",
+  "tries": [],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "no legal public PDF route found (link only)"
+ },
+ "TS152": {
+  "title": "Machine Learning-Based Early Warning Level Prediction for Cyanobacterial Blooms Using Environmental Variable Selection and Data Resampling",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Toxics",
+    "url": "https://www.mdpi.com/2305-6304/11/12/955/pdf?version=1700739316",
+    "http_status": 200,
+    "content_type": "",
+    "final_url": "https://www.mdpi.com/2305-6304/11/12/955/pdf?version=1700739316",
+    "attempts": 1,
+    "bytes": 3293604,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 20,
+    "text_chars": 73250,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Citation: Kim, J.H.; Lee, H.; Byeon, S.; Shin, J.-K.; Lee, D.H.; Jang, J.; Chon, K.; Park, Y. Machine Learning-Based Early Warning Level Prediction for Cyanobacterial Blooms Using Environmental Variable Selection and Data Resampling. Toxics 2023, 11, 955. https://doi.org/10.3390/toxics11120955 Acade",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2023_Kim_MachineLearningEarlyWarning_en.pdf",
+  "sha256": "5bc7d4a7e77e061e6aed9b84bd4f89f2697906b1a339dc01ea1bd88297bd7c2c",
+  "size": 3293604,
+  "pdf_url": "https://www.mdpi.com/2305-6304/11/12/955/pdf?version=1700739316",
+  "version_label": "OpenAlex OA: publishedVersion @ Toxics",
+  "pages": 20,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 73250,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS153": {
+  "title": "A coupled spatiotemporal graph model for phytoplankton blooms prediction using incomplete data from buoy-based monitoring systems",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Ecological Informatics",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1574954126004449/pdf",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Ecological Informatics: HTTP 403"
+ },
+ "TS154": {
+  "title": "Evaluating a process‐guided deep learning approach for predicting dissolved oxygen in streams",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Hydrological Processes",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hyp.15270",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Hydrological Processes: HTTP 403"
+ },
+ "TS155": {
+  "title": "On the use of hydrodynamic modelling and random forest classifiers for the prediction of hypoxia in coastal lagoons",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ Florence Research (University of Florence)",
+    "url": "https://flore.unifi.it/bitstream/2158/1395132/1/1-s2.0-S0048969724055748-main.pdf",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: submittedVersion @ Florence Research (University of Florence): HTTP 403"
+ },
+ "TS156": {
+  "title": "Forecasting ocean hypoxia in salmonid fish farms",
+  "tries": [
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://www.frontiersin.org/articles/10.3389/faquc.2024.1365123/pdf",
+    "http_status": null,
+    "error": "truncated (6815744/6875550 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Frontiers in Aquaculture",
+    "url": "https://www.frdc.com.au/sites/default/files/products/FRDC_MH_Final_Rep_June_2020.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.frdc.com.au/sites/default/files/products/FRDC_MH_Final_Rep_June_2020.pdf",
+    "attempts": 1,
+    "bytes": 5740333,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 103,
+    "text_chars": 122617,
+    "title_match": 0.5,
+    "author_found": false,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "1June 2020 Macquarie Harbour Oxygen Process model (FRDC 2016-067) CSIRO Final Report Karen Wild-Allen, John Andrewartha, Mark Baird, Lev Bodrossy, Elizabeth Brewer, Ruth Eriksen, Jenny Skerratt, Andrew Revill, Kendall Sherrin, Dan Wild June 2020 FRDC Project No 2016/067 Macquarie Harbour Oxygen Proc",
+    "verdict": "pending",
+    "why": "title match 0.5; first-author surname not found on first pages"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "pending",
+  "local_path": "pending_pdfs/2024_Cerqueira_ForecastingOceanHypoxiaSalmonid_en.pdf",
+  "sha256": "210730711a3ad9360e5c33f71c6712210156da4c6eb50ea687387af6751d46e1",
+  "size": 5740333,
+  "pdf_url": "https://www.frdc.com.au/sites/default/files/products/FRDC_MH_Final_Rep_June_2020.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Frontiers in Aquaculture",
+  "pages": 103,
+  "title_match": 0.5,
+  "checks_v2": {
+   "pages": 103,
+   "text_chars": 122617,
+   "title_match": 0.5,
+   "author_found": false,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  },
+  "reason": "title match 0.5; first-author surname not found on first pages"
+ },
+ "TS157": {
+  "title": "Deep Learning Advances Arctic River Water Temperature Predictions",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Water Resources Research",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024WR039053",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Water Resources Research: HTTP 403"
+ },
+ "TS158": {
+  "title": "Synthesizing data products, mathematical models, and observational measurements for lake temperature forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2407.03312v3（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2407.03312v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2407.03312v3",
+    "attempts": 1,
+    "bytes": 3389444,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 20,
+    "text_chars": 68997,
+    "title_match": 0.9,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Submitted to the Annals of Applied Statistics SYNTHESIZING DATA PRODUCTS, MATHEMATICAL MODELS, AND OBSERV ATIONS FOR LAKE TEMPERATURE FORECASTING BY MAIKE F. HOLTHUIJZEN 1,a , ROBERT B. G RAMACY 2,b CAYELAN C. C AREY 3,d DAVID M. H IGDON 2,c AND R. Q UINN THOMAS 4,e 1Virginia Tech & Sandia National ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Holthuijzen_SynthesizingDataProductsMathematical_en.pdf",
+  "sha256": "424b6a527b1273643d81470aacabb80cec09b7fa45bce6124ba022342503ffee",
+  "size": 3389444,
+  "pdf_url": "https://arxiv.org/pdf/2407.03312v3",
+  "version_label": "arXiv 2407.03312v3（预印本/作者版）",
+  "pages": 20,
+  "title_match": 0.9,
+  "checks_v2": {
+   "pages": 20,
+   "text_chars": 68997,
+   "title_match": 0.9,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS159": {
+  "title": "How climate change erodes short-term lake-temperature predictability: Informing climate resilient lake forecasting",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ DORA Eawag (Swiss Federal Institute of Aquatic Science and Technology (Eawag))",
+    "url": "https://www.dora.lib4ri.ch/eawag/dload/eawag:36050/PDF/view",
+    "http_status": null,
+    "error": "truncated (3932160/4015485 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: submittedVersion @ DORA Eawag (Swiss Federal Institute of Aquatic Science and Technology (Eawag)): truncated (3932160/4015485 bytes)"
+ },
+ "TS160": {
+  "title": "GVFs in the real world: making predictions online for water treatment",
+  "tries": [
+   {
+    "label": "arXiv 2312.01624v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2312.01624v1",
+    "http_status": null,
+    "error": "truncated (2883584/2960440 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Machine Learning",
+    "url": "https://link.springer.com/content/pdf/10.1007/s10994-023-06413-x.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/s10994-023-06413-x.pdf?error=cookies_not_supported&code=962257a3-56fe-4771-bd11-b9a084526759",
+    "attempts": 1,
+    "bytes": 3876947,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 31,
+    "text_chars": 86742,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Vol.:(0123456789) Machine Learning (2024) 113:5151–5181 https://doi.org/10.1007/s10994-023-06413-x 1 3 GVFs in the real world: making predictions online for water treatment Muhammad Kamran Janjua1 · Haseeb Shah1 · Martha White1,2 · Erfan Miahi1 · Marlos C. Machado1,2 · Adam White1,2 Received: 3 Apri",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2023_Janjua_GVFsRealWorldMaking_en.pdf",
+  "sha256": "4d9b933dc82bc0f2548574addd1da1e40b865e5e82ac0f1fe809e0b65d44a650",
+  "size": 3876947,
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-023-06413-x.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ Machine Learning",
+  "pages": 31,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 31,
+   "text_chars": 86742,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS161": {
+  "title": "ARIMA and TFARIMA Analysis of the Main Water Quality Parameters in the Initial Components of a Megacity’s Drinking Water Supply System",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Hydrology",
+    "url": "https://www.mdpi.com/2306-5338/11/1/10/pdf?version=1705486517",
+    "http_status": null,
+    "error": "truncated (1835008/1918142 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Hydrology: truncated (1835008/1918142 bytes)"
+ },
+ "TS162": {
+  "title": "A data‐driven predictive model for disinfectant residual in drinking water storage tanks",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ AWWA Water Science",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aws2.1376",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://eprints.whiterose.ac.uk/214259/",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://eprints.whiterose.ac.uk/id/eprint/214259/",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!DOCTYPE html> <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"> \t<head> \t\t",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!DOCTYPE html> <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"> \t<head> \t\t"
+   },
+   {
+    "label": "OpenAlex OA: acceptedVersion @ White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+    "url": "https://eprints.whiterose.ac.uk/214259/1/AWWA%20Water%20Science%20-%202024%20-%20Kyritsakas%20-%20A%20data%E2%80%90driven%20predictive%20model%20for%20disinfectant%20residual%20in%20drinking%20water%20storage.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://eprints.whiterose.ac.uk/id/eprint/214259/1/AWWA%20Water%20Science%20-%202024%20-%20Kyritsakas%20-%20A%20data%E2%80%90driven%20predictive%20model%20for%20disinfectant%20residual%20in%20drinking%20water%20storage.pdf",
+    "attempts": 1,
+    "bytes": 965603,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 18,
+    "text_chars": 74382,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "eprints@whiterose.ac.uk https://eprints.whiterose.ac.uk Universities of Leeds, Sheffield and York Deposited via The University of Sheffield. White Rose Research Online URL for this paper: https://eprints.whiterose.ac.uk/id/eprint/214259/ Version: Published Version Article: Kyritsakas, G., Boxall, J.",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Kyritsakas_DataDrivenPredictiveModel_en.pdf",
+  "sha256": "43b5490bded6b01f236c258df09acea105d30f550255a217e3b722adb74b6be0",
+  "size": 965603,
+  "pdf_url": "https://eprints.whiterose.ac.uk/214259/1/AWWA%20Water%20Science%20-%202024%20-%20Kyritsakas%20-%20A%20data%E2%80%90driven%20predictive%20model%20for%20disinfectant%20residual%20in%20drinking%20water%20storage.pdf",
+  "version_label": "OpenAlex OA: acceptedVersion @ White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+  "pages": 18,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 74382,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS163": {
+  "title": "Training for the test: Using multi-objective training to improve ANN ensemble forecasts of household residual chlorine in emergencies",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ PLOS Water",
+    "url": "https://journals.plos.org/water/article/file?id=10.1371/journal.pwat.0000307&type=printable",
+    "http_status": null,
+    "error": "truncated (2097152/2119429 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ PLOS Water: truncated (2097152/2119429 bytes)"
+ },
+ "TS164": {
+  "title": "Machine Learning for Effluent Forecasting at a Full-Scale Municipal Wastewater Treatment Plant: Seasonal Performance Deterioration and the Decisive Role of Prediction Horizon",
+  "tries": [
+   {
+    "label": "种子列表提供的 OA 链接（版本未标注）",
+    "url": "https://www.mdpi.com/2571-8797/8/5/151/pdf",
+    "http_status": 200,
+    "content_type": "",
+    "final_url": "https://www.mdpi.com/2571-8797/8/5/151/pdf",
+    "attempts": 1,
+    "bytes": 17818817,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 27,
+    "text_chars": 71178,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Academic Editor: Constantinos V . Chrysikopoulos Received: 8 July 2026 Revised: 4 September 2026 Accepted: 4 September 2026 Published: 10 September 2026 Copyright: © 2026 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditi",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Vukmirovic_MachineLearningEffluentForecasting_en.pdf",
+  "sha256": "0291ac96e47bac2670a09a7556a42d60f04970bbb175c4073a961eb656cebb81",
+  "size": 17818817,
+  "pdf_url": "https://www.mdpi.com/2571-8797/8/5/151/pdf",
+  "version_label": "种子列表提供的 OA 链接（版本未标注）",
+  "pages": 27,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 27,
+   "text_chars": 71178,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS165": {
+  "title": "A Hybrid Approach of Transfer Learning and Physics-Informed Modeling: Improving Dissolved Oxygen Concentration Prediction in an Industrial Wastewater Treatment Plant",
+  "tries": [
+   {
+    "label": "arXiv 2401.11217v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2401.11217v1",
+    "http_status": null,
+    "error": "truncated (1835008/1841990 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "arXiv 2401.11217v1（预印本/作者版）: truncated (1835008/1841990 bytes)"
+ },
+ "TS166": {
+  "title": "Machine Learning, Generalization, and Transfer Learning for Predicting the Exceedance of Fecal Indicator Bacteria Thresholds at Beaches",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Environmental Science & Technology",
+    "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c02835?ref=article_openPDF",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Environmental Science & Technology: HTTP 403"
+ },
+ "TS167": {
+  "title": "From Compliant to Critical: Forecasting Emerging E. coli Risk in New Zealand’s South Island Rivers",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ Tuwhera (Auckland University of Technology)",
+    "url": "https://openrepository.aut.ac.nz/bitstreams/ec25e153-0243-4f21-ab4e-a3be328beb3c/download",
+    "http_status": null,
+    "error": "truncated (9437184/9442180 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: submittedVersion @ Tuwhera (Auckland University of Technology): truncated (9437184/9442180 bytes)"
+ },
+ "TS168": {
+  "title": "Unsupervised Anomaly Detection in Spatio‐Temporal Stream Network Sensor Data",
+  "tries": [
+   {
+    "label": "arXiv 2409.07667v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2409.07667v1",
+    "http_status": null,
+    "error": "truncated (5242880/5351974 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Water Resources Research",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023WR035707",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "OpenAlex OA: submittedVersion @ NOAA Institutional Repository",
+    "url": "http://repository.library.noaa.gov/view/noaa/68670/noaa_68670_DS1.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://repository.library.noaa.gov/view/noaa/68670/noaa_68670_DS1.pdf",
+    "attempts": 1,
+    "bytes": 5205515,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 24,
+    "text_chars": 87655,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Unsupervised Anomaly Detection in Spatio‐Temporal Stream Network Sensor Data Edgar Santos‐Fernandez 1 , Jay M. Ver Hoef 2 , Erin E. Peterson 1 , James McGree 1 , Cesar A. Villa 3 , Catherine Leigh 4 , Ryan Turner 5,6 , Cameron Roberts 5 , and Kerrie Mengersen 1 1 School of Mathematical Sciences, Que",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_SantosFernandez_UnsupervisedAnomalyDetectionSpatio_en.pdf",
+  "sha256": "a2878d284440b0952eb66add000aa51d25e08b7c9f47d5c8b3e7620d5420e9b2",
+  "size": 5205515,
+  "pdf_url": "http://repository.library.noaa.gov/view/noaa/68670/noaa_68670_DS1.pdf",
+  "version_label": "OpenAlex OA: submittedVersion @ NOAA Institutional Repository",
+  "pages": 24,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 24,
+   "text_chars": 87655,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS169": {
+  "title": "Multivariate and long-term time series analysis to assess the effect of nitrogen management policy on groundwater quality in Wallonia, BE",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Hydrology and earth system sciences",
+    "url": "https://hess.copernicus.org/articles/29/1829/2025/hess-29-1829-2025.pdf",
+    "http_status": null,
+    "error": "truncated (2359296/2447122 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Hydrology and earth system sciences: truncated (2359296/2447122 bytes)"
+ },
+ "TS170": {
+  "title": "Long-term AI prediction of ammonium levels in rivers using transformer and ensemble models",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ Brunel University Research Archive (BURA) (Brunel University London)",
+    "url": "http://bura.brunel.ac.uk/bitstream/2438/30051/1/FullText.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://bura.brunel.ac.uk/bitstream/2438/30051/1/FullText.pdf",
+    "attempts": 1,
+    "bytes": 4415580,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 17,
+    "text_chars": 101051,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Long-term AI prediction of ammonium levels in rivers using transformer and ensemble models Ali J. Ali * , Ashraf A. Ahmed * Department of Civil and Environmental Engineering, Brunel University London, Uxbridge UB8 3PH, UK ARTICLE INFO Keywords: Transformer model Extreme gradient boosting Random fore",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Ali_LongTermAIPrediction_en.pdf",
+  "sha256": "40cdcb98ae98607f62b508e5c523a593520d9b28f5032c4c00d4554cec2c79e0",
+  "size": 4415580,
+  "pdf_url": "http://bura.brunel.ac.uk/bitstream/2438/30051/1/FullText.pdf",
+  "version_label": "OpenAlex OA: submittedVersion @ Brunel University Research Archive (BURA) (Brunel University London)",
+  "pages": 17,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 17,
+   "text_chars": 101051,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS171": {
+  "title": "Data-Driven Lake Water Quality Forecasting for Time Series with Missing Data Using Machine Learning",
+  "tries": [
+   {
+    "label": "arXiv 2601.15503v2（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2601.15503v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2601.15503v2",
+    "attempts": 1,
+    "bytes": 774531,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 9,
+    "text_chars": 47372,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Data-driven Lake Water Quality Forecasting for Time Series with Missing Data using Machine Learning Rishit Chatterjee Department of Computer Science, Colby College rchatt28@colby.edu Tahiya Chowdhury Department of Computer Science, Colby College tahiya.chowdhury@colby.edu Abstract—Volunteer-led lake",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Chatterjee_DataDrivenLakeWater_en.pdf",
+  "sha256": "075205abd244858b28013e57c6194c65b40631d7741dedcc894e5b6daa7b8c9b",
+  "size": 774531,
+  "pdf_url": "https://arxiv.org/pdf/2601.15503v2",
+  "version_label": "arXiv 2601.15503v2（预印本/作者版）",
+  "pages": 9,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 9,
+   "text_chars": 47372,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS172": {
+  "title": "A systematic literature review of forecasting and predictive models of harmful algal blooms in flowing waters",
+  "tries": [
+   {
+    "label": "OpenAlex OA: acceptedVersion @ bioRxiv (Cold Spring Harbor Laboratory)",
+    "url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/01/2025.09.29.679270.full.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/01/2025.09.29.679270.full.pdf",
+    "attempts": 1,
+    "bytes": 2621440,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 52,
+    "text_chars": 185964,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "1 A systematic literature review of forecasting and predictive models of harmful algal blooms in flowing waters Jennifer C. Murphya*, Rebecca M. Gorneyb, Lisa A. Lucasc, Jacob A. Zwartd, Jennfier L. Grahamb a U.S. Geological Survey, Central Midwest Water Science Center b U.S. Geological Survey, New ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Murphy_SystematicLiteratureReviewForecasting_en.pdf",
+  "sha256": "9746800b8d9c0cdf8b7d1cc31f6a9c6e89029c19a72823925575a08aed93c0f7",
+  "size": 2701340,
+  "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/01/2025.09.29.679270.full.pdf",
+  "version_label": "OpenAlex OA: acceptedVersion @ bioRxiv (Cold Spring Harbor Laboratory)",
+  "pages": 52,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 52,
+   "text_chars": 185964,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS173": {
+  "title": "Machine learning in stream and river water temperature modeling: a review and metrics for evaluation",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Hydrology and earth system sciences",
+    "url": "https://hess.copernicus.org/articles/29/2521/2025/hess-29-2521-2025.pdf",
+    "http_status": null,
+    "error": "truncated (2621440/2672569 bytes)",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Hydrology and earth system sciences: truncated (2621440/2672569 bytes)"
+ },
+ "TS174": {
+  "title": "A framework for developing a real-time lake phytoplankton forecasting system to support water quality management in the face of global change",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ AMBIO",
+    "url": "https://link.springer.com/content/pdf/10.1007/s13280-024-02076-7.pdf",
+    "http_status": null,
+    "error": "truncated (524288/626546 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11780027/pdf/13280_2024_Article_2076.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11780027/pdf/13280_2024_Article_2076.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ AMBIO: truncated (524288/626546 bytes); OpenAlex OA: publishedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS175": {
+  "title": "Process-based forecasts of lake water temperature and dissolved oxygen outperform null models, with variability over time and depth",
+  "tries": [
+   {
+    "label": "OpenAlex OA: submittedVersion @ VTechWorks (Virginia Tech)",
+    "url": "https://vtechworks.lib.vt.edu/bitstreams/2ba6c561-1233-4e48-95ed-a1f0bb05a7f4/download",
+    "http_status": 200,
+    "content_type": "application/pdf;charset=UTF-8",
+    "final_url": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/2ba6c561-1233-4e48-95ed-a1f0bb05a7f4/content",
+    "attempts": 1,
+    "bytes": 5190108,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 13,
+    "text_chars": 94782,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Process-based forecasts of lake water temperature and dissolved oxygen outperform null models, with variability over time and depth Whitney M. Woelmer a , * , R. Quinn Thomas a , b , Freya Olsson a , Bethel G. Steele c , Kathleen C. Weathers c , Cayelan C. Carey a a Department of Biological Sciences",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Woelmer_ProcessForecastsLakeWater_en.pdf",
+  "sha256": "5f9676861517be3f8e0818279a42a2204dcf960a3bb2987aad3a41b2cd1121f9",
+  "size": 5190108,
+  "pdf_url": "https://vtechworks.lib.vt.edu/bitstreams/2ba6c561-1233-4e48-95ed-a1f0bb05a7f4/download",
+  "version_label": "OpenAlex OA: submittedVersion @ VTechWorks (Virginia Tech)",
+  "pages": 13,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 13,
+   "text_chars": 94782,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS176": {
+  "title": "Hypoxia Forecasting for Chesapeake Bay Using Artificial Intelligence",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Artificial Intelligence for the Earth Systems",
+    "url": "https://journals.ametsoc.org/downloadpdf/view/journals/aies/aop/AIES-D-23-0054.1/AIES-D-23-0054.1.pdf",
+    "http_status": null,
+    "error": "HTTP 405",
+    "attempts": 3
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Artificial Intelligence for the Earth Systems: HTTP 405"
+ },
+ "TS177": {
+  "title": "Physics-Guided Fair Graph Sampling for Water Temperature Prediction in River Networks",
+  "tries": [
+   {
+    "label": "arXiv 2412.16523v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2412.16523v1",
+    "http_status": null,
+    "error": "truncated (4718592/4746914 bytes)",
+    "attempts": 3
+   },
+   {
+    "label": "OpenAlex OA: publishedVersion @ Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/download/35025/37180",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://ojs.aaai.org/index.php/AAAI/article/download/35025/37180",
+    "attempts": 1,
+    "bytes": 664031,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 9,
+    "text_chars": 50369,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Physics-Guided Fair Graph Sampling for Water Temperature Prediction in River Networks Erhu He1, Declan Kutscher1, Yiqun Xie2, Jacob Zwart3, Zhe Jiang4, Huaxiu Yao5, Xiaowei Jia1 1University of Pittsburgh 2University of Maryland 3U.S. Geological Survey 4University of Florida 5University of North Caro",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_He_PhysicsGuidedFairGraph_en.pdf",
+  "sha256": "cf469603aba59488774cf472d700aa728e1efb5de46ad8bd05758c991f96486a",
+  "size": 664031,
+  "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/35025/37180",
+  "version_label": "OpenAlex OA: publishedVersion @ Proceedings of the AAAI Conference on Artificial Intelligence",
+  "pages": 9,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 9,
+   "text_chars": 50369,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS178": {
+  "title": "Prediction of Total Phosphorus Concentration in Canals by GAT-Informer Model Based on Spatiotemporal Correlations",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Water",
+    "url": "https://www.mdpi.com/2073-4441/17/1/12/pdf?version=1735051414",
+    "http_status": 200,
+    "content_type": "",
+    "final_url": "https://www.mdpi.com/2073-4441/17/1/12/pdf?version=1735051414",
+    "attempts": 1,
+    "bytes": 5644376,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 21,
+    "text_chars": 87372,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Academic Editors: Tianxiang Wang and Alex Neumann Received: 10 November 2024 Revised: 16 December 2024 Accepted: 18 December 2024 Published: 24 December 2024 Citation: Huan, J.; Li, X.; Yuan, J.; Zhang, H.; Xu, X.; Hu, Q.; Zhang, C.; Fan, Y.; Cai, W.; Ju, H.; et al. Prediction of Total Phosphorus Co",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2024_Huan_PredictionTotalPhosphorusConcentration_en.pdf",
+  "sha256": "46f13bb728ba5067623c89df306ffaf79aaf072c3aad2f003283329bb38119fb",
+  "size": 5644376,
+  "pdf_url": "https://www.mdpi.com/2073-4441/17/1/12/pdf?version=1735051414",
+  "version_label": "OpenAlex OA: publishedVersion @ Water",
+  "pages": 21,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 21,
+   "text_chars": 87372,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS179": {
+  "title": "From Remote Sensing to Multiple Time Horizons Forecasts: Transformers Model for CyanoHAB Intensity in Lake Champlain",
+  "tries": [
+   {
+    "label": "arXiv 2512.06598v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2512.06598v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2512.06598v1",
+    "attempts": 1,
+    "bytes": 15410055,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 23,
+    "text_chars": 122422,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERV ATIONS AND REMOTE SENSING, VOL. XX, NO. X, MONTH YEAR 1 From Remote Sensing to Multiple Time Horizons Forecasts: Transformers Model for CyanoHAB Intensity in Lake Champlain Muhammad Adil , Patrick J. Clemins , Andrew W. Schroth , Panagiotis D. ",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Adil_RemoteSensingMultipleTime_en.pdf",
+  "sha256": "9a5b77932c25546964efdfb481acbe13ec15506b65763e66160b96538dc1e37d",
+  "size": 15410055,
+  "pdf_url": "https://arxiv.org/pdf/2512.06598v1",
+  "version_label": "arXiv 2512.06598v1（预印本/作者版）",
+  "pages": 23,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 23,
+   "text_chars": 122422,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS180": {
+  "title": "Predicting Pseudo-nitzschia harmful algal blooms along the Portuguese Coast using satellite-derived predictors",
+  "tries": [
+   {
+    "label": "arXiv 2607.07834v1（预印本/作者版）",
+    "url": "https://arxiv.org/pdf/2607.07834v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2607.07834v1",
+    "attempts": 1,
+    "bytes": 11509196,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 33,
+    "text_chars": 96716,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "PredictingPseudo-nitzschiaharmful algal blooms along the Portuguese Coast using satellite-derived predictors Ayman Bnoussaada,∗, El Khalil Cherifb, Ligia Pintob, Ramiro Nevesb, Alexandra D. Silvac,d, Alexandre Bernardinob aISR – Institute for Systems and Robotics, Lisbon, Portugal., bMARETEC/LARSyS,",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2026_Bnoussaad_PredictingPseudoNitzschiaHarmful_en.pdf",
+  "sha256": "a4672f2f6ac3abf87b1982ef803713b1b11e176bec1d079caab5e02712777028",
+  "size": 11509196,
+  "pdf_url": "https://arxiv.org/pdf/2607.07834v1",
+  "version_label": "arXiv 2607.07834v1（预印本/作者版）",
+  "pages": 33,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 33,
+   "text_chars": 96716,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
+ },
+ "TS181": {
+  "title": "Dissolved oxygen forecasting in the Mississippi River: advanced ensemble machine learning models",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ Environmental Science Advances",
+    "url": "https://pubs.rsc.org/en/content/articlepdf/2024/va/d4va00119b",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   },
+   {
+    "label": "OpenAlex OA: submittedVersion @ Archivio Istituzionale della Ricerca - Università degli Studi di Cassino",
+    "url": "https://pubs.rsc.org/va/article-pdf/3/11/1537/10193701/d4va00119b.pdf",
+    "http_status": 403,
+    "error": "HTTP 403",
+    "attempts": 1
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ Environmental Science Advances: HTTP 403; OpenAlex OA: submittedVersion @ Archivio Istituzionale della Ricerca - Università degli Studi di Cassino: HTTP 403"
+ },
+ "TS182": {
+  "title": "Multi-step forecasting of dissolved oxygen in River Ganga based on CEEMDAN-AdaBoost-BiLSTM-LSTM model",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11099056/pdf/41598_2024_Article_61910.pdf",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11099056/pdf/41598_2024_Article_61910.pdf",
+    "attempts": 1,
+    "bytes": 0,
+    "magic_ok": false,
+    "parse_ok": null,
+    "pages": null,
+    "text_chars": null,
+    "title_match": null,
+    "author_found": null,
+    "references_found": null,
+    "supplement_only": null,
+    "lang": null,
+    "error": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google",
+    "first_text_head": null,
+    "verdict": "reject",
+    "why": "not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "failed",
+  "reason": "OpenAlex OA: publishedVersion @ PubMed Central: not a PDF: <!doctype html><html lang=\"en-US\" dir=\"ltr\"><head><base href=\"https://www.google"
+ },
+ "TS183": {
+  "title": "A Benchmark for Physics-informed Machine Learning of Chlorine Concentration States in Water Distribution Networks",
+  "tries": [
+   {
+    "label": "OpenAlex OA: publishedVersion @ SN Computer Science",
+    "url": "https://link.springer.com/content/pdf/10.1007/s42979-025-04008-y.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://link.springer.com/content/pdf/10.1007/s42979-025-04008-y.pdf?error=cookies_not_supported&code=489185c6-049d-4168-9c4c-b6068226bc76",
+    "attempts": 1,
+    "bytes": 2270084,
+    "magic_ok": true,
+    "parse_ok": true,
+    "pages": 18,
+    "text_chars": 72269,
+    "title_match": 1.0,
+    "author_found": true,
+    "references_found": true,
+    "supplement_only": false,
+    "lang": "en",
+    "error": null,
+    "first_text_head": "Vol.:(0123456789) SN Computer Science (2025) 6:522 https://doi.org/10.1007/s42979-025-04008-y SN Computer Science ORIGINAL RESEARCH A Benchmark for Physics‑informed Machine Learning of Chlorine Concentration States in Water Distribution Networks Luca Hermes1 · André Artelt1,2 · Stelios G. Vrachimis2",
+    "verdict": "ok",
+    "why": ""
+   }
+  ],
+  "category_attempt": "04_water_quality",
+  "status": "ok",
+  "local_path": "pdfs/2025_Hermes_BenchmarkPhysicsInformedMachine_en.pdf",
+  "sha256": "8d1f62ac5517bd3ceedc33903ff6c9967486e2723ed1c194282ec1466154628b",
+  "size": 2270084,
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42979-025-04008-y.pdf",
+  "version_label": "OpenAlex OA: publishedVersion @ SN Computer Science",
+  "pages": 18,
+  "title_match": 1.0,
+  "checks_v2": {
+   "pages": 18,
+   "text_chars": 72269,
+   "title_match": 1.0,
+   "author_found": true,
+   "references_found": true,
+   "supplement_only": false,
+   "lang": "en"
+  }
  }
 }

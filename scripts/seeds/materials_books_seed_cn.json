@@ -1,0 +1,2776 @@
+[
+ {
+  "rank": 1,
+  "kind": "book",
+  "title": "Forecasting: Principles and Practice (3rd ed)",
+  "authors": [
+   "Rob J Hyndman",
+   "George Athanasopoulos"
+  ],
+  "institution": "Monash University / OTexts",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "OTexts",
+  "edition": "3rd edition（同书另有 Python 改编版 'Forecasting: Principles and Practice, the Pythonic Way'，合并为一项）",
+  "original_year": "2013",
+  "version_year": "2021",
+  "homepage": "https://otexts.com/fpp3/",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://otexts.com/fpp3/",
+    "label": "HTML 目录（R 版第 3 版，13 章 + 附录）"
+   },
+   {
+    "url": "https://otexts.com/fpppy/",
+    "label": "HTML 目录（Python 版，15 章 + 3 个附录，同书改编版）"
+   }
+  ],
+  "html_toc": "https://otexts.com/fpp3/",
+  "html_chapters": 13,
+  "completeness_evidence": "官方页面列出全部 13 章与附录，全文免费在线阅读；官方未提供 PDF",
+  "legal_basis": "出版方 OTexts 官方免费在线版（页面写明 Free to read online，未注明许可证）",
+  "language": "en",
+  "topics": [
+   "时间序列基础",
+   "趋势季节分解",
+   "指数平滑",
+   "ARIMA",
+   "动态回归",
+   "层级预测",
+   "预测区间",
+   "滚动评估",
+   "预测组合"
+  ],
+  "level": "入门",
+  "order_hint": "全库第一本；先读本书再读 ADAM、Diebold 与状态空间类书籍",
+  "classic_reason": "第 3 版（2021）为最新 R 版且持续在线修订；Python 版（含 StatsForecast/NeuralForecast 等工具，年份待核实）补足 Python 生态；是预测入门的事实标准教材",
+  "cross_kind": "Monash University ETC3550/ETC5550 Applied forecasting 课程教材（待核实）",
+  "summary": "从时间序列图形、分解、特征、基准方法与评估工具入手，系统讲解回归、指数平滑、ARIMA、动态回归、层级/分组预测及实践问题；使用 R 的 fable 生态，Python 版改用 Nixtla 工具链。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "覆盖面最广、最实用的预测入门书，含时间序列交叉验证与层级预测，是整个学习路线的起点。",
+  "priority": 1
+ },
+ {
+  "rank": 2,
+  "kind": "book",
+  "title": "Bayesian Filtering and Smoothing (2nd ed)",
+  "authors": [
+   "Simo Särkkä",
+   "Lennart Svensson"
+  ],
+  "institution": "Aalto University / Chalmers University of Technology",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press",
+  "edition": "2nd edition",
+  "original_year": "2013",
+  "version_year": "2023",
+  "homepage": "https://users.aalto.fi/~ssarkka/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://users.aalto.fi/~ssarkka/pub/bfs_book_2023_online.pdf",
+    "label": "full book (2nd ed, online version)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者主页提供第 2 版全书 PDF（出版前版本）",
+  "legal_basis": "作者主页经出版社许可提供，仅限个人浏览下载，不得再分发或衍生",
+  "language": "en",
+  "topics": [
+   "状态空间",
+   "卡尔曼滤波",
+   "贝叶斯方法",
+   "非线性",
+   "粒子滤波",
+   "平滑",
+   "参数估计"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在 Labbe《Kalman and Bayesian Filters in Python》与概率基础之后阅读",
+  "classic_reason": "",
+  "cross_kind": "Aalto University ELEC-E8105 Non-linear Filtering and Parameter Estimation 课程教材（待核实）",
+  "summary": "以贝叶斯视角统一讲解卡尔曼滤波、扩展/无迹/高斯滤波、粒子滤波与对应的平滑器及参数估计；第 2 版新增大量内容并配套代码。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "状态空间与滤波方向最权威且合法免费的教材，第 2 版为 2023 年新版。",
+  "priority": 1
+ },
+ {
+  "rank": 3,
+  "kind": "book",
+  "title": "Forecasting and Analytics with the Augmented Dynamic Adaptive Model (ADAM)",
+  "authors": [
+   "Ivan Svetunkov"
+  ],
+  "institution": "Lancaster University / openforecast.org",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Chapman and Hall/CRC",
+  "edition": "online v2（作者称在线版内容多于印刷版）",
+  "original_year": "2023",
+  "version_year": "2023",
+  "homepage": "https://openforecast.org/adam/",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://openforecast.org/adam/",
+    "label": "HTML 目录（20 章 + 术语表与参考文献）"
+   }
+  ],
+  "html_toc": "https://openforecast.org/adam/",
+  "html_chapters": 20,
+  "completeness_evidence": "官方页面列出全部 20 章，全文在线免费",
+  "legal_basis": "作者官方在线版，CC BY-NC-SA 4.0",
+  "language": "en",
+  "topics": [
+   "指数平滑",
+   "ARIMA",
+   "状态空间",
+   "动态回归",
+   "多季节",
+   "间歇需求",
+   "预测区间",
+   "模型选择与组合",
+   "预测评估"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在 FPP3 之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "以单一信息源状态空间框架统一 ETS 与 ARIMA，涵盖解释变量、估计、多频季节、间歇需求、诊断、模型选择与组合、不确定性处理和尺度模型，配套 R 包 smooth。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "FPP3 的进阶延伸，深入单源误差状态空间与预测不确定性，2023 年新书且在线持续增补。",
+  "priority": 1
+ },
+ {
+  "rank": 4,
+  "kind": "book",
+  "title": "Forecasting in Economics, Business, Finance and Beyond",
+  "authors": [
+   "Francis X. Diebold"
+  ],
+  "institution": "University of Pennsylvania",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "作者免费电子版（自出版）",
+  "edition": "Edition 2024（版本日期 2024-08-22，据检索摘要）",
+  "original_year": "待核实（前身为 Elements of Forecasting）",
+  "version_year": "2024",
+  "homepage": "https://www.sas.upenn.edu/~fdiebold/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.sas.upenn.edu/~fdiebold/Teaching221/Forecasting.pdf",
+    "label": "full book (Edition 2024)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "搜索引擎索引显示该 PDF 为全书（标题页含版本日期 2024-08-22）；作者站点对本机返回 403，未能用 WebFetch 直接核对页面链接",
+  "legal_basis": "作者个人主页（宾夕法尼亚大学域名）公开；页面版权声明待核实",
+  "language": "en",
+  "topics": [
+   "时间序列基础",
+   "趋势季节分解",
+   "ARIMA",
+   "预测评估",
+   "预测组合",
+   "波动率模型",
+   "宏观经济",
+   "金融"
+  ],
+  "level": "入门",
+  "order_hint": "可与 FPP3 并读，偏经济金融视角",
+  "classic_reason": "",
+  "cross_kind": "UPenn Econ 221 / Forecasting 课程教材（据目录名 Teaching221 推断，待核实）",
+  "summary": "面向本科/硕士的预测教材，从回归与趋势、季节、周期（ARMA）建模到预测评估与组合、波动率等主题，强调经济、商业与金融应用。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "经济金融预测领域权威作者的最新免费版教材，与 FPP3 互补（更重计量与评估）。",
+  "priority": 2
+ },
+ {
+  "rank": 5,
+  "kind": "book",
+  "title": "Forecasting: theory and practice",
+  "authors": [
+   "Fotios Petropoulos",
+   "Daniele Apiletti",
+   "Vassilios Assimakopoulos",
+   "et al.（共 80 位作者）"
+  ],
+  "institution": "International Institute of Forecasters 学界联合",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "International Journal of Forecasting（Elsevier），DOI 10.1016/j.ijforecast.2021.11.001",
+  "edition": "arXiv v4（2022-01-05）",
+  "original_year": "2020",
+  "version_year": "2022",
+  "homepage": "https://arxiv.org/abs/2012.03854",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2012.03854",
+    "label": "full text (arXiv v4)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 提供全文（百科式长综述，书本长度，非教科书）",
+  "legal_basis": "arXiv 作者开放预印本",
+  "language": "en",
+  "topics": [
+   "预测组合",
+   "概率预测",
+   "层级预测",
+   "机器学习",
+   "预测评估",
+   "判断预测",
+   "应用（能源/金融/零售/环境等）"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在 FPP3 之后作为全景参考；按需查阅",
+  "classic_reason": "2022 定稿，仍是预测理论与实践最全面的百科式综述，暂无替代",
+  "cross_kind": "",
+  "summary": "预测领域的百科式参考：近 80 位作者分别撰写理论方法（统计、ML、组合、不确定性、评估）与实践应用条目，每条附关键文献。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "以短条目形式覆盖预测理论与实践全景并给出文献索引，适合作为全库导航。",
+  "priority": 1,
+  "exclude": "期刊长综述（非书籍/专著），不计入书籍类；同类内容已在论文库通用方法类中覆盖"
+ },
+ {
+  "rank": 6,
+  "kind": "book",
+  "title": "Time Series for Macroeconomics and Finance",
+  "authors": [
+   "John H. Cochrane"
+  ],
+  "institution": "University of Chicago（写作时）",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "作者讲义（未正式出版）",
+  "edition": "讲义版",
+  "original_year": "1997（待核实）",
+  "version_year": "2005（待核实）",
+  "homepage": "https://www.johnhcochrane.com/research-all/time-series-for-macroeconomics-and-finance",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.johnhcochrane.com/s/time_series_book.pdf",
+    "label": "full notes"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者主页提供全书 PDF（一个文件）",
+  "legal_basis": "作者主页公开",
+  "language": "en",
+  "topics": [
+   "ARIMA",
+   "平稳性与自相关",
+   "谱分析",
+   "多元时间序列",
+   "非平稳（单位根、协整）",
+   "宏观经济",
+   "金融"
+  ],
+  "level": "进阶",
+  "order_hint": "在 FPP3 之后、Stoica 谱分析之前阅读",
+  "classic_reason": "经典简明讲义，宏观金融时间序列核心概念（滞后算子、ARMA、VAR、脉冲响应、谱表示、单位根与协整）讲解清晰，仍被大量课程引用",
+  "cross_kind": "",
+  "summary": "约百余页的宏观金融时间序列讲义，覆盖 ARMA、预测与脉冲响应、VAR、谱表示与滤波、单位根与协整等（依据公开目录，未精读）。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "以最短篇幅建立严谨的线性时间序列直觉，适合作为理论入门。",
+  "priority": 2
+ },
+ {
+  "rank": 7,
+  "kind": "book",
+  "title": "Probabilistic Machine Learning: Advanced Topics",
+  "authors": [
+   "Kevin P. Murphy"
+  ],
+  "institution": "Google DeepMind / MIT Press",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "MIT Press",
+  "edition": "1st edition（作者草稿 PDF，页面标注 2025-12-10）",
+  "original_year": "2023",
+  "version_year": "2023",
+  "homepage": "https://probml.github.io/pml-book/book2.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://github.com/probml/pml2-book/releases/latest/download/book2.pdf",
+    "label": "full book (draft pdf)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者官方页面提供主书草稿全文 PDF",
+  "legal_basis": "作者官方 PDF，CC BY-NC-ND",
+  "language": "en",
+  "topics": [
+   "状态空间",
+   "卡尔曼滤波",
+   "粒子滤波",
+   "高斯过程",
+   "贝叶斯方法",
+   "深度学习",
+   "概率预测",
+   "不确定性"
+  ],
+  "level": "高级",
+  "order_hint": "在 PML 第一卷与 Särkkä 之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "概率机器学习高级卷，涵盖推断（含高斯滤波与平滑、序贯蒙特卡洛）、预测与不确定性、生成模型、状态空间与时间序列等（具体章节号待核实）。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "把状态空间、序列模型与现代深度/概率方法放在统一框架中，是高级阶段的总参考。",
+  "priority": 1
+ },
+ {
+  "rank": 8,
+  "kind": "book",
+  "title": "Spatio-Temporal Statistics with R",
+  "authors": [
+   "Christopher K. Wikle",
+   "Andrew Zammit-Mangion",
+   "Noel Cressie"
+  ],
+  "institution": "University of Missouri / University of Wollongong",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Chapman & Hall/CRC",
+  "edition": "1st edition",
+  "original_year": "2019",
+  "version_year": "2019",
+  "homepage": "https://spacetimewithr.org/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://spacetimewithr.org/Spatio-Temporal%20Statistics%20with%20R.pdf",
+    "label": "full book"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方网站声明 'PDF is free for download'，下载页给出全书 PDF",
+  "legal_basis": "作者官方网站免费提供（许可证未注明）",
+  "language": "en",
+  "topics": [
+   "时空分析",
+   "层级贝叶斯",
+   "动态时空模型",
+   "预测评估"
+  ],
+  "level": "进阶",
+  "order_hint": "在 FPP3 与 BDA3 基础章节之后阅读",
+  "classic_reason": "时空统计最权威的免费教材之一，层级动态时空模型方法自 2019 以来未被取代",
+  "cross_kind": "",
+  "summary": "从时空数据探索出发，讲解描述性（协方差）与动态（状态空间式）时空模型、基函数表示、模型评估与验证，并配 R 实验。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐空间-时间分析主题，是空气质量、水文、气象类应用的方法基础。",
+  "priority": 1
+ },
+ {
+  "rank": 9,
+  "kind": "book",
+  "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+  "authors": [
+   "Anastasios N. Angelopoulos",
+   "Stephen Bates"
+  ],
+  "institution": "UC Berkeley",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "arXiv（作者预印本）",
+  "edition": "arXiv v6（2022-12-07）",
+  "original_year": "2021",
+  "version_year": "2022",
+  "homepage": "https://arxiv.org/abs/2107.07511",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2107.07511",
+    "label": "full text (arXiv v6)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 全文（长篇教程/小册子）",
+  "legal_basis": "arXiv 作者开放预印本",
+  "language": "en",
+  "topics": [
+   "预测区间",
+   "校准",
+   "不确定性",
+   "共形预测",
+   "分布漂移"
+  ],
+  "level": "入门",
+  "order_hint": "在 ISLP/ESL 基础之后阅读，再读《Theoretical Foundations of Conformal Prediction》",
+  "classic_reason": "共形预测最广泛使用的入门读物，时间序列共形区间方法均以此为起点",
+  "cross_kind": "",
+  "summary": "以大量示例和代码讲解分裂共形预测、条件覆盖、分布漂移与时间序列等扩展，强调实用的无分布不确定性量化。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "预测区间/校准主题的首选入门，篇幅适中、可直接落地。",
+  "priority": 1
+ },
+ {
+  "rank": 10,
+  "kind": "book",
+  "title": "Theoretical Foundations of Conformal Prediction",
+  "authors": [
+   "Anastasios N. Angelopoulos",
+   "Rina Foygel Barber",
+   "Stephen Bates"
+  ],
+  "institution": "UC Berkeley / University of Chicago",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press（即将出版）",
+  "edition": "arXiv v5（2026-03-06，出版前版本）",
+  "original_year": "2024",
+  "version_year": "2026",
+  "homepage": "https://arxiv.org/abs/2411.11824",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2411.11824",
+    "label": "full book (arXiv v5)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 页面说明为将由 CUP 出版的书稿全文",
+  "legal_basis": "arXiv 作者版，仅限个人使用，不得再分发/衍生（版权归作者）",
+  "language": "en",
+  "topics": [
+   "预测区间",
+   "校准",
+   "不确定性",
+   "共形预测",
+   "非可交换/在线设定"
+  ],
+  "level": "高级",
+  "order_hint": "在 Gentle Introduction 之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "系统给出共形预测的理论基础：可交换性、覆盖保证、条件覆盖的界限、超越可交换性的扩展等（章节细节待核实）。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "共形预测的权威理论书稿，支撑时间序列下区间方法的严格理解。",
+  "priority": 2
+ },
+ {
+  "rank": 11,
+  "kind": "book",
+  "title": "Gaussian Processes for Machine Learning",
+  "authors": [
+   "Carl Edward Rasmussen",
+   "Christopher K. I. Williams"
+  ],
+  "institution": "University of Cambridge / University of Edinburgh",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "MIT Press",
+  "edition": "1st edition",
+  "original_year": "2006",
+  "version_year": "2006",
+  "homepage": "https://gaussianprocess.org/gpml/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://gaussianprocess.org/gpml/chapters/RW.pdf",
+    "label": "full book"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方章节页给出全书 PDF RW.pdf",
+  "legal_basis": "MIT Press 同意在网上提供全书（官方页面声明）",
+  "language": "en",
+  "topics": [
+   "高斯过程",
+   "贝叶斯方法",
+   "核方法",
+   "不确定性",
+   "概率预测"
+  ],
+  "level": "进阶",
+  "order_hint": "在概率与线性代数基础之后阅读",
+  "classic_reason": "高斯过程领域的标准参考，回归/分类/协方差函数/模型选择的经典表述，至今仍被时间序列 GP 方法引用",
+  "cross_kind": "",
+  "summary": "系统讲解高斯过程回归与分类、协方差函数、模型选择与超参数、与其他方法的关系及近似方法。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "提供带不确定性的非参数时序回归基础（核设计可编码趋势与周期）。",
+  "priority": 2
+ },
+ {
+  "rank": 12,
+  "kind": "book",
+  "title": "Spectral Analysis of Signals",
+  "authors": [
+   "Petre Stoica",
+   "Randolph L. Moses"
+  ],
+  "institution": "Uppsala University / Ohio State University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Prentice Hall",
+  "edition": "作者主页 PDF（出版前排版稿，约 2004 年）",
+  "original_year": "1997（前身 Introduction to Spectral Analysis）",
+  "version_year": "2005",
+  "homepage": "https://user.it.uu.se/~ps/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://user.it.uu.se/~ps/SAS-new.pdf",
+    "label": "full book (author pre-publication version)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者主页 'Download' 链接给出全书 PDF；另提供配套 SASbook.zip",
+  "legal_basis": "作者主页公开提供下载（未见许可声明）",
+  "language": "en",
+  "topics": [
+   "谱分析",
+   "平稳性与自相关",
+   "AR/ARMA 谱估计",
+   "线谱估计",
+   "阵列信号"
+  ],
+  "level": "高级",
+  "order_hint": "在 Cochrane 讲义与基础概率之后阅读",
+  "classic_reason": "谱估计的经典研究生教材，非参数/参数谱估计方法的权威表述，无同等质量的免费新书",
+  "cross_kind": "",
+  "summary": "讲解非参数谱估计（周期图、Blackman-Tukey、Welch 等）、有理谱的参数方法（AR、MA、ARMA）、线谱方法、滤波器组与空间（阵列）谱分析。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "填补谱分析主题，FPP 类书籍基本不涉及。",
+  "priority": 2
+ },
+ {
+  "rank": 13,
+  "kind": "book",
+  "title": "Modelling our Changing World",
+  "authors": [
+   "Jennifer L. Castle",
+   "David F. Hendry"
+  ],
+  "institution": "University of Oxford",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Palgrave Macmillan（Springer），Palgrave Texts in Econometrics",
+  "edition": "1st edition",
+  "original_year": "2019",
+  "version_year": "2019",
+  "homepage": "https://link.springer.com/book/10.1007/978-3-030-21432-6",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-21432-6.pdf",
+    "label": "full book (open access)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Springer 页面标注开放获取并给出全书 PDF；8 章",
+  "legal_basis": "出版社开放获取，CC BY 4.0",
+  "language": "en",
+  "topics": [
+   "非平稳",
+   "结构突变",
+   "指标饱和",
+   "模型选择",
+   "预测",
+   "气候/宏观应用"
+  ],
+  "level": "入门",
+  "order_hint": "在 FPP3 之后阅读，作为结构突变与非平稳的入门",
+  "classic_reason": "少见的以非平稳与结构突变为核心、且 CC BY 开放的书，方法（指标饱和）仍是该方向主流工具",
+  "cross_kind": "",
+  "summary": "以通俗方式讲解为何世界总在变化、趋势与突变的建模、指标饱和检测变化、理论与数据结合以及在变化世界中的预测。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "专门覆盖非平稳/结构突变主题，与 Hendry 学派预测失败理论衔接。",
+  "priority": 1
+ },
+ {
+  "rank": 14,
+  "kind": "book",
+  "title": "That's weird! Anomaly detection using R",
+  "authors": [
+   "Rob J Hyndman"
+  ],
+  "institution": "Monash University / OTexts",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "OTexts",
+  "edition": "在线版",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://otexts.com/weird/",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://otexts.com/weird/",
+    "label": "HTML 目录（16 章 + 附录）"
+   }
+  ],
+  "html_toc": "https://otexts.com/weird/",
+  "html_chapters": 16,
+  "completeness_evidence": "官方页面列出全部 16 章与附录，免费在线阅读",
+  "legal_basis": "出版方 OTexts 官方免费在线版（未注明许可证）",
+  "language": "en",
+  "topics": [
+   "异常检测",
+   "时间序列异常",
+   "高维",
+   "函数数据"
+  ],
+  "level": "进阶",
+  "order_hint": "在 FPP3 之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "从概率分布、检验、箱线图到基于距离/密度/回归/高维的方法讲解异常检测，并有时间序列、函数数据、事件日志等专章。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐异常检测主题，作者与 FPP3 相同、工具链一致。",
+  "priority": 1
+ },
+ {
+  "rank": 15,
+  "kind": "book",
+  "title": "Flexible Imputation of Missing Data (2nd ed)",
+  "authors": [
+   "Stef van Buuren"
+  ],
+  "institution": "TNO / Utrecht University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Chapman & Hall/CRC",
+  "edition": "2nd edition",
+  "original_year": "2012",
+  "version_year": "2018",
+  "homepage": "https://stefvanbuuren.name/fimd/",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://stefvanbuuren.name/fimd/",
+    "label": "HTML 目录（12 章 + 附录）"
+   }
+  ],
+  "html_toc": "https://stefvanbuuren.name/fimd/",
+  "html_chapters": 12,
+  "completeness_evidence": "作者官方在线版列出全部 12 章与附录",
+  "legal_basis": "作者官方在线全文（bookdown；页面未注明许可证）",
+  "language": "en",
+  "topics": [
+   "缺失数据",
+   "多重插补",
+   "纵向数据"
+  ],
+  "level": "进阶",
+  "order_hint": "在概率统计与回归基础之后阅读",
+  "classic_reason": "缺失数据多重插补领域的标准参考（mice 作者），第 2 版为最新版",
+  "cross_kind": "",
+  "summary": "讲解缺失机制、多重插补原理、单变量与多变量插补、多层插补、实践要点及纵向数据（含时间栅格插补）案例。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐缺失数据/插补主题，含纵向数据章节。",
+  "priority": 2
+ },
+ {
+  "rank": 16,
+  "kind": "book",
+  "title": "Kalman and Bayesian Filters in Python",
+  "authors": [
+   "Roger R. Labbe Jr."
+  ],
+  "institution": "GitHub 开源书",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "作者自出版（GitHub）",
+  "edition": "Jupyter 书 + PDF 版",
+  "original_year": "2015（据仓库 LICENSE 版权年，待核实）",
+  "version_year": "待核实",
+  "homepage": "https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://drive.google.com/file/d/0By_SW19c1BfhSVFzNHc0SjduNzg/view?usp=sharing&resourcekey=0-41olC9ht9xE3wQe2zHZ45A",
+    "label": "README 所列 PDF（Google Drive；作者注明 PDF 通常滞后于 GitHub 版）"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "README 列出 14 章 notebook 及附录，并给出全书 PDF 链接；若 Google Drive 下载失败可改用仓库 notebook",
+  "legal_basis": "作者 GitHub 官方仓库，正文 CC BY 4.0，代码 MIT",
+  "language": "en",
+  "topics": [
+   "卡尔曼滤波",
+   "状态空间",
+   "贝叶斯方法",
+   "非线性",
+   "粒子滤波",
+   "平滑"
+  ],
+  "level": "入门",
+  "order_hint": "作为状态空间/滤波的第一本书，之后读 Särkkä & Svensson",
+  "classic_reason": "以交互式代码讲解滤波的最佳入门资料，内容在 GitHub 持续维护",
+  "cross_kind": "",
+  "summary": "从 g-h 滤波、离散贝叶斯、高斯出发，逐步讲解一维/多维卡尔曼滤波、设计、EKF、UKF、粒子滤波、平滑与自适应滤波，全部配 Python 代码。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "以直觉和代码降低卡尔曼滤波门槛，衔接 FPP3 与 Särkkä 的理论书。",
+  "priority": 1
+ },
+ {
+  "rank": 17,
+  "kind": "book",
+  "title": "Dive into Deep Learning",
+  "authors": [
+   "Aston Zhang",
+   "Zachary C. Lipton",
+   "Mu Li",
+   "Alexander J. Smola"
+  ],
+  "institution": "Amazon / d2l.ai",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press",
+  "edition": "PyTorch 版英文 PDF",
+  "original_year": "待核实",
+  "version_year": "2023",
+  "homepage": "https://d2l.ai/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://d2l.ai/d2l-en.pdf",
+    "label": "full book (PyTorch edition)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面顶部导航给出全书 PDF（另有 MXNet 版 PDF）",
+  "legal_basis": "官方网站免费提供（页面未注明许可证，待核实）",
+  "language": "en",
+  "topics": [
+   "深度学习",
+   "RNN/LSTM/GRU",
+   "注意力与 Transformer",
+   "序列模型"
+  ],
+  "level": "入门",
+  "order_hint": "在 ISLP 之后阅读，作为深度学习实践入门",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "交互式深度学习教材，含序列与语言模型、RNN、LSTM/GRU、序列到序列、注意力与 Transformer 等章节，代码可运行。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "深度学习序列模型的实践入门，与 UDL 理论互补。",
+  "priority": 1
+ },
+ {
+  "rank": 18,
+  "kind": "book",
+  "title": "Understanding Deep Learning",
+  "authors": [
+   "Simon J. D. Prince"
+  ],
+  "institution": "University of Bath",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "MIT Press",
+  "edition": "PDF v5.0.3（GitHub release 2026-02-09）",
+  "original_year": "2023",
+  "version_year": "2023",
+  "homepage": "https://udlbook.github.io/udlbook/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf",
+    "label": "full book (latest release PDF)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方 GitHub 仓库 releases 提供全书 PDF（经 GitHub API 核实 latest = v5.0.3）；主页为 JS 渲染未能直接读取链接",
+  "legal_basis": "作者官方仓库，CC BY-NC-ND 4.0",
+  "language": "en",
+  "topics": [
+   "深度学习",
+   "Transformer",
+   "生成模型",
+   "正则化与泛化"
+  ],
+  "level": "进阶",
+  "order_hint": "在 D2L 之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "从监督学习、浅/深网络、损失、训练、正则化到 CNN、残差、Transformer、图网络、GAN、流、VAE、扩散模型与强化学习的系统讲解。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "最新、清晰的深度学习理论教材，理解 Transformer 类时间序列模型的基础。",
+  "priority": 2
+ },
+ {
+  "rank": 19,
+  "kind": "book",
+  "title": "Probabilistic Machine Learning: An Introduction",
+  "authors": [
+   "Kevin P. Murphy"
+  ],
+  "institution": "Google DeepMind / MIT Press",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "MIT Press",
+  "edition": "1st edition（作者草稿 PDF，页面标注 2025-04-18）",
+  "original_year": "2022",
+  "version_year": "2022",
+  "homepage": "https://probml.github.io/pml-book/book1.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://github.com/probml/pml-book/releases/latest/download/book1.pdf",
+    "label": "full book (draft pdf)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者官方页面提供全书草稿 PDF",
+  "legal_basis": "作者官方 PDF，CC BY-NC-ND",
+  "language": "en",
+  "topics": [
+   "概率统计",
+   "机器学习",
+   "深度学习",
+   "贝叶斯方法"
+  ],
+  "level": "进阶",
+  "order_hint": "在 MML 数学基础之后阅读，之后读第二卷",
+  "classic_reason": "现代概率机器学习的标准入门教材，第二卷依赖其记号",
+  "cross_kind": "",
+  "summary": "以概率视角讲解基础概率统计、线性模型、深度网络（含序列网络）、非参数方法与无监督学习。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "为 PML 第二卷与状态空间/概率预测内容打底。",
+  "priority": 2
+ },
+ {
+  "rank": 20,
+  "kind": "book",
+  "title": "The Elements of Statistical Learning (2nd ed)",
+  "authors": [
+   "Trevor Hastie",
+   "Robert Tibshirani",
+   "Jerome Friedman"
+  ],
+  "institution": "Stanford University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer",
+  "edition": "2nd edition, 12th printing (corrected, Jan 2017)",
+  "original_year": "2001",
+  "version_year": "2009",
+  "homepage": "https://hastie.su.domains/ElemStatLearn/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1--Wo5Hcl2y_v3DL-tGgcJHRPdtjiVYjS",
+    "label": "full book（官方 printings/ESLII_print12_toc.pdf.download.html 页面 meta-refresh 指向的 Google Drive 文件）"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方 download.html 给出全书 PDF 链接（12th printing with corrections and TOC）",
+  "legal_basis": "作者官方主页提供（页面未写许可证；长期由作者免费提供）",
+  "language": "en",
+  "topics": [
+   "机器学习",
+   "高维",
+   "模型评估",
+   "交叉验证",
+   "集成方法"
+  ],
+  "level": "高级",
+  "order_hint": "在 ISLP 之后阅读",
+  "classic_reason": "统计学习的经典参考；虽非时间序列专书，但正则化、模型评估与选择、boosting/随机森林是 ML 预测方法的理论基础",
+  "cross_kind": "",
+  "summary": "系统讲解监督学习：线性方法、基展开与正则化、核平滑、模型评估与选择、加性模型与树、boosting、神经网络、SVM、随机森林、高维问题等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "通用 ML 理论参考（理由：ML 预测器与模型评估的理论来源），时间序列内容少，按需查阅。",
+  "priority": 3
+ },
+ {
+  "rank": 21,
+  "kind": "book",
+  "title": "An Introduction to Statistical Learning with Applications in Python",
+  "authors": [
+   "Gareth James",
+   "Daniela Witten",
+   "Trevor Hastie",
+   "Robert Tibshirani",
+   "Jonathan Taylor"
+  ],
+  "institution": "Stanford University / University of Washington",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer",
+  "edition": "Python edition (ISLP)",
+  "original_year": "2013",
+  "version_year": "2023",
+  "homepage": "https://www.statlearning.com/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1ajFkHO6zjrdGNqhqW1jKBZdiNGh_8YQ1",
+    "label": "full book（官方 hastie.su.domains/ISLP/ISLP_website.pdf.download.html 页面 meta-refresh 指向的 Google Drive 文件）"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方主页 'Download the PDFs here' 给出 ISLP 全书 PDF",
+  "legal_basis": "作者官方主页提供（页面仅有版权声明，未写许可证）",
+  "language": "en",
+  "topics": [
+   "机器学习",
+   "交叉验证",
+   "深度学习",
+   "RNN 时间序列预测示例"
+  ],
+  "level": "入门",
+  "order_hint": "在概率统计入门之后阅读，先于 ESL",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "统计学习入门：回归、分类、重采样（交叉验证/bootstrap）、正则化、树与集成、SVM、深度学习（含 RNN 与时间序列预测示例）、生存分析、无监督学习、多重检验，配 Python 实验。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "通用 ML 入门（理由：ML 预测与验证的最低门槛教材），选 Python 版作为同书最新版。",
+  "priority": 2
+ },
+ {
+  "rank": 22,
+  "kind": "book",
+  "title": "Bayesian Data Analysis (3rd ed)",
+  "authors": [
+   "Andrew Gelman",
+   "John B. Carlin",
+   "Hal S. Stern",
+   "David B. Dunson",
+   "Aki Vehtari",
+   "Donald B. Rubin"
+  ],
+  "institution": "Columbia University 等",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Chapman & Hall/CRC",
+  "edition": "3rd edition",
+  "original_year": "1995",
+  "version_year": "2013",
+  "homepage": "https://sites.stat.columbia.edu/gelman/book/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://sites.stat.columbia.edu/gelman/book/BDA3.pdf",
+    "label": "full book"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面 'Here is the book in pdf form' 给出全书 PDF",
+  "legal_basis": "作者主页提供，仅限非商业用途",
+  "language": "en",
+  "topics": [
+   "贝叶斯方法",
+   "层级模型",
+   "模型检验",
+   "高斯过程",
+   "缺失数据"
+  ],
+  "level": "高级",
+  "order_hint": "在概率统计基础之后，与 BMCP 并读",
+  "classic_reason": "贝叶斯统计的标准参考；层级模型与后验预测检验是层级/面板预测与贝叶斯时序的基础",
+  "cross_kind": "",
+  "summary": "系统讲解贝叶斯推断基础、层级模型、模型检验与比较、MCMC 与变分计算、回归与广义线性模型、非参数（含高斯过程）及缺失数据建模。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "通用贝叶斯参考（理由：层级、面板与概率预测建模的核心方法论）。",
+  "priority": 2
+ },
+ {
+  "rank": 23,
+  "kind": "book",
+  "title": "Financial Econometrics Notes",
+  "authors": [
+   "Kevin Sheppard"
+  ],
+  "institution": "University of Oxford",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "作者讲义（未正式出版）",
+  "edition": "2020-2021 版",
+  "original_year": "待核实",
+  "version_year": "2021",
+  "homepage": "https://bashtage.github.io/kevinsheppard.com/teaching/mfe/notes",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://bashtage.github.io/kevinsheppard.com/files/teaching/mfe/notes/financial-econometrics-2020-2021.pdf",
+    "label": "full notes (Complete, print-optimized)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者页面列出 'Complete' 全书 PDF；分章列表中第 6、9 章标为 TBD，全书 PDF 是否包含这两章待核实",
+  "legal_basis": "作者个人网站（bashtage 为作者 GitHub 账户的 Pages 镜像；kevinsheppard.com 证书异常）公开",
+  "language": "en",
+  "topics": [
+   "波动率模型",
+   "单变量时间序列",
+   "多元时间序列",
+   "VaR/风险",
+   "金融"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Cochrane 讲义之后阅读",
+  "classic_reason": "免费金融计量讲义中最完整之一，2021 版为最新整理版",
+  "cross_kind": "University of Oxford MSc Financial Economics: Financial Econometrics I & II 课程讲义",
+  "summary": "牛津 MSc 金融计量讲义：概率与估计检验、横截面回归、单变量时间序列、波动率建模（ARCH/GARCH 等）、多元模型与 VaR 等（依据页面与检索摘要）。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐金融计量与波动率主题。",
+  "priority": 2
+ },
+ {
+  "rank": 24,
+  "kind": "book",
+  "title": "Bayesian Multivariate Time Series Methods for Empirical Macroeconomics",
+  "authors": [
+   "Gary Koop",
+   "Dimitris Korobilis"
+  ],
+  "institution": "University of Strathclyde / University of Glasgow",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "now Publishers（Foundations and Trends in Econometrics），作者预印本存于 MPRA",
+  "edition": "MPRA Paper 20125（工作论文版）",
+  "original_year": "2009",
+  "version_year": "2010",
+  "homepage": "https://mpra.ub.uni-muenchen.de/20125/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://mpra.ub.uni-muenchen.de/20125/1/MPRA_paper_20125.pdf",
+    "label": "full monograph (MPRA working-paper version)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "MPRA 记录页给出全文 PDF（专著长度）",
+  "legal_basis": "作者存缴的机构开放仓储（MPRA）",
+  "language": "en",
+  "topics": [
+   "多元时间序列",
+   "贝叶斯方法",
+   "高维（收缩先验）",
+   "时变参数",
+   "随机波动",
+   "状态空间",
+   "宏观经济"
+  ],
+  "level": "高级",
+  "order_hint": "在 BoE《Applied Bayesian Econometrics》之后阅读",
+  "classic_reason": "BVAR/TVP-VAR 的经典综述型专著，后续大量文献与软件以其为基础",
+  "cross_kind": "",
+  "summary": "讲解贝叶斯 VAR、因子增广 VAR 与时变参数扩展（含多元随机波动），以及所需的状态空间 MCMC 算法，并配 Matlab 代码与实证示例。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "覆盖多元/高维宏观时间序列的贝叶斯方法。",
+  "priority": 2
+ },
+ {
+  "rank": 25,
+  "kind": "book",
+  "title": "Applied Bayesian econometrics for central bankers (updated 2017)",
+  "authors": [
+   "Andrew Blake",
+   "Haroon Mumtaz"
+  ],
+  "institution": "Bank of England, Centre for Central Banking Studies",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Bank of England（CCBS Handbook）",
+  "edition": "updated 2017",
+  "original_year": "2012",
+  "version_year": "2017",
+  "homepage": "https://www.bankofengland.co.uk/ccbs/applied-bayesian-econometrics-for-central-bankers-updated-2017",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/ccbs/resources/applied-bayesian-econometrics-for-central-bankers-updated-2017.pdf",
+    "label": "full handbook"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面给出全书 PDF 与分章 Matlab 代码",
+  "legal_basis": "中央银行官方公开出版物",
+  "language": "en",
+  "topics": [
+   "贝叶斯方法",
+   "多元时间序列（BVAR）",
+   "时变 VAR",
+   "动态因子模型",
+   "状态空间",
+   "宏观经济"
+  ],
+  "level": "进阶",
+  "order_hint": "在 BDA3 基础章节之后，Koop & Korobilis 之前阅读",
+  "classic_reason": "央行官方的贝叶斯时间序列实务手册，2017 更新版为最新版",
+  "cross_kind": "",
+  "summary": "以 Gibbs 抽样与 Metropolis-Hastings 为主线，讲解贝叶斯线性回归、BVAR、时变 VAR 与动态因子模型及 DSGE 估计，附 Matlab 代码。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "满足“央行开放预测手册”需求，实务导向。",
+  "priority": 2
+ },
+ {
+  "rank": 26,
+  "kind": "book",
+  "title": "Handbook on Seasonal Adjustment (2018 edition)",
+  "authors": [
+   "Gian Luigi Mazzi（主编）",
+   "Dominique Ladiray（副主编）"
+  ],
+  "institution": "Eurostat",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Publications Office of the European Union",
+  "edition": "2018 edition",
+  "original_year": "2018",
+  "version_year": "2018",
+  "homepage": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-18-001",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://ec.europa.eu/eurostat/documents/3859598/8939616/KS-GQ-18-001-EN-N.pdf/7c4d120a-4b8a-441b-aefd-6afe81a7cf59?t=1533194231000",
+    "label": "full handbook (EN)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Eurostat 官方页面给出英文全文 PDF",
+  "legal_basis": "欧盟官方出版物，免费；非商业用途可复制（据版权页检索摘要）",
+  "language": "en",
+  "topics": [
+   "季节调整",
+   "趋势季节分解",
+   "日历效应",
+   "X-13/TRAMO-SEATS",
+   "结构时间序列"
+  ],
+  "level": "进阶",
+  "order_hint": "在 FPP3 分解章节之后阅读",
+  "classic_reason": "官方最全面的季节调整手册；2024 ESS Guidelines 为简短规范，不替代本手册",
+  "cross_kind": "",
+  "summary": "汇集季节调整理论与实践：分解原理、X-11/X-13 与 TRAMO-SEATS、日历与异常值处理、基于模型的方法、修订与质量评估等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "满足官方机构季节调整/分解主题，适合宏观与业务数据。",
+  "priority": 2
+ },
+ {
+  "rank": 27,
+  "kind": "book",
+  "title": "Core Concepts and Methods in Load Forecasting: With Applications in Distribution Networks",
+  "authors": [
+   "Stephen Haben",
+   "Marcus Voss",
+   "William Holderbaum"
+  ],
+  "institution": "Springer（开放获取）",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer Cham",
+  "edition": "1st edition",
+  "original_year": "2023",
+  "version_year": "2023",
+  "homepage": "https://link.springer.com/book/10.1007/978-3-031-27852-5",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-27852-5.pdf",
+    "label": "full book (open access)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Springer 页面标注 Open Access 并给出全书 PDF；15 章",
+  "legal_basis": "出版社开放获取（页面未显示具体许可证，待核实）",
+  "language": "en",
+  "topics": [
+   "能源",
+   "负荷预测",
+   "概率预测",
+   "预测评估",
+   "特征工程",
+   "机器学习",
+   "滚动评估"
+  ],
+  "level": "进阶",
+  "order_hint": "在 FPP3 之后阅读，作为能源应用主书",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "从配电网与统计/ML 入门出发，讲解时间序列预测核心概念、负荷数据准备与特征、预测评估、训练与选择、基准/统计/ML 点预测、概率预测、预测流程及低压负荷案例。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "能源应用方向最新且完整的 OA 教材，含评估与流程实践。",
+  "priority": 1
+ },
+ {
+  "rank": 28,
+  "kind": "book",
+  "title": "Statistical Methods in Water Resources (USGS TM 4-A3)",
+  "authors": [
+   "Dennis R. Helsel",
+   "Robert M. Hirsch",
+   "Karen R. Ryberg",
+   "Stacey A. Archfield",
+   "Edward J. Gilroy"
+  ],
+  "institution": "U.S. Geological Survey",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "U.S. Geological Survey（Techniques and Methods 4-A3）",
+  "edition": "2020 edition（取代 TWRI 4-A3 v1.1 / 2002 在线版）",
+  "original_year": "1992",
+  "version_year": "2020",
+  "homepage": "https://pubs.usgs.gov/publication/tm4A3",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://pubs.usgs.gov/tm/04/a03/tm4a3.pdf",
+    "label": "full report (xxii + 458 p.)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "USGS 官方页面给出全书 PDF（458 页）",
+  "legal_basis": "美国政府出版物（公有领域）",
+  "language": "en",
+  "topics": [
+   "水质",
+   "水文",
+   "趋势检验",
+   "非参数统计",
+   "删失数据",
+   "回归"
+  ],
+  "level": "进阶",
+  "order_hint": "在概率统计入门之后阅读",
+  "classic_reason": "水文水质统计的权威手册，2020 版为最新修订",
+  "cross_kind": "",
+  "summary": "面向水资源数据的统计方法：描述统计、不确定性区间、假设检验、非参数方法、相关与回归、删失数据、趋势分析（Mann-Kendall、Sen 斜率等）与样本设计。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "覆盖水质/水文应用中的趋势与统计检验。",
+  "priority": 1
+ },
+ {
+  "rank": 29,
+  "kind": "book",
+  "title": "Data Assimilation Fundamentals: A Unified Formulation of the State and Parameter Estimation Problem",
+  "authors": [
+   "Geir Evensen",
+   "Femke C. Vossepoel",
+   "Peter Jan van Leeuwen"
+  ],
+  "institution": "Springer（开放获取）",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer Cham（Springer Textbooks in Earth Sciences, Geography and Environment）",
+  "edition": "1st edition",
+  "original_year": "2022",
+  "version_year": "2022",
+  "homepage": "https://link.springer.com/book/10.1007/978-3-030-96709-3",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-96709-3.pdf",
+    "label": "full book (open access)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Springer 页面标注开放获取教材并给出全书 PDF",
+  "legal_basis": "出版社开放获取（页面未显示具体许可证，待核实）",
+  "language": "en",
+  "topics": [
+   "数据同化",
+   "卡尔曼滤波（EnKF）",
+   "4DVar",
+   "状态空间",
+   "非线性",
+   "气象/地学"
+  ],
+  "level": "高级",
+  "order_hint": "在 Särkkä & Svensson 之后阅读",
+  "classic_reason": "以统一贝叶斯表述讲解状态与参数估计的 OA 数据同化教材，2022 年后无同类新书",
+  "cross_kind": "",
+  "summary": "从贝叶斯问题表述出发，推导 MAP、强/弱约束 4DVar、卡尔曼滤波与 3DVar、集合方法、全非线性同化、局地化与膨胀，并给出 Lorenz、平流等示例。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "连接状态空间滤波与气象/水文业务预报的数据同化主题。",
+  "priority": 2
+ },
+ {
+  "rank": 30,
+  "kind": "book",
+  "title": "Data Assimilation: A Mathematical Introduction",
+  "authors": [
+   "Kody J. H. Law",
+   "Andrew M. Stuart",
+   "Konstantinos C. Zygalakis"
+  ],
+  "institution": "University of Warwick / Caltech 等",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer（Texts in Applied Mathematics），arXiv 作者版",
+  "edition": "arXiv v1（2015-06-25）",
+  "original_year": "2015",
+  "version_year": "2015",
+  "homepage": "https://arxiv.org/abs/1506.07825",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/1506.07825",
+    "label": "full notes (arXiv v1)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 提供全文（书稿/讲义全文）",
+  "legal_basis": "arXiv 作者开放版",
+  "language": "en",
+  "topics": [
+   "数据同化",
+   "滤波与平滑",
+   "贝叶斯方法",
+   "状态空间",
+   "非线性"
+  ],
+  "level": "高级",
+  "order_hint": "在 Särkkä & Svensson 之后阅读，与 Evensen 互补",
+  "classic_reason": "数学严谨的数据同化入门，滤波/平滑稳定性分析的标准参考",
+  "cross_kind": "",
+  "summary": "以数学方式系统讲解离散与连续时间的滤波与平滑问题、确定性/随机动力学、变分方法、卡尔曼与粒子滤波及其稳定性。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "为数据同化与非线性滤波提供严谨理论。",
+  "priority": 3
+ },
+ {
+  "rank": 31,
+  "kind": "book",
+  "title": "Elements of Sequential Monte Carlo",
+  "authors": [
+   "Christian A. Naesseth",
+   "Fredrik Lindsten",
+   "Thomas B. Schön"
+  ],
+  "institution": "Linköping University / Uppsala University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "now Publishers（Foundations and Trends in Machine Learning），arXiv 作者版",
+  "edition": "arXiv v3（2024-12）",
+  "original_year": "2019",
+  "version_year": "2024",
+  "homepage": "https://arxiv.org/abs/1903.04797",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/1903.04797",
+    "label": "full monograph (arXiv v3)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 提供全文（FnT 专著长度教程）",
+  "legal_basis": "arXiv 作者开放预印本",
+  "language": "en",
+  "topics": [
+   "粒子滤波",
+   "状态空间",
+   "贝叶斯方法",
+   "变分推断"
+  ],
+  "level": "高级",
+  "order_hint": "在 Särkkä & Svensson 粒子滤波章节之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "系统讲解 SMC 的基本机制、实践问题与理论结果，提议分布与中间目标设计，以变分推断学习提议分布，以及基于归一化常数估计的伪边缘推断与模型评估。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "粒子滤波/SMC 的现代专著，衔接状态空间与概率机器学习。",
+  "priority": 2
+ },
+ {
+  "rank": 32,
+  "kind": "book",
+  "title": "Applied Stochastic Differential Equations",
+  "authors": [
+   "Simo Särkkä",
+   "Arno Solin"
+  ],
+  "institution": "Aalto University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press",
+  "edition": "1st edition",
+  "original_year": "2019",
+  "version_year": "2019",
+  "homepage": "https://users.aalto.fi/~ssarkka/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://users.aalto.fi/~ssarkka/pub/sde_book.pdf",
+    "label": "full book"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者主页提供全书 PDF",
+  "legal_basis": "作者主页经出版社许可提供，个人使用",
+  "language": "en",
+  "topics": [
+   "随机过程",
+   "随机微分方程",
+   "连续时间状态空间",
+   "滤波",
+   "高斯过程"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Durrett《Essentials of Stochastic Processes》之后阅读",
+  "classic_reason": "面向应用的 SDE 教材，连续时间随机过程与滤波/GP 联系的标准参考",
+  "cross_kind": "",
+  "summary": "讲解随机微分方程的应用导向理论：伊藤积分、线性 SDE、数值解、参数估计、与高斯过程及连续-离散滤波的联系，附 MATLAB 代码。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐连续时间随机过程基础。",
+  "priority": 2
+ },
+ {
+  "rank": 33,
+  "kind": "book",
+  "title": "Essentials of Stochastic Processes",
+  "authors": [
+   "Rick Durrett"
+  ],
+  "institution": "Duke University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer",
+  "edition": "3rd edition（作者 PDF Version 3.9, May 2021）",
+  "original_year": "待核实",
+  "version_year": "2021",
+  "homepage": "https://sites.math.duke.edu/~rtd/EOSP/eosp.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://sites.math.duke.edu/~rtd/EOSP/EOSP2021.pdf",
+    "label": "full book (version 3.9)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者书页给出全书 PDF",
+  "legal_basis": "作者主页公开（页面无许可声明）",
+  "language": "en",
+  "topics": [
+   "随机过程",
+   "马尔可夫链",
+   "泊松过程",
+   "鞅",
+   "概率统计"
+  ],
+  "level": "入门",
+  "order_hint": "在概率入门（如 Grinstead & Snell）之后阅读",
+  "classic_reason": "随机过程本科/硕士标准教材，作者持续修订的免费 PDF",
+  "cross_kind": "",
+  "summary": "讲解离散时间马尔可夫链、泊松过程、更新过程、连续时间马尔可夫链、鞅与金融数学初步等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐随机过程基础主题。",
+  "priority": 2
+ },
+ {
+  "rank": 34,
+  "kind": "book",
+  "title": "Pattern Recognition and Machine Learning",
+  "authors": [
+   "Christopher M. Bishop"
+  ],
+  "institution": "Microsoft Research",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer",
+  "edition": "1st edition",
+  "original_year": "2006",
+  "version_year": "2006",
+  "homepage": "https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf",
+    "label": "full book"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "微软研究院官方页面 'Now available to download in full as a PDF'",
+  "legal_basis": "作者所在机构官方免费提供",
+  "language": "en",
+  "topics": [
+   "机器学习",
+   "贝叶斯方法",
+   "序列数据（HMM、线性动态系统）",
+   "高斯过程",
+   "核方法"
+  ],
+  "level": "进阶",
+  "order_hint": "在 MML 之后阅读",
+  "classic_reason": "机器学习经典教材，其序列数据章节（HMM 与线性动态系统/卡尔曼）是概率时序模型的标准表述",
+  "cross_kind": "",
+  "summary": "以贝叶斯视角讲解概率分布、线性模型、神经网络、核方法与高斯过程、图模型、混合模型与 EM、近似推断、采样，以及序列数据（HMM、LDS）。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "提供 HMM/LDS 的经典概率表述；注意：本机 HEAD 请求被微软返回 403（反爬），浏览器可正常访问。",
+  "priority": 3
+ },
+ {
+  "rank": 35,
+  "kind": "book",
+  "title": "Mathematics for Machine Learning",
+  "authors": [
+   "Marc Peter Deisenroth",
+   "A. Aldo Faisal",
+   "Cheng Soon Ong"
+  ],
+  "institution": "Imperial College London 等",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press",
+  "edition": "1st edition",
+  "original_year": "2020",
+  "version_year": "2020",
+  "homepage": "https://mml-book.github.io/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://mml-book.github.io/book/mml-book.pdf",
+    "label": "full book"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面给出全书 PDF",
+  "legal_basis": "作者承诺 PDF 永久免费（版权归作者）",
+  "language": "en",
+  "topics": [
+   "线性代数",
+   "概率统计",
+   "优化",
+   "数学基础"
+  ],
+  "level": "入门",
+  "order_hint": "全库数学基础，最先阅读",
+  "classic_reason": "ML 数学基础的标准免费教材，内容稳定无需新版",
+  "cross_kind": "",
+  "summary": "讲解线性代数、解析几何、矩阵分解、向量微积分、概率与分布、连续优化，以及线性回归、PCA、GMM、SVM 四个应用。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "为所有进阶书提供数学基础。",
+  "priority": 2
+ },
+ {
+  "rank": 36,
+  "kind": "book",
+  "title": "Patterns, Predictions, and Actions: Foundations of Machine Learning",
+  "authors": [
+   "Moritz Hardt",
+   "Benjamin Recht"
+  ],
+  "institution": "Max Planck Institute for Intelligent Systems / UC Berkeley",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Princeton University Press",
+  "edition": "1st edition（网页版比 arXiv 版更新）",
+  "original_year": "2022",
+  "version_year": "2022",
+  "homepage": "https://mlstory.org/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://mlstory.org/pdf/patterns.pdf",
+    "label": "full preprint PDF"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面 'Full preprint as PDF'",
+  "legal_basis": "作者官方，CC BY-NC-ND 4.0",
+  "language": "en",
+  "topics": [
+   "预测基础",
+   "数据集与基准",
+   "泛化",
+   "因果推断",
+   "序贯决策",
+   "可复现性与评估"
+  ],
+  "level": "进阶",
+  "order_hint": "在 ISLP 之后阅读",
+  "classic_reason": "讨论数据集、基准测试与 holdout 复用风险的少数教材，对应评估/泄漏/可复现性主题",
+  "cross_kind": "",
+  "summary": "从预测基础、监督学习、表示、优化、泛化、深度学习出发，专章讨论数据集与基准文化、因果性与因果推断实践、序贯决策与强化学习。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐“评估、数据泄漏、可复现性”主题的理论与历史视角。",
+  "priority": 2
+ },
+ {
+  "rank": 37,
+  "kind": "book",
+  "title": "Online Learning: A Modern Introduction Using Convex Optimization",
+  "authors": [
+   "Francesco Orabona"
+  ],
+  "institution": "KAUST / Boston University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press（即将出版），arXiv 作者版",
+  "edition": "arXiv v10（2026-06-21，作者称最终版）",
+  "original_year": "2019",
+  "version_year": "2026",
+  "homepage": "https://arxiv.org/abs/1912.13213",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/1912.13213",
+    "label": "full book (arXiv v10)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 提供全书（作者注明为将由 CUP 出版的最终版）",
+  "legal_basis": "arXiv 作者开放版",
+  "language": "en",
+  "topics": [
+   "在线学习",
+   "遗憾界",
+   "在线预测",
+   "非平稳"
+  ],
+  "level": "高级",
+  "order_hint": "在 MML 与凸优化基础之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "以凸优化视角讲解在线学习：在线梯度下降、FTRL、在线镜像下降、参数无关算法、专家问题、多臂老虎机等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "为在线/自适应预测（含自适应共形、非平稳流数据）提供理论基础。",
+  "priority": 3
+ },
+ {
+  "rank": 38,
+  "kind": "book",
+  "title": "On Neural Differential Equations",
+  "authors": [
+   "Patrick Kidger"
+  ],
+  "institution": "University of Oxford（博士论文）",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "arXiv（Oxford DPhil thesis）",
+  "edition": "博士论文，231 页",
+  "original_year": "2022",
+  "version_year": "2022",
+  "homepage": "https://arxiv.org/abs/2202.02435",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2202.02435",
+    "label": "full thesis"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 全文（231 页，书本长度）",
+  "legal_basis": "arXiv 作者开放版",
+  "language": "en",
+  "topics": [
+   "深度学习",
+   "连续时间模型",
+   "不规则采样时间序列",
+   "Neural ODE/CDE/SDE",
+   "生成模型"
+  ],
+  "level": "高级",
+  "order_hint": "在 UDL 与 Särkkä & Solin 之后阅读",
+  "classic_reason": "神经微分方程最系统的书本长度综述，neural CDE 是不规则采样时间序列建模的代表方法",
+  "cross_kind": "",
+  "summary": "系统讲解神经 ODE、受控微分方程（神经 CDE，用于不规则采样时间序列）、神经 SDE 及其数值求解与训练技巧。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐连续时间深度时序模型与不规则采样/缺失数据场景。",
+  "priority": 3
+ },
+ {
+  "rank": 39,
+  "kind": "book",
+  "title": "Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land",
+  "authors": [
+   "Simone Scardapane"
+  ],
+  "institution": "Sapienza University of Rome",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "arXiv（作者版）",
+  "edition": "arXiv v3（2025-08-29）",
+  "original_year": "2024",
+  "version_year": "2025",
+  "homepage": "https://arxiv.org/abs/2404.17625",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/2404.17625",
+    "label": "full book volume I (arXiv v3)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 提供第一卷全文（另有配套网站补充章节）",
+  "legal_basis": "arXiv 作者开放版",
+  "language": "en",
+  "topics": [
+   "深度学习",
+   "Transformer",
+   "循环/状态空间序列模型",
+   "图神经网络"
+  ],
+  "level": "进阶",
+  "order_hint": "在 D2L 之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "以可微编程视角讲解现代神经网络：自动微分、卷积、Transformer、图模型、循环模型等（序列模型含线性循环/状态空间类模型的章节细节待核实）。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "较新的深度学习书，覆盖 Transformer 与现代循环/SSM 序列架构，接近 TS 基础模型所用骨干。",
+  "priority": 3
+ },
+ {
+  "rank": 40,
+  "kind": "book",
+  "title": "Bayesian Modeling and Computation in Python",
+  "authors": [
+   "Osvaldo A. Martin",
+   "Ravin Kumar",
+   "Junpeng Lao"
+  ],
+  "institution": "bayesiancomputationbook.com",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Chapman & Hall/CRC",
+  "edition": "1st edition（在线版）",
+  "original_year": "2021",
+  "version_year": "2021",
+  "homepage": "https://bayesiancomputationbook.com/welcome.html",
+  "format": "html",
+  "files": [
+   {
+    "url": "https://bayesiancomputationbook.com/welcome.html",
+    "label": "HTML 目录（11 章）"
+   }
+  ],
+  "html_toc": "https://bayesiancomputationbook.com/welcome.html",
+  "html_chapters": 11,
+  "completeness_evidence": "官方在线版列出全部 11 章及附录",
+  "legal_basis": "作者官方在线全文，正文 CC BY-NC-SA 4.0",
+  "language": "en",
+  "topics": [
+   "贝叶斯方法",
+   "时间序列（AR、结构时间序列/状态空间）",
+   "概率编程",
+   "BART"
+  ],
+  "level": "进阶",
+  "order_hint": "在 BDA3 前几章之后阅读",
+  "classic_reason": "贝叶斯时间序列（第 6 章）+ 概率编程实践的少数开放书",
+  "cross_kind": "",
+  "summary": "以 PyMC/TFP 等讲解贝叶斯推断、探索性分析、线性/扩展模型、样条、时间序列（第 6 章）、BART、ABC、端到端工作流与概率编程语言。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "提供贝叶斯时间序列建模的 Python 实践。",
+  "priority": 3
+ },
+ {
+  "rank": 41,
+  "kind": "book",
+  "title": "Data Science for Economics and Finance: Methodologies and Applications",
+  "authors": [
+   "Sergio Consoli（编）",
+   "Diego Reforgiato Recupero（编）",
+   "Michaela Saisana（编）"
+  ],
+  "institution": "Springer（开放获取）",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer Cham",
+  "edition": "1st edition（编著）",
+  "original_year": "2021",
+  "version_year": "2021",
+  "homepage": "https://link.springer.com/book/10.1007/978-3-030-66891-4",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-66891-4.pdf",
+    "label": "full book (open access)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Springer 页面标注开放获取并给出全书 PDF；14 章",
+  "legal_basis": "出版社开放获取（页面未显示具体许可证，待核实）",
+  "language": "en",
+  "topics": [
+   "现时预测",
+   "机器学习",
+   "金融",
+   "宏观经济",
+   "新数据源",
+   "可解释性"
+  ],
+  "level": "进阶",
+  "order_hint": "在 FPP3 与 ISLP 之后阅读",
+  "classic_reason": "经济金融领域 ML/大数据方法的 OA 编著，含宏观现时预测与波动资产预测章节",
+  "cross_kind": "",
+  "summary": "汇集经济金融数据科学方法与应用：ML 可解释性与经济预测、海量数据宏观现时预测、央行新数据源、新闻情感、市场风险预测、极端波动资产预测等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补充金融/宏观应用中的 ML 预测实践。",
+  "priority": 3
+ },
+ {
+  "rank": 42,
+  "kind": "book",
+  "title": "Forecasting and Assessing Risk of Individual Electricity Peaks",
+  "authors": [
+   "Maria Jacob",
+   "Cláudia Neves",
+   "Danica Vukadinović Greetham"
+  ],
+  "institution": "Springer（开放获取）",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer Cham（Mathematics of Planet Earth / SpringerBriefs）",
+  "edition": "1st edition",
+  "original_year": "2019（电子版）",
+  "version_year": "2020",
+  "homepage": "https://link.springer.com/book/10.1007/978-3-030-28669-9",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-28669-9.pdf",
+    "label": "full book (open access)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Springer 页面标注开放获取并给出全书 PDF；5 章",
+  "legal_basis": "出版社开放获取（页面未显示具体许可证，待核实）",
+  "language": "en",
+  "topics": [
+   "能源",
+   "短期负荷预测",
+   "极值理论",
+   "峰值风险",
+   "概率预测"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Haben 等《Core Concepts and Methods in Load Forecasting》之后阅读",
+  "classic_reason": "把短期负荷预测与极值统计结合的少数 OA 书",
+  "cross_kind": "",
+  "summary": "介绍个体（家庭）短期负荷预测方法，并用极值理论与极值统计评估用电峰值风险，附案例研究。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐能源应用中的极值/尾部风险预测。",
+  "priority": 3
+ },
+ {
+  "rank": 43,
+  "kind": "book",
+  "title": "Manual on Flood Forecasting and Warning (WMO-No. 1072)",
+  "authors": [
+   "World Meteorological Organization"
+  ],
+  "institution": "World Meteorological Organization",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "WMO",
+  "edition": "2011 edition",
+  "original_year": "2011",
+  "version_year": "2011",
+  "homepage": "https://old.wmo.int/extranet/pages/prog/hwrp/manuals.php",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://old.wmo.int/extranet/pages/prog/hwrp/publications/flood_forecasting_warning/WMO%201072_en.pdf",
+    "label": "full manual (EN)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "WMO 水文手册页面列出英文全文 PDF（书店信息 97 页）",
+  "legal_basis": "国际组织官方公开出版物",
+  "language": "en",
+  "topics": [
+   "水文",
+   "洪水预报",
+   "预警系统",
+   "业务预报"
+  ],
+  "level": "入门",
+  "order_hint": "作为水文应用的业务入门，配合 Helsel 统计手册",
+  "classic_reason": "WMO 官方洪水预报手册，第 2 版（改称 Guide）仍在修订，2011 版为现行版",
+  "cross_kind": "",
+  "summary": "概述洪水预报与预警所需的基础知识：数据与监测、预报模型类型、预报系统建设与运行、预警发布与传播等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐水文业务预报应用。",
+  "priority": 2
+ },
+ {
+  "rank": 44,
+  "kind": "book",
+  "title": "Guidelines on Ensemble Prediction Systems and Forecasting (WMO-No. 1091)",
+  "authors": [
+   "World Meteorological Organization"
+  ],
+  "institution": "World Meteorological Organization",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "WMO",
+  "edition": "2012 edition（Updated Sept. 2012）",
+  "original_year": "2012",
+  "version_year": "2012",
+  "homepage": "https://old.wmo.int/extranet/pages/prog/www/DPFS/Manual/EPS-Guidelines.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://old.wmo.int/extranet/pages/prog/www/DPFS/Manual/documents/1091_Guidelines_on_EPS_en.pdf",
+    "label": "full guidelines (EN)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "WMO 官方页面给出英文全文 PDF",
+  "legal_basis": "国际组织官方公开出版物",
+  "language": "en",
+  "topics": [
+   "集合预报",
+   "概率预测",
+   "不确定性",
+   "气象",
+   "预报产品与解释"
+  ],
+  "level": "入门",
+  "order_hint": "在概率预测基础之后阅读",
+  "classic_reason": "WMO 官方集合预报指南；后续 WMO-No.1254（后处理）为补充",
+  "cross_kind": "",
+  "summary": "介绍集合预报系统原理、集合产品与概率预报、预报员使用与解释、向用户传达不确定性等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐气象集合/概率预报应用。",
+  "priority": 3
+ },
+ {
+  "rank": 45,
+  "kind": "book",
+  "title": "User guide to Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages for hydrologic data (USGS TM 4-A10)",
+  "authors": [
+   "Robert M. Hirsch",
+   "Laura A. De Cicco"
+  ],
+  "institution": "U.S. Geological Survey",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "U.S. Geological Survey（Techniques and Methods 4-A10）",
+  "edition": "2015",
+  "original_year": "2015",
+  "version_year": "2015",
+  "homepage": "https://pubs.usgs.gov/publication/tm4A10",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://pubs.usgs.gov/tm/04/a10/pdf/tm4A10.pdf",
+    "label": "full report (93 p. + appendixes)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "USGS 官方页面给出全文 PDF",
+  "legal_basis": "美国政府出版物（公有领域）",
+  "language": "en",
+  "topics": [
+   "水质",
+   "水文",
+   "趋势分析（WRTDS）",
+   "季节性",
+   "负荷估计"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Helsel《Statistical Methods in Water Resources》之后阅读",
+  "classic_reason": "WRTDS 水质趋势方法的官方实践手册，仍是 USGS 标准工具",
+  "cross_kind": "",
+  "summary": "讲解 EGRET 与 dataRetrieval：获取 USGS 水文水质数据，用 WRTDS（时间-流量-季节加权回归）估计浓度与通量趋势并作图诊断。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐水质时间序列趋势分析实践。",
+  "priority": 3
+ },
+ {
+  "rank": 46,
+  "kind": "book",
+  "title": "Handbook on Rapid Estimates (2017 edition)",
+  "authors": [
+   "Eurostat（与 UNSD、CBS Netherlands 工作组）"
+  ],
+  "institution": "Eurostat",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Publications Office of the European Union",
+  "edition": "2017 edition",
+  "original_year": "2017",
+  "version_year": "2017",
+  "homepage": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-17-008",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://ec.europa.eu/eurostat/documents/3859598/8555708/KS-GQ-17-008-EN-N.pdf/7f40c70d-0a44-4459-b5b3-72894e13ca6d?t=1513758176000",
+    "label": "full handbook (EN)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Eurostat 官方页面给出英文全文 PDF",
+  "legal_basis": "欧盟官方出版物，免费",
+  "language": "en",
+  "topics": [
+   "现时预测",
+   "快速估计",
+   "混频模型",
+   "动态因子模型",
+   "宏观经济"
+  ],
+  "level": "进阶",
+  "order_hint": "在 BoE 手册与 FPP3 动态回归之后阅读",
+  "classic_reason": "官方统计机构的快速估计/现时预测手册，尚无新版",
+  "cross_kind": "",
+  "summary": "概述快速估计的类型与所用统计计量方法（桥方程、因子模型、混频等）、实施指南与质量评估。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐现时预测（nowcasting）官方方法。",
+  "priority": 3
+ },
+ {
+  "rank": 47,
+  "kind": "book",
+  "title": "Quarterly National Accounts Manual (2017 edition)",
+  "authors": [
+   "International Monetary Fund, Statistics Department"
+  ],
+  "institution": "International Monetary Fund",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "International Monetary Fund",
+  "edition": "2017 edition",
+  "original_year": "2001",
+  "version_year": "2017",
+  "homepage": "https://www.imf.org/external/pubs/ft/qna/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.imf.org/external/pubs/ft/qna/pdf/2017/QNAManual2017text.pdf",
+    "label": "full manual (2017)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "IMF 官方页面给出全书 PDF（另有分章 PDF，第 6 章基准化与调和、第 7 章季节调整）",
+  "legal_basis": "国际组织官方公开出版物",
+  "language": "en",
+  "topics": [
+   "季节调整",
+   "基准化与调和（Denton 等）",
+   "时间分解",
+   "宏观经济"
+  ],
+  "level": "进阶",
+  "order_hint": "与 Eurostat 季节调整手册并读，重点读第 6、7 章",
+  "classic_reason": "IMF 官方季度核算手册 2017 版为最新版，基准化/时间分解方法为官方标准",
+  "cross_kind": "",
+  "summary": "IMF 季度国民账户编制手册：数据源、基准化与调和（第 6 章）、季节调整（第 7 章）、修订政策等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "满足 IMF 开放手册需求，补齐基准化/时间分解方法。",
+  "priority": 3
+ },
+ {
+  "rank": 48,
+  "kind": "book",
+  "title": "Intermediate Quantitative Economics with Python",
+  "authors": [
+   "Thomas J. Sargent",
+   "John Stachurski"
+  ],
+  "institution": "QuantEcon",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "QuantEcon（在线讲义）",
+  "edition": "滚动更新版（以下载时 PDF 为准）",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://python.quantecon.org/intro.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://python.quantecon.org/_pdf/quantecon-python.pdf",
+    "label": "full lecture series book PDF"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面给出 'Book (PDF)' 全书下载",
+  "legal_basis": "官方公开，CC BY-SA 4.0",
+  "language": "en",
+  "topics": [
+   "卡尔曼滤波",
+   "线性状态空间",
+   "VAR",
+   "AR(1) 预测",
+   "似然过程",
+   "宏观经济"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Cochrane 讲义之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "QuantEcon 中级讲义集，含线性状态空间、卡尔曼滤波（三讲）、VAR 与 DMD、AR(1) 预测、似然过程等时序相关讲次及大量 Python 代码。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "以可运行代码连接经济学时序模型与卡尔曼滤波。",
+  "priority": 3
+ },
+ {
+  "rank": 49,
+  "kind": "book",
+  "title": "Statistical Learning with Sparsity: The Lasso and Generalizations",
+  "authors": [
+   "Trevor Hastie",
+   "Robert Tibshirani",
+   "Martin Wainwright"
+  ],
+  "institution": "Stanford University / UC Berkeley",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Chapman & Hall/CRC",
+  "edition": "1st edition",
+  "original_year": "2015",
+  "version_year": "2015",
+  "homepage": "https://hastie.su.domains/StatLearnSparsity/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1-9MWBSfViiymncPD60bCDTAicai3o2W8",
+    "label": "full book（官方 StatLearnSparsity_files/SLS.pdf.download.html 页面 meta-refresh 指向的 Google Drive 文件）"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面给出全书 PDF 下载链接",
+  "legal_basis": "经出版社许可提供，仅限个人使用",
+  "language": "en",
+  "topics": [
+   "高维",
+   "稀疏建模（lasso）",
+   "模型选择",
+   "图模型"
+  ],
+  "level": "高级",
+  "order_hint": "在 ESL 之后阅读",
+  "classic_reason": "稀疏/高维统计的标准参考，稀疏 VAR 等高维时序方法的基础",
+  "cross_kind": "",
+  "summary": "讲解 lasso 及其推广、广义线性模型、优化算法、统计推断、矩阵分解、稀疏多元方法、图模型选择与理论结果。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐高维时间序列所需的稀疏建模基础。",
+  "priority": 3
+ },
+ {
+  "rank": 50,
+  "kind": "book",
+  "title": "Computer Age Statistical Inference: Algorithms, Evidence, and Data Science",
+  "authors": [
+   "Bradley Efron",
+   "Trevor Hastie"
+  ],
+  "institution": "Stanford University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press",
+  "edition": "1st edition",
+  "original_year": "2016",
+  "version_year": "2016",
+  "homepage": "https://hastie.su.domains/CASI/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://drive.google.com/uc?export=download&id=1--hEc7dt-bfMxF-qhKsPuDxDEVJzLalS",
+    "label": "full book（官方 CASI_files/PDF/casi.pdf.download.html 页面 meta-refresh 指向的 Google Drive 文件）"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方 order.html 的 'Download PDF' 给出全书 PDF",
+  "legal_basis": "经出版社许可提供，仅限个人使用",
+  "language": "en",
+  "topics": [
+   "概率统计",
+   "bootstrap",
+   "交叉验证与预测误差",
+   "经验贝叶斯",
+   "贝叶斯方法"
+  ],
+  "level": "进阶",
+  "order_hint": "在概率统计入门之后、ESL 之前阅读",
+  "classic_reason": "统计推断现代全景的经典教材，bootstrap/交叉验证/预测误差估计的权威表述",
+  "cross_kind": "",
+  "summary": "回顾经典频率与贝叶斯推断，再讲 bootstrap、交叉验证与预测误差估计、经验贝叶斯、大规模假设检验、稀疏建模、随机森林与 boosting、神经网络等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "补齐统计推断基础与预测误差评估。",
+  "priority": 3
+ },
+ {
+  "rank": 51,
+  "kind": "book",
+  "title": "Water Resource Systems Planning and Management: An Introduction to Methods, Models, and Applications",
+  "authors": [
+   "Daniel P. Loucks",
+   "Eelco van Beek"
+  ],
+  "institution": "Cornell University / Deltares",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer Cham",
+  "edition": "1st edition（Springer 版）",
+  "original_year": "2005（UNESCO/Deltares 前版）",
+  "version_year": "2017",
+  "homepage": "https://link.springer.com/book/10.1007/978-3-319-44234-1",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-44234-1.pdf",
+    "label": "full book (open access)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Springer 页面给出全书 PDF；13 章",
+  "legal_basis": "出版社开放获取，CC BY-NC 4.0",
+  "language": "en",
+  "topics": [
+   "水文",
+   "水资源系统",
+   "不确定性",
+   "水质建模与预测",
+   "数据驱动模型"
+  ],
+  "level": "入门",
+  "order_hint": "在 Helsel 手册之后阅读",
+  "classic_reason": "水资源系统分析经典教材的 OA 版本",
+  "cross_kind": "",
+  "summary": "讲解水资源系统建模、优化、数据拟合与进化模型、概率统计与不确定性建模、敏感性分析、水质建模与预测、流域与城市水系统。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：水文/水质应用背景书。",
+  "priority": 3
+ },
+ {
+  "rank": 52,
+  "kind": "book",
+  "title": "Think DSP: Digital Signal Processing in Python",
+  "authors": [
+   "Allen B. Downey"
+  ],
+  "institution": "Olin College / Green Tea Press",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Green Tea Press",
+  "edition": "1st edition",
+  "original_year": "2016（待核实）",
+  "version_year": "待核实",
+  "homepage": "https://greenteapress.com/wp/think-dsp/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "http://greenteapress.com/thinkdsp/thinkdsp.pdf",
+    "label": "full book (1st edition)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面给出全书免费 PDF",
+  "legal_basis": "作者官方，CC BY-NC 3.0",
+  "language": "en",
+  "topics": [
+   "谱分析",
+   "DFT/频谱图",
+   "滤波",
+   "自相关",
+   "噪声"
+  ],
+  "level": "入门",
+  "order_hint": "在 Stoica 谱分析之前作为直观入门",
+  "classic_reason": "以代码讲解频谱分析的直观入门，第 2 版尚未出版",
+  "cross_kind": "",
+  "summary": "用 Python 讲解声音与信号、谐波、非周期信号与频谱图、噪声、自相关、DCT/DFT、滤波与卷积、LTI 系统等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：谱分析入门（实践向）。",
+  "priority": 3
+ },
+ {
+  "rank": 53,
+  "kind": "book",
+  "title": "High-Dimensional Probability: An Introduction with Applications in Data Science (2nd ed)",
+  "authors": [
+   "Roman Vershynin"
+  ],
+  "institution": "University of California, Irvine",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press",
+  "edition": "2nd edition（出版前版本）",
+  "original_year": "2018",
+  "version_year": "2026",
+  "homepage": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf",
+    "label": "full book (2nd edition)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者书页 'Always free -- Download the Second Edition'",
+  "legal_basis": "作者主页，仅限个人使用，不得再分发",
+  "language": "en",
+  "topics": [
+   "高维",
+   "集中不等式",
+   "随机矩阵",
+   "概率统计"
+  ],
+  "level": "高级",
+  "order_hint": "在 Durrett 概率书之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "讲解高维概率工具：集中不等式、随机向量与矩阵、随机过程链式方法、稀疏恢复与协方差估计等应用。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：高维时序理论基础。",
+  "priority": 3
+ },
+ {
+  "rank": 54,
+  "kind": "book",
+  "title": "Introduction to Online Convex Optimization (2nd ed)",
+  "authors": [
+   "Elad Hazan"
+  ],
+  "institution": "Princeton University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "MIT Press，arXiv 作者版",
+  "edition": "2nd edition（arXiv v3, 2023-08-06）",
+  "original_year": "2016",
+  "version_year": "2023",
+  "homepage": "https://arxiv.org/abs/1909.05207",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://arxiv.org/pdf/1909.05207",
+    "label": "full book (arXiv v3)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "arXiv 提供全书",
+  "legal_basis": "arXiv 作者开放版",
+  "language": "en",
+  "topics": [
+   "在线学习",
+   "遗憾界",
+   "在线预测"
+  ],
+  "level": "高级",
+  "order_hint": "与 Orabona 二选一",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "在线凸优化教材：在线梯度下降、二阶方法、正则化、bandit、投影自由方法、博弈与 boosting 等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：在线预测理论（与 Orabona 重叠，作为替补）。",
+  "priority": 3
+ },
+ {
+  "rank": 55,
+  "kind": "book",
+  "title": "X-13ARIMA-SEATS Reference Manual",
+  "authors": [
+   "U.S. Census Bureau"
+  ],
+  "institution": "U.S. Census Bureau",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "U.S. Census Bureau",
+  "edition": "软件参考手册（版本待核实）",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://www.census.gov/data/software/x13as.References.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www2.census.gov/software/x-13arima-seats/x13as/unix-linux/documentation/docx13as.pdf",
+    "label": "reference manual"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方 References 页面给出手册 PDF",
+  "legal_basis": "美国政府出版物（公有领域）",
+  "language": "en",
+  "topics": [
+   "季节调整",
+   "regARIMA",
+   "日历效应",
+   "异常值"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Eurostat 季节调整手册之后按需查阅",
+  "classic_reason": "官方季节调整软件的参考手册（版本年份待核实）",
+  "cross_kind": "",
+  "summary": "X-13ARIMA-SEATS 程序参考手册：regARIMA 建模、X-11 与 SEATS 季节调整、交易日/节假日效应、诊断与规格说明。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：季节调整软件实务。",
+  "priority": 3
+ },
+ {
+  "rank": 56,
+  "kind": "book",
+  "title": "Probability: Theory and Examples (5th ed)",
+  "authors": [
+   "Rick Durrett"
+  ],
+  "institution": "Duke University",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Cambridge University Press",
+  "edition": "5th edition",
+  "original_year": "待核实",
+  "version_year": "2019",
+  "homepage": "https://sites.math.duke.edu/~rtd/PTE/pte.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+    "label": "full book (Version 5)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者书页给出全书 PDF",
+  "legal_basis": "作者主页公开（页面无许可声明）",
+  "language": "en",
+  "topics": [
+   "测度论概率",
+   "鞅",
+   "马尔可夫链",
+   "遍历定理",
+   "布朗运动"
+  ],
+  "level": "高级",
+  "order_hint": "在 Essentials of Stochastic Processes 之后阅读",
+  "classic_reason": "研究生概率论标准教材，遍历定理与鞅是平稳过程理论基础",
+  "cross_kind": "",
+  "summary": "测度论概率：大数定律、中心极限定理、随机游走、鞅、马尔可夫链、遍历定理、布朗运动等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：高级概率基础。",
+  "priority": 3
+ },
+ {
+  "rank": 57,
+  "kind": "book",
+  "title": "Elements of Causal Inference: Foundations and Learning Algorithms",
+  "authors": [
+   "Jonas Peters",
+   "Dominik Janzing",
+   "Bernhard Schölkopf"
+  ],
+  "institution": "University of Copenhagen / MPI for Intelligent Systems",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "MIT Press",
+  "edition": "1st edition（开放获取）",
+  "original_year": "2017",
+  "version_year": "2017",
+  "homepage": "https://mitpress.mit.edu/9780262037310/elements-of-causal-inference/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://library.oapen.org/bitstream/id/056a11be-ce3a-44b9-8987-a6c68fce8d9b/11283.pdf",
+    "label": "full book (OAPEN)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "检索结果显示 OAPEN 收录全书 PDF；MIT Press 与 OAPEN 页面对本机均返回 403，未能直接核对 → 存疑",
+  "legal_basis": "MIT Press 开放获取（许可证待核实）；作者主页称可从 MIT Press 免费下载",
+  "language": "en",
+  "topics": [
+   "因果推断",
+   "时间序列因果（Granger 等）",
+   "结构因果模型"
+  ],
+  "level": "高级",
+  "order_hint": "在 PRML/PML 之后阅读",
+  "classic_reason": "因果学习的标准开放教材，含时间序列因果专章",
+  "cross_kind": "",
+  "summary": "讲解结构因果模型、干预与反事实、从观测与干预数据学习因果结构，并有多变量与时间序列因果章节。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：时间序列因果；下载可达性存疑。",
+  "priority": 3
+ },
+ {
+  "rank": 58,
+  "kind": "book",
+  "title": "Causal Inference: What If",
+  "authors": [
+   "Miguel A. Hernán",
+   "James M. Robins"
+  ],
+  "institution": "Harvard T.H. Chan School of Public Health",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Chapman & Hall/CRC",
+  "edition": "在线最新版（文件名 19aug26）",
+  "original_year": "2020",
+  "version_year": "待核实",
+  "homepage": "https://miguelhernan.org/whatifbook",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://miguelhernan.org/s/hernanrobins_WhatIf_19aug26.pdf",
+    "label": "full book (latest version)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方页面 'Get the latest version of the book here' 给出全书 PDF",
+  "legal_basis": "作者官方页面声明可免费下载",
+  "language": "en",
+  "topics": [
+   "因果推断",
+   "纵向数据",
+   "时变处理（g-方法）"
+  ],
+  "level": "进阶",
+  "order_hint": "在 BDA3 基础之后阅读",
+  "classic_reason": "因果推断标准开放教材，含时变处理与纵向数据（Part III）",
+  "cross_kind": "",
+  "summary": "从因果定义、随机化、观察性研究讲起，到模型化方法与时变处理的 g-方法（g-formula、IPW、g-estimation）。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：纵向/面板数据中的因果评估。",
+  "priority": 3
+ },
+ {
+  "rank": 59,
+  "kind": "book",
+  "title": "Statistical Foundations of Actuarial Learning and its Applications",
+  "authors": [
+   "Mario V. Wüthrich",
+   "Michael Merz"
+  ],
+  "institution": "ETH Zürich / University of Hamburg",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "Springer Cham（Springer Actuarial）",
+  "edition": "1st edition",
+  "original_year": "2022（电子版）",
+  "version_year": "2023",
+  "homepage": "https://link.springer.com/book/10.1007/978-3-031-12409-9",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-12409-9.pdf",
+    "label": "full book (open access)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Springer 页面标注开放获取并给出全书 PDF；13 章",
+  "legal_basis": "出版社开放获取（页面未显示具体许可证，待核实）",
+  "language": "en",
+  "topics": [
+   "预测评估与评分规则",
+   "RNN",
+   "深度学习",
+   "保险/死亡率时间序列"
+  ],
+  "level": "进阶",
+  "order_hint": "在 ISLP 之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "从指数分散族、估计理论、预测建模与预测评估（第 4 章）、GLM、贝叶斯与正则化到深度学习、RNN（第 8 章）、CNN、NLP 等。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：预测评估（评分规则）与 RNN 时序应用。",
+  "priority": 3
+ },
+ {
+  "rank": 60,
+  "kind": "book",
+  "title": "Introduction to Probability (GNU FDL version)",
+  "authors": [
+   "Charles M. Grinstead",
+   "J. Laurie Snell"
+  ],
+  "institution": "Swarthmore College / Dartmouth College",
+  "course_name": "",
+  "course_code": "",
+  "term": "",
+  "prerequisites": "",
+  "publisher": "American Mathematical Society（印刷版）",
+  "edition": "2nd revised edition 的 GNU FDL 版",
+  "original_year": "1997",
+  "version_year": "待核实",
+  "homepage": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/book.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "http://math.dartmouth.edu/~prob/prob/prob.pdf",
+    "label": "full book (GNU FDL version)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "官方书页给出 GNU 版全书 PDF",
+  "legal_basis": "GNU Free Documentation License",
+  "language": "en",
+  "topics": [
+   "概率统计",
+   "马尔可夫链",
+   "随机游走",
+   "大数定律与中心极限定理"
+  ],
+  "level": "入门",
+  "order_hint": "全库概率入门，先于 Durrett",
+  "classic_reason": "经典免费概率入门教材，GNU FDL 许可，内容稳定",
+  "cross_kind": "",
+  "summary": "讲解离散与连续概率、组合、条件概率、分布与密度、期望方差、大数定律、中心极限定理、生成函数、马尔可夫链与随机游走。",
+  "summary_basis": "官方页面描述与目录",
+  "reason": "备选：概率入门（若需更基础的起点）。",
+  "priority": 3
+ }
+]

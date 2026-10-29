@@ -226,6 +226,8 @@ def merge(proj):
         if not p.exists():
             continue
         for i, s in enumerate(json.loads(p.read_text())):
+            if s.get("exclude"):          # screened out by the coordinator (reason kept in the seed)
+                continue
             s = dict(s, kind=kind)
             keys = [f"title:{norm(s.get('title', ''))}"] + [f"url:{f['url']}" for f in s.get("files", [])]
             hit = next((by_key[k] for k in keys if k in by_key), None)

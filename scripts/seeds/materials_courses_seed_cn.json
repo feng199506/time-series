@@ -1,0 +1,5031 @@
+[
+ {
+  "rank": 1,
+  "kind": "course",
+  "title": "Modeling and Analysis of Time Series Data (class notes)",
+  "authors": [
+   "Edward L. Ionides"
+  ],
+  "institution": "University of Michigan",
+  "course_name": "Modeling and Analysis of Time Series Data",
+  "course_code": "DATASCI/STATS 531/631",
+  "term": "Winter 2025",
+  "prerequisites": "531 页面未列先修；631 要求至少一门博士核心课（如 STATS 600）",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2025",
+  "homepage": "https://ionides.github.io/531w25/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ionides.github.io/531w25/01/notes.pdf",
+    "label": "Chapter 1: Introduction (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/02/notes.pdf",
+    "label": "Chapter 2: Estimating trend and autocovariance (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/03/notes.pdf",
+    "label": "Chapter 3: Stationarity, white noise, and basic time series models (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/04/notes.pdf",
+    "label": "Chapter 4: Linear time series models and the algebra of ARMA models (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/05/notes.pdf",
+    "label": "Chapter 5: Parameter estimation and model identification for ARMA models (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/06/notes.pdf",
+    "label": "Chapter 6: Extending the ARMA model: seasonality, integration and trend (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/07/notes.pdf",
+    "label": "Chapter 7: Introduction to time series analysis in the frequency domain (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/08/notes.pdf",
+    "label": "Chapter 8: Smoothing in the time and frequency domains (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/09/notes.pdf",
+    "label": "Chapter 9: Case study: unemployment and mortality (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/10/notes.pdf",
+    "label": "Chapter 10: Forecasting (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/11/notes.pdf",
+    "label": "Chapter 11: Introduction to partially observed Markov process (POMP) models (notes.pdf)"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/intro/notes.pdf",
+    "label": "Chapter 12: Simulation-based inference for epidemiological dynamics via pomp (notes.pdf)"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/stochsim/notes.pdf",
+    "label": "Chapter 13: Simulation of stochastic dynamic models (notes.pdf)"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/pfilter/notes.pdf",
+    "label": "Chapter 14: Likelihood for POMP models: theory and practice (notes.pdf)"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/mif/notes.pdf",
+    "label": "Chapter 15: Likelihood maximization for POMP models (notes.pdf)"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/polio/notes.pdf",
+    "label": "Chapter 16: Case study: polio (notes.pdf)"
+   },
+   {
+    "url": "https://ionides.github.io/531w25/17/notes.pdf",
+    "label": "Chapter 17: Case study: financial volatility and a POMP model (notes.pdf)"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/measles/notes.pdf",
+    "label": "Chapter 18: Case study: measles (notes.pdf)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程主页列出 18 章 class notes，每章页面均给出 notes.pdf（另有 slides.pdf/annotated slides），此处列全部 18 份 notes.pdf；第 12-16、18 章的 notes 由课程页链接至合作课程 kingaa.github.io/sbied（同一套 POMP 讲义）",
+  "legal_basis": "课程官方页面公开（GitHub Pages，页面含 Acknowledgements and License）",
+  "language": "en",
+  "topics": [
+   "平稳性与自相关",
+   "趋势估计",
+   "ARMA/ARIMA/SARIMA",
+   "谱分析与平滑",
+   "预测",
+   "状态空间/POMP 模型",
+   "粒子滤波与模拟似然",
+   "金融波动率",
+   "流行病时间序列"
+  ],
+  "level": "进阶",
+  "order_hint": "适合作为第一门系统课程；前置概率统计与回归；后半部分可在学完 Kalman 滤波后精读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "密歇根大学研究生时间序列课程，前半部分讲 ARMA、回归加 ARMA 误差、谱密度估计与预测，后半部分转向状态空间与部分观测马尔可夫过程（POMP），用蒙特卡罗/粒子滤波拟合非线性动态模型，案例覆盖生态、流行病、金融。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "新近（2025）、讲义完整、从经典 ARMA 平滑过渡到非线性状态空间与似然推断，案例与 R 代码齐全，是覆盖面最好的单门课程之一。",
+  "priority": 1
+ },
+ {
+  "rank": 2,
+  "kind": "course",
+  "title": "Introduction to Time Series (Stat 153, Fall 2023) lecture slides",
+  "authors": [
+   "Ryan Tibshirani"
+  ],
+  "institution": "University of California, Berkeley",
+  "course_name": "Introduction to Time Series",
+  "course_code": "Stat 153",
+  "term": "Fall 2023",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2023",
+  "homepage": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/characteristics.pdf",
+    "label": "Characteristics of time series"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/dependence.pdf",
+    "label": "Measures of dependence"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/regression.pdf",
+    "label": "Regression and prediction"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/smoothing.pdf",
+    "label": "Regularization and smoothing"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/spectral.pdf",
+    "label": "Spectral analysis"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/arima.pdf",
+    "label": "ARIMA models"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/ets.pdf",
+    "label": "ETS models"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/timeseries-f23/lectures/advanced.pdf",
+    "label": "Advanced topics"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程日程表列出 8 个讲题，每个讲题给出 pdf/html/source，8 份 PDF 全部列出（其余周次为同一讲题的延续，无单独文件）",
+  "legal_basis": "课程官方页面公开（源码托管于 GitHub 公开仓库）",
+  "language": "en",
+  "topics": [
+   "时间序列特征与依赖度量",
+   "回归与预测",
+   "正则化与平滑",
+   "谱分析",
+   "ARIMA",
+   "指数平滑/ETS",
+   "预测评估"
+  ],
+  "level": "入门",
+  "order_hint": "可作为首门入门课；之后接 Michigan STATS 531 或 Stanford STATS 207",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "伯克利本科时间序列课，以预测为导向，按“特征—依赖—回归与预测—平滑—谱分析—ARIMA—ETS—进阶主题”组织，讲义为 Quarto 生成的完整幻灯片并附 R 源码。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "2023 年新版、作者是预测与统计学习领域专家，内容兼顾经典模型与现代预测实践，适合作入门主线。",
+  "priority": 1
+ },
+ {
+  "rank": 3,
+  "kind": "course",
+  "title": "ETC3550/ETC5550 Applied forecasting — weekly lecture slides",
+  "authors": [
+   "Rob J Hyndman",
+   "Anastasios Panagiotelis"
+  ],
+  "institution": "Monash University",
+  "course_name": "Applied forecasting",
+  "course_code": "ETC3550/ETC5550",
+  "term": "Semester 2（课程表自 27 Jul 起；年份页面未写明，2026-10 抓取时为当前学期，待核实）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2026（待核实）",
+  "homepage": "https://af.numbat.space/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://af.numbat.space/week1/slides.pdf",
+    "label": "Week 1: Introduction to forecasting & R"
+   },
+   {
+    "url": "https://af.numbat.space/week2/slides.pdf",
+    "label": "Week 2: Time series graphics"
+   },
+   {
+    "url": "https://af.numbat.space/week3/slides.pdf",
+    "label": "Week 3: Time series decomposition"
+   },
+   {
+    "url": "https://af.numbat.space/week4/slides.pdf",
+    "label": "Week 4: Simple forecasting methods"
+   },
+   {
+    "url": "https://af.numbat.space/week5/slides.pdf",
+    "label": "Week 5: Accuracy evaluation"
+   },
+   {
+    "url": "https://af.numbat.space/week6/slides.pdf",
+    "label": "Week 6: ETS models (part 1)"
+   },
+   {
+    "url": "https://af.numbat.space/week7/slides.pdf",
+    "label": "Week 7: ETS models (part 2)"
+   },
+   {
+    "url": "https://af.numbat.space/week8/slides.pdf",
+    "label": "Week 8: ARIMA models (part 1)"
+   },
+   {
+    "url": "https://af.numbat.space/week9/slides.pdf",
+    "label": "Week 9: ARIMA models (part 2)"
+   },
+   {
+    "url": "https://af.numbat.space/week10/slides.pdf",
+    "label": "Week 10: ARIMA models (part 3)"
+   },
+   {
+    "url": "https://af.numbat.space/week11/slides.pdf",
+    "label": "Week 11: Forecasting using regression"
+   },
+   {
+    "url": "https://af.numbat.space/week12/slides.pdf",
+    "label": "Week 12: Dynamic regression"
+   },
+   {
+    "url": "https://af.numbat.space/week12/revision_slides.pdf",
+    "label": "Week 12: Revision slides"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程主页 12 周每周页面均给出 slides.pdf，第 12 周另有 revision_slides.pdf，共 13 份全部列出",
+  "legal_basis": "课程官方页面公开（幻灯片源码在作者 GitHub 公开）",
+  "language": "en",
+  "topics": [
+   "时间序列图形",
+   "分解",
+   "基准预测方法",
+   "预测精度评估与时间序列交叉验证",
+   "指数平滑/ETS",
+   "ARIMA",
+   "动态回归",
+   "预测区间"
+  ],
+  "level": "入门",
+  "order_hint": "与 fpp3 教材配套阅读；可在 Berkeley Stat 153 之前或同时学习",
+  "classic_reason": "",
+  "cross_kind": "配套教材 Forecasting: Principles and Practice (3rd ed., Hyndman & Athanasopoulos)",
+  "summary": "莫纳什大学应用预测课，围绕 fpp3 教材逐周讲授图形、分解、基准方法、精度评估、ETS、ARIMA、回归与动态回归，强调 fable/tsibble 工作流与滚动起点评估。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "预测实践最权威的课程之一，覆盖滚动评估、预测区间与业务预测流程，与书单中的 fpp3 互补（课程幻灯片提供讲授顺序与例题）。",
+  "priority": 1
+ },
+ {
+  "rank": 4,
+  "kind": "course",
+  "title": "Spatial and temporal statistics (MATH4341 lecture notes)",
+  "authors": [
+   "Darren Wilkinson"
+  ],
+  "institution": "Durham University",
+  "course_name": "Spatio-temporal statistics IV",
+  "course_code": "MATH4341",
+  "term": "2026/27 学年（Michaelmas：时间序列；Epiphany：空间统计）",
+  "prerequisites": "MATH3411 Advanced Statistical Modelling 或 MATH3421 Bayesian Computation and Modelling（据 Durham 模块页）",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2026",
+  "homepage": "https://darrenjw.github.io/spatio-temporal/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://darrenjw.github.io/spatio-temporal/Spatial-and-temporal-statistics.pdf",
+    "label": "full notes (PDF)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "讲义主页提供 18 章完整 HTML 版并注明“Also available as a PDF document”，单一 PDF 覆盖全部 18 章",
+  "legal_basis": "作者主页公开（GitHub Pages）",
+  "language": "en",
+  "topics": [
+   "线性系统与 ARMA",
+   "估计与预测",
+   "谱分析",
+   "隐马尔可夫模型",
+   "动态线性模型 DLM",
+   "状态空间建模",
+   "高斯过程与克里金",
+   "格点/空间自回归",
+   "时空模型"
+  ],
+  "level": "进阶",
+  "order_hint": "学完入门时间序列后阅读；第 6-8 章可与 Kalman 滤波课程并读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "杜伦大学四年级模块讲义，第一学期讲时间序列（线性系统、ARMA、预测、谱分析、HMM、DLM、状态空间），第二学期讲空间统计（随机场、GP、克里金、格点模型、点过程），最后一章讨论时空模型，配 R 示例。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "最新（2026）且单 PDF 完整，把时间序列、状态空间与空间/时空统计放在统一框架下，直接对应时空分析与空气/水质监测类应用。",
+  "priority": 1
+ },
+ {
+  "rank": 5,
+  "kind": "course",
+  "title": "Zeitreihen / Time Series (HS 2012) — Skript",
+  "authors": [
+   "Hans Rudolf Künsch（讲义作者，据检索摘要，待核实）",
+   "Peter Bühlmann（HS2012 授课，据课程目录归属）"
+  ],
+  "institution": "ETH Zürich, Seminar for Statistics",
+  "course_name": "Zeitreihen (Time Series Analysis)",
+  "course_code": "待核实",
+  "term": "HS 2012 (Autumn 2012)",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2010（讲义注明为 fall 2010 课程所写，待核实）",
+  "version_year": "2011（Version August 2011，据检索摘要，待核实）",
+  "homepage": "https://stat.ethz.ch/Teaching/buhlmann/Zeitreihen/2012/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://stat.ethz.ch/Teaching/buhlmann/Zeitreihen/2012/skript2012.pdf",
+    "label": "skript2012 (full script)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "HS2012 课程目录列出整本 skript2012.pdf，另有 introduction、stationarity、arma、multistep-pred、aic、spectral、fourier、kalmanfilter、arch1 等分讲讲义；取整本 Skript",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "平稳性",
+   "弱相依中心极限",
+   "ARMA",
+   "多步预测",
+   "AIC 模型选择",
+   "谱分析与傅里叶",
+   "Kalman 滤波",
+   "ARCH"
+  ],
+  "level": "进阶",
+  "order_hint": "在入门课之后、需要数学推导时阅读；可与 UvA van der Vaart 讲义互补",
+  "classic_reason": "ETH 硕士层次理论时间序列课的完整讲义（后续 Meinshausen 2018 版讲义沿用其部分内容，但该版对外返回 403 不可下载）",
+  "cross_kind": "",
+  "summary": "ETH 统计研讨室硕士时间序列课程讲义：平稳过程与相依 CLT、ARMA 模型、多步预测与模型选择、谱方法、Kalman 滤波与 ARCH 模型。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "欧洲顶级统计系理论型完整讲义，补齐平稳过程、谱理论与状态空间推导。",
+  "priority": 1
+ },
+ {
+  "rank": 6,
+  "kind": "course",
+  "title": "Time Series Analysis (14.384) lecture notes",
+  "authors": [
+   "Anna Mikusheva"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Time Series Analysis",
+  "course_code": "14.384",
+  "term": "Fall 2013",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2013",
+  "version_year": "2013",
+  "homepage": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/4f2256b0a9c3157a2676806ed261eb8f_MIT14_384F13_lec1.pdf",
+    "label": "Lecture 1 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/afe0120e70858724b3d6c44d888aac36_MIT14_384F13_lec2.pdf",
+    "label": "Lecture 2 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/54880f48400ab366a19834f62f331c2a_MIT14_384F13_lec3.pdf",
+    "label": "Lecture 3 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/a2e7127c2bbf8733ebaa6cbed8eb18fc_MIT14_384F13_lec4.pdf",
+    "label": "Lecture 4 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/34572354506e1ed71ae5de10ca7b83db_MIT14_384F13_lec5.pdf",
+    "label": "Lecture 5 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/50b9c41b28a2447a4442069b4b976537_MIT14_384F13_lec6.pdf",
+    "label": "Lecture 6 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/365cba34145fa204731e9df202d4771e_MIT14_384F13_lec7and8.pdf",
+    "label": "Lecture 7 and 8 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/2fdf997bca65d6ed82ba7a94f6cdc970_MIT14_384F13_lec9.pdf",
+    "label": "Lecture 9 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/c513d2c0f8b1949efacd64e27df0fe07_MIT14_384F13_lec10.pdf",
+    "label": "Lecture 10 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/a0f9daa509414e993f12a9a070c83449_MIT14_384F13_lec11.pdf",
+    "label": "Lecture 11 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/cbd9aab2311da9fc885d3bdc16acf535_MIT14_384F13_lec12and13.pdf",
+    "label": "Lecture 12 and 13 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/46c2f07516de74341a09ca3dcc3d3c56_MIT14_384F13_lec14.pdf",
+    "label": "Lecture 14 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/91e7bd2e7e44724b4d3117a6e46f9f1b_MIT14_384F13_lec15.pdf",
+    "label": "Lecture 15 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/6cf9d870a2c8d209716d198dc1fc615e_MIT14_384F13_lec16.pdf",
+    "label": "Lecture 16 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/3c931b23a05ab736b071f3d5707f81af_MIT14_384F13_lec17.pdf",
+    "label": "Lecture 17 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/49ca4ca431c75c781aab2c0c814d61f5_MIT14_384F13_lec18.pdf",
+    "label": "Lecture 18 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/12be198d6b5281bbba7b022fd15cfa46_MIT14_384F13_lec19.pdf",
+    "label": "Lecture 19 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/4c0d665d324c565fb9b6d258538cb78e_MIT14_384F13_lec20.pdf",
+    "label": "Lecture 20 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/3dcb917d20ece78852cd398a3f7b5e64_MIT14_384F13_lec21.pdf",
+    "label": "Lecture 21 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/156b1b3171c69c6585046ddbbf603a01_MIT14_384F13_lec22.pdf",
+    "label": "Lecture 22 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/efc84003319dde93c94ed48d3d1e7433_MIT14_384F13_lec23and24.pdf",
+    "label": "Lecture 23 and 24 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/17301b070b8dccc2d783bb33703d95ca_MIT14_384F13_lec25.pdf",
+    "label": "Lecture 25 Notes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/ceac3edf7016aaad5ac6dd2889244fee_MIT14_384F13_lec26.pdf",
+    "label": "Lecture 26 Notes"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页列出 23 个讲义 PDF（含合并讲次 7-8、12-13、23-24），全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA 4.0）",
+  "language": "en",
+  "topics": [
+   "ARMA 与协方差结构",
+   "HAC 与长程方差",
+   "谱估计",
+   "GMM 与弱识别",
+   "Bootstrap",
+   "VAR/结构 VAR",
+   "因子模型",
+   "单位根与非平稳",
+   "结构突变与协整",
+   "状态空间与 Kalman 滤波",
+   "贝叶斯/MCMC"
+  ],
+  "level": "高级",
+  "order_hint": "在掌握 ARMA 与渐近理论基础后阅读；与 NBER 2008 Stock-Watson 讲座互补",
+  "classic_reason": "MIT 经济系研究生时间序列计量经典讲义，覆盖 VAR、因子模型、单位根、结构突变、Kalman 与贝叶斯，至今被广泛引用",
+  "cross_kind": "",
+  "summary": "MIT 研究生时间序列计量课，从平稳性与 HAC 推断出发，讲谱估计、GMM/弱工具、VAR 与结构 VAR、因子模型、单位根与协整、结构突变、状态空间与 Kalman 滤波、贝叶斯 MCMC。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "计量取向时间序列的标准高级讲义，直接覆盖非平稳、结构突变、多变量与高维（因子）主题。",
+  "priority": 1
+ },
+ {
+  "rank": 7,
+  "kind": "course",
+  "title": "STATS 207: Introduction to Time Series Analysis — lecture notes",
+  "authors": [
+   "Alon Kipnis"
+  ],
+  "institution": "Stanford University",
+  "course_name": "Introduction to Time Series Analysis",
+  "course_code": "STATS 207",
+  "term": "2020–21 学年（主页链接的 ExploreCourses 学年参数；具体学期待核实）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2021（待核实）",
+  "homepage": "https://cs.runi.ac.il/~kipnis/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L1.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L2.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L3.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L4.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L5_L6.pdf",
+    "label": "Lecture 5-6"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L7.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L8.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L9.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L10.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L11.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L12.pdf",
+    "label": "Lecture 12"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L13.pdf",
+    "label": "Lecture 13"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L14.pdf",
+    "label": "Lecture 14"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L15.pdf",
+    "label": "Lecture 15"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L16.pdf",
+    "label": "Lecture 16"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L17.pdf",
+    "label": "Lecture 17"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L18.pdf",
+    "label": "Lecture 18"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L19.pdf",
+    "label": "Lecture 19"
+   },
+   {
+    "url": "https://cs.idc.ac.il/~kipnis/notes/STATS_207_L20.pdf",
+    "label": "Lecture 20"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者主页 Teaching 条目在 STATS 207 下列出 Lecture 1 至 Lecture 20（5-6 合并）共 19 个 PDF，全部列出",
+  "legal_basis": "作者（授课教师）主页公开",
+  "language": "en",
+  "topics": [
+   "平稳过程",
+   "自相关",
+   "ARMA",
+   "谱分析",
+   "预测",
+   "状态空间"
+  ],
+  "level": "入门",
+  "order_hint": "可与 Berkeley Stat 153 二选一作入门主线",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "斯坦福统计系本科/研究生入门时间序列课的逐讲讲义（作者时任斯坦福统计系讲师），内容涵盖平稳性、自相关、ARMA、谱方法与预测等。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "斯坦福课程的完整逐讲 PDF 讲义，补充美国顶校入门课视角；具体学期与各讲主题需下载后核对。",
+  "priority": 2
+ },
+ {
+  "rank": 8,
+  "kind": "course",
+  "title": "Applied Time Series Analysis — Script (SS 2016)",
+  "authors": [
+   "Marcel Dettling"
+  ],
+  "institution": "ETH Zürich, Seminar for Statistics",
+  "course_name": "Applied Time Series Analysis",
+  "course_code": "待核实",
+  "term": "Spring Semester 2016",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2016",
+  "homepage": "https://stat.ethz.ch/education/semesters/ss2016/atsa/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://stat.ethz.ch/education/semesters/ss2016/atsa/ATSA_Script_v160527.pdf",
+    "label": "ATSA Script v160527 (full script)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页给出整本 Script（ATSA_Script_v160527.pdf）与整本 Slides；为 ETH 公开页面中最新版本（其后转入 Moodle）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "描述性分析与分解",
+   "平稳性",
+   "ARMA/ARIMA/SARIMA",
+   "预测",
+   "GARCH",
+   "多变量时间序列",
+   "谱分析",
+   "R 实操"
+  ],
+  "level": "入门",
+  "order_hint": "偏应用的入门讲义，可与 ETH Meinshausen 理论讲义配对",
+  "classic_reason": "ETH 应用时间序列课程的公开完整讲义（2020 后转入 Moodle 不再公开），以 R 实例见长",
+  "cross_kind": "",
+  "summary": "ETH 面向应用的时间序列课程讲义：描述性分析、分解、平稳性、ARMA 族建模与预测、条件异方差、多元与谱分析，配大量 R 代码。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "完整单 PDF、应用导向、R 实例丰富，适合工程与环境领域读者快速上手。",
+  "priority": 2
+ },
+ {
+  "rank": 9,
+  "kind": "course",
+  "title": "Financial Econometrics II — Univariate Time Series and Volatility slides (2021-2022)",
+  "authors": [
+   "Kevin Sheppard"
+  ],
+  "institution": "University of Oxford (MSc in Financial Economics)",
+  "course_name": "Financial Econometrics II",
+  "course_code": "MFE",
+  "term": "Hilary term 2021-2022",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2022",
+  "homepage": "https://bashtage.github.io/kevinsheppard.com/teaching/mfe/hilary-term/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://bashtage.github.io/kevinsheppard.com/files/teaching/mfe/slides/time_series_slides_2021-2022-notes.pdf",
+    "label": "Univariate time series slides (print optimized with notes area)"
+   },
+   {
+    "url": "https://bashtage.github.io/kevinsheppard.com/files/teaching/mfe/slides/univariate_volatility_slides_2021-2022-notes.pdf",
+    "label": "Univariate volatility slides (print optimized with notes area)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Slides 栏列出本学期全部两套幻灯片（Time Series、Volatility，各有 3 种版式），此处列带笔记区版本 2 份；配套整本讲义见 cross_kind",
+  "legal_basis": "作者主页公开",
+  "language": "en",
+  "topics": [
+   "ARMA 与预测",
+   "单位根",
+   "GARCH 族波动率模型",
+   "波动率预测与评估",
+   "金融时间序列"
+  ],
+  "level": "进阶",
+  "order_hint": "学完 ARMA 基础后阅读；金融应用主线",
+  "classic_reason": "",
+  "cross_kind": "同课程整本讲义 Financial Econometrics Notes (Sheppard) 已在书单（materials_books 第 23 项），此处只收课程幻灯片",
+  "summary": "牛津 MFE 金融计量 II 的两套课程幻灯片：单变量时间序列（ARMA、预测、非平稳）与单变量波动率（ARCH/GARCH 族、估计、预测与评估）。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "金融时间序列与波动率课程的讲授版材料，作者为 Python arch 包作者；与书单中的整本讲义配合使用。",
+  "priority": 2
+ },
+ {
+  "rank": 10,
+  "kind": "course",
+  "title": "Advanced Topics in Statistical Learning (Stat 241B) — lecture notes incl. conformal prediction and calibration",
+  "authors": [
+   "Ryan Tibshirani"
+  ],
+  "institution": "University of California, Berkeley",
+  "course_name": "Advanced Topics in Statistical Learning",
+  "course_code": "Stat 241B / CS 281B",
+  "term": "Spring 2024",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2024",
+  "homepage": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/review.pdf",
+    "label": "Stat/ML in a nutshell (review)"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/nn_kernels.pdf",
+    "label": "Nearest neighbors and kernels"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/splines_rkhs.pdf",
+    "label": "Splines and RKHS methods"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/minimax.pdf",
+    "label": "Minimax theory"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/emp_process.pdf",
+    "label": "Empirical process theory"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/lasso.pdf",
+    "label": "Lasso"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/ridge.pdf",
+    "label": "Ridge regression"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/ridgeless.pdf",
+    "label": "Ridgeless/overparametrized regression"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/conformal.pdf",
+    "label": "Conformal prediction"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/conformal_ds.pdf",
+    "label": "Conformal prediction under distribution shift"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s24/lectures/calib_bw.pdf",
+    "label": "Calibration and scoring (outline, S24)"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/calibration.pdf",
+    "label": "Calibration and scoring rules (S23 notes, linked from S24 page)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程日程列出的全部讲义 PDF（11 份 S24 讲义/提纲）以及页面链接的上一年 calibration 讲义，共 12 份全部列出",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "共形预测",
+   "分布偏移下的共形预测",
+   "校准与评分规则",
+   "概率预测",
+   "非参数回归",
+   "正则化"
+  ],
+  "level": "高级",
+  "order_hint": "在掌握回归与基础预测后阅读共形与校准两讲；其余讲次为统计学习理论背景",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "伯克利研究生统计学习进阶课，含多讲关于共形预测（含分布偏移）与预测校准/评分规则的讲义，其余为核方法、样条、极小极大与高维回归理论。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "系统讲授共形预测与概率预测校准（含 CRPS 等评分规则）的少数公开课程讲义，填补预测区间/不确定性量化主题。",
+  "priority": 1
+ },
+ {
+  "rank": 11,
+  "kind": "course",
+  "title": "Deep Learning for Time Series (x-dl4ts) — slide decks",
+  "authors": [
+   "Romain Tavenard"
+  ],
+  "institution": "Institut Polytechnique de Paris (data science master programme)",
+  "course_name": "Deep Learning for Time Series",
+  "course_code": "待核实",
+  "term": "待核实（课程站点为当前版本）",
+  "prerequisites": "机器学习与深度学习基础（课程页 Target Audience）",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://rtavenar.github.io/x-dl4ts/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/01.pdf",
+    "label": "01 Introduction to DL for time series (non-deep baselines)"
+   },
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/03b.pdf",
+    "label": "Practical aspects of forecasting (multi-step, uncertainty)"
+   },
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/02.pdf",
+    "label": "CNNs & RNNs"
+   },
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/03.pdf",
+    "label": "Attention mechanisms & Transformers"
+   },
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/04.pdf",
+    "label": "Time series classification"
+   },
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/04b.pdf",
+    "label": "Time series foundation models"
+   },
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/05.pdf",
+    "label": "Continuous-time models (irregular sampling)"
+   },
+   {
+    "url": "https://rtavenar.github.io/x-dl4ts/slides/06.pdf",
+    "label": "State-space models"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Course Modules 列出 8 个模块，每个模块给出一份 Slide Deck (PDF)，全部列出",
+  "legal_basis": "课程官方页面公开（作者 GitHub Pages，源码公开）",
+  "language": "en",
+  "topics": [
+   "深度学习预测",
+   "多步预测与不确定性",
+   "CNN/RNN",
+   "Transformer",
+   "时间序列分类",
+   "时间序列基础模型",
+   "不规则采样/连续时间模型",
+   "深度状态空间模型"
+  ],
+  "level": "进阶",
+  "order_hint": "在掌握经典预测方法与深度学习基础后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "IP Paris 数据科学硕士课程，从非深度基线与多步预测实务讲起，覆盖 CNN/RNN、注意力与 Transformer、分类、时间序列基础模型、不规则采样连续时间模型与深度状态空间模型。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "少见的专门面向时间序列的深度学习完整课程，覆盖基础模型（foundation models）与预测不确定性，作者为 tslearn 作者。",
+  "priority": 1
+ },
+ {
+  "rank": 12,
+  "kind": "course",
+  "title": "Machine Learning for Time Series (Master MVA) — lecture slides",
+  "authors": [
+   "Laurent Oudre"
+  ],
+  "institution": "ENS Paris-Saclay (Master MVA)",
+  "course_name": "Machine Learning for Time Series",
+  "course_code": "待核实",
+  "term": "2026–2027",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2026",
+  "homepage": "https://www.laurentoudre.fr/ast.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.laurentoudre.fr/ast/AST0.pdf",
+    "label": "Introduction"
+   },
+   {
+    "url": "https://www.laurentoudre.fr/ast/AST1.pdf",
+    "label": "Lecture 1: Pattern recognition and detection"
+   },
+   {
+    "url": "https://www.laurentoudre.fr/ast/AST2.pdf",
+    "label": "Lecture 2: Feature extraction and selection"
+   },
+   {
+    "url": "https://www.laurentoudre.fr/ast/AST3.pdf",
+    "label": "Lecture 3: Models and representation learning"
+   },
+   {
+    "url": "https://www.laurentoudre.fr/ast/AST4.pdf",
+    "label": "Lecture 4: Data enhancement and preprocessing (denoising, detrending, missing samples, outliers)"
+   },
+   {
+    "url": "https://www.laurentoudre.fr/ast/AST5.pdf",
+    "label": "Lecture 5: Change-point and anomaly detection"
+   },
+   {
+    "url": "https://www.laurentoudre.fr/ast/AST6.pdf",
+    "label": "Lecture 6: Multivariate time series"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页列出 AST0（导论）与 AST1-AST6 共 7 份讲义 PDF，与日程中的 6 讲一一对应，全部列出",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "模式识别与 DTW",
+   "特征提取",
+   "表示学习与字典学习",
+   "去噪与去趋势",
+   "缺失值插补",
+   "离群点处理",
+   "变点检测",
+   "异常检测",
+   "多变量时间序列与图信号"
+  ],
+  "level": "进阶",
+  "order_hint": "与 Lancaster 变点课程、IP Paris 深度学习课程配套",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "巴黎萨克雷高师 MVA 硕士课程，聚焦时间序列机器学习中的“隐藏任务”：表示、去噪去趋势、缺失插补、离群点、变点与异常检测、多变量与图信号方法（基本不讲深度学习）。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "2026–27 最新版本，系统覆盖缺失数据、异常检测与变点等工程数据预处理主题，是本清单中这些主题的主要来源。",
+  "priority": 1
+ },
+ {
+  "rank": 13,
+  "kind": "course",
+  "title": "MATH337: Changepoint Detection (lecture notes)",
+  "authors": [
+   "Gaetano Romano"
+  ],
+  "institution": "Lancaster University",
+  "course_name": "Changepoint Detection",
+  "course_code": "MATH337",
+  "term": "2024/25",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2025",
+  "version_year": "2025",
+  "homepage": "https://www.lancaster.ac.uk/~romano/teaching/2425MATH337/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.lancaster.ac.uk/~romano/teaching/2425MATH337/MATH337--Changepoint-Detection.pdf",
+    "label": "full notes (PDF)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "讲义主页（Quarto 书）列出 5 章并提供整本 PDF 下载",
+  "legal_basis": "授课教师课程页面公开（页面注明源码与署名信息）",
+  "language": "en",
+  "topics": [
+   "变点检测",
+   "CUSUM",
+   "多变点",
+   "PELT 与 WBS",
+   "惩罚选择",
+   "结构突变"
+  ],
+  "level": "入门",
+  "order_hint": "学完平稳性与假设检验后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "兰卡斯特大学五周变点检测模块讲义：CUSUM 统计量、控制与其他模型、多变点、PELT/WBS 算法与惩罚选择、真实数据实践，配 R。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "新近、单 PDF、聚焦结构突变/变点检测，与 MIT 14.384 的计量取向结构突变互补。",
+  "priority": 1
+ },
+ {
+  "rank": 14,
+  "kind": "course",
+  "title": "Modelling Non-linear and Non-stationary Time Series (course notes for 02427 Advanced Time Series Analysis)",
+  "authors": [
+   "Henrik Madsen",
+   "Jan Holst"
+  ],
+  "institution": "Technical University of Denmark (DTU Compute)",
+  "course_name": "Advanced Time Series Analysis",
+  "course_code": "02427",
+  "term": "E26 (Autumn 2026) 课程页所列教材",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2001",
+  "version_year": "2006（据文件名，待核实）",
+  "homepage": "https://02427.compute.dtu.dk/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://02427.compute.dtu.dk/material/Madsen2006_ModellingNonlinearAndNonstationaryTimeSeries.pdf",
+    "label": "course notes (Madsen & Holst)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程基本信息页给出整本讲义 PDF；本学期幻灯片（Agendas 页）仍在逐周上传，故只收录完整讲义",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "非线性时间序列",
+   "核估计与非参数模型",
+   "条件参数模型",
+   "非平稳与时变参数",
+   "递推/自适应估计",
+   "状态空间与 Kalman 滤波",
+   "随机微分方程"
+  ],
+  "level": "高级",
+  "order_hint": "在掌握 ARMA 与 Kalman 滤波后阅读",
+  "classic_reason": "DTU 高级时间序列课程长期使用的讲义，系统讨论非线性、非平稳与递推估计，公开课程资料中少见",
+  "cross_kind": "",
+  "summary": "DTU 研究生高级时间序列课程讲义，覆盖非参数与核方法、非线性模型、时变参数与递推估计、状态空间与连续时间（SDE）建模，面向能源与环境工程应用。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "补齐非线性/非平稳时间序列主题；DTU 课程同时含层级预测协调与多元概率预测评估讲次（幻灯片在建中）。",
+  "priority": 1
+ },
+ {
+  "rank": 15,
+  "kind": "course",
+  "title": "ECE5550: Applied Kalman Filtering — lecture notes",
+  "authors": [
+   "Gregory L. Plett"
+  ],
+  "institution": "University of Colorado Colorado Springs",
+  "course_name": "Applied Kalman Filtering",
+  "course_code": "ECE5550",
+  "term": "待核实",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "http://mocha-java.uccs.edu/ECE5550/index.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes00.pdf",
+    "label": "Course introduction and syllabus"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes01.pdf",
+    "label": "Introduction to Kalman filters"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes02.pdf",
+    "label": "State-space dynamic systems"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes03.pdf",
+    "label": "Dynamic systems with noisy inputs"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes04.pdf",
+    "label": "The linear Kalman filter"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes05.pdf",
+    "label": "Kalman filter generalizations"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes06.pdf",
+    "label": "Nonlinear Kalman filters"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes07.pdf",
+    "label": "Particle filters"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes08.pdf",
+    "label": "Multi-target, multi-model tracking"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes09.pdf",
+    "label": "Simultaneous state and parameter estimation using Kalman filters"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes10.pdf",
+    "label": "Kalman filter applications"
+   },
+   {
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes0A.pdf",
+    "label": "Linear algebra (matrix) review"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Lecture notes 列出第 0-10 章及附录 A（线性代数复习）共 12 份 PDF，全部列出",
+  "legal_basis": "课程官方页面公开（UCCS）",
+  "language": "en",
+  "topics": [
+   "状态空间系统",
+   "随机输入下的动态系统",
+   "线性 Kalman 滤波",
+   "平方根滤波",
+   "EKF/UKF/SPKF",
+   "粒子滤波",
+   "多目标跟踪",
+   "状态与参数联合估计"
+  ],
+  "level": "进阶",
+  "order_hint": "具备线性代数与概率基础即可；建议在统计状态空间讲义之前或并行阅读",
+  "classic_reason": "工程取向的 Kalman 滤波完整讲义，推导细致并附 MATLAB 代码，作者以电池状态估计应用闻名",
+  "cross_kind": "",
+  "summary": "UCCS 研究生课程讲义，从状态空间系统与随机过程出发，推导线性 Kalman 滤波、数值稳健实现、非线性 Kalman（EKF/SPKF）、粒子滤波、多模型跟踪与参数联合估计及应用。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "Kalman 滤波最完整的工程讲义之一，适合工业/预测性维护场景的状态估计。",
+  "priority": 1
+ },
+ {
+  "rank": 16,
+  "kind": "course",
+  "title": "Sequential Monte Carlo Methods — PhD course (lecture notes + lecture slides)",
+  "authors": [
+   "Thomas B. Schön",
+   "Fredrik Lindsten",
+   "Johan Alenlöv（课程联系人；授课教师名单待核实）"
+  ],
+  "institution": "Linköping University (IDA, Division of Statistics and Machine Learning)",
+  "course_name": "Sequential Monte Carlo Methods",
+  "course_code": "PhD course, 6 credits",
+  "term": "February 2025",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2017",
+  "version_year": "2025",
+  "homepage": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/SMC2017.pdf",
+    "label": "Lecture notes: Learning of dynamical systems — Particle filters and Markov chain methods (2017)"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture1.pdf",
+    "label": "lecture1"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture2.pdf",
+    "label": "lecture2"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture3.pdf",
+    "label": "lecture3"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture4.pdf",
+    "label": "lecture4"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture5.pdf",
+    "label": "lecture5"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture6.pdf",
+    "label": "lecture6"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture7.pdf",
+    "label": "lecture7"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture8.pdf",
+    "label": "lecture8"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture9.pdf",
+    "label": "lecture9"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture10.pdf",
+    "label": "lecture10"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture11.pdf",
+    "label": "lecture11"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture12.pdf",
+    "label": "lecture12"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture13.pdf",
+    "label": "lecture13"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture14.pdf",
+    "label": "lecture14"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture15.pdf",
+    "label": "lecture15"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture16.pdf",
+    "label": "lecture16"
+   },
+   {
+    "url": "https://www.ida.liu.se/divisions/stima/fokurser/smc2025/material/lectures/lecture17.pdf",
+    "label": "lecture17"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页给出课程讲义（Schön & Lindsten 2017）与日程中 lecture1-lecture17 全部 17 份幻灯片，全部列出；页面另链接教材 Elements of Sequential Monte Carlo（书单另计）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "粒子滤波",
+   "重要性抽样",
+   "非线性状态空间",
+   "似然估计与参数推断",
+   "粒子 MCMC",
+   "SMC 采样器"
+  ],
+  "level": "高级",
+  "order_hint": "在 Kalman 滤波与 MCMC 基础后阅读",
+  "classic_reason": "",
+  "cross_kind": "课程教材 Elements of Sequential Monte Carlo 已在书单（materials_books 第 31 项），此处只收课程讲义与幻灯片",
+  "summary": "林雪平大学博士课程：概率建模动态系统与滤波问题、重要性抽样、粒子滤波及收敛理论、似然估计与最大似然参数推断、粒子 MCMC 与一般 SMC。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "新近（2025）完整课程，覆盖非线性/非高斯状态空间的贝叶斯推断，与 Michigan 531 后半部分和 Aalto 讲义互补。",
+  "priority": 1
+ },
+ {
+  "rank": 17,
+  "kind": "course",
+  "title": "Bayesian estimation of time-varying systems — full course booklet (2012)",
+  "authors": [
+   "Simo Särkkä"
+  ],
+  "institution": "Aalto University（资料托管于作者 Aalto 个人页；2012 年课程编号与开课单位细节待核实）",
+  "course_name": "Bayesian estimation of time-varying systems（课程名据讲义第 1 讲题目，待核实）",
+  "course_code": "待核实",
+  "term": "Spring 2012（第 1 讲日期 2012-01-19）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2010",
+  "version_year": "2012",
+  "homepage": "https://users.aalto.fi/~ssarkka/course_k2012/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://users.aalto.fi/~ssarkka/course_k2012/full_course_booklet_2012.pdf",
+    "label": "full course booklet 2012"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程目录列出 7 份讲义 handout 及合订本 full_course_booklet_2012.pdf，取合订本",
+  "legal_basis": "作者（授课教师）主页公开",
+  "language": "en",
+  "topics": [
+   "贝叶斯滤波",
+   "Kalman 滤波",
+   "EKF/UKF",
+   "Gauss-Hermite/容积卡尔曼",
+   "粒子滤波",
+   "RTS 平滑",
+   "参数估计"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Plett 工程讲义之后阅读，作为《Bayesian Filtering and Smoothing》的课程版",
+  "classic_reason": "Särkkä 贝叶斯滤波课程的完整合订讲义，是其教材的前身，统一推导 Kalman/非线性滤波/平滑",
+  "cross_kind": "同作者教材 Bayesian Filtering and Smoothing (2nd ed.) 已在书单（materials_books 第 2 项）；本合订讲义为其课程前身，内容有重叠",
+  "summary": "阿尔托大学课程讲义合订本：从线性回归到 Kalman 滤波、贝叶斯最优滤波方程、EKF/UKF/高斯滤波、粒子滤波与平滑及参数估计。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "贝叶斯滤波与平滑的权威课程材料，覆盖状态空间与不确定性传播。",
+  "priority": 1
+ },
+ {
+  "rank": 18,
+  "kind": "course",
+  "title": "ATM S 552 notes (Objective analysis / statistical methods in atmospheric sciences)",
+  "authors": [
+   "Dennis L. Hartmann"
+  ],
+  "institution": "University of Washington, Department of Atmospheric Sciences",
+  "course_name": "ATM S 552（课程全名待核实）",
+  "course_code": "ATM S 552",
+  "term": "Winter 2014（第 1-2 章标注 Modified for W 2014）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2014",
+  "homepage": "https://atmos.uw.edu/~dennis/552_Notes_ftp.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_Cover.pdf",
+    "label": "Title Page"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_1.pdf",
+    "label": "Chapter 1: Review of Statistics"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_Tables.pdf",
+    "label": "Statistical Tables for Chapter 1"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_2.pdf",
+    "label": "Chapter 2: Compositing"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_3.pdf",
+    "label": "Chapter 3: Regression"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_4.pdf",
+    "label": "Chapter 4: EOF/PC Analysis"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_5.pdf",
+    "label": "Chapter 5: Mapping Data Fields"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_6a.pdf",
+    "label": "Chapter 6a: Time Series, Autocorrelation and Spectra"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_6b.pdf",
+    "label": "Chapter 6b: Spectra, Data Windows, Significance Testing"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_6c.pdf",
+    "label": "Chapter 6c: Cross-Spectral Analysis"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_6d.pdf",
+    "label": "Chapter 6d: SSA, Maximum Entropy, Multi-Taper"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_7.pdf",
+    "label": "Chapter 7: Filtering"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_8.pdf",
+    "label": "Chapter 8: Kalman Filtering"
+   },
+   {
+    "url": "https://atmos.uw.edu/~dennis/552_Notes_9.pdf",
+    "label": "Chapter 9: Wavelets"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "讲义下载页列出封面、第 1-9 章（第 6 章分 6a-6d）与统计表共 14 份 PDF，全部列出（未含期末复习与矩阵记号附录）",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "统计回顾与显著性",
+   "合成分析",
+   "回归",
+   "EOF/PCA",
+   "时间序列与自相关",
+   "谱分析与窗函数",
+   "交叉谱",
+   "SSA/最大熵/多窗谱",
+   "滤波",
+   "Kalman 滤波",
+   "小波",
+   "气候/大气应用"
+  ],
+  "level": "进阶",
+  "order_hint": "具备基础统计后阅读；适合环境、气象、水文方向",
+  "classic_reason": "大气科学研究生课程经典讲义，谱分析、EOF、滤波与小波的地学应用讲解清晰，长期被地学领域引用",
+  "cross_kind": "",
+  "summary": "华盛顿大学大气科学研究生课程讲义，讲授地学数据统计分析：显著性检验、合成与回归、EOF/主成分、时间序列自相关与谱分析、交叉谱、SSA/多窗谱、滤波、Kalman 滤波与小波。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "环境/气候应用取向的谱分析与时空数据分析讲义，补足空气质量、水文等应用领域的方法背景。",
+  "priority": 1
+ },
+ {
+  "rank": 19,
+  "kind": "course",
+  "title": "Data over Space and Time (36-467/667) — lecture notes",
+  "authors": [
+   "Cosma Rohilla Shalizi"
+  ],
+  "institution": "Carnegie Mellon University",
+  "course_name": "Data over Space and Time",
+  "course_code": "36-467/36-667",
+  "term": "Fall 2018",
+  "prerequisites": "本科生 36-401 为同修要求；研究生（36-667）需教师同意",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2018",
+  "version_year": "2018",
+  "homepage": "https://www.stat.cmu.edu/~cshalizi/dst/18/",
+  "format": "html",
+  "files": [],
+  "html_toc": "https://www.stat.cmu.edu/~cshalizi/dst/18/",
+  "html_chapters": 23,
+  "completeness_evidence": "课程主页列出 23 项讲义（第 21 讲为 PDF，其余为 HTML，含 1 份 AR vs VAR 讲义与 1 份选读讲）；第 11、25 讲无讲义、第 16 讲取消",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "平滑与去趋势",
+   "主成分",
+   "最优线性预测",
+   "时间与空间插值/克里金",
+   "傅里叶方法",
+   "线性生成模型 AR/VAR",
+   "依赖数据推断",
+   "Bootstrap 与模拟推断",
+   "马尔可夫链与马尔可夫随机场",
+   "状态空间/HMM",
+   "时空数据"
+  ],
+  "level": "进阶",
+  "order_hint": "在入门时间序列后阅读，作为时空统计的统计学习视角补充",
+  "classic_reason": "Shalizi 的讲义以统一视角处理时间、空间与时空依赖数据，强调预测与模拟推断，HTML 形式无 PDF 合订本",
+  "cross_kind": "",
+  "summary": "CMU 课程以线性预测为主线贯通时间序列与空间数据：平滑、PCA、最优线性预测与插值/外推、傅里叶方法、AR/VAR 与空间生成模型、依赖数据推断、bootstrap、马尔可夫随机场与状态空间模型。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "把时间序列、空间与时空数据放在统一预测框架下，并讨论依赖数据下的推断与模拟，适合时空分析与可复现推断。",
+  "priority": 2
+ },
+ {
+  "rank": 20,
+  "kind": "course",
+  "title": "Time Series (lecture notes by A.W. van der Vaart, used in UvA course ST410016)",
+  "authors": [
+   "Aad W. van der Vaart",
+   "Peter Spreij（授课）"
+  ],
+  "institution": "Universiteit van Amsterdam (Korteweg-de Vries Institute)",
+  "course_name": "Time Series",
+  "course_code": "ST410016",
+  "term": "Spring semester 2010-2011",
+  "prerequisites": "测度论概率（如 Measure theoretic probability）",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2010",
+  "homepage": "https://staff.fnwi.uva.nl/p.j.c.spreij/onderwijs/master/timeseries2011.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://staff.fnwi.uva.nl/p.j.c.spreij/onderwijs/master/aadtimeseries2010.pdf",
+    "label": "Time Series lecture notes (van der Vaart, 2010)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Literature 说明课程基于 van der Vaart《Time Series》讲义并给出整本 PDF（另附勘误与习题）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "严平稳与弱平稳",
+   "投影与预测",
+   "弱相依中心极限定理",
+   "均值与协方差非参数估计",
+   "谱理论",
+   "ARMA 与 GARCH",
+   "状态空间与 Kalman 滤波",
+   "Yule-Walker/最小二乘/极大似然"
+  ],
+  "level": "高级",
+  "order_hint": "在掌握测度论概率后阅读，作为理论支柱",
+  "classic_reason": "荷兰多校共用的理论时间序列讲义，严格处理平稳过程、谱理论与估计渐近性，仍是该层次最好的公开讲义之一",
+  "cross_kind": "",
+  "summary": "阿姆斯特丹大学硕士课程使用的 van der Vaart 讲义：平稳序列、投影预测、弱相依 CLT、协方差非参数估计、谱理论、ARMA 与 GARCH、状态空间与 Kalman 滤波、各类估计量。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "理论深度最高的公开时间序列讲义之一，为后续阅读文献打下严格基础。",
+  "priority": 2
+ },
+ {
+  "rank": 21,
+  "kind": "course",
+  "title": "Time Series — course notes (Cambridge M.Phil in Statistics)",
+  "authors": [
+   "Richard Weber"
+  ],
+  "institution": "University of Cambridge, Statistical Laboratory",
+  "course_name": "Time Series (8 lectures, M.Phil in Statistics)",
+  "course_code": "待核实",
+  "term": "首次讲授 winter 1999（讲义版本年份待核实）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "1999",
+  "version_year": "待核实",
+  "homepage": "https://www.statslab.cam.ac.uk/~rrw1/timeseries/index.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.statslab.cam.ac.uk/~rrw1/timeseries/t.pdf",
+    "label": "Course notes (36 A4 pages)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程主页给出 36 页 A4 完整课程讲义 t.pdf（另有习题与解答）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "平稳过程",
+   "ARMA",
+   "谱表示与谱估计",
+   "预测",
+   "Kalman 滤波"
+  ],
+  "level": "入门",
+  "order_hint": "可作为极简速览，配合 Brockwell & Davis 阅读",
+  "classic_reason": "剑桥统计实验室经典短讲义（8 讲 36 页），以精炼著称，适合快速建立整体框架",
+  "cross_kind": "",
+  "summary": "剑桥统计硕士 8 讲短课程讲义，用 36 页概览平稳过程、ARMA 模型、谱方法、预测与状态空间等核心内容，附习题与解答。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "篇幅短而精，适合作为复习与快速入门材料。",
+  "priority": 3
+ },
+ {
+  "rank": 22,
+  "kind": "course",
+  "title": "IEOR E4602 Quantitative Risk Management — lecture notes",
+  "authors": [
+   "Martin Haugh"
+  ],
+  "institution": "Columbia University (IEOR)",
+  "course_name": "Quantitative Risk Management",
+  "course_code": "IEOR E4602",
+  "term": "Fall 2016（最近一次讲授）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2016",
+  "homepage": "https://martin-haugh.github.io/teaching/qrm/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/BasicConceptsTechniques.pdf",
+    "label": "Basic Concepts & Techniques of Risk Management"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/MultivariateDistributions.pdf",
+    "label": "Multivariate Distributions"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/DimensionReductionTechniques.pdf",
+    "label": "Dimension Reduction Techniques"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/Copulas.pdf",
+    "label": "An Introduction to Copulas"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/RiskMeasures.pdf",
+    "label": "Risk Measures, Risk Aggregation and Capital Allocation"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/ModelRisk.pdf",
+    "label": "Model Risk"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/AssetAlloc-and-RiskManagement.pdf",
+    "label": "Asset Allocation and Risk Management"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/MC_RiskManage.pdf",
+    "label": "Monte-Carlo Methods for Risk Management"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/EVT_MasterSlides.pdf",
+    "label": "Extreme Value Theory (slides only)"
+   },
+   {
+    "url": "https://martin-haugh.github.io/files/QRM/TimeSeries_RiskManagement.pdf",
+    "label": "Risk Management & Time Series"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Lecture Notes 列出 10 个主题：8 份讲义（各附幻灯片，幻灯片未重复列）、EVT（仅幻灯片）与 Risk Management & Time Series 讲义，共 10 份全部列出；页面注明 2016 年未讲到 EVT 与时间序列两章",
+  "legal_basis": "授课教师主页公开",
+  "language": "en",
+  "topics": [
+   "风险度量 VaR/ES",
+   "多元分布与降维",
+   "copula",
+   "极值理论",
+   "GARCH 与风险管理时间序列",
+   "蒙特卡罗风险计算",
+   "模型风险"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Sheppard 金融计量之后，作为风险管理应用",
+  "classic_reason": "哥伦比亚金融工程硕士风险管理课程的完整讲义，时间序列/GARCH 与 VaR 结合讲解",
+  "cross_kind": "",
+  "summary": "哥伦比亚 IEOR 风险管理课程讲义：风险管理基本概念、多元分布、降维、copula、风险度量与资本分配、模型风险、资产配置、蒙特卡罗、极值理论与 GARCH 时间序列风险建模。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "补充金融应用中波动率预测与尾部风险的关联，覆盖 VaR 评估等应用主题。",
+  "priority": 3
+ },
+ {
+  "rank": 23,
+  "kind": "course",
+  "title": "Econ 584: Time Series Econometrics — lecture notes and slides",
+  "authors": [
+   "Eric Zivot"
+  ],
+  "institution": "University of Washington",
+  "course_name": "Time Series Econometrics",
+  "course_code": "Econ 584",
+  "term": "Spring 2006",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2006",
+  "homepage": "https://faculty.washington.edu/ezivot/econ584/584notes.htm",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/stationarytimeseriesslides.pdf",
+    "label": "stationaryTimeSeriesSlides.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/stationaryTimeSeriesPowerPoint.pdf",
+    "label": "stationaryTimeSeriesPowerPoint.pd"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/boxjenkins.pdf",
+    "label": "boxjenkins.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/BoxJenkinsPowerPoint.pdf",
+    "label": "boxjenkinsPowerPoint.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/estimation.PDF",
+    "label": "armaestimation.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/forecasting.pdf",
+    "label": "forecasting.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/forecastingslides2panel.pdf",
+    "label": "forecastSlides2panel.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/forecastingSlidesPowerPoint.pdf",
+    "label": "forecastSlidesPowerPoint.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/statespacemodels.pdf",
+    "label": "statespacemodels.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/statespacemodelsslides.pdf",
+    "label": "stateSpaceModelsSlides.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/StateSpacePowerPoint.pdf",
+    "label": "stateSpacePowerPoint.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/trendcycle.pdf",
+    "label": "trendCycle.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/trendcycleslides.pdf",
+    "label": "trendCycleSlides.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/trendCyclePowerPoint.pdf",
+    "label": "trendCyclePowerPoint.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/unitrootlecture.pdf",
+    "label": "unitrootlecture.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/unitrootLecture2.pdf",
+    "label": "unitrootlecture2.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/unitRootPowerPoint.pdf",
+    "label": "unitrootPowerPoint.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/asymptoticsnonstationaryslides.pdf",
+    "label": "asymptoticsNonstationarySlides.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/multivariatetimeseries.pdf",
+    "label": "multivariateTimeSeries.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/multivariateTimeSeriesPowerPoint.pdf",
+    "label": "multivariateTimeSeriesPowerPoint"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/svarslides.pdf",
+    "label": "svarslides.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/svarslides2.pdf",
+    "label": "svarslides2.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/structuralVarModelsPowerPoint.pdf",
+    "label": "structuralVarModelsPowerPoint.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/cointegrationslides.pdf",
+    "label": "cointegrationslides.pdf"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ584/notes/cointegrationslides2.pdf",
+    "label": "cointegrationslides2.pdf"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程 Notes 页列出全部讲义/幻灯片 PDF 共 25 份（含 PowerPoint 示例版），全部列出；页面注明不保证完整无误",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "平稳时间序列",
+   "Box-Jenkins",
+   "ARMA 估计",
+   "预测",
+   "状态空间与 Kalman 滤波",
+   "趋势-周期分解",
+   "单位根检验",
+   "非平稳渐近",
+   "多变量时间序列/VAR",
+   "结构 VAR",
+   "协整"
+  ],
+  "level": "进阶",
+  "order_hint": "可在 Cochrane 讲义之后，作为带例子的计量讲义",
+  "classic_reason": "计量时间序列经典课程的完整讲义与幻灯片，状态空间、趋势周期分解与协整部分讲解细致",
+  "cross_kind": "",
+  "summary": "华盛顿大学经济系时间序列计量课：平稳模型与 Box-Jenkins、ARMA 估计与预测、状态空间与 Kalman 滤波、趋势-周期分解、单位根与非平稳渐近、VAR/结构 VAR、协整。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "覆盖面广、讲义+幻灯片齐全，补充计量取向的预测与非平稳主题。",
+  "priority": 3
+ },
+ {
+  "rank": 24,
+  "kind": "course",
+  "title": "Hidden Markov Models — lecture notes (ORF 557)",
+  "authors": [
+   "Ramon van Handel"
+  ],
+  "institution": "Princeton University",
+  "course_name": "Hidden Markov Models",
+  "course_code": "ORF 557",
+  "term": "Fall 2008",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2008",
+  "version_year": "2008",
+  "homepage": "https://web.math.princeton.edu/~rvan/orf557/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://web.math.princeton.edu/~rvan/orf557/hmm080728.pdf",
+    "label": "lecture notes (2008-07-28)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "作者站点 orf557 目录列出讲义 hmm080728.pdf 与课程大纲；注意：作者主页上该课程条目目前位于 HTML 注释中（页面不可见），文件仍在作者站点公开",
+  "legal_basis": "作者主页公开",
+  "language": "en",
+  "topics": [
+   "隐马尔可夫模型",
+   "滤波/平滑/预测",
+   "前向后向算法",
+   "Kalman 滤波",
+   "粒子滤波",
+   "参数估计/EM",
+   "滤波稳定性"
+  ],
+  "level": "高级",
+  "order_hint": "在概率论与马尔可夫链之后阅读",
+  "classic_reason": "HMM 与非线性滤波理论的高质量研究生讲义，统一处理有限状态 HMM、线性高斯与粒子方法",
+  "cross_kind": "",
+  "summary": "普林斯顿研究生课程讲义：HMM 的滤波、平滑与预测，有限状态与线性高斯模型，蒙特卡罗/粒子方法，统计推断（EM 等）与滤波稳定性。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "状态空间/HMM 理论的权威公开讲义，补足贝叶斯滤波的数学基础。",
+  "priority": 2,
+  "exclude": "主页链接位于 HTML 注释中（教师未在页面上公开列出），不视为官方公开资料"
+ },
+ {
+  "rank": 25,
+  "kind": "course",
+  "title": "Discrete Stochastic Processes — course text (6.262)",
+  "authors": [
+   "Robert Gallager"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Discrete Stochastic Processes",
+  "course_code": "6.262",
+  "term": "Spring 2011",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2011",
+  "version_year": "2011",
+  "homepage": "https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/pages/course-notes/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/6_262_s_11_coursetextbookpdf.pdf",
+    "label": "Open Textbook (complete course notes)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Course Notes 页给出整本 “Open Textbook” PDF（同时列出前言、第 1-7 章与附录分章 PDF）",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "概率基础",
+   "Poisson 过程",
+   "有限/可数状态马尔可夫链",
+   "更新过程",
+   "马尔可夫过程",
+   "随机游走",
+   "鞅",
+   "大偏差与假设检验"
+  ],
+  "level": "进阶",
+  "order_hint": "作为随机过程基础，宜在时间序列理论课之前或并行",
+  "classic_reason": "Gallager 的离散随机过程课程讲义（后出版为教材），是工程与统计学生的随机过程标准参考",
+  "cross_kind": "",
+  "summary": "MIT 研究生随机过程课程完整讲义：概率回顾、Poisson 过程、马尔可夫链、更新过程、马尔可夫过程、随机游走与鞅、大偏差与检测。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "为时间序列与状态空间提供随机过程基础，单 PDF 完整。",
+  "priority": 2
+ },
+ {
+  "rank": 26,
+  "kind": "course",
+  "title": "Topics in Mathematics with Applications in Finance (18.S096) lecture notes",
+  "authors": [
+   "Peter Kempthorne",
+   "Choongbum Lee",
+   "Vasily Strela",
+   "Jake Xia"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Topics in Mathematics with Applications in Finance",
+  "course_code": "18.S096",
+  "term": "Fall 2013",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2013",
+  "version_year": "2013",
+  "homepage": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/10802d98a8af7ca93a024eac0cb0dded_MIT18_S096F13_lecnote1.pdf",
+    "label": "Introduction & Financial Terms and Concepts"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/bf77e900565f6487e3f46ba38dcc6dd6_MIT18_S096F13_lecnote2.pdf",
+    "label": "Linear Algebra"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/94dc1d08ef12065198102ae23b2e4a8f_MIT18_S096F13_lecnote3.pdf",
+    "label": "Probability Theory"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/f5784e4facf3de690210d17c97358eba_MIT18_S096F13_lecnote5.pdf",
+    "label": "Stochastic Processes I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/fc0c08db6b497cc3bd09020aec39f9b5_MIT18_S096F13_lecnote6.pdf",
+    "label": "Regression Analysis"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/8c9f9d321f7c8bb34b289f178f7cfc32_MIT18_S096F13_lecnote7.pdf",
+    "label": "Value At Risk (VAR) Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/1926c83ecd7ea700f7cb63914c6d7c0f_MIT18_S096F13_lecnote8.pdf",
+    "label": "Time Series Analysis I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/32f868169964ba3cf5015de880cf2172_MIT18_S096F13_lecnote9.pdf",
+    "label": "Volatility Modeling"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/0d3edf3e95c22b1b217a0ec8b59d8ecc_MIT18_S096F13_lecnote10.pdf",
+    "label": "Regularized Pricing and Risk Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/e4cd8dc88db55a6049b4d2aa3e4a1fb1_MIT18_S096F13_lecnote11.pdf",
+    "label": "Time Series Analysis II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/2878a31dc5f908839d3c66f61f41f85c_MIT18_S096F13_lecnote12.pdf",
+    "label": "Time Series Analysis III"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/7ba72c0dc888b352d301736029456ee9_MIT18_S096F13_lecnote13.pdf",
+    "label": "Commodity Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/bba02164ba6642f7d516df35347aec01_MIT18_S096F13_lecnote14.pdf",
+    "label": "Portfolio Theory"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/3c8e688538b350a73a8c1cd46056fc5a_MIT18_S096F13_lecnote15.pdf",
+    "label": "Factor Modeling"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d36136adb6ab4d3d841df5e31824bf81_MIT18_S096F13_lecnote16.pdf",
+    "label": "Portfolio Management"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/3b97c6b0c282dd9dc024c4c7ffe3fba8_MIT18_S096F13_lecnote17.pdf",
+    "label": "Stochastic Processes II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/ef2c66c8079ba656210ad1fd4a5e2fa8_MIT18_S096F13_lecnote18.pdf",
+    "label": "Itō Calculus"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d19208c017ada04f9261cfb41ab8d702_MIT18_S096F13_lecnote19.pdf",
+    "label": "Black-Scholes Formula & Risk-neutral Valuation"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/a671d0d2abe626c371fd5850ad670397_MIT18_S096F13_lecnote21.pdf",
+    "label": "Stochastic Differential Equations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/c6a3c15db672e2bd462f3002da1e2262_MIT18_S096F13_lecnote23.pdf",
+    "label": "Quanto Credit Hedging"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/e4c52338bad489162192dd0cc44375ab_MIT18_S096F13_lecnote24.pdf",
+    "label": "HJM Model for Interest Rates and Credit"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/65ff25bf0160cee676bbc5540cdf951f_MIT18_S096F13_lecnote25.pdf",
+    "label": "Ross Recovery Theorem"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/6a88ece1d51780a6a719cc620abc7c2f_MIT18_S096F13_lecnote26.pdf",
+    "label": "Introduction to Counterparty Credit Risk Conclusions"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页列出 23 份讲义 PDF（第 4、20、22 讲无讲义），全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA 4.0）",
+  "language": "en",
+  "topics": [
+   "回归",
+   "VaR 模型",
+   "时间序列分析 I-III（ARMA、VAR、协整、状态空间）",
+   "波动率建模 GARCH",
+   "因子模型",
+   "随机过程与 Itô 微积分",
+   "金融应用"
+  ],
+  "level": "进阶",
+  "order_hint": "在概率统计基础后阅读；时间序列与波动率讲次可单独精读",
+  "classic_reason": "MIT 数学系面向金融的课程讲义，时间序列三讲与波动率建模讲次清晰，配真实金融数据",
+  "cross_kind": "",
+  "summary": "MIT 金融数学专题课，含三讲时间序列分析（ARMA、VAR、协整、状态空间/Kalman）、波动率建模、VaR、因子模型、投资组合与随机微积分等。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "金融时间序列与波动率的实用讲义，补充业界视角。",
+  "priority": 3
+ },
+ {
+  "rank": 27,
+  "kind": "course",
+  "title": "Stat 479: Time Series Analysis — course notes",
+  "authors": [
+   "Adam B. Kashlak"
+  ],
+  "institution": "University of Alberta",
+  "course_name": "Time Series Analysis",
+  "course_code": "Stat 479",
+  "term": "Winter 2022（页面列出 Winter 2020, 2021, 2022）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2020",
+  "version_year": "2022",
+  "homepage": "https://sites.ualberta.ca/~kashlak/kashTeaching.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://sites.ualberta.ca/~kashlak/data/stat479.pdf",
+    "label": "Current Course Notes"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "教学页 Stat 479 条目给出 “Current Course Notes” 单一 PDF",
+  "legal_basis": "授课教师主页公开",
+  "language": "en",
+  "topics": [
+   "平稳序列",
+   "谱分析",
+   "AR/MA/ARMA/ARIMA",
+   "平滑",
+   "计算方法与软件"
+  ],
+  "level": "入门",
+  "order_hint": "入门课程的完整单 PDF 备选",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "阿尔伯塔大学本科时间序列课程讲义：平稳序列、谱分析、AR/MA/ARMA/ARIMA 模型、序列平滑与计算实现。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "新近的完整单 PDF 入门讲义，适合与 Berkeley/Monash 幻灯片互补。",
+  "priority": 3
+ },
+ {
+  "rank": 28,
+  "kind": "course",
+  "title": "STK4060/STK9060 Time Series — lecture notes (Autumn 2025)",
+  "authors": [
+   "Emil Aas Stoltenberg"
+  ],
+  "institution": "University of Oslo",
+  "course_name": "Time Series",
+  "course_code": "STK4060/STK9060",
+  "term": "Autumn 2025",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2025",
+  "homepage": "https://www.uio.no/studier/emner/matnat/math/STK4060/h25/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.uio.no/studier/emner/matnat/math/STK4060/h25/lecturenotesstk4060_aug20v2.pdf",
+    "label": "Lecture notes Aug. 20"
+   },
+   {
+    "url": "https://www.uio.no/studier/emner/matnat/math/STK4060/h25/lecturenotesstk4060_aug28.pdf",
+    "label": "Lecture notes Aug. 28"
+   },
+   {
+    "url": "https://www.uio.no/studier/emner/matnat/math/STK4060/h25/lecturenotesstk4060_sept08.pdf",
+    "label": "Lecture notes Sept. 8"
+   },
+   {
+    "url": "https://www.uio.no/studier/emner/matnat/math/STK4060/h25/lecturenotesstk4060_sept15.pdf",
+    "label": "Lecture notes Sept. 15"
+   },
+   {
+    "url": "https://www.uio.no/studier/emner/matnat/math/STK4060/h25/lecturenotesstk4060_031025.pdf",
+    "label": "Lecture notes Oct. 3"
+   },
+   {
+    "url": "https://www.uio.no/studier/emner/matnat/math/STK4060/h25/notesstk4060_20nov.pdf",
+    "label": "Lecture notes Nov. 20"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "学期页 Lecture Notes 列出 6 份讲义（8/20、8/28、9/8、9/15、10/3、11/20），全部列出；是否覆盖全部课次待核实",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "平稳过程",
+   "ARMA",
+   "谱分布与周期图",
+   "估计理论"
+  ],
+  "level": "进阶",
+  "order_hint": "硕士/博士层次理论课的补充",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "奥斯陆大学硕士/博士时间序列课程 2025 秋季讲义，包含平稳 ARMA 过程、ARMA 谱分布与周期图等理论内容。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "新近的北欧理论课讲义；完整性需下载后核对。",
+  "priority": 3
+ },
+ {
+  "rank": 29,
+  "kind": "course",
+  "title": "Statistical forecasting: notes on regression and time series analysis",
+  "authors": [
+   "Robert Nau"
+  ],
+  "institution": "Duke University, Fuqua School of Business",
+  "course_name": "Statistical forecasting (advanced elective)",
+  "course_code": "Decision 411（页面文件名前缀，待核实）",
+  "term": "待核实（网站持续维护）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://people.duke.edu/~rnau/411home.htm",
+  "format": "html",
+  "files": [],
+  "html_toc": "https://people.duke.edu/~rnau/411home.htm",
+  "html_chapters": 42,
+  "completeness_evidence": "课程笔记网站首页即目录，链接 42 个 HTML 讲义页及若干 PDF 讲义（随机游走、移动平均、线性回归、ARIMA 等），无整本 PDF",
+  "legal_basis": "授课教师课程网站公开",
+  "language": "en",
+  "topics": [
+   "数据准备与变换",
+   "季节调整",
+   "平稳性与差分",
+   "随机游走",
+   "移动平均与指数平滑",
+   "线性回归预测",
+   "ARIMA 识别与估计",
+   "模型比较与验证期评估"
+  ],
+  "level": "入门",
+  "order_hint": "零基础友好，可作为第一份读物",
+  "classic_reason": "商学院预测课的经典网上讲义，以实务直觉解释差分、指数平滑与 ARIMA 识别，长期被广泛引用",
+  "cross_kind": "",
+  "summary": "杜克大学 Fuqua 商学院预测课程网上讲义：数据准备、通胀/季节调整、平稳与差分、随机游走、平滑方法、回归预测与 ARIMA 建模，并强调估计期/验证期划分。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "最易读的预测实务讲义之一，强调样本外验证与模型比较，适合初学者。",
+  "priority": 2
+ },
+ {
+  "rank": 30,
+  "kind": "course",
+  "title": "TSRT14 Sensor Fusion — lecture slides",
+  "authors": [
+   "Gustaf Hendeby",
+   "Fredrik Gustafsson"
+  ],
+  "institution": "Linköping University (Division of Automatic Control)",
+  "course_name": "Sensor Fusion",
+  "course_code": "TSRT14",
+  "term": "VT2 2024（据课程信息页，待核实是否为最新学期）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2024（待核实）",
+  "homepage": "https://isy.gitlab-pages.liu.se/rt/en/courses/TSRT14/lectures.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://sf.edu.hendeby.se/le1.pdf",
+    "label": "Lecture 1 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le2.pdf",
+    "label": "Lecture 2 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le3.pdf",
+    "label": "Lecture 3 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le4.pdf",
+    "label": "Lecture 4 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le5.pdf",
+    "label": "Lecture 5 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le6.pdf",
+    "label": "Lecture 6 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le7.pdf",
+    "label": "Lecture 7 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le8.pdf",
+    "label": "Lecture 8 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le9.pdf",
+    "label": "Lecture 9 (1up slides)"
+   },
+   {
+    "url": "https://sf.edu.hendeby.se/le10.pdf",
+    "label": "Lecture 10 (1up slides)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程 Lectures 页列出 10 讲，每讲给出 1up 与 4up 两版幻灯片，此处列 10 份 1up 版",
+  "legal_basis": "课程官方页面公开（幻灯片托管于主讲教师域名）",
+  "language": "en",
+  "topics": [
+   "线性/非线性估计理论",
+   "CRLB",
+   "检测",
+   "Kalman 滤波",
+   "EKF/UKF",
+   "粒子滤波",
+   "传感器网络",
+   "SLAM"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Plett Kalman 讲义之后，作为多传感器融合扩展",
+  "classic_reason": "",
+  "cross_kind": "配套教材 Gustafsson, Statistical Sensor Fusion (3rd ed.)",
+  "summary": "林雪平大学传感器融合课程 10 讲幻灯片：线性与非线性估计、CRLB、检测、Kalman 与非线性滤波、粒子滤波及定位/SLAM 应用。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "工业监测与传感器数据融合的状态估计课程，补充工程应用视角。",
+  "priority": 3
+ },
+ {
+  "rank": 31,
+  "kind": "course",
+  "title": "Time Series Analysis: A Heuristic Primer (12.864 lecture notes)",
+  "authors": [
+   "Carl Wunsch"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Inference from Data and Models",
+  "course_code": "12.864",
+  "term": "Spring 2005",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2005",
+  "version_year": "2005",
+  "homepage": "https://ocw.mit.edu/courses/12-864-inference-from-data-and-models-spring-2005/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/12-864-inference-from-data-and-models-spring-2005/fc62c5ab4268ccbfc284992c39b88ef5_tabl_of_content2.pdf",
+    "label": "Time Series Analysis: A Heuristic Primer — Table of contents"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/12-864-inference-from-data-and-models-spring-2005/ec1182b9d4fc409bffa8ec1dcbb7360e_preface_2.pdf",
+    "label": "Preface"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/12-864-inference-from-data-and-models-spring-2005/ace73f7c12b91019a0ad145dc5313a1d_tsamsfmt_chap1.pdf",
+    "label": "Chapter 1: Frequency domain formulation"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/12-864-inference-from-data-and-models-spring-2005/b8825f98aeeb41397cc17e3635ab608d_tsamsfmt_chap2.pdf",
+    "label": "Chapter 2: Time domain methods"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/12-864-inference-from-data-and-models-spring-2005/f30980542d1dd340d79f12cd5c55409e_tsamsfmt_chap3.pdf",
+    "label": "Chapter 3: Examples of applications in climate"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页给出时间序列入门讲义的目录、前言及第 1-3 章整章 PDF（各小节亦有单独 PDF，内容重复故不列）；另一来源为当时待出版专著，仅给目录，不计入",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "傅里叶分析与采样",
+   "混叠",
+   "谱估计/多窗谱",
+   "交叉谱与相干",
+   "ARMA 谱",
+   "SSA/K-L 展开",
+   "Wiener 与 Kalman 滤波",
+   "趋势判定",
+   "EOF/SVD",
+   "气候应用"
+  ],
+  "level": "进阶",
+  "order_hint": "与 Hartmann ATM S 552 搭配，作为地学谱分析读物",
+  "classic_reason": "海洋学家 Wunsch 的启发式时间序列讲义，频域方法与地学应用讲解独到",
+  "cross_kind": "",
+  "summary": "MIT 地球科学研究生课讲义：频域表述（傅里叶、采样、混叠、谱估计、多窗、交叉谱）、时域方法（ARMA 谱、SSA、Wiener/Kalman、趋势、EOF）与气候应用案例。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "谱分析与地学/气候应用的经典讲义，适合水文与环境序列分析。",
+  "priority": 3
+ },
+ {
+  "rank": 32,
+  "kind": "course",
+  "title": "Stochastic Estimation and Control (16.322) lecture notes",
+  "authors": [
+   "Wallace Vander Velde"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Stochastic Estimation and Control",
+  "course_code": "16.322",
+  "term": "Fall 2004",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2004",
+  "version_year": "2004",
+  "homepage": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/b19a6c1da8ed456589e1c52bdaadee04_lecture01.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/894438cc15349f0a85dce7fd7be99664_lecture02.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/7f998726570793d163acffbbd4723799_lecture03.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/0baf1b80e0caab6227ec4d0bb29fe686_lecture04.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/4c613b51bac5e226086b1075e40ac74a_lecture05.pdf",
+    "label": "Lecture 5"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/2d7396f77d10027bcbfc225075f9ccf9_lecture06.pdf",
+    "label": "Lecture 6"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/026a5d31663b6494ff280b28ad03e99a_lecture07.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/edf931eb6051f2cb20a5e348a11b56a4_lecture08.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/4cef665b09c034b64fed309bcde0c417_lecture09.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/119c1f1c042eccaa717f6c9c2e9eb540_lecture10.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/3f75ebf2ef1f2027ff7441269ab191ea_lecture11.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/3789f25072b5ec0c768a28af134248d6_lecture12.pdf",
+    "label": "Lecture 12"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/5f2bd43a1b7e20c0135a1974c8ece85d_lecture13.pdf",
+    "label": "Lecture 13"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/c7570ff5155eb72039c14d2eba8d0a54_lecture14.pdf",
+    "label": "Lecture 14"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/a5b0086b585fb09e9de8121304d4aba7_lecture15.pdf",
+    "label": "Lecture 15"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/102b11758d65734e8c708eb87344a030_lecture16.pdf",
+    "label": "Lecture 16"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/c263b3ef570fccaaba483fcbe87e62a2_lecture17.pdf",
+    "label": "Lecture 17"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/f68af4362b50fa7e8c622af16f1ef23b_lecture18.pdf",
+    "label": "Lecture 18"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/1afffd7683b42168af42456338889bd2_lecture19.pdf",
+    "label": "Lecture 19"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/c562f80643fc5c9a5ac3d9db975c0d56_lecture20.pdf",
+    "label": "Lecture 20"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/27e5d1d24ff4054cb9c82b6b6c00be12_lecture21.pdf",
+    "label": "Lecture 21"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/b05837ec54930beebe7ee17546b450c6_lecture22.pdf",
+    "label": "Lecture 22"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/48d542a8047bccf2243cf32a393f8143_lecture23.pdf",
+    "label": "Lecture 23"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/0239a6fcd8adf9aaad7e5c654b638d5b_lecture24.pdf",
+    "label": "Lecture 24"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/8be5c95434653670356121d7d4e3f102_lecture25.pdf",
+    "label": "Lecture 25"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页逐讲列出 25 份 PDF，全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "概率与随机变量",
+   "随机过程/平稳与遍历",
+   "自相关与功率谱",
+   "Gauss-Markov 过程",
+   "由数据估计相关函数与谱",
+   "线性系统随机响应",
+   "Wiener 滤波",
+   "Kalman 滤波"
+  ],
+  "level": "进阶",
+  "order_hint": "工程背景读者学习随机过程与 Kalman 滤波的入口",
+  "classic_reason": "航空航天系经典随机估计课程讲义，从随机信号到 Wiener/Kalman 滤波一气呵成",
+  "cross_kind": "",
+  "summary": "MIT 航空航天研究生课：概率与随机变量、随机过程（平稳、遍历、相关与谱）、线性系统的随机响应、Wiener 滤波与离散/连续 Kalman 滤波。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "工程取向的随机信号与 Kalman 滤波完整讲义。",
+  "priority": 3
+ },
+ {
+  "rank": 33,
+  "kind": "course",
+  "title": "Stochastic Calculus, Filtering, and Stochastic Control — lecture notes (ACM 217)",
+  "authors": [
+   "Ramon van Handel"
+  ],
+  "institution": "California Institute of Technology",
+  "course_name": "Stochastic Calculus and Stochastic Control",
+  "course_code": "ACM 217",
+  "term": "Spring 2007",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2007",
+  "version_year": "2007",
+  "homepage": "https://web.math.princeton.edu/~rvan/acm217/acm217.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://web.math.princeton.edu/~rvan/acm217/ACM217.pdf",
+    "label": "Lecture notes"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页（作者站点保存的 Caltech 课程页）给出整本 Lecture notes PDF",
+  "legal_basis": "作者主页公开",
+  "language": "en",
+  "topics": [
+   "布朗运动与 Itô 积分",
+   "随机微分方程",
+   "Kalman-Bucy 滤波",
+   "非线性滤波",
+   "随机控制"
+  ],
+  "level": "高级",
+  "order_hint": "在 Gallager 随机过程之后阅读，连续时间状态空间的理论基础",
+  "classic_reason": "以滤波为导向的随机微积分讲义，连续时间 Kalman-Bucy 与非线性滤波部分很少见于其他公开讲义",
+  "cross_kind": "",
+  "summary": "Caltech 研究生课讲义：随机积分与 SDE、连续时间滤波（Kalman-Bucy 与非线性滤波）及最优随机控制。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "补足连续时间状态空间与滤波理论。",
+  "priority": 3
+ },
+ {
+  "rank": 34,
+  "kind": "course",
+  "title": "Statistics 312: Stochastic Processes — lecture notes",
+  "authors": [
+   "Steven P. Lalley"
+  ],
+  "institution": "University of Chicago",
+  "course_name": "Stochastic Processes",
+  "course_code": "Stat 312",
+  "term": "Autumn 2016",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2016",
+  "homepage": "https://galton.uchicago.edu/~lalley/Courses/312/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/PoissonProcesses.pdf",
+    "label": "Poisson Processes"
+   },
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/RW.pdf",
+    "label": "Random Walk"
+   },
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/RenewalTheory.pdf",
+    "label": "Renewal Processes"
+   },
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf",
+    "label": "Markov Chains"
+   },
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/Branching.pdf",
+    "label": "Branching Processes"
+   },
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/HarmonicFunctions.pdf",
+    "label": "Harmonic Functions"
+   },
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/ContinuousTime.pdf",
+    "label": "Continuous-Time Markov Chains"
+   },
+   {
+    "url": "https://galton.uchicago.edu/~lalley/Courses/312/BrownianMotion312.pdf",
+    "label": "Brownian Motion"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页列出 8 个主题讲义 PDF（另 8 份作业不计），全部列出",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "Poisson 过程",
+   "随机游走",
+   "更新过程",
+   "马尔可夫链",
+   "分支过程",
+   "调和函数",
+   "连续时间马尔可夫链",
+   "布朗运动"
+  ],
+  "level": "进阶",
+  "order_hint": "随机过程基础，可与 MIT 6.262 二选一",
+  "classic_reason": "芝加哥大学统计系随机过程课程讲义，例子丰富",
+  "cross_kind": "",
+  "summary": "芝加哥大学研究生随机过程课程讲义：Poisson 过程、随机游走、更新理论、马尔可夫链、分支过程、调和函数、连续时间马尔可夫链与布朗运动。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "随机过程基础的另一份完整讲义。",
+  "priority": 3
+ },
+ {
+  "rank": 35,
+  "kind": "course",
+  "title": "Deep Learning (UNIGE 14x050 / formerly EPFL EE-559) — lecture handouts",
+  "authors": [
+   "François Fleuret"
+  ],
+  "institution": "Université de Genève（2022 年前亦作为 EPFL EE-559 讲授）",
+  "course_name": "Deep Learning",
+  "course_code": "14x050 (UNIGE); EE-559 (EPFL)",
+  "term": "待核实（课程页为当前版本；EPFL 讲授至 2022）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2018",
+  "version_year": "待核实",
+  "homepage": "https://fleuret.org/dlc/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-1-1-from-anns-to-deep-learning.pdf",
+    "label": "1-1-from-anns-to-deep-learning"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-1-2-current-success.pdf",
+    "label": "1-2-current-success"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-1-3-what-is-happening.pdf",
+    "label": "1-3-what-is-happening"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-1-4-tensors-and-linear-regression.pdf",
+    "label": "1-4-tensors-and-linear-regression"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-1-5-high-dimension-tensors.pdf",
+    "label": "1-5-high-dimension-tensors"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-1-6-tensor-internals.pdf",
+    "label": "1-6-tensor-internals"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-2-1-loss-and-risk.pdf",
+    "label": "2-1-loss-and-risk"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-2-2-overfitting.pdf",
+    "label": "2-2-overfitting"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-2-3-bias-variance-dilemma.pdf",
+    "label": "2-3-bias-variance-dilemma"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-2-4-evaluation-protocols.pdf",
+    "label": "2-4-evaluation-protocols"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-2-5-basic-embeddings.pdf",
+    "label": "2-5-basic-embeddings"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-3-1-perceptron.pdf",
+    "label": "3-1-perceptron"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-3-2-LDA.pdf",
+    "label": "3-2-LDA"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-3-3-features.pdf",
+    "label": "3-3-features"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-3-4-MLP.pdf",
+    "label": "3-4-MLP"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-3-5-gradient-descent.pdf",
+    "label": "3-5-gradient-descent"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-3-6-backprop.pdf",
+    "label": "3-6-backprop"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-4-1-DAG-networks.pdf",
+    "label": "4-1-DAG-networks"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-4-2-autograd.pdf",
+    "label": "4-2-autograd"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-4-3-modules-and-batch-processing.pdf",
+    "label": "4-3-modules-and-batch-processing"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-4-4-convolutions.pdf",
+    "label": "4-4-convolutions"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-4-5-pooling.pdf",
+    "label": "4-5-pooling"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-4-6-writing-a-module.pdf",
+    "label": "4-6-writing-a-module"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-5-1-cross-entropy-loss.pdf",
+    "label": "5-1-cross-entropy-loss"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-5-2-SGD.pdf",
+    "label": "5-2-SGD"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-5-3-optim.pdf",
+    "label": "5-3-optim"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-5-4-l2-l1-penalties.pdf",
+    "label": "5-4-l2-l1-penalties"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-5-5-initialization.pdf",
+    "label": "5-5-initialization"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-5-6-architecture-and-training.pdf",
+    "label": "5-6-architecture-and-training"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-5-7-writing-an-autograd-function.pdf",
+    "label": "5-7-writing-an-autograd-function"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-6-1-benefits-of-depth.pdf",
+    "label": "6-1-benefits-of-depth"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-6-2-rectifiers.pdf",
+    "label": "6-2-rectifiers"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-6-3-dropout.pdf",
+    "label": "6-3-dropout"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-6-4-batch-normalization.pdf",
+    "label": "6-4-batch-normalization"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-6-5-residual-networks.pdf",
+    "label": "6-5-residual-networks"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-6-6-using-GPUs.pdf",
+    "label": "6-6-using-GPUs"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-7-1-transposed-convolutions.pdf",
+    "label": "7-1-transposed-convolutions"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-7-2-autoencoders.pdf",
+    "label": "7-2-autoencoders"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-7-3-denoising-autoencoders.pdf",
+    "label": "7-3-denoising-autoencoders"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-7-4-VAE.pdf",
+    "label": "7-4-VAE"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-8-1-CV-tasks.pdf",
+    "label": "8-1-CV-tasks"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-8-2-image-classification.pdf",
+    "label": "8-2-image-classification"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-8-3-object-detection.pdf",
+    "label": "8-3-object-detection"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-8-4-segmentation.pdf",
+    "label": "8-4-segmentation"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-8-5-dataloader-and-surgery.pdf",
+    "label": "8-5-dataloader-and-surgery"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-9-1-looking-at-parameters.pdf",
+    "label": "9-1-looking-at-parameters"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-9-2-looking-at-activations.pdf",
+    "label": "9-2-looking-at-activations"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-9-3-visualizing-in-input.pdf",
+    "label": "9-3-visualizing-in-input"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-9-4-optimizing-inputs.pdf",
+    "label": "9-4-optimizing-inputs"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-10-1-autoregression.pdf",
+    "label": "10-1-autoregression"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-10-2-causal-convolutions.pdf",
+    "label": "10-2-causal-convolutions"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-10-3-NVP.pdf",
+    "label": "10-3-NVP"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-11-1-GAN.pdf",
+    "label": "11-1-GAN"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-11-2-Wasserstein-GAN.pdf",
+    "label": "11-2-Wasserstein-GAN"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-11-3-conditional-GAN.pdf",
+    "label": "11-3-conditional-GAN"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-11-4-persistence.pdf",
+    "label": "11-4-persistence"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-12-1-RNN-basics.pdf",
+    "label": "12-1-RNN-basics"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-12-2-LSTM-and-GRU.pdf",
+    "label": "12-2-LSTM-and-GRU"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-12-3-word-embeddings-and-translation.pdf",
+    "label": "12-3-word-embeddings-and-translation"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-13-1-attention-memory-translation.pdf",
+    "label": "13-1-attention-memory-translation"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-13-2-attention-mechanisms.pdf",
+    "label": "13-2-attention-mechanisms"
+   },
+   {
+    "url": "https://fleuret.org/dlc/materials/dlc-handout-13-3-transformers.pdf",
+    "label": "13-3-transformers"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页按讲列出全部 handout（带注释的竖版讲义）共 62 份，全部列出；页面另提供 dlc-handout-all.zip 合集",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "深度学习基础",
+   "评估协议与过拟合",
+   "自回归模型与因果卷积",
+   "RNN/LSTM/GRU",
+   "注意力与 Transformer",
+   "生成模型"
+  ],
+  "level": "进阶",
+  "order_hint": "学习 IP Paris 时间序列深度学习课之前的通用深度学习基础",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "日内瓦大学/EPFL 深度学习完整课程：张量与自动微分、优化、卷积网络、自回归与因果卷积、生成模型、RNN/LSTM/GRU、注意力与 Transformer，PyTorch 示例。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "为序列深度学习（RNN、因果卷积、Transformer）提供系统基础，讲义完整。",
+  "priority": 3
+ },
+ {
+  "rank": 36,
+  "kind": "course",
+  "title": "Solving and Estimating Dynamic Equilibrium Models — lecture notes (estimation part: Bayesian econometrics, MCMC, filtering)",
+  "authors": [
+   "Jesús Fernández-Villaverde",
+   "Juan F. Rubio-Ramírez"
+  ],
+  "institution": "University of Pennsylvania",
+  "course_name": "Solving and Estimating Dynamic Equilibrium Models（研究生课程讲义）",
+  "course_code": "待核实",
+  "term": "待核实",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://www.sas.upenn.edu/~jesusfv/teaching.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_1_introduction.pdf",
+    "label": "Lecture Notes 1: Introduction"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_2_model.pdf",
+    "label": "Lecture Notes 2: Formulating Dynamic Equilibrium Models"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_3_solving.pdf",
+    "label": "Lecture Notes 3: Solving Dynamic Equilibrium Models"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_4_bayesian.pdf",
+    "label": "Lecture Notes 4: Introduction to Bayesian Econometrics"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_5_montecarlo.pdf",
+    "label": "Lecture Notes 5: Monte Carlo Methods"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_6_mcmc.pdf",
+    "label": "Lecture Notes 6: Markov Chain Monte Carlo"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_7_MH.pdf",
+    "label": "Lecture Notes 7: Metropolis-Hastings"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_9_filtering.pdf",
+    "label": "Lecture Notes 9: Filtering Theory"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_10_modelcomparison.pdf",
+    "label": "Lecture Notes 10: Model Comparison"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_11_inference.pdf",
+    "label": "Lecture Notes 11: Inference"
+   },
+   {
+    "url": "https://www.sas.upenn.edu/~jesusfv/LectureNotes_12_filtering.pdf",
+    "label": "Lecture Notes 12: Nonlinear and/or Non-gaussian Filtering"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "教学页该课程列出 Lecture Notes 1-7、9-12 共 11 份 PDF（页面无第 8 讲），全部列出",
+  "legal_basis": "授课教师主页公开",
+  "language": "en",
+  "topics": [
+   "DSGE 模型求解",
+   "贝叶斯计量",
+   "蒙特卡罗与 MCMC",
+   "Metropolis-Hastings",
+   "滤波理论/Kalman 滤波",
+   "非线性非高斯滤波（粒子滤波）",
+   "模型比较"
+  ],
+  "level": "高级",
+  "order_hint": "在 MIT 14.384 状态空间讲次之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "宾大研究生宏观计量讲义：动态均衡模型的设定与求解，贝叶斯计量、MCMC、Kalman 滤波理论、模型比较与推断、非线性/非高斯（粒子）滤波估计。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "把状态空间滤波与贝叶斯估计用于结构经济模型的完整讲义，补充贝叶斯方法与粒子滤波应用。",
+  "priority": 3
+ },
+ {
+  "rank": 37,
+  "kind": "course",
+  "title": "Signals, Systems and Inference (6.011) lecture slides",
+  "authors": [
+   "待核实（OCW 页面未解析出授课教师）"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Signals, Systems and Inference",
+  "course_code": "6.011",
+  "term": "Spring 2018",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2018",
+  "version_year": "2018",
+  "homepage": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/b00929a765946777aef3a9bf7f160d0f_MIT6_011S18lec1.pdf",
+    "label": "Lecture 1 Introduction"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/ee9040c91bdd01a11a59833ef57aadc7_MIT6_011S18lec2.pdf",
+    "label": "Lecture 2 Transforms"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/fd065fa5967a6fee31af9ffd31754da1_MIT6_011S18lec3.pdf",
+    "label": "Lecture 3 Energy Spectral Density"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/347a8760a776f2c06ec599195600e486_MIT6_011S18lec4.pdf",
+    "label": "Lecture 4 State-Space Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/f3e2660d22e2d57ebbf62fbe77cc156f_MIT6_011S18lec5.pdf",
+    "label": "Lecture 5 State-Space Models, Equilibrium, Lineariza"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/32d0d6ceabaa7db378cce8f35cb9c3f6_MIT6_011S18lec6.pdf",
+    "label": "Lecture 6 Modal Solution of Undriven CT LTI State-Sp"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/14c2cc64f729f4e64df7cf3f2921fcd1_MIT6_011S18lec7.pdf",
+    "label": "Lecture 7 Full Modal Solution, Asymptotic Stability,"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/8c8a946b0ea2b09128d3931aa8a317b8_MIT6_011S18lec8.pdf",
+    "label": "Lecture 8 Matrix Exponential, ZIR+ZSR, Transfer"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/1fb5c152b0e0eb447425b7f6e0c9f442_MIT6_011S18lec9.pdf",
+    "label": "Lecture 9 Observers for State Estimation"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/374940065e1339ea37dd2aa3cf8c54bd_MIT6_011S18lec10.pdf",
+    "label": "Lecture 10 Observers, State Feedback"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/aecb8bb1edba3f3d958bd9cbfe911889_MIT6_011S18lec11.pdf",
+    "label": "Lecture 11 State Feedback, Observer-Based Feedback"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/3e0a5c25cd7b5e1e0b1a328e13c82025_MIT6_011S18lec12.pdf",
+    "label": "Lecture 12 Probabilistic Models, Random Variables"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/bf865d4453d74062b775581570a30f43_MIT6_011S18lec13.pdf",
+    "label": "Lecture 13 Vector Picture for First- and Second-Orde"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/e13347b4a1297aaacc9633efe1d573c7_MIT6_011S18lec14.pdf",
+    "label": "Lecture 14 LMMSE Estimation, Orthogonality"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/0df9fff5e1e92239e0f755a893117b91_MIT6_011S18lec15.pdf",
+    "label": "Lecture 15 Normal Equations, Random Processes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/b6554551f64bd5f75ff3f4ff4f0a23f6_MIT6_011S18lec16.pdf",
+    "label": "Lecture 16 Wide-sense Stationary Processes, LTI Filt"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/aff4e7915b3de35e2481d62b444d71ee_MIT6_011S18lec17.pdf",
+    "label": "Lecture 17 LTI Filtering of WSS Processes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/e6d7ee6c7901199ddec42d9e75ffbe1b_MIT6_011S18lec18.pdf",
+    "label": "Lecture 18 Power Spectral Density"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/9657e9035276a86c632ffcf6f0ec0bc2_MIT6_011S18lec19.pdf",
+    "label": "Lecture 19 Einstein-Wiener-Khinchin Theorem, PSD App"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/78edf8ff33f3eb92cb6d1e2a83325af1_MIT6_011S18lec20.pdf",
+    "label": "Lecture 20 Wiener Filtering"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/a3fb86318f0d86e4eb8a4607881c8578_MIT6_011S18lec21.pdf",
+    "label": "Lecture 21 Wiener Filtering Illustrations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/e6055996bacfce70426cfb7a080c03aa_MIT6_011S18lec22.pdf",
+    "label": "Lecture 22 Hypothesis Testing"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/0fd576ed952d28a0e3936b79e092ec2c_MIT6_011S18lec23.pdf",
+    "label": "Lecture 23 Neyman-Pearson Testing, Signal Detection"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/dfe2855f36e44436678bfd3736c937fe_MIT6_011S18lec24.pdf",
+    "label": "Lecture 24 Matched Filtering"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页列出 Lecture 1-24 共 24 份 PDF，全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "状态空间模型",
+   "观测器与状态估计",
+   "LMMSE 估计",
+   "随机过程与宽平稳",
+   "功率谱密度",
+   "Wiener 滤波",
+   "假设检验与信号检测"
+  ],
+  "level": "进阶",
+  "order_hint": "信号处理背景读者理解谱、Wiener 滤波与状态估计",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "MIT 本科高年级课程：变换与谱、状态空间模型与观测器、LMMSE 估计、宽平稳过程经 LTI 滤波、功率谱密度、Wiener 滤波及假设检验/匹配滤波。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "以信号处理视角串联平稳过程、谱与最优线性滤波，2018 年版本较新。",
+  "priority": 3
+ },
+ {
+  "rank": 38,
+  "kind": "course",
+  "title": "应用时间序列分析备课笔记",
+  "authors": [
+   "李东风"
+  ],
+  "institution": "北京大学数学科学学院",
+  "course_name": "应用时间序列分析",
+  "course_code": "待核实",
+  "term": "待核实",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://www.math.pku.edu.cn/teachers/lidf/course/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://www.math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/atsanotes.pdf",
+    "label": "全书 PDF"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "检索结果显示作者课程目录下提供该备课笔记的 HTML 版与整本 PDF；因该站 TLS 证书链不完整，本次 WebFetch/直连均无法打开官方页面复核（待核实）",
+  "legal_basis": "作者（授课教师）主页公开",
+  "language": "cn",
+  "topics": [
+   "平稳序列",
+   "ARMA",
+   "ARIMA 与季节模型",
+   "预测",
+   "R 实现"
+  ],
+  "level": "入门",
+  "order_hint": "中文读者的入门主线，可与 Berkeley Stat 153 对照",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "北京大学李东风教授的《应用时间序列分析》备课笔记（参考何书元教材），以 R 为工具讲授平稳序列、ARMA/ARIMA 建模与预测。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "少有的官方公开中文时间序列完整讲义；下载时需注意证书问题。",
+  "priority": 3
+ },
+ {
+  "rank": 39,
+  "kind": "course",
+  "title": "Applied Spatio-temporal Statistics (STAT 764) — class notes",
+  "authors": [
+   "Trevor Hefley"
+  ],
+  "institution": "Kansas State University",
+  "course_name": "Applied Spatio-temporal Statistics",
+  "course_code": "STAT 764",
+  "term": "Fall 2020",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2020",
+  "version_year": "2020",
+  "homepage": "https://bookdown.org/hefleyt2/STAT764fall2020/",
+  "format": "html",
+  "files": [],
+  "html_toc": "https://bookdown.org/hefleyt2/STAT764fall2020/",
+  "html_chapters": 33,
+  "completeness_evidence": "bookdown 目录列出整学期逐次课堂笔记共 33 个章节页（不含首页），无 PDF 版",
+  "legal_basis": "授课教师在 bookdown.org 公开",
+  "language": "en",
+  "topics": [
+   "贝叶斯层次模型",
+   "空间统计",
+   "时空动态模型",
+   "GIS 数据生成",
+   "探索性分析与可视化",
+   "R 实操"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Durham MATH4341 之后，作为应用型时空建模实践",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "堪萨斯州立大学时空统计应用课逐次课堂笔记：统计模型与分布理论回顾、贝叶斯层次模型、描述性与动态时空模型、GIS 数据与 R 实操。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "以层次模型为主线的时空统计应用课，契合生态、空气质量、水质等监测数据。",
+  "priority": 3
+ },
+ {
+  "rank": 40,
+  "kind": "course",
+  "title": "Anomaly Detection (Master course) — lecture slides",
+  "authors": [
+   "Paul Irofti",
+   "Andrei Pătrașcu",
+   "Cristian Rusu"
+  ],
+  "institution": "University of Bucharest, Faculty of Mathematics and Computer Science",
+  "course_name": "Anomaly Detection",
+  "course_code": "待核实",
+  "term": "Autumn 2025（页面日程为 2025 年 10 月起）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2025",
+  "homepage": "https://numeric.cs.unibuc.ro/ad.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-intro.pdf",
+    "label": "Course organisation (first deck)"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-01.pdf",
+    "label": "Introduction to the problem of anomaly detection: general concepts, examples, motivation"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-02.pdf",
+    "label": "Leverage scores for linear regression"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-03.pdf",
+    "label": "Density based: k-NN, LOF"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-04.pdf",
+    "label": "Tree based: Isolation Forest"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-05.pdf",
+    "label": "Statistical algorithms: truncation, LODA"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-06.pdf",
+    "label": "Distance based: OC-SVM, SVDD"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-07.pdf",
+    "label": "Data adaptation: time series"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-08.pdf",
+    "label": "Dimensionality reduction: PCA, robust PCA"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-09v2.pdf",
+    "label": "Dimensionality reduction: Autoencoder"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-10.pdf",
+    "label": "Applications: network throughput analysis"
+   },
+   {
+    "url": "https://numeric.cs.unibuc.ro/ad/ad-curs-11.pdf",
+    "label": "Data adaptation: graphs"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页列出组织说明幻灯片与第 1-11 讲幻灯片共 12 份，全部列出（另有实验课讲义不计）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "异常检测",
+   "密度/距离方法（LOF、OC-SVM）",
+   "Isolation Forest",
+   "统计方法",
+   "时间序列异常检测",
+   "PCA/鲁棒 PCA",
+   "自编码器",
+   "网络流量应用"
+  ],
+  "level": "进阶",
+  "order_hint": "与 MVA Oudre 课程第 5 讲配合阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "布加勒斯特大学硕士异常检测课程：问题定义、杠杆分数、密度与树方法、统计算法、距离方法、时间序列适配、降维与自编码器、网络流量与图数据应用。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "系统的异常检测课程（含时间序列专讲），补充工业监测与异常检测主题。",
+  "priority": 3
+ },
+ {
+  "rank": 41,
+  "kind": "course",
+  "title": "Identification, Estimation, and Learning (2.160) lecture notes",
+  "authors": [
+   "Harry Asada"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Identification, Estimation, and Learning",
+  "course_code": "2.160",
+  "term": "Spring 2006",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2006",
+  "version_year": "2006",
+  "homepage": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/1bf206dfb15f096397afc979ba28bddb_updtd_table_cont.pdf",
+    "label": "Updated table of contents"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/91db7562bda5387611934b41e87bdaee_intro_edited.pdf",
+    "label": "Introduction"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/024038d962b1e7d63130fc746e03ef71_lecture_1.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/2ada973a6a0171832bafbb05c177fcc9_lecture_2.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/0223ccdb1348e84e3a5f04fc0af46edf_lecture_3.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/9dfa8077476e4039bda57b9c1a0e6e3c_lecture_4.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/52d79e15e4d3aa1add2641f941241070_lecture_5.pdf",
+    "label": "Lecture 5"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/5374ca7c1c6c42d50e1a59807d00f438_lecture_6.pdf",
+    "label": "Lecture 6"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/825d8851ab6950cebfab991c3e435f90_lecture_7.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/5d7c37b93786ddb91cd913d1ab994848_lecture_8.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/ea6519d668f17c0f84384bf4aadd408a_lecture_9.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/c84c039d7698af33b72bf191bc682241_lecture_10.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/b7dab05f8461509f860e9e01b48d67cb_lecture_11.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/83eaa7284816776ce9694a54b1cb1c7d_lecture_12.pdf",
+    "label": "Lecture 12"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/aa966024c170954fea8a0c8f55eeea7c_lecture_13.pdf",
+    "label": "Lecture 13"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/06ffb360046251db7c67c236a7331c55_lecture_14.pdf",
+    "label": "Lecture 14"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/ccdbd6afd22cc0b2874d968a76120fef_lecture_15.pdf",
+    "label": "Lecture 15"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/12ea8ad7befe288527ba9dd657aa0464_lecture_16.pdf",
+    "label": "Lecture 16"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/a2f9908439e402d9f68fb239e0d49748_lecture_17.pdf",
+    "label": "Lecture 17"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/65ff264f39b22d8e53015ce38cd93b41_lecture_18.pdf",
+    "label": "Lecture 18"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/fa7602cf93c47afdc6b070fa549d3566_lecture_19.pdf",
+    "label": "Lecture 19"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/cbd91572265d111ef7c7e38f80d5dda6_lecture_20.pdf",
+    "label": "Lecture 20"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/04a80ba12b5cfb7d4a67c42ff7cb30dd_lecture_21.pdf",
+    "label": "Lecture 21"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页列出目录、引言与第 1-21 讲共 23 份 PDF，全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "递推最小二乘",
+   "Kalman 滤波",
+   "系统辨识（预测误差法）",
+   "ARX/ARMAX 模型",
+   "神经网络学习",
+   "非线性估计"
+  ],
+  "level": "进阶",
+  "order_hint": "与 6.435 系统辨识二选一",
+  "classic_reason": "机械系课程把参数估计、Kalman 滤波、系统辨识与学习放在一起，适合工业过程建模",
+  "cross_kind": "",
+  "summary": "MIT 机械系研究生课：最小二乘与递推估计、Kalman 滤波、预测误差系统辨识与模型结构、频域方法及神经网络等学习方法。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "工业过程/预测性维护中输入-输出时间序列建模的系统辨识视角。",
+  "priority": 3
+ },
+ {
+  "rank": 42,
+  "kind": "course",
+  "title": "EE363: Linear Dynamical Systems — lecture slides (Winter 2008-09)",
+  "authors": [
+   "Stephen Boyd"
+  ],
+  "institution": "Stanford University",
+  "course_name": "Linear Dynamical Systems",
+  "course_code": "EE363",
+  "term": "Winter Quarter 2008-09",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2008",
+  "version_year": "2009",
+  "homepage": "https://ee363.stanford.edu/archive/lectures.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/dlqr.pdf",
+    "label": "Linear quadratic regulator: Discrete-time finite horizon"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/lqr-lagrange.pdf",
+    "label": "LQR via Lagrange multipliers"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/dlqr-ss.pdf",
+    "label": "Infinite horizon LQR"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/clqr.pdf",
+    "label": "Continuous-time LQR"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/stoch_lqr.pdf",
+    "label": "Linear quadratic stochastic control"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/inv-sub.pdf",
+    "label": "Invariant subspaces"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/estim.pdf",
+    "label": "Estimation"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/kf.pdf",
+    "label": "The Kalman filter"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/nlfilt.pdf",
+    "label": "Approximate nonlinear filtering"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/lqg.pdf",
+    "label": "Linear quadratic stochastic control with partially observed states"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/conserv.pdf",
+    "label": "Conservation and dissipation"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/lyap.pdf",
+    "label": "Basic Lyapunov theory"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/lq-lyap.pdf",
+    "label": "Linear quadratic Lyapunov theory"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/io-lyap.pdf",
+    "label": "Lyapunov theory with inputs and outputs"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/lmi-s-proc.pdf",
+    "label": "Linear matrix inequalities and the S-procedure"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/nonlin-fdbk.pdf",
+    "label": "Analysis of systems with sector nonlinearities"
+   },
+   {
+    "url": "https://ee363.stanford.edu/archive/lectures/pf.pdf",
+    "label": "Perron-Frobenius theory"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程存档页列出 17 讲幻灯片 PDF，全部列出",
+  "legal_basis": "课程官方存档页面公开",
+  "language": "en",
+  "topics": [
+   "LQR",
+   "线性二次随机控制",
+   "估计",
+   "Kalman 滤波",
+   "近似非线性滤波",
+   "LQG",
+   "Lyapunov 理论"
+  ],
+  "level": "高级",
+  "order_hint": "仅需精读估计、Kalman 滤波与非线性滤波三讲；其余为控制背景",
+  "classic_reason": "Boyd 经典课程，Kalman 滤波与估计讲次简洁严谨",
+  "cross_kind": "",
+  "summary": "斯坦福线性动态系统课程（Boyd）存档幻灯片：LQR、随机控制、线性估计、Kalman 滤波、近似非线性滤波、LQG 与 Lyapunov 理论。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "以优化与控制视角讲 Kalman 滤波，作为状态空间主题的补充。",
+  "priority": 3
+ },
+ {
+  "rank": 43,
+  "kind": "course",
+  "title": "Fundamentals of Probability (6.436J) lecture notes",
+  "authors": [
+   "Yury Polyanskiy"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Fundamentals of Probability",
+  "course_code": "6.436J/15.085J",
+  "term": "Fall 2018",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2018",
+  "version_year": "2018",
+  "homepage": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/c37dc8b61cdf6bde689a627bfa5b4942_MIT6_436JF18_lec01.pdf",
+    "label": "Probabilistic Models and Probability Measures"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/03cb805c752a7e89e52878e8e6270e34_MIT6_436JF18_lec02.pdf",
+    "label": "Two Fundamental Probabalistic Models"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/5ba99e3803701c145f1d06c26dcf61b8_MIT6_436JF18_lec03.pdf",
+    "label": "Conditioning and Independence (PDF)."
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/9797310bed4c7f5b5d40d007783eec8d_MIT6_436JF18_lec04.pdf",
+    "label": "Random Variables"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/491fa11552c94413806e5a09a9d6c237_MIT6_436JF18_lec05.pdf",
+    "label": "Discrete Random Variables and Their Expectations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f6a391ad22d454dea0903bb72eb58728_MIT6_436JF18_lec06.pdf",
+    "label": "More on Discrete Random Variables and Their Expectations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/9042f3ddd88971c6ce116e0a1d7faec4_MIT6_436JF18_lec07.pdf",
+    "label": "Abstract Integration I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/a8b70283ce951b43d64f419b0857e0a3_MIT6_436JF18_lec08.pdf",
+    "label": "Abstract Integration II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/6fe5ce4d56945ce7241679998922fb3a_MIT6_436JF18_lec09.pdf",
+    "label": "Product Measure and Fubini’s Theorem"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/12b27e5630be533e1385ac142df8a70a_MIT6_436JF18_lec10.pdf",
+    "label": "Continous Random Variables I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/67826d2ee5082d4a4b732b4dd73c0895_MIT6_436JF18_lec11.pdf",
+    "label": "Continous Random Variables II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/fffea6a21fa73ed546d9edfcb4384bef_MIT6_436JF18_lec12.pdf",
+    "label": "Derived Distributions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/1a592ed184fb4c444547f67c9bcdd8ec_MIT6_436JF18_lec13.pdf",
+    "label": "Moment Generating Functions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/ceb423b6a703abd60429367b733f45bf_MIT6_436JF18_lec14.pdf",
+    "label": "Multivariate Normal Distributions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/87422049e8f05459ee857eb475f3a667_MIT6_436JF18_lec15.pdf",
+    "label": "Multivariate Normal Distributions. Characteristic Functions"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b4ebf022b1060fcce920227d934dd6f0_MIT6_436JF18_lec16.pdf",
+    "label": "Convergence of Random Variables"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f44fa78f05ac31a4ba2bd82f599dcf60_MIT6_436JF18_lec17.pdf",
+    "label": "Laws of Large Numbers I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/10625dc0942f47c4ddc004b3dbba11d5_MIT6_436JF18_lec18.pdf",
+    "label": "Laws of Large Numbers II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/3858b970eb2d877440a485b8ff9cff8a_MIT6_436JF18_lec19.pdf",
+    "label": "Uniform Integrability. Convergence of Series"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b9342e718ec4c58d98ec97dcfcb0d56e_MIT6_436JF18_lec20.pdf",
+    "label": "The Basics of Stochastic Processes"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/141423989a49375f14f0a44940d81e67_MIT6_436JF18_lec21.pdf",
+    "label": "Markov Chains I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f7bbbb40126e2e9e505cbbf64dc36ff1_MIT6_436JF18_lec22.pdf",
+    "label": "Markov Chains II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/857446d2b16bbc12f0499a61c93833c2_MIT6_436JF18_lec23.pdf",
+    "label": "Markov Chains III"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/087af3cedbc9def5b156c5e1665ac79c_MIT6_436JF18_lec24.pdf",
+    "label": "Infinite Markov Chains. Continuous Time Markov Chains"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/d734a5f3c245eef581b2937b53d8e6dd_MIT6_436JF18_lec25.pdf",
+    "label": "Martingales I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f8ffbc1a27d17d83aaca980fc499d477_MIT6_436JF18_lec26.pdf",
+    "label": "Martingales II"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页列出 26 讲 PDF，全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "测度论概率",
+   "条件与独立",
+   "特征函数与多元正态",
+   "收敛与大数定律",
+   "随机过程基础",
+   "马尔可夫链",
+   "鞅"
+  ],
+  "level": "进阶",
+  "order_hint": "理论型时间序列讲义（UvA、ETH）的前置",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "MIT 研究生概率论课程讲义：测度论基础、随机变量与积分、多元正态与特征函数、收敛模式与大数定律、随机过程、马尔可夫链与鞅。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "覆盖清单中“概率/随机过程基础”主题，为理论型时间序列阅读做准备。",
+  "priority": 3
+ },
+ {
+  "rank": 44,
+  "kind": "course",
+  "title": "Statistics 153: Introduction to Time Series Analysis — lecture notes (Spring 2013)",
+  "authors": [
+   "Aditya Guntuboyina"
+  ],
+  "institution": "University of California, Berkeley",
+  "course_name": "Introduction to Time Series Analysis",
+  "course_code": "Stat 153",
+  "term": "Spring 2013",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2013",
+  "version_year": "2013",
+  "homepage": "https://www.stat.berkeley.edu/~aditya/styled-5/index.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureONE.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWO.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTHREE.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureFOUR.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureFIVE.pdf",
+    "label": "Lecture 5"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureSIX.pdf",
+    "label": "Lecture 6"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureSEVEN.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureEIGHT.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureNINE.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTEN.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureELEVEN.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWELVE.pdf",
+    "label": "Lecture 12"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTHIRTEEN.pdf",
+    "label": "Lecture 13"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureFOURTEEN.pdf",
+    "label": "Lecture 14"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureFIFTEEN.pdf",
+    "label": "Lecture 15"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureSIXTEEN.pdf",
+    "label": "Lecture 16"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureSEVENTEEN.pdf",
+    "label": "Lecture 17"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureEIGHTEEN.pdf",
+    "label": "Lecture 18"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureNINETEEN.pdf",
+    "label": "Lecture 19"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWENTY.pdf",
+    "label": "Lecture 20"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWENTYONE.pdf",
+    "label": "Lecture 21"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWENTYTWO.pdf",
+    "label": "Lecture 22"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWENTYTHREE.pdf",
+    "label": "Lecture 23"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWENTYFOUR.pdf",
+    "label": "Lecture 24"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWENTYFIVE.pdf",
+    "label": "Lecture 25"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~aditya/resources/LectureTWENTYSIX.pdf",
+    "label": "Lecture 26"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页逐讲列出 26 份讲义 Notes PDF，全部列出（作业不计）",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "趋势与季节",
+   "平稳性与自相关",
+   "ARMA/ARIMA/SARIMA",
+   "模型诊断与预测",
+   "谱分析"
+  ],
+  "level": "入门",
+  "order_hint": "作为 Tibshirani 版本的文字型讲义补充",
+  "classic_reason": "逐讲文字讲义，推导较幻灯片详细，与 2023 版互补（同一课程编号但教师与讲义不同）",
+  "cross_kind": "",
+  "summary": "伯克利 Stat 153 2013 春季逐讲讲义：趋势与季节、平稳性、ARMA/ARIMA/季节模型、诊断与预测、谱分析。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "文字详尽的入门讲义；与第 2 项属同一课程不同教师版本，按需取舍。",
+  "priority": 3
+ },
+ {
+  "rank": 45,
+  "kind": "course",
+  "title": "System Identification (6.435) lecture notes",
+  "authors": [
+   "Munther Dahleh"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "System Identification",
+  "course_code": "6.435",
+  "term": "Spring 2005",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2005",
+  "version_year": "2005",
+  "homepage": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/f42908f6feef140367a3028af8512a6f_lec1_6_435.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/dbf16370075157ac2320a858d365b9e8_lec2_6_435.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/f8c4d890b96b4bb6482e461080299e23_lec3_6_435.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/ffdd1299a755458f8b990bf3f8de8d20_lec4_6_435.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/bfceec157a14875ac1d466c02cde7926_lec5_6_435.pdf",
+    "label": "Lecture 5"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/3cd2a84f8e64c60fae99b9c09f342b86_lec6_6_435.pdf",
+    "label": "Lecture 6"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/c73a3ab7a1f93e7953223ac3d01550c7_lec7_6_435.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/bf953352f781108bfd3de9939a530164_lec8_6_435.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/421a9e228140fc8e47002d404223b9bb_lec9_6_435.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/7d962ce43973d3a313601cdd156972ad_lec10_6_435.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/953da04a2e5322244b36ee28297e2fc9_lec11_6_435.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/b75d29c89150abc5689ff619ea4f9aaf_lec12_6_435.pdf",
+    "label": "Lecture 12"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页列出 12 份讲义 PDF，全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "系统辨识",
+   "预测误差方法",
+   "ARX/ARMAX/Box-Jenkins 模型结构",
+   "一致性与渐近",
+   "模型验证"
+  ],
+  "level": "高级",
+  "order_hint": "与 2.160 二选一",
+  "classic_reason": "系统辨识理论经典课程讲义",
+  "cross_kind": "",
+  "summary": "MIT 研究生系统辨识课程讲义：模型结构、预测误差辨识、渐近性质、输入设计与模型验证。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "为工业过程时间序列（带输入）建模提供理论。",
+  "priority": 3
+ },
+ {
+  "rank": 46,
+  "kind": "course",
+  "title": "Bayesian Statistics: Dynamic Linear Modelling — lecture handouts (2003)",
+  "authors": [
+   "Jonathan Rougier"
+  ],
+  "institution": "Durham University",
+  "course_name": "4H Bayesian Statistics: Dynamic Linear Modelling",
+  "course_code": "4H",
+  "term": "2003（Epiphany）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2003",
+  "version_year": "2003",
+  "homepage": "https://maths.dur.ac.uk/stats/people/jcr/DLM/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm0.pdf",
+    "label": "Handout 0"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm1.pdf",
+    "label": "Handout 1"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm2.pdf",
+    "label": "Handout 2"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm3.pdf",
+    "label": "Handout 3"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm4.pdf",
+    "label": "Handout 4"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm5.pdf",
+    "label": "Handout 5"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm6.pdf",
+    "label": "Handout 6"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm7.pdf",
+    "label": "Handout 7"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm8.pdf",
+    "label": "Handout 8"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm9.pdf",
+    "label": "Handout 9"
+   },
+   {
+    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm11.pdf",
+    "label": "Handout 11"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Handouts 列出 dlm0-dlm9 与 dlm11 共 11 份 PDF（页面未列 dlm10，疑缺一讲），全部列出",
+  "legal_basis": "授课教师课程页面公开",
+  "language": "en",
+  "topics": [
+   "动态线性模型 DLM",
+   "贝叶斯预测",
+   "折扣因子",
+   "干预与监控",
+   "非线性模型"
+  ],
+  "level": "进阶",
+  "order_hint": "在 Wilkinson 讲义 DLM 章之后阅读",
+  "classic_reason": "基于 West & Harrison 的贝叶斯预测/DLM 课程讲义，公开资料中稀缺",
+  "cross_kind": "",
+  "summary": "杜伦大学本科四年级贝叶斯动态线性模型课程讲义，对应 West & Harrison《Bayesian Forecasting and Dynamic Models》：DLM 基本特征与预测、折扣、监控与干预、非线性模型。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "补足贝叶斯预测（DLM）主题；疑缺第 10 份讲义，需下载核对。",
+  "priority": 3,
+  "exclude": "讲义包缺第 10 讲（dlm10），不完整"
+ },
+ {
+  "rank": 47,
+  "kind": "course",
+  "title": "STAT 510: Applied Time Series Analysis (online course notes)",
+  "authors": [
+   "Bob Heckard",
+   "Megan Romer"
+  ],
+  "institution": "Penn State University, Department of Statistics",
+  "course_name": "Applied Time Series Analysis",
+  "course_code": "STAT 510",
+  "term": "待核实（在线开放课程，持续维护）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://online.stat.psu.edu/stat510/",
+  "format": "html",
+  "files": [],
+  "html_toc": "https://online.stat.psu.edu/stat510/",
+  "html_chapters": 0,
+  "completeness_evidence": "检索结果显示官方站点为完整在线课程笔记（CC BY-NC 4.0），但该站 TLS 证书链不完整，本次未能打开目录页清点课次（html_chapters 待核实）",
+  "legal_basis": "宾州州立大学开放教育资源（据检索摘要为 CC BY-NC 4.0，待核实）",
+  "language": "en",
+  "topics": [
+   "ARIMA",
+   "季节模型",
+   "平滑与分解",
+   "谱分析",
+   "ARCH/GARCH",
+   "带 ARIMA 误差的回归",
+   "长记忆",
+   "R 实操"
+  ],
+  "level": "入门",
+  "order_hint": "入门备选，网页形式",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "宾州州立大学开放课程网页笔记：时间序列基础、ARIMA 识别估计与预测、季节模型、平滑与分解、谱分析、GARCH、带自相关误差的回归等，附 R 代码。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "知名的完整在线课程笔记；本次未能直接核验目录（证书问题）。",
+  "priority": 3
+ },
+ {
+  "rank": 48,
+  "kind": "course",
+  "title": "Advanced Stochastic Processes (15.070J) lecture notes",
+  "authors": [
+   "David Gamarnik"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Advanced Stochastic Processes",
+  "course_code": "15.070J/6.265J",
+  "term": "Fall 2013",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2013",
+  "version_year": "2013",
+  "homepage": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/59e4f0d302a20e75921eaf4e290739dd_MIT15_070JF13_Lec1.pdf",
+    "label": "Lecture 1: Metric spaces"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/ed35842f2e902421e4a6cdd4d9eca6fe_MIT15_070JF13_Lec2.pdf",
+    "label": "Lecture 2: Large deviations technique"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/f536bc29826255afee543b03b605bf4d_MIT15_070JF13_Lec3.pdf",
+    "label": "Lecture 3: Cramér’s theorem"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/ee4792e0cd8b5c36c0dd59946e5bf4ce_MIT15_070JF13_Lec4.pdf",
+    "label": "Lecture 4: Applications of large deviations"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/27fd98c78d35c40fd821548867809ed5_MIT15_070JF13_Lec5.pdf",
+    "label": "Lecture 5: LD in many dimensions and Markov chains"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/6774cb366bae388320c0c8a251ee8daf_MIT15_070JF13_Lec6.pdf",
+    "label": "Lecture 6: Intro Brownian motion"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+    "label": "Lecture 7: Brownian motion"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/ead1ddea0e6f0454a87c0d88e2553fee_MIT15_070JF13_Lec8.pdf",
+    "label": "Lecture 8: Quadratic variation"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/69dc2223b9957bbcc754de94dfc64cfd_MIT15_070JF13_Lec9.pdf",
+    "label": "Lecture 9: Filtration and martingales"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/36fffa59f09fbedd5969539c90df4cbb_MIT15_070JF13_Lec10.pdf",
+    "label": "Lecture 10: Martingales I"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/ce6414f24b7c22b5030d757713d3fc8f_MIT15_070JF13_Lec11.pdf",
+    "label": "Lecture 11: Martingales II"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/66b6c8fdb52304e3777ce8286beaaf7d_MIT15_070JF13_Lec11Add.pdf",
+    "label": "Additional materials: Martingale convergence theorem"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/4644bbdc15d6af2f574535aa5479ecba_MIT15_070JF13_Lec12.pdf",
+    "label": "Lecture 12: Martigales concentration inequality"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/3699794c0976bc0ef849f3fc86c1e7fe_MIT15_070JF13_Lec13.pdf",
+    "label": "Lecture 13: Talagrand’s concentration inequality"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/48fbbb8d321569db0ed58aba05432fa3_MIT15_070JF13_Lec14.pdf",
+    "label": "Lecture 14: Ito calculus"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/f538b81ec0daf9c0c374167267c6f411_MIT15_070JF13_Lec15.pdf",
+    "label": "Lecture 15: Ito construction"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/ad98cd13ff58c5ed7094841be68d57d7_MIT15_070JF13_Lec16.pdf",
+    "label": "Lecture 16: Ito integral"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/d9d7372cbf65d56aa8aa9d59ba0ab2e8_MIT15_070JF13_Lec17.pdf",
+    "label": "Lecture 17: Ito process and formula"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/e6475916fcc87c2850db29b3a1dd27e2_MIT15_070JF13_Lec19.pdf",
+    "label": "Lecture 19: Ito applications"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/bec41ab57443c19301a6ef3d12eb2829_MIT15_070JF13_Lec20.pdf",
+    "label": "Lecture 20: Weak convergence"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/47c18ebc5d68ab0e2fdb9e39e1a4b0ac_MIT15_070JF13_Lec21.pdf",
+    "label": "Lecture 21: Tightness of measures"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/175c31a9238c566b1f00c89056bdaad3_MIT15_070JF13_Lec22.pdf",
+    "label": "Lecture 22: Reflected Brownian motion"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页列出 22 份 PDF（含 1 份补充材料，第 18 讲无讲义），全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "大偏差",
+   "布朗运动",
+   "鞅与集中不等式",
+   "Itô 微积分",
+   "弱收敛"
+  ],
+  "level": "高级",
+  "order_hint": "仅在需要随机分析理论时阅读",
+  "classic_reason": "高级随机过程理论课讲义",
+  "cross_kind": "",
+  "summary": "MIT 研究生高级随机过程：大偏差、布朗运动与二次变差、鞅与集中不等式、Itô 积分与公式、弱收敛与反射布朗运动。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "随机过程理论深化（优先级低）。",
+  "priority": 3
+ },
+ {
+  "rank": 49,
+  "kind": "course",
+  "title": "Statistics for Applications (18.650) lecture slides",
+  "authors": [
+   "Philippe Rigollet"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Statistics for Applications",
+  "course_code": "18.650",
+  "term": "Fall 2016",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2016",
+  "version_year": "2016",
+  "homepage": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/pages/lecture-slides/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/7836ea6d101679d495194bc3c5f227fa_MIT18_650F16_Introduction.pdf",
+    "label": "Introduction to Statistics"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/335fd85c0a2ecffc49c781502b3d9b95_MIT18_650F16_Parametric_Inf.pdf",
+    "label": "Parametric Inference"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/36624c2682b346b07cab3da416b752a7_MIT18_650F16_Maximum_LE.pdf",
+    "label": "Maximum Likelihood Estimation"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/mit18_650f16_method_of_moments.pdf",
+    "label": "The Method of Moments"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/11b4116aa55b4e0288141bd40a39104f_MIT18_650F16_Parametric_HT.pdf",
+    "label": "Parametric Hypothesis Testing"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/9ecfca905ca7a84c485cba65854fadb1_MIT18_650F16_Testing_GF.pdf",
+    "label": "Testing Goodness of Fit"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/2c0395a301a2ca798b1c0ee18cf6eedc_MIT18_650F16_Regression.pdf",
+    "label": "Regression"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/mit18_650f16_bayesian_statistics.pdf",
+    "label": "Bayesian Statistics"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/d85e1a9d113142ade8ce5e4f5ef0b4e8_MIT18_650F16_PCA.pdf",
+    "label": "Principal Component Analysis"
+   },
+   {
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/dff89368051a5feae72b39c6422d0752_MIT18_650F16_GLM.pdf",
+    "label": "Generalized Linear Models"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Slides 页列出 10 个主题幻灯片 PDF，全部列出",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "参数推断",
+   "极大似然",
+   "矩估计",
+   "假设检验",
+   "拟合优度",
+   "回归",
+   "贝叶斯统计",
+   "PCA",
+   "广义线性模型"
+  ],
+  "level": "入门",
+  "order_hint": "时间序列课程之前的数理统计基础",
+  "classic_reason": "MIT 数理统计入门课，作为时间序列估计与检验的统计基础",
+  "cross_kind": "",
+  "summary": "MIT 应用统计课程幻灯片：参数推断、极大似然与矩估计、参数检验与拟合优度、回归、贝叶斯统计、主成分与广义线性模型。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "覆盖清单中“统计基础”主题，供缺乏数理统计背景的读者补课。",
+  "priority": 3
+ },
+ {
+  "rank": 50,
+  "kind": "course",
+  "title": "Energy Systems (Summer Semester 2022) — lecture slides",
+  "authors": [
+   "Tom Brown"
+  ],
+  "institution": "Technische Universität Berlin",
+  "course_name": "Energy Systems",
+  "course_code": "待核实",
+  "term": "Summer Semester 2022",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2022",
+  "homepage": "https://nworbmot.org/courses/es-22/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-1-orga_intro.pdf",
+    "label": "Lecture 1: Introduction"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-2-energy_balances.pdf",
+    "label": "Lecture 2: Energy Balances"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-3-input_output.pdf",
+    "label": "Lecture 3: Input-Output Models"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-4-time_series.pdf",
+    "label": "Lecture 4: Time Series"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-5-networks.pdf",
+    "label": "Lecture 5: Networks"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-6-power_flow.pdf",
+    "label": "Lecture 6: Power Flow"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-7-storage.pdf",
+    "label": "Lecture 7: Storage"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-8-optimisation.pdf",
+    "label": "Lecture 8: Optimisation"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-9-electricity_markets.pdf",
+    "label": "Lecture 9: Electricity Markets"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-10-complex_markets.pdf",
+    "label": "Lecture 10: Networks in Markets"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-11-investment.pdf",
+    "label": "Lecture 11: Generation Investment"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-12-renewables.pdf",
+    "label": "Lecture 12: Modelling Variable Renewables"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-13-dynamics.pdf",
+    "label": "Lecture 13: Multi-Decadal Dynamics"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-14-sector_coupling.pdf",
+    "label": "Lecture 14: Sector Coupling"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-15-research_topics.pdf",
+    "label": "Lecture 15: Research Topics"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Lecture Slides 列出第 1-15 讲幻灯片 PDF，全部列出",
+  "legal_basis": "授课教师课程页面公开（页面声明 LaTeX 源以 CC BY 4.0 发布）",
+  "language": "en",
+  "topics": [
+   "能源系统时间序列",
+   "风光出力变率",
+   "储能",
+   "电网潮流",
+   "电力市场",
+   "能源系统优化"
+  ],
+  "level": "入门",
+  "order_hint": "能源应用背景读物；与预测课程配合理解电力负荷与可再生能源时间序列的用途",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "柏林工业大学能源系统课程 15 讲幻灯片，含能源平衡、投入产出、能源时间序列、电网与潮流、储能、优化、电力市场、可再生能源变率建模与部门耦合。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "能源应用领域的完整课程（含时间序列与可再生能源变率专讲），弥补能源预测应用背景；本身不讲预测方法，优先级低。",
+  "priority": 3
+ },
+ {
+  "rank": 51,
+  "kind": "course",
+  "title": "Stat 153: Introduction to Time Series (Fall 2010) lecture slides",
+  "authors": [
+   "Peter Bartlett"
+  ],
+  "institution": "University of California, Berkeley",
+  "course_name": "Introduction to Time Series",
+  "course_code": "Stat 153",
+  "term": "Fall 2010",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2010",
+  "version_year": "2010",
+  "homepage": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/1.pdf",
+    "label": "Lecture 1"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/2.pdf",
+    "label": "Lecture 2"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/3.pdf",
+    "label": "Lecture 3"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/4.pdf",
+    "label": "Lecture 4"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/5.pdf",
+    "label": "Lecture 5"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/6.pdf",
+    "label": "Lecture 6"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/7.pdf",
+    "label": "Lecture 7"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/8.pdf",
+    "label": "Lecture 8"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/9.pdf",
+    "label": "Lecture 9"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/10.pdf",
+    "label": "Lecture 10"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/11.pdf",
+    "label": "Lecture 11"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/12.pdf",
+    "label": "Lecture 12"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/13.pdf",
+    "label": "Lecture 13"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/14.pdf",
+    "label": "Lecture 14"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/15.pdf",
+    "label": "Lecture 15"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/16.pdf",
+    "label": "Lecture 16"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/17.pdf",
+    "label": "Lecture 17"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/18.pdf",
+    "label": "Lecture 18"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/19.pdf",
+    "label": "Lecture 19"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/20.pdf",
+    "label": "Lecture 20"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/21.pdf",
+    "label": "Lecture 21"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/22.pdf",
+    "label": "Lecture 22"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/23.pdf",
+    "label": "Lecture 23"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~bartlett/courses/153-fall2010/lectures/24review.pdf",
+    "label": "Lecture 24review"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页逐讲列出 24 份讲义 PDF（第 24 讲为复习），全部列出",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "平稳性",
+   "ARMA",
+   "预测",
+   "谱分析"
+  ],
+  "level": "入门",
+  "order_hint": "备选：替代 Berkeley Stat 153 其他版本",
+  "classic_reason": "伯克利经典入门讲义（Bartlett 版）",
+  "cross_kind": "",
+  "summary": "伯克利 Stat 153 2010 秋季讲义：平稳性、自相关、ARMA 模型、预测、谱分析等。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（若 Berkeley Stat 153 其他版本下载失败）。",
+  "priority": 3
+ },
+ {
+  "rank": 52,
+  "kind": "course",
+  "title": "金融时间序列分析备课笔记",
+  "authors": [
+   "李东风"
+  ],
+  "institution": "北京大学数学科学学院",
+  "course_name": "金融时间序列分析",
+  "course_code": "待核实",
+  "term": "2026 春季（据检索摘要，待核实）",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://math.pku.edu.cn/teachers/lidf/course/fts/ftsnotes/html/_ftsnotes/index.html",
+  "format": "html",
+  "files": [],
+  "html_toc": "https://math.pku.edu.cn/teachers/lidf/course/fts/ftsnotes/html/_ftsnotes/index.html",
+  "html_chapters": 0,
+  "completeness_evidence": "检索结果显示为金融数学应用硕士课程备课资料 HTML 全文（并有 PDF 版）；证书链问题导致未能打开复核，章节数待核实",
+  "legal_basis": "作者（授课教师）主页公开",
+  "language": "cn",
+  "topics": [
+   "线性时间序列",
+   "GARCH 族",
+   "多元时间序列",
+   "状态空间模型",
+   "金融应用"
+  ],
+  "level": "进阶",
+  "order_hint": "中文金融时间序列备选",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "北京大学《金融时间序列分析》备课笔记（网页版），涵盖线性时间序列、GARCH 族、多元时间序列与状态空间模型。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "中文金融时间序列备选；需核验。",
+  "priority": 3
+ },
+ {
+  "rank": 53,
+  "kind": "course",
+  "title": "Bayesian estimation of time-varying systems — full course booklet (2010)",
+  "authors": [
+   "Simo Särkkä"
+  ],
+  "institution": "Aalto University（资料托管于作者 Aalto 个人页）",
+  "course_name": "待核实",
+  "course_code": "待核实",
+  "term": "2010",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2010",
+  "version_year": "2010",
+  "homepage": "https://users.aalto.fi/~ssarkka/course_k2010/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://users.aalto.fi/~ssarkka/course_k2010/full_course_booklet.pdf",
+    "label": "full course booklet"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程目录列出 7 份幻灯片与合订本 full_course_booklet.pdf",
+  "legal_basis": "作者（授课教师）主页公开",
+  "language": "en",
+  "topics": [
+   "贝叶斯滤波",
+   "Kalman 滤波",
+   "非线性滤波",
+   "粒子滤波",
+   "平滑"
+  ],
+  "level": "进阶",
+  "order_hint": "备选：替代 2012 版合订本",
+  "classic_reason": "同一课程较早版本",
+  "cross_kind": "",
+  "summary": "Särkkä 贝叶斯滤波课程 2010 年合订讲义。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（若 Särkkä 2012 合订本下载失败）。",
+  "priority": 3
+ },
+ {
+  "rank": 54,
+  "kind": "course",
+  "title": "Probabilistic Systems Analysis and Applied Probability (6.041) — all lecture slides",
+  "authors": [
+   "John Tsitsiklis"
+  ],
+  "institution": "Massachusetts Institute of Technology (MIT OpenCourseWare)",
+  "course_name": "Probabilistic Systems Analysis and Applied Probability",
+  "course_code": "6.041/6.431",
+  "term": "Fall 2010",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2010",
+  "version_year": "2010",
+  "homepage": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/pages/lecture-notes/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/60eede37f87fd886d4ba574e1cf26617_MIT6_041F10_lec_slides.pdf",
+    "label": "All lecture slides as one file"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "OCW Lecture Notes 页给出“All lecture slides as one file”合订 PDF（另有 25 讲分讲 PDF）",
+  "legal_basis": "MIT OpenCourseWare 公开（CC BY-NC-SA）",
+  "language": "en",
+  "topics": [
+   "概率基础",
+   "条件概率与贝叶斯",
+   "随机变量",
+   "Bernoulli/Poisson 过程",
+   "马尔可夫链",
+   "极限定理"
+  ],
+  "level": "入门",
+  "order_hint": "备选：替代 6.436J 的入门概率",
+  "classic_reason": "MIT 经典入门概率课",
+  "cross_kind": "",
+  "summary": "MIT 入门概率课程全部幻灯片合订本。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（概率基础）。",
+  "priority": 3
+ },
+ {
+  "rank": 55,
+  "kind": "course",
+  "title": "Advanced Topics in Statistical Learning (Stat 241B, Spring 2023) — lecture notes",
+  "authors": [
+   "Ryan Tibshirani"
+  ],
+  "institution": "University of California, Berkeley",
+  "course_name": "Advanced Topics in Statistical Learning",
+  "course_code": "Stat 241B / CS 281B",
+  "term": "Spring 2023",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2023",
+  "homepage": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/review.pdf",
+    "label": "review"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/nn_kernels.pdf",
+    "label": "nn_kernels"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/splines_rkhs.pdf",
+    "label": "splines_rkhs"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/minimax.pdf",
+    "label": "minimax"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/emp_process.pdf",
+    "label": "emp_process"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/lasso.pdf",
+    "label": "lasso"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/ridge.pdf",
+    "label": "ridge"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/ridgeless.pdf",
+    "label": "ridgeless"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/grad_flow.pdf",
+    "label": "grad_flow"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/conformal.pdf",
+    "label": "conformal"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/conformal_ds.pdf",
+    "label": "conformal_ds"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/calibration.pdf",
+    "label": "calibration"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/bsplines.pdf",
+    "label": "bsplines"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/tps_rkhs.pdf",
+    "label": "tps_rkhs"
+   },
+   {
+    "url": "https://www.stat.berkeley.edu/~ryantibs/statlearn-s23/lectures/resolvents.pdf",
+    "label": "resolvents"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页列出全部讲义 PDF（含 conformal、conformal_ds、calibration），全部列出",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "共形预测",
+   "校准与评分规则",
+   "统计学习"
+  ],
+  "level": "高级",
+  "order_hint": "备选：替代 2024 版",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "伯克利 Stat 241B 2023 春季讲义，含共形预测与校准专讲。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（若 Stat 241B 2024 版下载失败）。",
+  "priority": 3
+ },
+ {
+  "rank": 56,
+  "kind": "course",
+  "title": "DATASCI/STATS 531 (Winter 2024) class notes",
+  "authors": [
+   "Edward L. Ionides"
+  ],
+  "institution": "University of Michigan",
+  "course_name": "Modeling and Analysis of Time Series Data",
+  "course_code": "DATASCI/STATS 531/631",
+  "term": "Winter 2024",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2024",
+  "homepage": "https://ionides.github.io/531w24/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://ionides.github.io/531w24/01/notes.pdf",
+    "label": "Chapter 1 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/02/notes.pdf",
+    "label": "Chapter 2 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/03/notes.pdf",
+    "label": "Chapter 3 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/04/notes.pdf",
+    "label": "Chapter 4 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/05/notes.pdf",
+    "label": "Chapter 5 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/06/notes.pdf",
+    "label": "Chapter 6 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/07/notes.pdf",
+    "label": "Chapter 7 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/08/notes.pdf",
+    "label": "Chapter 8 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/09/notes.pdf",
+    "label": "Chapter 9 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/10/notes.pdf",
+    "label": "Chapter 10 notes.pdf"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/intro/notes.pdf",
+    "label": "Chapter 11 notes.pdf"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/stochsim/notes.pdf",
+    "label": "Chapter 12 notes.pdf"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/pfilter/notes.pdf",
+    "label": "Chapter 13 notes.pdf"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/mif/notes.pdf",
+    "label": "Chapter 14 notes.pdf"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/polio/notes.pdf",
+    "label": "Chapter 15 notes.pdf"
+   },
+   {
+    "url": "https://ionides.github.io/531w24/16/notes.pdf",
+    "label": "Chapter 16 notes.pdf"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/measles/notes.pdf",
+    "label": "Chapter 17 notes.pdf"
+   },
+   {
+    "url": "https://kingaa.github.io/sbied/measles/notes.pdf",
+    "label": "Chapter 18 notes.pdf"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程主页 18 章每章页面给出 notes.pdf，全部列出",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "ARMA",
+   "谱分析",
+   "预测",
+   "POMP"
+  ],
+  "level": "进阶",
+  "order_hint": "备选：替代 W25 版",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "Michigan STATS 531 2024 冬季版讲义。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（若 STATS 531 W25 版下载失败）。",
+  "priority": 3
+ },
+ {
+  "rank": 57,
+  "kind": "course",
+  "title": "Zeitreihen (Skript)",
+  "authors": [
+   "Hans Rudolf Künsch（据目录归属，待核实）"
+  ],
+  "institution": "ETH Zürich, Seminar for Statistics",
+  "course_name": "Zeitreihen",
+  "course_code": "待核实",
+  "term": "待核实",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://stat.ethz.ch/Teaching/kuensch/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://stat.ethz.ch/Teaching/kuensch/zeitreihen.pdf",
+    "label": "Skript"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "ETH 教学目录列出整本 zeitreihen.pdf",
+  "legal_basis": "课程官方页面公开",
+  "language": "de",
+  "topics": [
+   "平稳过程",
+   "ARMA",
+   "谱分析",
+   "预测"
+  ],
+  "level": "进阶",
+  "order_hint": "德语备选",
+  "classic_reason": "ETH 时间序列德语讲义（Meinshausen 讲义部分沿用）",
+  "cross_kind": "",
+  "summary": "ETH Künsch 时间序列德语讲义。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（德语）。",
+  "priority": 3
+ },
+ {
+  "rank": 58,
+  "kind": "course",
+  "title": "Spatial statistics script",
+  "authors": [
+   "Hans Rudolf Künsch（据目录归属，待核实）"
+  ],
+  "institution": "ETH Zürich, Seminar for Statistics",
+  "course_name": "Spatial Statistics（待核实）",
+  "course_code": "待核实",
+  "term": "待核实",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "待核实",
+  "homepage": "https://stat.ethz.ch/Teaching/kuensch/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://stat.ethz.ch/Teaching/kuensch/spat-stat.pdf",
+    "label": "Skript"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "ETH 教学目录列出整本 spat-stat.pdf（语言与版本待核实）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "空间统计",
+   "克里金",
+   "随机场"
+  ],
+  "level": "进阶",
+  "order_hint": "空间统计备选",
+  "classic_reason": "ETH 空间统计讲义",
+  "cross_kind": "",
+  "summary": "ETH Künsch 空间统计讲义（待核实语言与版本）。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选：替代时空主题条目。",
+  "priority": 3
+ },
+ {
+  "rank": 59,
+  "kind": "course",
+  "title": "Applied Time Series Analysis — Scriptum (SS 2012)",
+  "authors": [
+   "Marcel Dettling"
+  ],
+  "institution": "ETH Zürich, Seminar for Statistics",
+  "course_name": "Applied Time Series Analysis",
+  "course_code": "待核实",
+  "term": "Spring Semester 2012",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2012",
+  "homepage": "https://stat.ethz.ch/education/semesters/ss2012/atsa/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://stat.ethz.ch/education/semesters/ss2012/atsa/ATSA-Scriptum-SS2012-120521.pdf",
+    "label": "Scriptum SS2012 (full script)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Scriptum 栏给出整本讲义 PDF",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "ARMA",
+   "预测",
+   "GARCH",
+   "谱分析",
+   "R 实操"
+  ],
+  "level": "入门",
+  "order_hint": "备选：替代 SS2014 版",
+  "classic_reason": "同一课程较早版本",
+  "cross_kind": "",
+  "summary": "ETH 应用时间序列 2012 年版讲义。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（若 ETH Dettling 2016 版下载失败）。",
+  "priority": 3
+ },
+ {
+  "rank": 60,
+  "kind": "course",
+  "title": "Applied Time Series Analysis — Scriptum (SS 2014)",
+  "authors": [
+   "Marcel Dettling"
+  ],
+  "institution": "ETH Zürich, Seminar for Statistics",
+  "course_name": "Applied Time Series Analysis",
+  "course_code": "待核实",
+  "term": "Spring Semester 2014",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2014",
+  "homepage": "https://stat.ethz.ch/education/semesters/ss2014/atsa/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://stat.ethz.ch/education/semesters/ss2014/atsa/Scriptum_v140523.pdf",
+    "label": "Scriptum v140523 (full script)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Scriptum 栏给出整本讲义 PDF（2014-05-23 版）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "ARMA",
+   "预测",
+   "GARCH",
+   "谱分析",
+   "R 实操"
+  ],
+  "level": "入门",
+  "order_hint": "备选：替代 SS2016 版",
+  "classic_reason": "同一课程较早版本",
+  "cross_kind": "",
+  "summary": "ETH 应用时间序列 2014 年版讲义。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "备选（若 ETH Dettling 2016 版下载失败）。",
+  "priority": 3
+ }
+]
