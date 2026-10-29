@@ -1,0 +1,1626 @@
+{
+ "TS001": {
+  "title": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition",
+  "tries": [
+   {
+    "label": "arXiv 2412.17323v3",
+    "url": "https://arxiv.org/pdf/2412.17323v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2412.17323v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 25,
+    "first_text_chars": 11467,
+    "first_text_head": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition Artyom Stitsyuk 1, Jaesik Choi 1,2 1Korea Advanced Institute of Science and Technology (KAIST), South Korea 2INEEJI, South Korea {stitsyuk, jaesik.choi}@kaist.ac.kr Abstract In recent years, the application of ",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Stitsyuk_XPatch_en.pdf",
+  "sha256": "032d723a6df6df4d66df52ada8ce695594a21b49493374439f0890fc030c1765",
+  "size": 1225302,
+  "pdf_url": "https://arxiv.org/pdf/2412.17323v3",
+  "version_label": "arXiv 2412.17323v3",
+  "pages": 25,
+  "title_match": 1.0
+ },
+ "TS002": {
+  "title": "BASTION: A Bayesian Framework for Trend and Seasonality Decomposition",
+  "tries": [
+   {
+    "label": "arXiv 2601.18052v1",
+    "url": "https://arxiv.org/pdf/2601.18052v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2601.18052v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 28,
+    "first_text_chars": 9002,
+    "first_text_head": "BASTION: A Bayesian Framework for Trend and Seasonality Decomposition Jason B. Cho David S. Matteson Department of Statistics and Data Science Cornell University Ithaca, United States Department of Statistics and Data Science Cornell University Ithaca, United States Abstract We introduce BASTION (Ba",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2026_Cho_BASTION_en.pdf",
+  "sha256": "059031cfeafdd40d88c0d100c9498842bacc9610fbd75a31f975608c28da258a",
+  "size": 1385003,
+  "pdf_url": "https://arxiv.org/pdf/2601.18052v1",
+  "version_label": "arXiv 2601.18052v1",
+  "pages": 28,
+  "title_match": 1.0
+ },
+ "TS003": {
+  "title": "Time Series Analysis in Frequency Domain: A Survey of Open Challenges, Opportunities and Benchmarks",
+  "tries": [
+   {
+    "label": "arXiv 2504.07099v5",
+    "url": "https://arxiv.org/pdf/2504.07099v5",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2504.07099v5",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 39,
+    "first_text_chars": 7891,
+    "first_text_head": "Time Series Analysis in Frequency Domain: A Survey of Open Challenges, Opportunities and Benchmarks REGINA (QIANRU) ZHANG,The University of Hong Kong, China YUTING SUN,The University of Queensland, Australia HONGGANG WEN,The University of Hong Kong, China PENG YANG,The University of Hong Kong, China",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Zhang_TimeSeriesAnalysisFrequency_en.pdf",
+  "sha256": "374c91118ee8a8ede10b49667924c527622223a194ce87f833bfce0d647d8888",
+  "size": 1343310,
+  "pdf_url": "https://arxiv.org/pdf/2504.07099v5",
+  "version_label": "arXiv 2504.07099v5",
+  "pages": 39,
+  "title_match": 1.0
+ },
+ "TS004": {
+  "title": "Frequency Adaptive Normalization For Non-stationary Time Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2409.20371v1",
+    "url": "https://arxiv.org/pdf/2409.20371v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2409.20371v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 23,
+    "first_text_chars": 7773,
+    "first_text_head": "Frequency Adaptive Normalization For Non-stationary Time Series Forecasting Weiwei Ye1 Songgaojun Deng2 Qiaosha Zou3 Ning Gui1∗ 1Central South University 2University of Amsterdam 3Zhejiang Lab wwye155@gmail.com, s.deng@uva.nl, qiaoshazou@zhejianglab.org, ninggui@gmail.com Abstract Time series foreca",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Ye_FrequencyAdaptiveNormalizationNon_en.pdf",
+  "sha256": "96e12a3bd49a4cc713b936f439f5c93dccc8c04e7b8ff16287fb240919543993",
+  "size": 3650697,
+  "pdf_url": "https://arxiv.org/pdf/2409.20371v1",
+  "version_label": "arXiv 2409.20371v1",
+  "pages": 23,
+  "title_match": 1.0
+ },
+ "TS005": {
+  "title": "Battling the Non-stationarity in Time Series Forecasting via Test-time Adaptation",
+  "tries": [
+   {
+    "label": "arXiv 2501.04970v1",
+    "url": "https://arxiv.org/pdf/2501.04970v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2501.04970v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 15,
+    "first_text_chars": 11513,
+    "first_text_head": "Battling the Non-stationarity in Time Series Forecasting via Test-time Adaptation HyunGi Kim1, Siwon Kim1, Jisoo Mok1, Sungroh Yoon1, 2, 3 † 1Department of Electrical and Computer Engineering, Seoul National University 2Interdisciplinary Program in Artificial Intelligence, Seoul National University ",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Kim_BattlingNonStationarityTime_en.pdf",
+  "sha256": "8a7389b118a918c7bf40d5cc5d514f5db2e4679a2997af7ed6586bf1f33ff743",
+  "size": 1255458,
+  "pdf_url": "https://arxiv.org/pdf/2501.04970v1",
+  "version_label": "arXiv 2501.04970v1",
+  "pages": 15,
+  "title_match": 1.0
+ },
+ "TS006": {
+  "title": "FreDF: Learning to Forecast in the Frequency Domain",
+  "tries": [
+   {
+    "label": "arXiv 2402.02399v3",
+    "url": "https://arxiv.org/pdf/2402.02399v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2402.02399v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 33,
+    "first_text_chars": 8410,
+    "first_text_head": "Published as a conference paper at ICLR 2025 FREDF: LEARNING TOFORECAST IN THEFREQUENCY DOMAIN Hao Wang1 Licheng Pan1 Yuan Shen1 Zhichao Chen1 Degui Yang2 Yifei Yang3 Sen Zhang4 Xinggao Liu1 Haoxuan Li5∗ Dacheng Tao6∗ 1Department of Control Science and Engineering, Zhejiang University 2School of Aut",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Wang_FreDF_en.pdf",
+  "sha256": "a9a16354920a32cedfe99f7e6ce3ec120f2c6b1f97766133ea102da1f9e3255e",
+  "size": 10200028,
+  "pdf_url": "https://arxiv.org/pdf/2402.02399v3",
+  "version_label": "arXiv 2402.02399v3",
+  "pages": 33,
+  "title_match": 1.0
+ },
+ "TS007": {
+  "title": "ABC-based Forecasting in State Space Models",
+  "tries": [
+   {
+    "label": "arXiv 2311.01021v1",
+    "url": "https://arxiv.org/pdf/2311.01021v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2311.01021v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 25,
+    "first_text_chars": 5995,
+    "first_text_head": "arXiv:2311.01021v1 [stat.ME] 2 Nov 2023 ABC-based Forecasting in State Space Models∗ Chaya Weerasinghe† , Ruben Loaiza-Maya, Gael M. Martin and David T. Frazier Department of Econometrics and Business Statistics, Monas h University, Australia November 3, 2023 Abstract Approximate Bayesian Computatio",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.996,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2023_Weerasinghe_ABCBasedForecastingState_en.pdf",
+  "sha256": "415e598cc6bdcfcddd591c92908be6a7468d6e92d0bd2affe07788c780553450",
+  "size": 337447,
+  "pdf_url": "https://arxiv.org/pdf/2311.01021v1",
+  "version_label": "arXiv 2311.01021v1",
+  "pages": 25,
+  "title_match": 1.0
+ },
+ "TS008": {
+  "title": "Is Mamba Effective for Time Series Forecasting?",
+  "tries": [
+   {
+    "label": "arXiv 2403.11144v3",
+    "url": "https://arxiv.org/pdf/2403.11144v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2403.11144v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 14,
+    "first_text_chars": 10727,
+    "first_text_head": "Is Mamba Effective for Time Series Forecasting? Zihan Wang, Fanheng Kong, Shi Feng∗, Ming Wang, Xiaocui Yang, Han Zhao, Daling Wang and Yifei Zhang Department of Computer Science and Engineering, Northeastern University, Shenyang, China ARTICLE INFO Keywords: Time Series Forecasting State Space Mode",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Wang_MambaEffectiveTimeSeries_en.pdf",
+  "sha256": "11f25c26b33a50455c835cd4062d9314b417716c8a6d35356249efa56d230751",
+  "size": 1897709,
+  "pdf_url": "https://arxiv.org/pdf/2403.11144v3",
+  "version_label": "arXiv 2403.11144v3",
+  "pages": 14,
+  "title_match": 1.0
+ },
+ "TS009": {
+  "title": "Testing for multiple change-points in macroeconometrics: an empirical guide and recent developments",
+  "tries": [
+   {
+    "label": "arXiv 2507.22204v1",
+    "url": "https://arxiv.org/pdf/2507.22204v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2507.22204v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 34,
+    "first_text_chars": 5037,
+    "first_text_head": "Testing for multiple change-points in macroeconometrics: an empirical guide and recent developments∗ Otilia Boldea†, Tilburg University and Alastair R. Hall, University of Manchester July 31, 2025 Abstract We review recent developments in detecting and estimating multiple change-points in time se- r",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Boldea_TestingMultipleChangePoints_en.pdf",
+  "sha256": "769ba4925f0dc63b57207f968be7ab4c1e37ae5997456777faeae931c657668e",
+  "size": 467035,
+  "pdf_url": "https://arxiv.org/pdf/2507.22204v1",
+  "version_label": "arXiv 2507.22204v1",
+  "pages": 34,
+  "title_match": 1.0
+ },
+ "TS010": {
+  "title": "Interval Forecasts for Gas Prices in the Face of Structural Breaks -- Statistical Models vs. Neural Networks",
+  "tries": [
+   {
+    "label": "arXiv 2407.16723v1",
+    "url": "https://arxiv.org/pdf/2407.16723v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2407.16723v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 18,
+    "first_text_chars": 8304,
+    "first_text_head": "Interval Forecasts for Gas Prices in the Face of Structural Breaks – Statistical Models vs. Neural Networks Stephan Schlueter1, Sven Pappert2, and Martin Neumann3 1Institute of Energy Engineering and Energy Economics, Ulm University of Applied Sciences, Prittwitzstrasse 10, 89233 Ulm, Germany, Steph",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Schluter_IntervalForecastsGasPrices_en.pdf",
+  "sha256": "a84b5e75788edf268f1e5814617bc91ec08907007ae4950d4754ab3da0a21846",
+  "size": 2290500,
+  "pdf_url": "https://arxiv.org/pdf/2407.16723v1",
+  "version_label": "arXiv 2407.16723v1",
+  "pages": 18,
+  "title_match": 1.0
+ },
+ "TS011": {
+  "title": "A Novel Theoretical Framework for Exponential Smoothing",
+  "tries": [
+   {
+    "label": "arXiv 2403.04345v1",
+    "url": "https://arxiv.org/pdf/2403.04345v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2403.04345v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 12,
+    "first_text_chars": 7107,
+    "first_text_head": "A Novel Theoretical Framework for Exponential Smoothing Enrico Bernardi∗ Alberto Lanconelli† Christopher S. A. Lauria‡ March 8, 2024 Abstract Simple Exponential Smoothing is a classical technique used for smoothing time series data by assigning exponentially decreasing weights to past observations t",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.993,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Bernardi_NovelTheoreticalFrameworkExponential_en.pdf",
+  "sha256": "f46e0a637d49c21e37b38c33d012ce9e33598e47bea238fecf49a81dead863c4",
+  "size": 562940,
+  "pdf_url": "https://arxiv.org/pdf/2403.04345v1",
+  "version_label": "arXiv 2403.04345v1",
+  "pages": 12,
+  "title_match": 1.0
+ },
+ "TS012": {
+  "title": "Vector AutoRegressive Moving Average Models: A Review",
+  "tries": [
+   {
+    "label": "arXiv 2406.19702v1",
+    "url": "https://arxiv.org/pdf/2406.19702v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2406.19702v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 47,
+    "first_text_chars": 4417,
+    "first_text_head": "arXiv:2406.19702v1 [stat.ME] 28 Jun 2024 Vector AutoRegressive Moving Average Models: A Review Marie-Christine D¨ ukera, David S. Mattesonb, Ruey S. Tsayc, Ines Wilmsd aFriedrich-Alexander Universit¨ at Erlangen-N¨ urnberg, Germany bDepartment of Statistics and Data Science, Cornell Univers ity, The",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Duker_VectorAutoRegressiveMovingAverage_en.pdf",
+  "sha256": "b6671225dda3423b755f824dfba2bda05f5ff7acd17f279d027a30d4a0f352cf",
+  "size": 449086,
+  "pdf_url": "https://arxiv.org/pdf/2406.19702v1",
+  "version_label": "arXiv 2406.19702v1",
+  "pages": 47,
+  "title_match": 1.0
+ },
+ "TS013": {
+  "title": "From Vector Autoregressions to AI-based Time Series Forecasting: A Review",
+  "tries": [
+   {
+    "label": "arXiv 2607.14279v1",
+    "url": "https://arxiv.org/pdf/2607.14279v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2607.14279v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 26,
+    "first_text_chars": 7472,
+    "first_text_head": "From Vector Autoregressions to AI-based Time Series Forecasting: A Review Likai Chen∗ Weining Wang† July 17, 2026 Abstract Forecasting is a central goal of time-series analysis. This review centers on three ma- jor developments in recent AI-based time-series forecasting: transformers, large pretrain",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2026_Chen_VectorAutoregressionsAIBased_en.pdf",
+  "sha256": "180ffeece20ee3c045a313c7abf4982389abdf5cc54fec3d4364722e189efb13",
+  "size": 1931035,
+  "pdf_url": "https://arxiv.org/pdf/2607.14279v1",
+  "version_label": "arXiv 2607.14279v1",
+  "pages": 26,
+  "title_match": 1.0
+ },
+ "TS014": {
+  "title": "Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data",
+  "tries": [
+   {
+    "label": "arXiv 2609.13345v1",
+    "url": "https://arxiv.org/pdf/2609.13345v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2609.13345v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 77,
+    "first_text_chars": 6244,
+    "first_text_head": "Preprint Beyond Point Forecasts: A Survey on Probabilistic Forecast- ing for Time Series and Spatiotemporal Data Donia Besher1 A00021999@sorbonne.ae Rajdeep Pathak1,2 rajdeep.pathak@sorbonne.ae Madhurima Panja1 madhurima.panja@sorbonne.ae Tanujit Chakraborty1,2 tanujit.chakraborty@sorbonne.ae 1SAFIR",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2026_Besher_BeyondPointForecasts_en.pdf",
+  "sha256": "037257fd854148593dd8ce52a842cc8b837f91b2fc45e6cac5f3c175fd0b9a34",
+  "size": 33127671,
+  "pdf_url": "https://arxiv.org/pdf/2609.13345v1",
+  "version_label": "arXiv 2609.13345v1",
+  "pages": 77,
+  "title_match": 1.0
+ },
+ "TS015": {
+  "title": "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation",
+  "tries": [
+   {
+    "label": "arXiv 2407.00650v1",
+    "url": "https://arxiv.org/pdf/2407.00650v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2407.00650v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 46,
+    "first_text_chars": 8303,
+    "first_text_head": "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation Romain Pic1, Clément Dombry1, Philippe Naveau2, and Maxime Taillardat3 1Université de Franche Comté, CNRS, LmB (UMR 6623), F-25000 Besançon, France 2Laboratoire des Sciences du Climat et de l’Enviro",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Pic_ProperScoringRulesMultivariate_en.pdf",
+  "sha256": "a02735b850e65563e152e1cf980348cb2740bbef8f1ed73f180fc6c2ac15d69e",
+  "size": 1932487,
+  "pdf_url": "https://arxiv.org/pdf/2407.00650v1",
+  "version_label": "arXiv 2407.00650v1",
+  "pages": 46,
+  "title_match": 1.0
+ },
+ "TS016": {
+  "title": "A Gentle Introduction to Conformal Time Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2511.13608v1",
+    "url": "https://arxiv.org/pdf/2511.13608v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2511.13608v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 31,
+    "first_text_chars": 6101,
+    "first_text_head": "A Gentle Introduction to Conformal Time Series Forecasting M. Stocker1, W. Małgorzewicz2, M. Fontana2, S. Ben Taieb3,4 1Karlsruhe Institute of Technology, Germany 2Royal Holloway, University of London, United Kingdom 3Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, United Arab Em",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.997,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Stocker_GentleIntroductionConformalTime_en.pdf",
+  "sha256": "b98e3343ce941c111debec223f5491edd50deb815faca9da53131d491db95f3e",
+  "size": 755841,
+  "pdf_url": "https://arxiv.org/pdf/2511.13608v1",
+  "version_label": "arXiv 2511.13608v1",
+  "pages": 31,
+  "title_match": 1.0
+ },
+ "TS017": {
+  "title": "Online conformal inference for multi-step time series forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2410.13115v2",
+    "url": "https://arxiv.org/pdf/2410.13115v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2410.13115v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 40,
+    "first_text_chars": 4189,
+    "first_text_head": "Online conformal inference for multi-step time series forecasting Xiaoqian Wang* Academy of Mathematics and Systems Science, Chinese Academy of Sciences and Rob J Hyndman Department of Econometrics & Business Statistics, Monash University 3 February 2026 Abstract We consider the problem of construct",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Wang_OnlineConformalInferenceMulti_en.pdf",
+  "sha256": "0e0ae3ec832af20244b9409b8c6318406765be56e470798ea1bc8649e5abb4d8",
+  "size": 1392777,
+  "pdf_url": "https://arxiv.org/pdf/2410.13115v2",
+  "version_label": "arXiv 2410.13115v2",
+  "pages": 40,
+  "title_match": 1.0
+ },
+ "TS018": {
+  "title": "Scalable Probabilistic Forecasting in Retail with Gradient Boosted Trees: A Practitioner's Approach",
+  "tries": [
+   {
+    "label": "arXiv 2311.00993v1",
+    "url": "https://arxiv.org/pdf/2311.00993v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2311.00993v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 29,
+    "first_text_chars": 6129,
+    "first_text_head": "Scalable Probabilistic Forecasting in Retail with Gradient Boosted Trees: A Practitioner’s Approach Xueying Longa, Quang Buia, Grady Oktavianb, Daniel F. Schmidta, Christoph Bergmeira,c,∗, Rakshitha Godahewaa, Seong Per Leed, Kaifeng Zhaod, Paul Condylisd aDepartment of Data Science and Artificial I",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2023_Long_ScalableProbabilisticForecastingRetail_en.pdf",
+  "sha256": "e0ed7edecb6f21e101b10c797719efec84d19b967d79391682ddaf7ec3598e10",
+  "size": 895700,
+  "pdf_url": "https://arxiv.org/pdf/2311.00993v1",
+  "version_label": "arXiv 2311.00993v1",
+  "pages": 29,
+  "title_match": 1.0
+ },
+ "TS019": {
+  "title": "How Much Can Time-related Features Enhance Time Series Forecasting?",
+  "tries": [
+   {
+    "label": "arXiv 2412.01557v1",
+    "url": "https://arxiv.org/pdf/2412.01557v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2412.01557v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 13,
+    "first_text_chars": 11068,
+    "first_text_head": "How Much Can Time-related Features Enhance Time Series Forecasting? Chaolv Zeng Shanghai Jiao Tong University Shanghai, China zclzcl@sjtu.edu.cn Yuan Tian China Yangtze Power Co Yichang, China tian_yuan4@ctg.com.cn Guanjie Zheng∗ Shanghai Jiao Tong University Shanghai, China gjzheng@sjtu.edu.cn Yunj",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.994,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Zeng_TimeRelatedFeaturesEnhance_en.pdf",
+  "sha256": "a1cf0f9bd4daffae5e04c9e8fb12a15093798f68594160ba2134cf306db8116b",
+  "size": 1648104,
+  "pdf_url": "https://arxiv.org/pdf/2412.01557v1",
+  "version_label": "arXiv 2412.01557v1",
+  "pages": 13,
+  "title_match": 1.0
+ },
+ "TS020": {
+  "title": "Sliding-Window Signatures as Features for Time Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2510.12337v2",
+    "url": "https://arxiv.org/pdf/2510.12337v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2510.12337v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 24,
+    "first_text_chars": 10435,
+    "first_text_head": "Sliding-Window Signatures as Features for Time Series Forecasting Nina Drobaca, Margaux Brégèrea,b, Joseph de Vilmarestc and Olivier Wintenbergera aLPSM, Sorbonne Université, 4 Pl. Jussieu, Paris, France bEDF R&D, Lab Paris-Saclay, France cViking Conseil, 26 rue de la Pie, Chartres, 28000, France AR",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Drobac_SlidingWindowSignaturesFeatures_en.pdf",
+  "sha256": "e886c29be2f9dd747aa0856ac501e125d77d44f581f14089cc647bc891b533f1",
+  "size": 918932,
+  "pdf_url": "https://arxiv.org/pdf/2510.12337v2",
+  "version_label": "arXiv 2510.12337v2",
+  "pages": 24,
+  "title_match": 1.0
+ },
+ "TS021": {
+  "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2501.02945v4",
+    "url": "https://arxiv.org/pdf/2501.02945v4",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2501.02945v4",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 26,
+    "first_text_chars": 6308,
+    "first_text_head": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting Shi Bin Hoo hoos@tf.uni-freiburg.de University of Freiburg Prior Labs Samuel Müller∗ sammuller@meta.com University of Freiburg Meta David Salinas david.salinas@tue.ellis.eu ELLIS Institute Tübingen University of Freiburg Frank Hutte",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Hoo_TablesTimeExtendingTabPFN_en.pdf",
+  "sha256": "f5810a42f0f490980eb38508602d801eb407109fc53976e5a300357f67279837",
+  "size": 15114298,
+  "pdf_url": "https://arxiv.org/pdf/2501.02945v4",
+  "version_label": "arXiv 2501.02945v4",
+  "pages": 26,
+  "title_match": 1.0
+ },
+ "TS022": {
+  "title": "Intermittent time series forecasting: local vs global models",
+  "tries": [
+   {
+    "label": "arXiv 2601.14031v2",
+    "url": "https://arxiv.org/pdf/2601.14031v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2601.14031v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 28,
+    "first_text_chars": 7131,
+    "first_text_head": "Intermittent time series forecasting: local vs global models Stefano Damato, Nicol´ o Rubattu, Dario Azzimonti, Giorgio Corani SUPSI, Istituto Dalle Molle di Studi sull’Intelligenza Artificiale (IDSIA) Lugano, Switzerland ABSTRACT Forecasting intermittent time series, which contain zeros, is a cruci",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2026_Damato_IntermittentTimeSeriesForecasting_en.pdf",
+  "sha256": "07461e9be667ba959711dae7ced99897279770704952a59207727653fd4bd098",
+  "size": 1918672,
+  "pdf_url": "https://arxiv.org/pdf/2601.14031v2",
+  "version_label": "arXiv 2601.14031v2",
+  "pages": 28,
+  "title_match": 1.0
+ },
+ "TS023": {
+  "title": "Deep Time Series Models: A Comprehensive Survey and Benchmark",
+  "tries": [
+   {
+    "label": "arXiv 2407.13278v3",
+    "url": "https://arxiv.org/pdf/2407.13278v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2407.13278v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 20,
+    "first_text_chars": 11388,
+    "first_text_head": "IEEE TRANSACTIONS ON PATTERN ANAL YSIS AND MACHINE INTELLIGENCE, VOL. XX, NO. X 1 Deep Time Series Models: A Comprehensive Survey and Benchmark Yuxuan Wang, Haixu Wu, Jiaxiang Dong, Y ong Liu, Chen Wang, Mingsheng Long, Jianmin Wang Abstract—Time series, characterized by a sequence of data points or",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Wang_DeepTimeSeriesModels_en.pdf",
+  "sha256": "0e1f23be261bf9cf5ab1ffed0dc46c6f50b8f8bb8089d1f4a199159148f26efc",
+  "size": 13094554,
+  "pdf_url": "https://arxiv.org/pdf/2407.13278v3",
+  "version_label": "arXiv 2407.13278v3",
+  "pages": 20,
+  "title_match": 1.0
+ },
+ "TS024": {
+  "title": "xLSTM-Mixer: Multivariate Time Series Forecasting by Mixing via Scalar Memories",
+  "tries": [
+   {
+    "label": "arXiv 2410.16928v4",
+    "url": "https://arxiv.org/pdf/2410.16928v4",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2410.16928v4",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 34,
+    "first_text_chars": 6952,
+    "first_text_head": "xLSTM-Mixer: Multivariate Time Series Forecasting by Mixing via Scalar Memories Maurice Kraus1,∗ Felix Divo1,∗ Devendra Singh Dhami2 Kristian Kersting1,3,4,5 1AI & ML Group, TU Darmstadt 2TU Eindhoven 3Hessian Center for AI (hessian.AI) 4German Research Center for AI (DFKI) 5Centre for Cognitive Sci",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Kraus_XLSTMMixer_en.pdf",
+  "sha256": "dc4d9c7a731489d4932aac993d6d5c04eea741c11b4f989b395a77f909d7151d",
+  "size": 989752,
+  "pdf_url": "https://arxiv.org/pdf/2410.16928v4",
+  "version_label": "arXiv 2410.16928v4",
+  "pages": 34,
+  "title_match": 1.0
+ },
+ "TS025": {
+  "title": "TSLANet: Rethinking Transformers for Time Series Representation Learning",
+  "tries": [
+   {
+    "label": "arXiv 2404.08472v2",
+    "url": "https://arxiv.org/pdf/2404.08472v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2404.08472v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 20,
+    "first_text_chars": 9668,
+    "first_text_head": "TSLANet: Rethinking Transformers for Time Series Representation Learning Emadeldeen Eldele 1 Mohamed Ragab 1 2 Zhenghua Chen 1 2 Min Wu2 Xiaoli Li 1 2 Abstract Time series data, characterized by its intrin- sic long and short-range dependencies, poses a unique challenge across analytical application",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Eldele_TSLANet_en.pdf",
+  "sha256": "1ca7fcd7a44c2a466d37aa9a625538605bf9272f455fa047d0664de9686320dd",
+  "size": 1440214,
+  "pdf_url": "https://arxiv.org/pdf/2404.08472v2",
+  "version_label": "arXiv 2404.08472v2",
+  "pages": 20,
+  "title_match": 1.0
+ },
+ "TS026": {
+  "title": "TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables",
+  "tries": [
+   {
+    "label": "arXiv 2402.19072v4",
+    "url": "https://arxiv.org/pdf/2402.19072v4",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2402.19072v4",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 30,
+    "first_text_chars": 8302,
+    "first_text_head": "TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables Yuxuan Wang∗, Haixu Wu∗, Jiaxiang Dong, Guo Qin, Haoran Zhang, Yong Liu, Yunzhong Qiu, Jianmin Wang, Mingsheng Long\u0000 School of Software, BNRist, Tsinghua University, Beijing 100084, China {wangyuxu22,whx20,djx20,qi",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Wang_TimeXer_en.pdf",
+  "sha256": "0e19a3360dc22c5c72bdd55ed5d74ef9de8a5a38f79bce293f6eb4086ada90c4",
+  "size": 11131173,
+  "pdf_url": "https://arxiv.org/pdf/2402.19072v4",
+  "version_label": "arXiv 2402.19072v4",
+  "pages": 30,
+  "title_match": 1.0
+ },
+ "TS027": {
+  "title": "Are Self-Attentions Effective for Time Series Forecasting?",
+  "tries": [
+   {
+    "label": "arXiv 2405.16877v3",
+    "url": "https://arxiv.org/pdf/2405.16877v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2405.16877v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 23,
+    "first_text_chars": 7480,
+    "first_text_head": "Are Self-Attentions Effective for Time Series Forecasting? Dongbin Kim1, Jinseong Park 1, Jaewook Lee 1*, Hoki Kim 2* 1Seoul National University 2Chung-Ang University {dongbin413,jinseong,jaewook}@snu.ac.kr, hokikim@cau.ac.kr Abstract Time series forecasting is crucial for applications across multip",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Kim_SelfAttentionsEffectiveTime_en.pdf",
+  "sha256": "e64b46f4ff266d1b8d29a7780739f58edee743e2a50b0c71b4ef86dabb78f881",
+  "size": 2335773,
+  "pdf_url": "https://arxiv.org/pdf/2405.16877v3",
+  "version_label": "arXiv 2405.16877v3",
+  "pages": 23,
+  "title_match": 1.0
+ },
+ "TS028": {
+  "title": "TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2405.14616v1",
+    "url": "https://arxiv.org/pdf/2405.14616v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2405.14616v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 28,
+    "first_text_chars": 8955,
+    "first_text_head": "Published as a conference paper at ICLR 2024 TIME MIXER : D ECOMPOSABLE MULTISCALE MIXING FOR TIME SERIES FORECASTING Shiyu Wang1∗, Haixu Wu2∗, Xiaoming Shi1, Tengge Hu2, Huakun Luo2, Lintao Ma1B, James Y. Zhang1, Jun Zhou1B 1Ant Group, Hangzhou, China 2Tsinghua University, Beijing, China {weiming.w",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Wang_TimeMixer_en.pdf",
+  "sha256": "a599b338e44af70d8e9c87be3c5417bde7864b2c92074e1346703f3e2b641e3d",
+  "size": 5791173,
+  "pdf_url": "https://arxiv.org/pdf/2405.14616v1",
+  "version_label": "arXiv 2405.14616v1",
+  "pages": 28,
+  "title_match": 1.0
+ },
+ "TS029": {
+  "title": "SparseTSF: Modeling Long-term Time Series Forecasting with 1k Parameters",
+  "tries": [
+   {
+    "label": "arXiv 2405.00946v2",
+    "url": "https://arxiv.org/pdf/2405.00946v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2405.00946v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 16,
+    "first_text_chars": 9510,
+    "first_text_head": "SparseTSF: Modeling Long-term Time Series Forecasting with 1k Parameters Shengsheng Lin 1 Weiwei Lin1 2 Wentai Wu3 Haojun Chen 1 Junjie Yang1 Abstract This paper introduces SparseTSF, a novel, ex- tremely lightweight model for Long-term Time Series Forecasting (LTSF), designed to address the challen",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Lin_SparseTSF_en.pdf",
+  "sha256": "8c5b74d79711da12c272391e7b39868f213cfda708fb81b51b8ed3332764926c",
+  "size": 797073,
+  "pdf_url": "https://arxiv.org/pdf/2405.00946v2",
+  "version_label": "arXiv 2405.00946v2",
+  "pages": 16,
+  "title_match": 1.0
+ },
+ "TS030": {
+  "title": "CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns",
+  "tries": [
+   {
+    "label": "arXiv 2409.18479v2",
+    "url": "https://arxiv.org/pdf/2409.18479v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2409.18479v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 31,
+    "first_text_chars": 7269,
+    "first_text_head": "CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns Shengsheng Lin1, Weiwei Lin1,2,∗, Xinyi Hu3, Wentai Wu4, Ruichao Mo1, Haocheng Zhong1 1School of Computer Science and Engineering, South China University of Technology, China 2Pengcheng Laboratory, China 3Department of Co",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Lin_CycleNet_en.pdf",
+  "sha256": "d40cd9220106fd647b9e6043d7c1715d82daed348d1cbee323949ed8a3debc90",
+  "size": 1009915,
+  "pdf_url": "https://arxiv.org/pdf/2409.18479v2",
+  "version_label": "arXiv 2409.18479v2",
+  "pages": 31,
+  "title_match": 1.0
+ },
+ "TS031": {
+  "title": "An Analysis of Linear Time Series Forecasting Models",
+  "tries": [
+   {
+    "label": "arXiv 2403.14587v2",
+    "url": "https://arxiv.org/pdf/2403.14587v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2403.14587v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 20,
+    "first_text_chars": 9797,
+    "first_text_head": "An Analysis of Linear Time Series Forecasting Models William Toner1 2 Luke Darlow 2 Abstract Despite their simplicity, linear models perform well at time series forecasting, even when pit- ted against deeper and more expensive models. A number of variations to the linear model have been proposed, of",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Toner_AnalysisLinearTimeSeries_en.pdf",
+  "sha256": "46c4ec662bb221f87d44f0fb874f85c1f66f84c8daa830109dd221e7ce879f61",
+  "size": 969981,
+  "pdf_url": "https://arxiv.org/pdf/2403.14587v2",
+  "version_label": "arXiv 2403.14587v2",
+  "pages": 20,
+  "title_match": 1.0
+ },
+ "TS032": {
+  "title": "Chronos: Learning the Language of Time Series",
+  "tries": [
+   {
+    "label": "arXiv 2403.07815v3",
+    "url": "https://arxiv.org/pdf/2403.07815v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2403.07815v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 43,
+    "first_text_chars": 7776,
+    "first_text_head": "Published in Transactions on Machine Learning Research (10/2024) Chronos: Learning the Language of Time Series Abdul Fatir Ansari1∗, Lorenzo Stella1∗, Caner Turkmen1, Xiyuan Zhang3†, Pedro Mercado1, Huibin Shen1, Oleksandr Shchur1, Syama Sundar Rangapuram1, Sebastian Pineda Arango4†, Shubham Kapoor1",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Ansari_Chronos_en.pdf",
+  "sha256": "46fb566d9e70ea63487babe197a036e3522919dddcd776d673257ad32fcd7df7",
+  "size": 2919325,
+  "pdf_url": "https://arxiv.org/pdf/2403.07815v3",
+  "version_label": "arXiv 2403.07815v3",
+  "pages": 43,
+  "title_match": 1.0
+ },
+ "TS033": {
+  "title": "Unified Training of Universal Time Series Forecasting Transformers",
+  "tries": [
+   {
+    "label": "arXiv 2402.02592v2",
+    "url": "https://arxiv.org/pdf/2402.02592v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2402.02592v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 25,
+    "first_text_chars": 9912,
+    "first_text_head": "Unified Training of Universal Time Series Forecasting Transformers Gerald Woo1 2 Chenghao Liu 1 Akshat Kumar 2 Caiming Xiong 1 Silvio Savarese1 Doyen Sahoo 1 Abstract Deep learning for time series forecasting has tradi- tionally operated within a one-model-per-dataset framework, limiting its potenti",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Woo_UnifiedTrainingUniversalTime_en.pdf",
+  "sha256": "36b9156218e2bb35e382329de55bc3291eb06ef9f14696e67fa7f8c1de07ad4c",
+  "size": 1552629,
+  "pdf_url": "https://arxiv.org/pdf/2402.02592v2",
+  "version_label": "arXiv 2402.02592v2",
+  "pages": 25,
+  "title_match": 1.0
+ },
+ "TS034": {
+  "title": "Timer: Generative Pre-trained Transformers Are Large Time Series Models",
+  "tries": [
+   {
+    "label": "arXiv 2402.02368v3",
+    "url": "https://arxiv.org/pdf/2402.02368v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2402.02368v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 31,
+    "first_text_chars": 11545,
+    "first_text_head": "Timer: Generative Pre-trained Transformers Are Large Time Series Models Yong Liu* 1 Haoran Zhang * 1 Chenyu Li * 1 Xiangdong Huang 1 Jianmin Wang1 Mingsheng Long 1 Abstract Deep learning has contributed remarkably to the advancement of time series analysis. Still, deep models can encounter performan",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Liu_Timer_en.pdf",
+  "sha256": "a81ab2ff761d9c6de56e20a8767f1b23e5b6dd437f28e2ae2fcf30bbd57f5c9b",
+  "size": 6048158,
+  "pdf_url": "https://arxiv.org/pdf/2402.02368v3",
+  "version_label": "arXiv 2402.02368v3",
+  "pages": 31,
+  "title_match": 1.0
+ },
+ "TS035": {
+  "title": "Tiny Time Mixers (TTMs): Fast Pre-trained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series",
+  "tries": [
+   {
+    "label": "arXiv 2401.03955v8",
+    "url": "https://arxiv.org/pdf/2401.03955v8",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2401.03955v8",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 32,
+    "first_text_chars": 7423,
+    "first_text_head": "Tiny Time Mixers (TTMs): Fast Pre-trained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series Vijay Ekambaram Arindam Jati Pankaj Dayama Sumanta Mukherjee Nam H. Nguyen Wesley M. Gifford Chandra Reddy Jayant Kalagnanam IBM Research* Abstract Large pre-trained models excel in ze",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Ekambaram_TinyTimeMixersTTMs_en.pdf",
+  "sha256": "10ff2240a68f8fbb205534c0613ca45dd8b5c3dde19ca11d018fd531586571b7",
+  "size": 1633342,
+  "pdf_url": "https://arxiv.org/pdf/2401.03955v8",
+  "version_label": "arXiv 2401.03955v8",
+  "pages": 32,
+  "title_match": 1.0
+ },
+ "TS036": {
+  "title": "Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts",
+  "tries": [
+   {
+    "label": "arXiv 2409.16040v4",
+    "url": "https://arxiv.org/pdf/2409.16040v4",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2409.16040v4",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 33,
+    "first_text_chars": 7547,
+    "first_text_head": "Published as a conference paper at ICLR 2025 TIME -MOE: B ILLION -SCALE TIME SERIES FOUN - DATION MODELS WITH MIXTURE OF EXPERTS Xiaoming Shi1∗♠, Shiyu Wang∗♠, Yuqi Nie2∗, Dianqi Li, Zhou Ye, Qingsong Wen3†, Ming Jin4†♠ 1Xiaohongshu Inc 2Princeton University 3Squirrel Ai Learning 4Griffith Universit",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Shi_TimeMoE_en.pdf",
+  "sha256": "6777a5dcf0286aa9c042e3d4914d2faf8ededbf1f84b493e27a04989d2d2178d",
+  "size": 4911519,
+  "pdf_url": "https://arxiv.org/pdf/2409.16040v4",
+  "version_label": "arXiv 2409.16040v4",
+  "pages": 33,
+  "title_match": 1.0
+ },
+ "TS037": {
+  "title": "This Time is Different: An Observability Perspective on Time Series Foundation Models",
+  "tries": [
+   {
+    "label": "arXiv 2505.14766v2",
+    "url": "https://arxiv.org/pdf/2505.14766v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2505.14766v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 38,
+    "first_text_chars": 6242,
+    "first_text_head": "This Time is Different: An Observability Perspective on Time Series Foundation Models Ben Cohen∗‡ Emaad Khwaja∗‡ Youssef Doubli†‡ Salahidine Lemaachi†‡ Chris Lettieri†‡ Charles Masson†‡ Hugo Miccinilli†‡ Elise Ram´e†‡ Qiqi Ren†‡ Afshin Rostamizadeh†‡ Jean Ogier du Terrail†‡ Anna-Monica Toon†‡ Kan Wa",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Cohen_ThisTimeDifferentObservability_en.pdf",
+  "sha256": "9cfe94b8cd6ef4b089160ada1aa069bb1921702c301db51f60672ff77848bf0e",
+  "size": 3775357,
+  "pdf_url": "https://arxiv.org/pdf/2505.14766v2",
+  "version_label": "arXiv 2505.14766v2",
+  "pages": 38,
+  "title_match": 1.0
+ },
+ "TS038": {
+  "title": "TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning",
+  "tries": [
+   {
+    "label": "arXiv 2505.23719v2",
+    "url": "https://arxiv.org/pdf/2505.23719v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2505.23719v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 45,
+    "first_text_chars": 7128,
+    "first_text_head": "TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning Andreas Auer 1,2 Patrick Podest 2 Daniel Klotz 3 Sebastian Böck 1 Günter Klambauer 1,2 Sepp Hochreiter 1,2 1NXAI GmbH, Linz, Austria 2ELLIS Unit, LIT AI Lab, Institute for Machine Learning, JKU Linz, Austri",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Auer_TiRex_en.pdf",
+  "sha256": "0497772375f595d72f2405862cbdbb3295e7d91c6baa29f3b5ba93e48d1fb121",
+  "size": 2223695,
+  "pdf_url": "https://arxiv.org/pdf/2505.23719v2",
+  "version_label": "arXiv 2505.23719v2",
+  "pages": 45,
+  "title_match": 1.0
+ },
+ "TS039": {
+  "title": "Sundial: A Family of Highly Capable Time Series Foundation Models",
+  "tries": [
+   {
+    "label": "arXiv 2502.00816v4",
+    "url": "https://arxiv.org/pdf/2502.00816v4",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2502.00816v4",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 23,
+    "first_text_chars": 10176,
+    "first_text_head": "Sundial: A Family of Highly Capable Time Series Foundation Models Yong Liu* 1 Guo Qin * 1 Zhiyuan Shi 1 Zhi Chen 1 Caiyin Yang1 Xiangdong Huang 1 Jianmin Wang1 Mingsheng Long 1 Abstract We introduceSundial, a family of native, flexible, and scalable time series foundation models. To predict the next",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Liu_Sundial_en.pdf",
+  "sha256": "ba4f90898a650c838dfa8996c1592fb90bb140e463d286839ac52f812c4410f2",
+  "size": 4712017,
+  "pdf_url": "https://arxiv.org/pdf/2502.00816v4",
+  "version_label": "arXiv 2502.00816v4",
+  "pages": 23,
+  "title_match": 1.0
+ },
+ "TS040": {
+  "title": "Chronos-2: From Univariate to Universal Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2510.15821v1",
+    "url": "https://arxiv.org/pdf/2510.15821v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2510.15821v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 31,
+    "first_text_chars": 8465,
+    "first_text_head": "Technical Report of Chronos-2 Chronos-2: From Univariate to Universal Forecasting Abdul Fatir Ansari1∗, Oleksandr Shchur1∗, Jaris Küken1,3∗†, Andreas Auer1,4†, Boran Han1, Pedro Mercado1, Syama Sundar Rangapuram1, Huibin Shen1, Lorenzo Stella1, Xiyuan Zhang1, Mononito Goswami1, Shubham Kapoor1, Dani",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Ansari_Chronos2_en.pdf",
+  "sha256": "73a0da2cbfafa5eda8e28041249ff889273a386acaffd35be13a688af1364edd",
+  "size": 1521734,
+  "pdf_url": "https://arxiv.org/pdf/2510.15821v1",
+  "version_label": "arXiv 2510.15821v1",
+  "pages": 31,
+  "title_match": 1.0
+ },
+ "TS041": {
+  "title": "ChronosX: Adapting Pretrained Time Series Models with Exogenous Variables",
+  "tries": [
+   {
+    "label": "arXiv 2503.12107v1",
+    "url": "https://arxiv.org/pdf/2503.12107v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2503.12107v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 53,
+    "first_text_chars": 9648,
+    "first_text_head": "ChronosX: Adapting Pretrained Time Series Models with Exogenous Variables Sebastian Pineda Arango*2†, Pedro Mercado*1, Shubham Kapoor1, Abdul Fatir Ansari1, Lorenzo Stella1, Huibin Shen1, Hugo Senetaire3†, Caner Turkmen1, Oleksandr Shchur1, Danielle C. Maddix1, Michael Bohlke-Schneider1, Yuyang Wang",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Arango_ChronosX_en.pdf",
+  "sha256": "cf934ba841056d2119d61ced731a0ac5966f584ec36146ce46d8ad9b97f69855",
+  "size": 3124854,
+  "pdf_url": "https://arxiv.org/pdf/2503.12107v1",
+  "version_label": "arXiv 2503.12107v1",
+  "pages": 53,
+  "title_match": 1.0
+ },
+ "TS042": {
+  "title": "In-Context Fine-Tuning for Time-Series Foundation Models",
+  "tries": [
+   {
+    "label": "arXiv 2410.24087v1",
+    "url": "https://arxiv.org/pdf/2410.24087v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2410.24087v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 24,
+    "first_text_chars": 6332,
+    "first_text_head": "In-Context Fine-Tuning for Time-Series Foundation Models Abhimanyu Das∗ Matthew Faw† Rajat Sen∗ Yichen Zhou∗ November 1, 2024 Abstract Motivated by the recent success of time-series foundation models for zero-shot forecasting, we present a methodology for in-context fine-tuning of a time-series foun",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Das_ContextFineTuningTime_en.pdf",
+  "sha256": "2570d8944a504c6035e73e90eae1753ca535891cccf883577ac6a61e617b5bc0",
+  "size": 1271266,
+  "pdf_url": "https://arxiv.org/pdf/2410.24087v1",
+  "version_label": "arXiv 2410.24087v1",
+  "pages": 24,
+  "title_match": 1.0
+ },
+ "TS043": {
+  "title": "Are Language Models Actually Useful for Time Series Forecasting?",
+  "tries": [
+   {
+    "label": "arXiv 2406.16964v2",
+    "url": "https://arxiv.org/pdf/2406.16964v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2406.16964v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 28,
+    "first_text_chars": 7953,
+    "first_text_head": "Are Language Models Actually Useful for Time Series Forecasting? Mingtian Tan University of Virginia wtd3gz@virginia.edu Mike A. Merrill University of Washington mikeam@cs.washington.edu Vinayak Gupta University of Washington vinayak@cs.washington.edu Tim Althoff University of Washington althoff@cs.",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Tan_LanguageModelsActuallyUseful_en.pdf",
+  "sha256": "2af6a3dc791357b716058fbee47f790ba549853fcdfb65d39c9da3abed3a6c2b",
+  "size": 7561568,
+  "pdf_url": "https://arxiv.org/pdf/2406.16964v2",
+  "version_label": "arXiv 2406.16964v2",
+  "pages": 28,
+  "title_match": 1.0
+ },
+ "TS044": {
+  "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
+  "tries": [
+   {
+    "label": "arXiv 2403.14735v3",
+    "url": "https://arxiv.org/pdf/2403.14735v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2403.14735v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 12,
+    "first_text_chars": 11168,
+    "first_text_head": "Foundation Models for Time Series Analysis: A Tutorial and Survey Yuxuan Liang The Hong Kong University of Science and Technology (Guangzhou) yuxliang@outlook.com Haomin Wen Beijing Jiao Tong University & HKUST(GZ) wenhaomin@bjtu.edu.cn Yuqi Nie Princeton University ynie@princeton.edu Yushan Jiang U",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Liang_FoundationModelsTimeSeries_en.pdf",
+  "sha256": "85d08118f6421ea0ce5e78157a7574bdc0fe07293e3ee2b1754115e07c2b9a9e",
+  "size": 2417479,
+  "pdf_url": "https://arxiv.org/pdf/2403.14735v3",
+  "version_label": "arXiv 2403.14735v3",
+  "pages": 12,
+  "title_match": 1.0
+ },
+ "TS045": {
+  "title": "GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation",
+  "tries": [
+   {
+    "label": "arXiv 2410.10393v2",
+    "url": "https://arxiv.org/pdf/2410.10393v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2410.10393v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 28,
+    "first_text_chars": 8407,
+    "first_text_head": "Arxiv Preprint GIFT-E VAL: A B ENCHMARK FOR GENERAL TIME SE- RIES FORECASTING MODEL EVALUATION Taha Aksu1, Gerald Woo1∗, Juncheng Liu1, Xu Liu1,2∗, Chenghao Liu1†, Silvio Savarese1, Caiming Xiong1, Doyen Sahoo1 1Salesforce AI Research, 2National University of Singapore {iaksu,juncheng.liu,xu.liu,che",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Aksu_GIFTEval_en.pdf",
+  "sha256": "e9e5edc2842d64f78598a5832bc0db244a6ae919dfb6d6845e2510317c05e91c",
+  "size": 1029049,
+  "pdf_url": "https://arxiv.org/pdf/2410.10393v2",
+  "version_label": "arXiv 2410.10393v2",
+  "pages": 28,
+  "title_match": 1.0
+ },
+ "TS046": {
+  "title": "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods",
+  "tries": [
+   {
+    "label": "arXiv 2403.20150v4",
+    "url": "https://arxiv.org/pdf/2403.20150v4",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2403.20150v4",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 14,
+    "first_text_chars": 8735,
+    "first_text_head": "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods Xiangfei Qiu East China Normal University, China Jilin Hu East China Normal University, China \u0000 Lekui Zhou Huawei Cloud Algorithm Innovation Lab, China Xingjian Wu East China Normal University, China Junyang Du East ",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2024_Qiu_TFB_en.pdf",
+  "sha256": "d5cdaacd3867bd60b91a284618445980e38367d5aec0d15763c5810d95218067",
+  "size": 4318936,
+  "pdf_url": "https://arxiv.org/pdf/2403.20150v4",
+  "version_label": "arXiv 2403.20150v4",
+  "pages": 14,
+  "title_match": 1.0
+ },
+ "TS047": {
+  "title": "fev-bench: A Realistic Benchmark for Time Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2509.26468v4",
+    "url": "https://arxiv.org/pdf/2509.26468v4",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2509.26468v4",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 27,
+    "first_text_chars": 7253,
+    "first_text_head": "fev-bench: A Realistic Benchmark for Time Series Forecasting Oleksandr Shchur 1∗ Abdul Fatir Ansari 1∗ Caner Turkmen 2† Lorenzo Stella 1 Nick Erickson 3† Pablo Guerron 4,5† Michael Bohlke–Schneider 1 Yuyang Wang1 1 AWS 2 Keystone AI 3 Prior Labs 4 Amazon 5 Boston College Abstract Benchmark quality i",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Shchur_FevBench_en.pdf",
+  "sha256": "ccc7b045c8b83322758402e7a2aae4eb0b5a8d5fa5c2c4156c1e0477861d7d83",
+  "size": 838020,
+  "pdf_url": "https://arxiv.org/pdf/2509.26468v4",
+  "version_label": "arXiv 2509.26468v4",
+  "pages": 27,
+  "title_match": 1.0
+ },
+ "TS048": {
+  "title": "There are no Champions in Supervised Long-Term Time Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2502.14045v2",
+    "url": "https://arxiv.org/pdf/2502.14045v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2502.14045v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 29,
+    "first_text_chars": 7528,
+    "first_text_head": "Published in Transactions on Machine Learning Research (01/2026) There are no Champions in Supervised Long-Term Time Series Forecasting Lorenzo Brigato1∗, Rafael Morand1,2,3∗, Knut Strømmen1,2∗, Maria Panagiotou1,2, Markus Schmidt3, Stavroula Mougiakakou1 1 ARTORG Center, University of Bern,2 Gradua",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Brigato_ThereNoChampionsSupervised_en.pdf",
+  "sha256": "ba50b61e95b1c8f35512b3d66db1c137c6dd16a592038547537b3d988691d157",
+  "size": 1624181,
+  "pdf_url": "https://arxiv.org/pdf/2502.14045v2",
+  "version_label": "arXiv 2502.14045v2",
+  "pages": 29,
+  "title_match": 1.0
+ },
+ "TS049": {
+  "title": "Rethinking Evaluation in the Era of Time Series Foundation Models: (Un)known Information Leakage Challenges",
+  "tries": [
+   {
+    "label": "arXiv 2510.13654v3",
+    "url": "https://arxiv.org/pdf/2510.13654v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2510.13654v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 19,
+    "first_text_chars": 7292,
+    "first_text_head": "RETHINKINGEVALUATION IN THEERA OFTIMESERIES FOUNDATIONMODELS: (UN)KNOWNINFORMATIONLEAKAGE CHALLENGES Marcel Meyer*1, Sascha Kaltenpoth1, Kevin Zalipski1, and Oliver Müller1 1Paderborn University, Data Analytics Group ABSTRACT Time Series Foundation Models (TSFMs) represent a new paradigm for time-se",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Meyer_RethinkingEvaluationEraTime_en.pdf",
+  "sha256": "706726ee007dd4ea68026c8ed3e7d2948af49746de69559d9f19ec2c710b7cb5",
+  "size": 4736752,
+  "pdf_url": "https://arxiv.org/pdf/2510.13654v3",
+  "version_label": "arXiv 2510.13654v3",
+  "pages": 19,
+  "title_match": 1.0
+ },
+ "TS050": {
+  "title": "TempusBench: An Evaluation Framework for Time-Series Forecasting",
+  "tries": [
+   {
+    "label": "arXiv 2604.11529v3",
+    "url": "https://arxiv.org/pdf/2604.11529v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2604.11529v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 49,
+    "first_text_chars": 6443,
+    "first_text_head": "arXiv:2604.11529v3 [cs.LG] 5 Oct 2026 TechnicalReport TempusBench: An Evaluation Framework for Time-Series Forecasting DenizalpGoktas*,GerardoRiaño-Briceño *,OmkarTekawade *,AlifAbdullah,MdYasifJamal,Vinesha Shaik,ArshSingh,AryanNair,ChenkaiShen,BeatrizdeLucio,AlexandraMagnusson,Farhan Mashrur,Ahmed",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2026_Goktas_TempusBench_en.pdf",
+  "sha256": "b35feab7ec63558a02d61fca75d9c62d8f11cef19e1b28d1dae1ec00c84c036e",
+  "size": 1133828,
+  "pdf_url": "https://arxiv.org/pdf/2604.11529v3",
+  "version_label": "arXiv 2604.11529v3",
+  "pages": 49,
+  "title_match": 1.0
+ },
+ "TS051": {
+  "title": "Hidden Leaks in Time Series Forecasting: How Data Leakage Affects LSTM Evaluation Across Configurations and Validation Strategies",
+  "tries": [
+   {
+    "label": "arXiv 2512.06932v1",
+    "url": "https://arxiv.org/pdf/2512.06932v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2512.06932v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 16,
+    "first_text_chars": 6002,
+    "first_text_head": "Hidden Leaks in Time Series Forecasting: How Data Leakage Affects LSTM Evaluation Across Configurations and Validation Strategies Salma Albelali1,2 and Moataz Ahmed1,3 1 King Fahd University of Petroleum & Minerals, Department of Information and Computer Science, Dhahran, Saudi Arabia 2 Imam Abdulra",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Albelali_HiddenLeaksTimeSeries_en.pdf",
+  "sha256": "e0e2d3f2060ca9df97e10e81ab1ca6bbc1c97ba62a3fdcf1b33b11bcdb2dc588",
+  "size": 1277166,
+  "pdf_url": "https://arxiv.org/pdf/2512.06932v1",
+  "version_label": "arXiv 2512.06932v1",
+  "pages": 16,
+  "title_match": 1.0
+ },
+ "TS052": {
+  "title": "A Note on the Finite Sample Bias in Time Series Cross-Validation",
+  "tries": [
+   {
+    "label": "arXiv 2512.05900v1",
+    "url": "https://arxiv.org/pdf/2512.05900v1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2512.05900v1",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 9,
+    "first_text_chars": 2712,
+    "first_text_head": "A Note on the Finite Sample Bias in Time Series Cross-Validation Amaze Lusompa * Federal Reserve Bank of Kansas City December 8, 2025 Abstract It is well known that model selection via cross validation can be biased for time series models. However, many researchers have argued that this bias does no",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.994,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2025_Lusompa_NoteFiniteSampleBias_en.pdf",
+  "sha256": "a90905142d659e1a7541c11ba478560bab3aacb55fbf1900f0223620a1773162",
+  "size": 300615,
+  "pdf_url": "https://arxiv.org/pdf/2512.05900v1",
+  "version_label": "arXiv 2512.05900v1",
+  "pages": 9,
+  "title_match": 1.0
+ },
+ "TS053": {
+  "title": "Model selection with proper scoring rules on data sets of time series: prefer the mean scaled score",
+  "tries": [
+   {
+    "label": "arXiv 2606.24715v2",
+    "url": "https://arxiv.org/pdf/2606.24715v2",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2606.24715v2",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 13,
+    "first_text_chars": 8129,
+    "first_text_head": "Model selection with proper scoring rules on data sets of time series: prefer the mean scaled score. Giorgio Corani∗, Stefano Damato, Dario Azzimonti, Lorenzo Zambon SUPSI, Istituto Dalle Molle di Studi sull’Intelligenza Artificiale (IDSIA), Lugano, Switzerland Abstract We study the problem of model",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.999,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2026_Corani_ModelSelectionProperScoring_en.pdf",
+  "sha256": "93a941edb458612346bf94b2bc76e2a21c89c29dee6c9e82da060d26df5b5f98",
+  "size": 581327,
+  "pdf_url": "https://arxiv.org/pdf/2606.24715v2",
+  "version_label": "arXiv 2606.24715v2",
+  "pages": 13,
+  "title_match": 1.0
+ },
+ "TS054": {
+  "title": "Automatic Time Series Forecasting: The <b>forecast</b> Package for <i>R</i>",
+  "tries": [
+   {
+    "label": "candidate",
+    "url": "https://www.jstatsoft.org/index.php/jss/article/download/v027i03/255",
+    "http_status": 200,
+    "content_type": "pb",
+    "final_url": "https://www.jstatsoft.org/article/download/v027i03/255",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 22,
+    "first_text_chars": 4804,
+    "first_text_head": "JSS Journal of Statistical Software July 2008, Volume 27, Issue 3. http://www.jstatsoft.org/ Automatic Time Series Forecasting: The forecast Package for R Rob J. Hyndman Monash University Yeasmin Khandakar Monash University Abstract Automatic forecasts of large numbers of univariate time series are ",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2008_Hyndman_AutomaticTimeSeriesForecasting_en.pdf",
+  "sha256": "9b9e01c88e4a74d1bdd2f06d3ed69fc3432bcb4581e1f3725c81807680aaf4b1",
+  "size": 489874,
+  "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/download/v027i03/255",
+  "version_label": "candidate",
+  "pages": 22,
+  "title_match": 1.0
+ },
+ "TS055": {
+  "title": "Another look at measures of forecast accuracy",
+  "tries": [
+   {
+    "label": "candidate",
+    "url": "https://robjhyndman.com/papers/mase.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://robjhyndman.com/papers/mase.pdf",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 18,
+    "first_text_chars": 1012,
+    "first_text_head": "Another look at measures of forecast accuracy Rob J Hyndman Department of Econometrics and Business Statistics, Monash University, VIC 3800, Australia. Telephone: +61–3–9905–2358 Email: Rob.Hyndman@buseco.monash.edu Anne B Koehler Department of Decision Sciences & Management Information Systems Miam",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 1.0,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2006_Hyndman_AnotherLookMeasuresForecast_en.pdf",
+  "sha256": "b86b2d78457b62195faa87e2071beb3cacea2d6cb413c296dab746b00bb90a80",
+  "size": 210516,
+  "pdf_url": "https://robjhyndman.com/papers/mase.pdf",
+  "version_label": "candidate",
+  "pages": 18,
+  "title_match": 1.0
+ },
+ "TS056": {
+  "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+  "tries": [
+   {
+    "label": "candidate",
+    "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 20,
+    "first_text_chars": 13768,
+    "first_text_head": "Strictly Proper Scoring Rules, Prediction, and Estimation Tilmann GNEITING and Adrian E. RAFTERY Scoring rules assess the quality of probabilistic forecasts, by assigning a numerical score based on the predictive distribution and on the event or value that materializes. A scoring rule is proper if t",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.995,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2007_Gneiting_StrictlyProperScoringRules_en.pdf",
+  "sha256": "d31a0c5f0ae8fec1a0a6544db5d056645b2d7296d71b44a2e8efb293c7d87ba2",
+  "size": 556804,
+  "pdf_url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+  "version_label": "candidate",
+  "pages": 20,
+  "title_match": 1.0
+ },
+ "TS057": {
+  "title": "A note on the validity of cross-validation for evaluating autoregressive time series prediction",
+  "tries": [
+   {
+    "label": "candidate",
+    "url": "https://robjhyndman.com/papers/cv-wp.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://robjhyndman.com/papers/cv-wp.pdf",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 18,
+    "first_text_chars": 5506,
+    "first_text_head": "A Note on the Validity of Cross-Validation for Evaluating Autoregressive Time Series Prediction Christoph Bergmeira,∗, Rob J Hyndmanb, Bonsoo Koob aFaculty of Information Technology, Monash University, Melbourne, Australia. bDepartment of Econometrics & Business Statistics, Monash University, Melbou",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.996,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2018_Bergmeir_NoteValidityCrossValidation_en.pdf",
+  "sha256": "fc083acb269cb22e7a533572b46b64f5b88831ead50f3232b20c4d5016960dd7",
+  "size": 237603,
+  "pdf_url": "https://robjhyndman.com/papers/cv-wp.pdf",
+  "version_label": "candidate",
+  "pages": 18,
+  "title_match": 1.0
+ },
+ "TS058": {
+  "title": "Are Transformers Effective for Time Series Forecasting?",
+  "tries": [
+   {
+    "label": "arXiv 2205.13504v3",
+    "url": "https://arxiv.org/pdf/2205.13504v3",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://arxiv.org/pdf/2205.13504v3",
+    "attempts": 1,
+    "magic_ok": true,
+    "pages": 15,
+    "first_text_chars": 9890,
+    "first_text_head": "Are Transformers Effective for Time Series Forecasting? Ailing Zeng1*, Muxi Chen1*, Lei Zhang2, Qiang Xu1 1The Chinese University of Hong Kong 2International Digital Economy Academy (IDEA) {alzeng, mxchen21, qxu}@cse.cuhk.edu.hk {leizhang}@idea.edu.cn Abstract Recently, there has been a surge of Tra",
+    "title_match": 1.0,
+    "ascii_letter_ratio": 0.998,
+    "parse_ok": true
+   }
+  ],
+  "status": "ok",
+  "local_path": "pdfs/2022_Zeng_TransformersEffectiveTimeSeries_en.pdf",
+  "sha256": "97abddd1821cc72942c8d7ddde7e99466bb91f1bddc37c2b54e0e97be7b5be1b",
+  "size": 1584902,
+  "pdf_url": "https://arxiv.org/pdf/2205.13504v3",
+  "version_label": "arXiv 2205.13504v3",
+  "pages": 15,
+  "title_match": 1.0
+ }
+}

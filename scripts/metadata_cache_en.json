@@ -1,0 +1,1824 @@
+{
+ "TS001": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2412.17323v3",
+   "latest_version": "2412.17323v3",
+   "title": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition",
+   "authors": [
+    "Artyom Stitsyuk",
+    "Jaesik Choi"
+   ],
+   "published": "2024-12-23T06:32:59Z",
+   "updated": "2025-02-11T05:49:47Z",
+   "abstract": "In recent years, the application of transformer-based models in time-series forecasting has received significant attention. While often demonstrating promising results, the transformer architecture encounters challenges in fully exploiting the temporal relations within time series data due to its attention mechanism. In this work, we design eXponential Patch (xPatch for short), a novel dual-stream architecture that utilizes exponential decomposition. Inspired by the classical exponential smoothing approaches, xPatch introduces the innovative seasonal-trend exponential decomposition module. Additionally, we propose a dual-flow architecture that consists of an MLP-based linear stream and a CNN-based non-linear stream. This model investigates the benefits of employing patching and channel-independence techniques within a non-transformer model. Finally, we develop a robust arctangent loss function and a sigmoid learning rate adjustment scheme, which prevent overfitting and boost forecasting performance. The code is available at the following repository: https://github.com/stitsyuk/xPatch.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS002": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2601.18052v1",
+   "latest_version": "2601.18052v1",
+   "title": "BASTION: A Bayesian Framework for Trend and Seasonality Decomposition",
+   "authors": [
+    "Jason B. Cho",
+    "David S. Matteson"
+   ],
+   "published": "2026-01-26T00:49:53Z",
+   "updated": "2026-01-26T00:49:53Z",
+   "abstract": "We introduce BASTION (Bayesian Adaptive Seasonality and Trend DecompositION), a flexible Bayesian framework for decomposing time series into trend and multiple seasonality components. We cast the decomposition as a penalized nonparametric regression and establish formal conditions under which the trend and seasonal components are uniquely identifiable, an issue only treated informally in the existing literature. BASTION offers three key advantages over existing decomposition methods: (1) accurate estimation of trend and seasonality amidst abrupt changes, (2) enhanced robustness against outliers and time-varying volatility, and (3) robust uncertainty quantification. We evaluate BASTION against established methods, including TBATS, STR, and MSTL, using both simulated and real-world datasets. By effectively capturing complex dynamics while accounting for irregular components such as outliers and heteroskedasticity, BASTION delivers a more nuanced and interpretable decomposition. To support further research and practical applications, BASTION is available as an R package at https://github.com/Jasoncho0914/BASTION",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS003": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2504.07099v5",
+   "latest_version": "2504.07099v5",
+   "title": "Time Series Analysis in Frequency Domain: A Survey of Open Challenges, Opportunities and Benchmarks",
+   "authors": [
+    "Qianru Zhang",
+    "Yuting Sun",
+    "Honggang Wen",
+    "Peng Yang",
+    "Xinzhu Li",
+    "Ming Li",
+    "Kwok-Yan Lam",
+    "Siu-Ming Yiu",
+    "Hongzhi Yin"
+   ],
+   "published": "2025-02-12T04:07:22Z",
+   "updated": "2026-09-11T22:26:50Z",
+   "abstract": "Frequency-domain analysis has emerged as a powerful paradigm for time series analysis, offering unique advantages over traditional time-domain approaches while introducing new theoretical and practical challenges. This survey provides a comprehensive examination of spectral methods from classical Fourier analysis to modern neural operators, systematically summarizing three open challenges in current research: (1) causal structure preservation during spectral transformations, (2) uncertainty quantification in learned frequency representations, and (3) topology-aware analysis for non-Euclidean data structures. Through rigorous reviewing of over 100 studies, we develop a unified taxonomy that bridges conventional spectral techniques with cutting-edge machine learning approaches, while establishing standardized benchmarks for performance evaluation. Our work identifies key knowledge gaps in the field, particularly in geometric deep learning and quantum-enhanced spectral analysis. The survey offers practitioners a systematic framework for method selection and implementation, while charting promising directions for future research in this rapidly evolving domain.",
+   "comment": "39 pages",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CE"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS004": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2409.20371v1",
+   "latest_version": "2409.20371v1",
+   "title": "Frequency Adaptive Normalization For Non-stationary Time Series Forecasting",
+   "authors": [
+    "Weiwei Ye",
+    "Songgaojun Deng",
+    "Qiaosha Zou",
+    "Ning Gui"
+   ],
+   "published": "2024-09-30T15:07:16Z",
+   "updated": "2024-09-30T15:07:16Z",
+   "abstract": "Time series forecasting typically needs to address non-stationary data with evolving trend and seasonal patterns. To address the non-stationarity, reversible instance normalization has been recently proposed to alleviate impacts from the trend with certain statistical measures, e.g., mean and variance. Although they demonstrate improved predictive accuracy, they are limited to expressing basic trends and are incapable of handling seasonal patterns. To address this limitation, this paper proposes a new instance normalization solution, called frequency adaptive normalization (FAN), which extends instance normalization in handling both dynamic trend and seasonal patterns. Specifically, we employ the Fourier transform to identify instance-wise predominant frequent components that cover most non-stationary factors. Furthermore, the discrepancy of those frequency components between inputs and outputs is explicitly modeled as a prediction task with a simple MLP model. FAN is a model-agnostic method that can be applied to arbitrary predictive backbones. We instantiate FAN on four widely used forecasting models as the backbone and evaluate their prediction performance improvements on eight benchmark datasets. FAN demonstrates significant performance advancement, achieving 7.76% ~ 37.90% average improvements in MSE.",
+   "comment": "NeurIPS 2024 Poster",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS005": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2501.04970v1",
+   "latest_version": "2501.04970v1",
+   "title": "Battling the Non-stationarity in Time Series Forecasting via Test-time Adaptation",
+   "authors": [
+    "HyunGi Kim",
+    "Siwon Kim",
+    "Jisoo Mok",
+    "Sungroh Yoon"
+   ],
+   "published": "2025-01-09T04:59:15Z",
+   "updated": "2025-01-09T04:59:15Z",
+   "abstract": "Deep Neural Networks have spearheaded remarkable advancements in time series forecasting (TSF), one of the major tasks in time series modeling. Nonetheless, the non-stationarity of time series undermines the reliability of pre-trained source time series forecasters in mission-critical deployment settings. In this study, we introduce a pioneering test-time adaptation framework tailored for TSF (TSF-TTA). TAFAS, the proposed approach to TSF-TTA, flexibly adapts source forecasters to continuously shifting test distributions while preserving the core semantic information learned during pre-training. The novel utilization of partially-observed ground truth and gated calibration module enables proactive, robust, and model-agnostic adaptation of source forecasters. Experiments on diverse benchmark datasets and cutting-edge architectures demonstrate the efficacy and generality of TAFAS, especially in long-term forecasting scenarios that suffer from significant distribution shifts. The code is available at https://github.com/kimanki/TAFAS.",
+   "comment": "Accepted at AAAI 2025",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS006": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2402.02399v3",
+   "latest_version": "2402.02399v3",
+   "title": "FreDF: Learning to Forecast in the Frequency Domain",
+   "authors": [
+    "Hao Wang",
+    "Licheng Pan",
+    "Zhichao Chen",
+    "Degui Yang",
+    "Sen Zhang",
+    "Yifei Yang",
+    "Xinggao Liu",
+    "Haoxuan Li",
+    "Dacheng Tao"
+   ],
+   "published": "2024-02-04T08:23:41Z",
+   "updated": "2026-10-06T12:07:27Z",
+   "abstract": "Time series modeling presents unique challenges due to autocorrelation in both historical data and future sequences. While current research predominantly addresses autocorrelation within historical data, the correlations among future labels are often overlooked. Specifically, modern forecasting models primarily adhere to the Direct Forecast (DF) paradigm, generating multi-step forecasts independently and disregarding label autocorrelation over time. In this work, we demonstrate that the learning objective of DF is biased in the presence of label autocorrelation. To address this issue, we propose the Frequency-enhanced Direct Forecast (FreDF), which mitigates label autocorrelation by learning to forecast in the frequency domain, thereby reducing estimation bias. Our experiments show that FreDF significantly outperforms existing state-of-the-art methods and is compatible with a variety of forecast models. Code is available at https://github.com/Master-PLC/FreDF.",
+   "comment": "Accepted by ICLR 2025",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS007": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2311.01021v1",
+   "latest_version": "2311.01021v1",
+   "title": "ABC-based Forecasting in State Space Models",
+   "authors": [
+    "Chaya Weerasinghe",
+    "Ruben Loaiza-Maya",
+    "Gael M. Martin",
+    "David T. Frazier"
+   ],
+   "published": "2023-11-02T06:27:46Z",
+   "updated": "2023-11-02T06:27:46Z",
+   "abstract": "Approximate Bayesian Computation (ABC) has gained popularity as a method for conducting inference and forecasting in complex models, most notably those which are intractable in some sense. In this paper we use ABC to produce probabilistic forecasts in state space models (SSMs). Whilst ABC-based forecasting in correctly-specified SSMs has been studied, the misspecified case has not been investigated, and it is that case which we emphasize. We invoke recent principles of 'focused' Bayesian prediction, whereby Bayesian updates are driven by a scoring rule that rewards predictive accuracy; the aim being to produce predictives that perform well in that rule, despite misspecification. Two methods are investigated for producing the focused predictions. In a simulation setting, 'coherent' predictions are in evidence for both methods: the predictive constructed via the use of a particular scoring rule predicts best according to that rule. Importantly, both focused methods typically produce more accurate forecasts than an exact, but misspecified, predictive. An empirical application to a truly intractable SSM completes the paper.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS008": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2403.11144v3",
+   "latest_version": "2403.11144v3",
+   "title": "Is Mamba Effective for Time Series Forecasting?",
+   "authors": [
+    "Zihan Wang",
+    "Fanheng Kong",
+    "Shi Feng",
+    "Ming Wang",
+    "Xiaocui Yang",
+    "Han Zhao",
+    "Daling Wang",
+    "Yifei Zhang"
+   ],
+   "published": "2024-03-17T08:50:44Z",
+   "updated": "2024-04-27T12:39:09Z",
+   "abstract": "In the realm of time series forecasting (TSF), it is imperative for models to adeptly discern and distill hidden patterns within historical time series data to forecast future states. Transformer-based models exhibit formidable efficacy in TSF, primarily attributed to their advantage in apprehending these patterns. However, the quadratic complexity of the Transformer leads to low computational efficiency and high costs, which somewhat hinders the deployment of the TSF model in real-world scenarios. Recently, Mamba, a selective state space model, has gained traction due to its ability to process dependencies in sequences while maintaining near-linear complexity. For TSF tasks, these characteristics enable Mamba to comprehend hidden patterns as the Transformer and reduce computational overhead compared to the Transformer. Therefore, we propose a Mamba-based model named Simple-Mamba (S-Mamba) for TSF. Specifically, we tokenize the time points of each variate autonomously via a linear layer. A bidirectional Mamba layer is utilized to extract inter-variate correlations and a Feed-Forward Network is set to learn temporal dependencies. Finally, the generation of forecast outcomes through a linear mapping layer. Experiments on thirteen public datasets prove that S-Mamba maintains low computational overhead and achieves leading performance. Furthermore, we conduct extensive experiments to explore Mamba's potential in TSF tasks. Our code is available at https://github.com/wzhwzhwzh0921/S-D-Mamba.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS009": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2507.22204v1",
+   "latest_version": "2507.22204v1",
+   "title": "Testing for multiple change-points in macroeconometrics: an empirical guide and recent developments",
+   "authors": [
+    "Otilia Boldea",
+    "Alastair R. Hall"
+   ],
+   "published": "2025-07-29T20:08:56Z",
+   "updated": "2025-07-29T20:08:56Z",
+   "abstract": "We review recent developments in detecting and estimating multiple change-points in time series models with exogenous and endogenous regressors, panel data models, and factor models. This review differs from others in multiple ways: (1) it focuses on inference about the change-points in slope parameters, rather than in the mean of the dependent variable - the latter being common in the statistical literature; (2) it focuses on detecting - via sequential testing and other methods - multiple change-points, and only discusses one change-point when methods for multiple change-points are not available; (3) it is meant as a practitioner's guide for empirical macroeconomists first, and as a result, it focuses only on the methods derived under the most general assumptions relevant to macroeconomic applications.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "econ.EM"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS010": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2407.16723v1",
+   "latest_version": "2407.16723v1",
+   "title": "Interval Forecasts for Gas Prices in the Face of Structural Breaks -- Statistical Models vs. Neural Networks",
+   "authors": [
+    "Stephan Schlüter",
+    "Sven Pappert",
+    "Martin Neumann"
+   ],
+   "published": "2024-07-23T11:34:13Z",
+   "updated": "2024-07-23T11:34:13Z",
+   "abstract": "Reliable gas price forecasts are an essential information for gas and energy traders, for risk managers and also economists. However, ahead of the war in Ukraine Europe began to suffer from substantially increased and volatile gas prices which culminated in the aftermath of the North Stream 1 explosion. This shock changed both trend and volatility structure of the prices and has considerable effects on forecasting models. In this study we investigate whether modern machine learning methods such as neural networks are more resilient against such changes than statistical models such as autoregressive moving average (ARMA) models with conditional heteroskedasticity, or copula-based time series models. Thereby the focus lies on interval forecasting and applying respective evaluation measures. As data, the Front Month prices from the Dutch Title Transfer Facility, currently the predominant European exchange, are used. We see that, during the shock period, most models underestimate the variance while overestimating the variance in the after-shock period. Furthermore, we recognize that, during the shock, the simpler models, i.e. an ARMA model with conditional heteroskedasticity and the multilayer perceptron (a neural network), perform best with regards to prediction interval coverage. Interestingly, the widely-used long-short term neural network is outperformed by its competitors.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS011": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2403.04345v1",
+   "latest_version": "2403.04345v1",
+   "title": "A Novel Theoretical Framework for Exponential Smoothing",
+   "authors": [
+    "Enrico Bernardi",
+    "Alberto Lanconelli",
+    "Christopher S. A. Lauria"
+   ],
+   "published": "2024-03-07T09:16:05Z",
+   "updated": "2024-03-07T09:16:05Z",
+   "abstract": "Simple Exponential Smoothing is a classical technique used for smoothing time series data by assigning exponentially decreasing weights to past observations through a recursive equation; it is sometimes presented as a rule of thumb procedure. We introduce a novel theoretical perspective where the recursive equation that defines simple exponential smoothing occurs naturally as a stochastic gradient ascent scheme to optimize a sequence of Gaussian log-likelihood functions. Under this lens of analysis, our main theorem shows that -- in a general setting -- simple exponential smoothing converges to a neighborhood of the trend of a trend-stationary stochastic process. This offers a novel theoretical assurance that the exponential smoothing procedure yields reliable estimators of the underlying trend shedding light on long-standing observations in the literature regarding the robustness of simple exponential smoothing.",
+   "comment": "12 pages, 6 figures",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS012": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2406.19702v1",
+   "latest_version": "2406.19702v1",
+   "title": "Vector AutoRegressive Moving Average Models: A Review",
+   "authors": [
+    "Marie-Christine Düker",
+    "David S. Matteson",
+    "Ruey S. Tsay",
+    "Ines Wilms"
+   ],
+   "published": "2024-06-28T07:26:17Z",
+   "updated": "2024-06-28T07:26:17Z",
+   "abstract": "Vector AutoRegressive Moving Average (VARMA) models form a powerful and general model class for analyzing dynamics among multiple time series. While VARMA models encompass the Vector AutoRegressive (VAR) models, their popularity in empirical applications is dominated by the latter. Can this phenomenon be explained fully by the simplicity of VAR models? Perhaps many users of VAR models have not fully appreciated what VARMA models can provide. The goal of this review is to provide a comprehensive resource for researchers and practitioners seeking insights into the advantages and capabilities of VARMA models. We start by reviewing the identification challenges inherent to VARMA models thereby encompassing classical and modern identification schemes and we continue along the same lines regarding estimation, specification and diagnosis of VARMA models. We then highlight the practical utility of VARMA models in terms of Granger Causality analysis, forecasting and structural analysis as well as recent advances and extensions of VARMA models to further facilitate their adoption in practice. Finally, we discuss some interesting future research directions where VARMA models can fulfill their potentials in applications as compared to their subclass of VAR models.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS013": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2607.14279v1",
+   "latest_version": "2607.14279v1",
+   "title": "From Vector Autoregressions to AI-based Time Series Forecasting: A Review",
+   "authors": [
+    "Likai Chen",
+    "Weining Wang"
+   ],
+   "published": "2026-07-15T18:38:21Z",
+   "updated": "2026-07-15T18:38:21Z",
+   "abstract": "Forecasting is a central goal of time-series analysis. This review centers on three major developments in recent AI-based time-series forecasting: transformers, large pretrained models for zero-shot forecasting, and diffusion-based generative forecasters. We connect these methods to the econometric tradition built around the vector autoregression (VAR) through a common object: the conditional distribution of the future given the past. The review is organized around three long-standing challenges: \\emph{high dimensionality}, \\emph{nonstationarity}, and \\emph{nonlinearity}. We argue that modern methods make progress by expanding the classical forecasting template: they allow more flexible dynamics, use larger information sets and training corpora, and represent richer predictive distributions. Yet they often lack the inferential and structural tools that make classical models useful for testing, explanation, and policy analysis. We close by outlining open problems where econometric tools remain important.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "econ.EM"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS014": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2609.13345v1",
+   "latest_version": "2609.13345v1",
+   "title": "Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data",
+   "authors": [
+    "Donia Besher",
+    "Rajdeep Pathak",
+    "Madhurima Panja",
+    "Tanujit Chakraborty"
+   ],
+   "published": "2026-09-11T13:26:47Z",
+   "updated": "2026-09-11T13:26:47Z",
+   "abstract": "Probabilistic forecasting is central to decision-making under uncertainty, yet its methodological landscape has become increasingly fragmented across temporal and spatiotemporal forecasting, statistical modeling, machine learning, and deep generative modeling. This survey develops a unified perspective by organizing probabilistic forecasting methods according to where and how uncertainty is introduced into the forecasting pipeline. Our taxonomy connects model-agnostic approaches including ensembles and distribution-free calibration, with model-intrinsic approaches spanning Bayesian modeling, parametric predictive distributions, distributional regression, and modern generative models, and further examines the emerging role of time series foundation models. Beyond methodological synthesis, we identify the assumptions, computational demands, and forms of uncertainty represented by different paradigms, and translate these distinctions into data-driven and domain-specific guidance for method selection. We complement the survey with a cross-paradigm empirical study on univariate, multivariate, and spatiotemporal forecasting tasks. The results reveal that no single uncertainty-quantification paradigm dominates across settings. Calibration, sharpness, predictive accuracy, and computational efficiency can lead to substantially different model preferences, while expressive generative models and zero-shot foundation models exhibit markedly different accuracy-efficiency trade-offs. Lastly, we identify unresolved challenges surrounding uncertainty in evolving dependency structures, physics-informed predictive distributions, forecasting extreme events, handling count-valued, directional, and continuous-time series, and the development of unified software resources. Our survey provides both a conceptual framework and a practical roadmap for probabilistic forecasting research.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ML"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS015": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2407.00650v1",
+   "latest_version": "2407.00650v1",
+   "title": "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation",
+   "authors": [
+    "Romain Pic",
+    "Clément Dombry",
+    "Philippe Naveau",
+    "Maxime Taillardat"
+   ],
+   "published": "2024-06-30T10:26:32Z",
+   "updated": "2024-06-30T10:26:32Z",
+   "abstract": "Proper scoring rules are an essential tool to assess the predictive performance of probabilistic forecasts. However, propriety alone does not ensure an informative characterization of predictive performance and it is recommended to compare forecasts using multiple scoring rules. With that in mind, interpretable scoring rules providing complementary information are necessary. We formalize a framework based on aggregation and transformation to build interpretable multivariate proper scoring rules. Aggregation-and-transformation-based scoring rules are able to target specific features of the probabilistic forecasts; which improves the characterization of the predictive performance. This framework is illustrated through examples taken from the literature and studied using numerical experiments showcasing its benefits. In particular, it is shown that it can help bridge the gap between proper scoring rules and spatial verification tools.",
+   "comment": "for associated code, see https://github.com/pic-romain/aggregation-transformation",
+   "journal_ref": "",
+   "doi": "10.5194/ascmo-11-23-2025",
+   "primary_category": "stat.ME"
+  },
+  "crossref": {
+   "title": "Proper scoring rules for multivariate probabilistic forecasts based on aggregation and transformation",
+   "authors": [
+    "Romain Pic",
+    "Clément Dombry",
+    "Philippe Naveau",
+    "Maxime Taillardat"
+   ],
+   "year": 2025,
+   "container": "Advances in Statistical Climatology, Meteorology and Oceanography",
+   "volume": "11",
+   "issue": "1",
+   "page": "23-58",
+   "type": "journal-article",
+   "url": "https://doi.org/10.5194/ascmo-11-23-2025",
+   "abstract": "<jats:p>Proper scoring rules are an essential tool to assess the predictive performance of probabilistic forecasts. However, propriety alone does not ensure an informative characterization of predictive performance, and it is recommended to compare forecasts using multiple scoring rules. With that in mind, interpretable scoring rules providing complementary information are necessary. We formalize a framework based on aggregation and transformation to build interpretable multivariate proper scoring rules. Aggregation-and-transformation-based scoring rules can target application-specific features of probabilistic forecasts, which improves the characterization of the predictive performance. This framework is illustrated through examples taken from the weather forecasting literature, and numerical experiments are used to showcase its benefits in a controlled setting. Additionally, the framework is tested on real-world data of postprocessed wind speed forecasts over central Europe. In particular, we show that it can help bridge the gap between proper scoring rules and spatial verification tools.</jats:p>"
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4400193469",
+   "title": "Proper scoring rules for multivariate probabilistic forecasts based on aggregation and transformation",
+   "year": 2025,
+   "oa_status": "diamond",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.5194/ascmo-11-23-2025",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Advances in statistical climatology, meteorology and oceanography",
+     "source_type": "journal",
+     "host_org": "Copernicus Publications"
+    },
+    {
+     "pdf_url": "https://arxiv.org/pdf/2407.00650",
+     "landing": "http://arxiv.org/abs/2407.00650",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    },
+    {
+     "pdf_url": "https://hal.science/hal-04629671v1/file/Preprint_Aggregation_and_Transformation_arXiv_HAL_.pdf",
+     "landing": "https://hal.science/hal-04629671",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "HAL",
+     "source_type": "repository",
+     "host_org": "Centre pour la Communication Scientifique Directe"
+    },
+    {
+     "pdf_url": "https://hal.science/hal-04629671v2/file/ascmo-11-23-2025.pdf",
+     "landing": "https://hal.science/hal-04629671v2/document",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "HAL",
+     "source_type": "repository",
+     "host_org": "Centre pour la Communication Scientifique Directe"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/439b3123d78946dd97ce64d8d6abf690",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by-sa",
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://archive-ouverte.unige.ch/unige:183824",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "Archive ouverte UNIGE (University of Geneva)",
+     "source_type": "repository",
+     "host_org": "University of Geneva"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.48550/arxiv.2407.00650",
+     "is_oa": true,
+     "version": null,
+     "license": "cc-by",
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    }
+   ],
+   "abstract": "Proper scoring rules are an essential tool to assess the predictive performance of probabilistic forecasts. However, propriety alone does not ensure an informative characterization of predictive performance, and it is recommended to compare forecasts using multiple scoring rules. With that in mind, interpretable scoring rules providing complementary information are necessary. We formalize a framework based on aggregation and transformation to build interpretable multivariate proper scoring rules. Aggregation-and-transformation-based scoring rules can target application-specific features of probabilistic forecasts, which improves the characterization of the predictive performance. This framework is illustrated through examples taken from the weather forecasting literature, and numerical experiments are used to showcase its benefits in a controlled setting. Additionally, the framework is tested on real-world data of postprocessed wind speed forecasts over central Europe. In particular, we show that it can help bridge the gap between proper scoring rules and spatial verification tools."
+  }
+ },
+ "TS016": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2511.13608v1",
+   "latest_version": "2511.13608v1",
+   "title": "A Gentle Introduction to Conformal Time Series Forecasting",
+   "authors": [
+    "M. Stocker",
+    "W. Małgorzewicz",
+    "M. Fontana",
+    "S. Ben Taieb"
+   ],
+   "published": "2025-11-17T17:12:51Z",
+   "updated": "2025-11-17T17:12:51Z",
+   "abstract": "Conformal prediction is a powerful post-hoc framework for uncertainty quantification that provides distribution-free coverage guarantees. However, these guarantees crucially rely on the assumption of exchangeability. This assumption is fundamentally violated in time series data, where temporal dependence and distributional shifts are pervasive. As a result, classical split-conformal methods may yield prediction intervals that fail to maintain nominal validity. This review unifies recent advances in conformal forecasting methods specifically designed to address nonexchangeable data. We first present a theoretical foundation, deriving finite-sample guarantees for split-conformal prediction under mild weak-dependence conditions. We then survey and classify state-of-the-art approaches that mitigate serial dependence by reweighting calibration data, dynamically updating residual distributions, or adaptively tuning target coverage levels in real time. Finally, we present a comprehensive simulation study that compares these techniques in terms of empirical coverage, interval width, and computational cost, highlighting practical trade-offs and open research directions.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS017": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2410.13115v2",
+   "latest_version": "2410.13115v2",
+   "title": "Online conformal inference for multi-step time series forecasting",
+   "authors": [
+    "Xiaoqian Wang",
+    "Rob J Hyndman"
+   ],
+   "published": "2024-10-17T00:53:13Z",
+   "updated": "2026-02-02T17:34:08Z",
+   "abstract": "We consider the problem of constructing distribution-free prediction intervals for multi-step time series forecasting, with a focus on the temporal dependencies inherent in multi-step forecast errors. We establish that the optimal $h$-step-ahead forecast errors exhibit serial correlation up to lag $(h-1)$ under a general non-stationary autoregressive data generating process. To leverage these properties, we propose the Autocorrelated Multi-step Conformal Prediction (AcMCP) method, which effectively incorporates autocorrelations in multi-step forecast errors, resulting in more statistically efficient prediction intervals. This method guarantees asymptotic marginal coverage for multi-step prediction intervals, though we note that, for finite samples, the coverage error admits an upper bound that increases with the forecasting horizon. Additionally, we extend several easy-to-implement conformal prediction methods, originally designed for single-step forecasting, to accommodate multi-step scenarios. Through empirical evaluations, including simulations and applications to data, we demonstrate that AcMCP achieves coverage that closely aligns with the target within local windows, while providing adaptive prediction intervals that effectively respond to varying conditions.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS018": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2311.00993v1",
+   "latest_version": "2311.00993v1",
+   "title": "Scalable Probabilistic Forecasting in Retail with Gradient Boosted Trees: A Practitioner's Approach",
+   "authors": [
+    "Xueying Long",
+    "Quang Bui",
+    "Grady Oktavian",
+    "Daniel F. Schmidt",
+    "Christoph Bergmeir",
+    "Rakshitha Godahewa",
+    "Seong Per Lee",
+    "Kaifeng Zhao",
+    "Paul Condylis"
+   ],
+   "published": "2023-11-02T04:46:32Z",
+   "updated": "2023-11-02T04:46:32Z",
+   "abstract": "The recent M5 competition has advanced the state-of-the-art in retail forecasting. However, we notice important differences between the competition challenge and the challenges we face in a large e-commerce company. The datasets in our scenario are larger (hundreds of thousands of time series), and e-commerce can afford to have a larger assortment than brick-and-mortar retailers, leading to more intermittent data. To scale to larger dataset sizes with feasible computational effort, firstly, we investigate a two-layer hierarchy and propose a top-down approach to forecasting at an aggregated level with less amount of series and intermittency, and then disaggregating to obtain the decision-level forecasts. Probabilistic forecasts are generated under distributional assumptions. Secondly, direct training at the lower level with subsamples can also be an alternative way of scaling. Performance of modelling with subsets is evaluated with the main dataset. Apart from a proprietary dataset, the proposed scalable methods are evaluated using the Favorita dataset and the M5 dataset. We are able to show the differences in characteristics of the e-commerce and brick-and-mortar retail datasets. Notably, our top-down forecasting framework enters the top 50 of the original M5 competition, even with models trained at a higher level under a much simpler setting.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS019": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2412.01557v1",
+   "latest_version": "2412.01557v1",
+   "title": "How Much Can Time-related Features Enhance Time Series Forecasting?",
+   "authors": [
+    "Chaolv Zeng",
+    "Yuan Tian",
+    "Guanjie Zheng",
+    "Yunjun Gao"
+   ],
+   "published": "2024-12-02T14:45:26Z",
+   "updated": "2024-12-02T14:45:26Z",
+   "abstract": "Recent advancements in long-term time series forecasting (LTSF) have primarily focused on capturing cross-time and cross-variate (channel) dependencies within historical data. However, a critical aspect often overlooked by many existing methods is the explicit incorporation of \\textbf{time-related features} (e.g., season, month, day of the week, hour, minute), which are essential components of time series data. The absence of this explicit time-related encoding limits the ability of current models to capture cyclical or seasonal trends and long-term dependencies, especially with limited historical input. To address this gap, we introduce a simple yet highly efficient module designed to encode time-related features, Time Stamp Forecaster (TimeSter), thereby enhancing the backbone's forecasting performance. By integrating TimeSter with a linear backbone, our model, TimeLinear, significantly improves the performance of a single linear projector, reducing MSE by an average of 23\\% on benchmark datasets such as Electricity and Traffic. Notably, TimeLinear achieves these gains while maintaining exceptional computational efficiency, delivering results that are on par with or exceed state-of-the-art models, despite using a fraction of the parameters.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS020": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2510.12337v2",
+   "latest_version": "2510.12337v2",
+   "title": "Sliding-Window Signatures as Features for Time Series Forecasting",
+   "authors": [
+    "Nina Drobac",
+    "Margaux Br{é}g{è}re",
+    "Joseph de Vilmarest",
+    "Olivier Wintenberger"
+   ],
+   "published": "2025-10-14T09:49:30Z",
+   "updated": "2026-10-26T12:52:25Z",
+   "abstract": "The evolution of a time series is often influenced not only by its past values but also by external covariates, giving rise to forecasting with exogenous variables. Nonlinear and delayed effects between covariates and the target series make this task particularly challenging. We propose a forecasting framework based on Ridge regression with sliding-window signature features, combining the computational efficiency of (semi-)parametric models with the flexibility of nonparametric approaches. These features capture complex dependencies between the target and the exogenous variables without relying on prior assumptions about the form of these relationships or the influence of past observations. We establish theoretical guarantees in the discrete-time setting, including universality of approximation and stationarity for the sliding-window transform. To ease implementation, we introduce a novel sequential algorithm that exploits window overlap for efficient signature updates. The method is evaluated on both synthetic and real electricity demand data. Results show that signature features effectively encode temporal and nonlinear dependencies, yielding accurate forecasts competitive with those based on expert knowledge and recent neural network approaches.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS021": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2501.02945v4",
+   "latest_version": "2501.02945v4",
+   "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
+   "authors": [
+    "Shi Bin Hoo",
+    "Samuel Müller",
+    "David Salinas",
+    "Frank Hutter"
+   ],
+   "published": "2025-01-06T11:38:19Z",
+   "updated": "2026-01-26T20:04:45Z",
+   "abstract": "Recent progress in foundation models has enabled strong zero-shot performance for time series forecasting. In this work, we show that such capabilities can also emerge from tabular foundation models. We introduce TabPFN-TS, a simple method that treats forecasting as a tabular regression problem by combining lightweight temporal featurization with the pretrained TabPFN-v2. This formulation requires no time-series-specific pretraining and naturally supports both univariate and covariate-informed forecasting. Despite its compact size (11M parameters), TabPFN-TS achieves state-of-the-art performance on covariate-informed forecasting and competitive accuracy on univariate forecasting across the GIFT-Eval and fev-bench benchmarks. We further provide controlled analyses examining how the model interprets temporal structure, how featurization choices affect accuracy, and how forecasts change under alternative tabular backbones. Together, our results demonstrate that tabular foundation models--when paired with suitable temporal features--offer an efficient and versatile alternative for forecasting, bridging tabular and time-series learning within a unified framework. Code is available at https://github.com/PriorLabs/tabpfn-time-series.",
+   "comment": "This revision extends the previous version by adding evaluations on covariate-aware forecasting tasks, additional ablation studies, and a dedicated limitations section. It also substantially rewrites and reorganizes the manuscript to improve clarity and overall readability",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS022": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2601.14031v2",
+   "latest_version": "2601.14031v2",
+   "title": "Intermittent time series forecasting: local vs global models",
+   "authors": [
+    "Stefano Damato",
+    "Nicolò Rubattu",
+    "Dario Azzimonti",
+    "Giorgio Corani"
+   ],
+   "published": "2026-01-20T14:53:24Z",
+   "updated": "2026-06-10T15:11:19Z",
+   "abstract": "Forecasting intermittent time series, which contain zeros, is a crucial challenge in supply chains as inventory policies require probabilistic forecasts to establish safety levels. Intermittent time series are commonly forecast using local models, trained individually on each time series. In the last years global models, trained on a large collection of time series, have become popular for time series forecasting. Global models are often based on neural networks or gradient boosted trees. We carry out the first study comparing state-of-the-art probabilistic local and global models on intermittent time series. For global models we consider three different distribution heads suitable for intermittent time series: negative binomial, hurdle-shifted negative binomial and Tweedie. To the best of our knowledge, this is the first use of the latter two with neural networks. We perform experiments on five datasets comprising overall more than 40'000 real-world time series. Among global models, TiDE, a simple neural network architecture, achieves the best accuracy; it also consistently outperforms local models and has lower computational requirements. Large global models are instead much more computationally demanding and less accurate. Among the distribution heads, the Tweedie provides the best estimates of the highest quantiles.",
+   "comment": "Submitted to the Journal of the Operational Research Society",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ML"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS023": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2407.13278v3",
+   "latest_version": "2407.13278v3",
+   "title": "Deep Time Series Models: A Comprehensive Survey and Benchmark",
+   "authors": [
+    "Yuxuan Wang",
+    "Haixu Wu",
+    "Jiaxiang Dong",
+    "Yong Liu",
+    "Chen Wang",
+    "Mingsheng Long",
+    "Jianmin Wang"
+   ],
+   "published": "2024-07-18T08:31:55Z",
+   "updated": "2026-05-04T08:07:42Z",
+   "abstract": "Time series, characterized by a sequence of data points organized in a discrete-time order, are ubiquitous in real-world scenarios. Unlike other data modalities, time series present unique challenges in learning and modeling due to their intricate and dynamic nature, including the entanglement of nonlinear patterns and time-variant trends. Recent years have witnessed remarkable breakthroughs in time series analysis, with techniques shifting from traditional statistical methods to contemporary deep learning models. In this paper, we delve into the design of deep time series models across various analysis tasks and review the existing literature from two perspectives: basic modules and model architectures. Further, we develop and release Time Series Library (TSLib) as a fair benchmark of deep time series models for diverse analysis tasks. TSLib implements 41 prominent models, including both small- and large-scale time series models, covers 30 datasets from different domains, and supports 5 prevalent analysis tasks. Based on TSLib, we evaluate 16 popular deep time series models and 6 advanced time series foundation models. Empirical findings indicate that models with specific structures are apt only at distinct analytical tasks, providing insights for research and adoption of deep time series models. Code and datasets are available at https://github.com/thuml/Time-Series-Library.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS024": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2410.16928v4",
+   "latest_version": "2410.16928v4",
+   "title": "xLSTM-Mixer: Multivariate Time Series Forecasting by Mixing via Scalar Memories",
+   "authors": [
+    "Maurice Kraus",
+    "Felix Divo",
+    "Devendra Singh Dhami",
+    "Kristian Kersting"
+   ],
+   "published": "2024-10-22T11:59:36Z",
+   "updated": "2025-11-20T09:48:21Z",
+   "abstract": "Time series data is prevalent across numerous fields, necessitating the development of robust and accurate forecasting models. Capturing patterns both within and between temporal and multivariate components is crucial for reliable predictions. We introduce xLSTM-Mixer, a model designed to effectively integrate temporal sequences, joint time-variate information, and multiple perspectives for robust forecasting. Our approach begins with a linear forecast shared across variates, which is then refined by xLSTM blocks. They serve as key elements for modeling the complex dynamics of challenging time series data. xLSTM-Mixer ultimately reconciles two distinct views to produce the final forecast. Our extensive evaluations demonstrate its superior long-term forecasting performance compared to recent state-of-the-art methods while requiring very little memory. A thorough model analysis provides further insights into its key components and confirms its robustness and effectiveness. This work contributes to the resurgence of recurrent models in forecasting by combining them, for the first time, with mixing architectures.",
+   "comment": "Poster at NeurIPS 2025",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS025": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2404.08472v2",
+   "latest_version": "2404.08472v2",
+   "title": "TSLANet: Rethinking Transformers for Time Series Representation Learning",
+   "authors": [
+    "Emadeldeen Eldele",
+    "Mohamed Ragab",
+    "Zhenghua Chen",
+    "Min Wu",
+    "Xiaoli Li"
+   ],
+   "published": "2024-04-12T13:41:29Z",
+   "updated": "2024-05-06T04:00:17Z",
+   "abstract": "Time series data, characterized by its intrinsic long and short-range dependencies, poses a unique challenge across analytical applications. While Transformer-based models excel at capturing long-range dependencies, they face limitations in noise sensitivity, computational efficiency, and overfitting with smaller datasets. In response, we introduce a novel Time Series Lightweight Adaptive Network (TSLANet), as a universal convolutional model for diverse time series tasks. Specifically, we propose an Adaptive Spectral Block, harnessing Fourier analysis to enhance feature representation and to capture both long-term and short-term interactions while mitigating noise via adaptive thresholding. Additionally, we introduce an Interactive Convolution Block and leverage self-supervised learning to refine the capacity of TSLANet for decoding complex temporal patterns and improve its robustness on different datasets. Our comprehensive experiments demonstrate that TSLANet outperforms state-of-the-art models in various tasks spanning classification, forecasting, and anomaly detection, showcasing its resilience and adaptability across a spectrum of noise levels and data sizes. The code is available at https://github.com/emadeldeen24/TSLANet.",
+   "comment": "Accepted in ICML 2024",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS026": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2402.19072v4",
+   "latest_version": "2402.19072v4",
+   "title": "TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables",
+   "authors": [
+    "Yuxuan Wang",
+    "Haixu Wu",
+    "Jiaxiang Dong",
+    "Guo Qin",
+    "Haoran Zhang",
+    "Yong Liu",
+    "Yunzhong Qiu",
+    "Jianmin Wang",
+    "Mingsheng Long"
+   ],
+   "published": "2024-02-29T11:54:35Z",
+   "updated": "2024-11-11T03:18:32Z",
+   "abstract": "Deep models have demonstrated remarkable performance in time series forecasting. However, due to the partially-observed nature of real-world applications, solely focusing on the target of interest, so-called endogenous variables, is usually insufficient to guarantee accurate forecasting. Notably, a system is often recorded into multiple variables, where the exogenous variables can provide valuable external information for endogenous variables. Thus, unlike well-established multivariate or univariate forecasting paradigms that either treat all the variables equally or ignore exogenous information, this paper focuses on a more practical setting: time series forecasting with exogenous variables. We propose a novel approach, TimeXer, to ingest external information to enhance the forecasting of endogenous variables. With deftly designed embedding layers, TimeXer empowers the canonical Transformer with the ability to reconcile endogenous and exogenous information, where patch-wise self-attention and variate-wise cross-attention are used simultaneously. Moreover, global endogenous tokens are learned to effectively bridge the causal information underlying exogenous series into endogenous temporal patches. Experimentally, TimeXer achieves consistent state-of-the-art performance on twelve real-world forecasting benchmarks and exhibits notable generality and scalability. Code is available at this repository: https://github.com/thuml/TimeXer.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS027": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2405.16877v3",
+   "latest_version": "2405.16877v3",
+   "title": "Are Self-Attentions Effective for Time Series Forecasting?",
+   "authors": [
+    "Dongbin Kim",
+    "Jinseong Park",
+    "Jaewook Lee",
+    "Hoki Kim"
+   ],
+   "published": "2024-05-27T06:49:39Z",
+   "updated": "2024-12-23T13:34:55Z",
+   "abstract": "Time series forecasting is crucial for applications across multiple domains and various scenarios. Although Transformer models have dramatically advanced the landscape of forecasting, their effectiveness remains debated. Recent findings have indicated that simpler linear models might outperform complex Transformer-based approaches, highlighting the potential for more streamlined architectures. In this paper, we shift the focus from evaluating the overall Transformer architecture to specifically examining the effectiveness of self-attention for time series forecasting. To this end, we introduce a new architecture, Cross-Attention-only Time Series transformer (CATS), that rethinks the traditional Transformer framework by eliminating self-attention and leveraging cross-attention mechanisms instead. By establishing future horizon-dependent parameters as queries and enhanced parameter sharing, our model not only improves long-term forecasting accuracy but also reduces the number of parameters and memory usage. Extensive experiment across various datasets demonstrates that our model achieves superior performance with the lowest mean squared error and uses fewer parameters compared to existing models. The implementation of our model is available at: https://github.com/dongbeank/CATS.",
+   "comment": "Accepted at NeurIPS 2024",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS028": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2405.14616v1",
+   "latest_version": "2405.14616v1",
+   "title": "TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting",
+   "authors": [
+    "Shiyu Wang",
+    "Haixu Wu",
+    "Xiaoming Shi",
+    "Tengge Hu",
+    "Huakun Luo",
+    "Lintao Ma",
+    "James Y. Zhang",
+    "Jun Zhou"
+   ],
+   "published": "2024-05-23T14:27:07Z",
+   "updated": "2024-05-23T14:27:07Z",
+   "abstract": "Time series forecasting is widely used in extensive applications, such as traffic planning and weather forecasting. However, real-world time series usually present intricate temporal variations, making forecasting extremely challenging. Going beyond the mainstream paradigms of plain decomposition and multiperiodicity analysis, we analyze temporal variations in a novel view of multiscale-mixing, which is based on an intuitive but important observation that time series present distinct patterns in different sampling scales. The microscopic and the macroscopic information are reflected in fine and coarse scales respectively, and thereby complex variations can be inherently disentangled. Based on this observation, we propose TimeMixer as a fully MLP-based architecture with Past-Decomposable-Mixing (PDM) and Future-Multipredictor-Mixing (FMM) blocks to take full advantage of disentangled multiscale series in both past extraction and future prediction phases. Concretely, PDM applies the decomposition to multiscale series and further mixes the decomposed seasonal and trend components in fine-to-coarse and coarse-to-fine directions separately, which successively aggregates the microscopic seasonal and macroscopic trend information. FMM further ensembles multiple predictors to utilize complementary forecasting capabilities in multiscale observations. Consequently, TimeMixer is able to achieve consistent state-of-the-art performances in both long-term and short-term forecasting tasks with favorable run-time efficiency.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS029": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2405.00946v2",
+   "latest_version": "2405.00946v2",
+   "title": "SparseTSF: Modeling Long-term Time Series Forecasting with 1k Parameters",
+   "authors": [
+    "Shengsheng Lin",
+    "Weiwei Lin",
+    "Wentai Wu",
+    "Haojun Chen",
+    "Junjie Yang"
+   ],
+   "published": "2024-05-02T02:15:23Z",
+   "updated": "2024-06-03T07:13:37Z",
+   "abstract": "This paper introduces SparseTSF, a novel, extremely lightweight model for Long-term Time Series Forecasting (LTSF), designed to address the challenges of modeling complex temporal dependencies over extended horizons with minimal computational resources. At the heart of SparseTSF lies the Cross-Period Sparse Forecasting technique, which simplifies the forecasting task by decoupling the periodicity and trend in time series data. This technique involves downsampling the original sequences to focus on cross-period trend prediction, effectively extracting periodic features while minimizing the model's complexity and parameter count. Based on this technique, the SparseTSF model uses fewer than *1k* parameters to achieve competitive or superior performance compared to state-of-the-art models. Furthermore, SparseTSF showcases remarkable generalization capabilities, making it well-suited for scenarios with limited computational resources, small samples, or low-quality data. The code is publicly available at this repository: https://github.com/lss-1138/SparseTSF.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS030": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2409.18479v2",
+   "latest_version": "2409.18479v2",
+   "title": "CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns",
+   "authors": [
+    "Shengsheng Lin",
+    "Weiwei Lin",
+    "Xinyi Hu",
+    "Wentai Wu",
+    "Ruichao Mo",
+    "Haocheng Zhong"
+   ],
+   "published": "2024-09-27T06:42:22Z",
+   "updated": "2024-10-15T06:24:29Z",
+   "abstract": "The stable periodic patterns present in time series data serve as the foundation for conducting long-horizon forecasts. In this paper, we pioneer the exploration of explicitly modeling this periodicity to enhance the performance of models in long-term time series forecasting (LTSF) tasks. Specifically, we introduce the Residual Cycle Forecasting (RCF) technique, which utilizes learnable recurrent cycles to model the inherent periodic patterns within sequences, and then performs predictions on the residual components of the modeled cycles. Combining RCF with a Linear layer or a shallow MLP forms the simple yet powerful method proposed in this paper, called CycleNet. CycleNet achieves state-of-the-art prediction accuracy in multiple domains including electricity, weather, and energy, while offering significant efficiency advantages by reducing over 90% of the required parameter quantity. Furthermore, as a novel plug-and-play technique, the RCF can also significantly improve the prediction accuracy of existing models, including PatchTST and iTransformer. The source code is available at: https://github.com/ACAT-SCUT/CycleNet.",
+   "comment": "NeurIPS 2024 Spotlight",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS031": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2403.14587v2",
+   "latest_version": "2403.14587v2",
+   "title": "An Analysis of Linear Time Series Forecasting Models",
+   "authors": [
+    "William Toner",
+    "Luke Darlow"
+   ],
+   "published": "2024-03-21T17:42:45Z",
+   "updated": "2024-03-25T12:00:19Z",
+   "abstract": "Despite their simplicity, linear models perform well at time series forecasting, even when pitted against deeper and more expensive models. A number of variations to the linear model have been proposed, often including some form of feature normalisation that improves model generalisation. In this paper we analyse the sets of functions expressible using these linear model architectures. In so doing we show that several popular variants of linear models for time series forecasting are equivalent and functionally indistinguishable from standard, unconstrained linear regression. We characterise the model classes for each linear variant. We demonstrate that each model can be reinterpreted as unconstrained linear regression over a suitably augmented feature set, and therefore admit closed-form solutions when using a mean-squared loss function. We provide experimental evidence that the models under inspection learn nearly identical solutions, and finally demonstrate that the simpler closed form solutions are superior forecasters across 72% of test settings.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS032": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2403.07815v3",
+   "latest_version": "2403.07815v3",
+   "title": "Chronos: Learning the Language of Time Series",
+   "authors": [
+    "Abdul Fatir Ansari",
+    "Lorenzo Stella",
+    "Caner Turkmen",
+    "Xiyuan Zhang",
+    "Pedro Mercado",
+    "Huibin Shen",
+    "Oleksandr Shchur",
+    "Syama Sundar Rangapuram",
+    "Sebastian Pineda Arango",
+    "Shubham Kapoor",
+    "Jasper Zschiegner",
+    "Danielle C. Maddix",
+    "Hao Wang",
+    "Michael W. Mahoney",
+    "Kari Torkkola",
+    "Andrew Gordon Wilson",
+    "Michael Bohlke-Schneider",
+    "Yuyang Wang"
+   ],
+   "published": "2024-03-12T16:53:54Z",
+   "updated": "2024-11-04T17:42:45Z",
+   "abstract": "We introduce Chronos, a simple yet effective framework for pretrained probabilistic time series models. Chronos tokenizes time series values using scaling and quantization into a fixed vocabulary and trains existing transformer-based language model architectures on these tokenized time series via the cross-entropy loss. We pretrained Chronos models based on the T5 family (ranging from 20M to 710M parameters) on a large collection of publicly available datasets, complemented by a synthetic dataset that we generated via Gaussian processes to improve generalization. In a comprehensive benchmark consisting of 42 datasets, and comprising both classical local models and deep learning methods, we show that Chronos models: (a) significantly outperform other methods on datasets that were part of the training corpus; and (b) have comparable and occasionally superior zero-shot performance on new datasets, relative to methods that were trained specifically on them. Our results demonstrate that Chronos models can leverage time series data from diverse domains to improve zero-shot accuracy on unseen forecasting tasks, positioning pretrained models as a viable tool to greatly simplify forecasting pipelines.",
+   "comment": "Code and model checkpoints available at https://github.com/amazon-science/chronos-forecasting",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS033": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2402.02592v2",
+   "latest_version": "2402.02592v2",
+   "title": "Unified Training of Universal Time Series Forecasting Transformers",
+   "authors": [
+    "Gerald Woo",
+    "Chenghao Liu",
+    "Akshat Kumar",
+    "Caiming Xiong",
+    "Silvio Savarese",
+    "Doyen Sahoo"
+   ],
+   "published": "2024-02-04T20:00:45Z",
+   "updated": "2024-05-22T11:49:59Z",
+   "abstract": "Deep learning for time series forecasting has traditionally operated within a one-model-per-dataset framework, limiting its potential to leverage the game-changing impact of large pre-trained models. The concept of universal forecasting, emerging from pre-training on a vast collection of time series datasets, envisions a single Large Time Series Model capable of addressing diverse downstream forecasting tasks. However, constructing such a model poses unique challenges specific to time series data: i) cross-frequency learning, ii) accommodating an arbitrary number of variates for multivariate time series, and iii) addressing the varying distributional properties inherent in large-scale data. To address these challenges, we present novel enhancements to the conventional time series Transformer architecture, resulting in our proposed Masked Encoder-based Universal Time Series Forecasting Transformer (Moirai). Trained on our newly introduced Large-scale Open Time Series Archive (LOTSA) featuring over 27B observations across nine domains, Moirai achieves competitive or superior performance as a zero-shot forecaster when compared to full-shot models. Code, data, and model weights can be found at https://github.com/SalesforceAIResearch/uni2ts.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS034": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2402.02368v3",
+   "latest_version": "2402.02368v3",
+   "title": "Timer: Generative Pre-trained Transformers Are Large Time Series Models",
+   "authors": [
+    "Yong Liu",
+    "Haoran Zhang",
+    "Chenyu Li",
+    "Xiangdong Huang",
+    "Jianmin Wang",
+    "Mingsheng Long"
+   ],
+   "published": "2024-02-04T06:55:55Z",
+   "updated": "2024-10-18T03:19:55Z",
+   "abstract": "Deep learning has contributed remarkably to the advancement of time series analysis. Still, deep models can encounter performance bottlenecks in real-world data-scarce scenarios, which can be concealed due to the performance saturation with small models on current benchmarks. Meanwhile, large models have demonstrated great powers in these scenarios through large-scale pre-training. Continuous progress has been achieved with the emergence of large language models, exhibiting unprecedented abilities such as few-shot generalization, scalability, and task generality, which are however absent in small deep models. To change the status quo of training scenario-specific small models from scratch, this paper aims at the early development of large time series models (LTSM). During pre-training, we curate large-scale datasets with up to 1 billion time points, unify heterogeneous time series into single-series sequence (S3) format, and develop the GPT-style architecture toward LTSMs. To meet diverse application needs, we convert forecasting, imputation, and anomaly detection of time series into a unified generative task. The outcome of this study is a Time Series Transformer (Timer), which is generative pre-trained by next token prediction and adapted to various downstream tasks with promising capabilities as an LTSM. Code and datasets are available at: https://github.com/thuml/Large-Time-Series-Model.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS035": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2401.03955v8",
+   "latest_version": "2401.03955v8",
+   "title": "Tiny Time Mixers (TTMs): Fast Pre-trained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series",
+   "authors": [
+    "Vijay Ekambaram",
+    "Arindam Jati",
+    "Pankaj Dayama",
+    "Sumanta Mukherjee",
+    "Nam H. Nguyen",
+    "Wesley M. Gifford",
+    "Chandra Reddy",
+    "Jayant Kalagnanam"
+   ],
+   "published": "2024-01-08T15:21:21Z",
+   "updated": "2024-11-07T15:07:22Z",
+   "abstract": "Large pre-trained models excel in zero/few-shot learning for language and vision tasks but face challenges in multivariate time series (TS) forecasting due to diverse data characteristics. Consequently, recent research efforts have focused on developing pre-trained TS forecasting models. These models, whether built from scratch or adapted from large language models (LLMs), excel in zero/few-shot forecasting tasks. However, they are limited by slow performance, high computational demands, and neglect of cross-channel and exogenous correlations. To address this, we introduce Tiny Time Mixers (TTM), a compact model (starting from 1M parameters) with effective transfer learning capabilities, trained exclusively on public TS datasets. TTM, based on the light-weight TSMixer architecture, incorporates innovations like adaptive patching, diverse resolution sampling, and resolution prefix tuning to handle pre-training on varied dataset resolutions with minimal model capacity. Additionally, it employs multi-level modeling to capture channel correlations and infuse exogenous signals during fine-tuning. TTM outperforms existing popular benchmarks in zero/few-shot forecasting by (4-40%), while reducing computational requirements significantly. Moreover, TTMs are lightweight and can be executed even on CPU-only machines, enhancing usability and fostering wider adoption in resource-constrained environments. The model weights for reproducibility and research use are available at https://huggingface.co/ibm/ttm-research-r2/, while enterprise-use weights under the Apache license can be accessed as follows: the initial TTM-Q variant at https://huggingface.co/ibm-granite/granite-timeseries-ttm-r1, and the latest variants (TTM-B, TTM-E, TTM-A) weights are available at https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2.",
+   "comment": "Accepted at the 38th Conference on Neural Information Processing Systems (NeurIPS 2024)",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS036": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2409.16040v4",
+   "latest_version": "2409.16040v4",
+   "title": "Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts",
+   "authors": [
+    "Xiaoming Shi",
+    "Shiyu Wang",
+    "Yuqi Nie",
+    "Dianqi Li",
+    "Zhou Ye",
+    "Qingsong Wen",
+    "Ming Jin"
+   ],
+   "published": "2024-09-24T12:42:18Z",
+   "updated": "2025-02-27T05:38:14Z",
+   "abstract": "Deep learning for time series forecasting has seen significant advancements over the past decades. However, despite the success of large-scale pre-training in language and vision domains, pre-trained time series models remain limited in scale and operate at a high cost, hindering the development of larger capable forecasting models in real-world applications. In response, we introduce Time-MoE, a scalable and unified architecture designed to pre-train larger, more capable forecasting foundation models while reducing inference costs. By leveraging a sparse mixture-of-experts (MoE) design, Time-MoE enhances computational efficiency by activating only a subset of networks for each prediction, reducing computational load while maintaining high model capacity. This allows Time-MoE to scale effectively without a corresponding increase in inference costs. Time-MoE comprises a family of decoder-only transformer models that operate in an auto-regressive manner and support flexible forecasting horizons with varying input context lengths. We pre-trained these models on our newly introduced large-scale data Time-300B, which spans over 9 domains and encompassing over 300 billion time points. For the first time, we scaled a time series foundation model up to 2.4 billion parameters, achieving significantly improved forecasting precision. Our results validate the applicability of scaling laws for training tokens and model size in the context of time series forecasting. Compared to dense models with the same number of activated parameters or equivalent computation budgets, our models consistently outperform them by large margin. These advancements position Time-MoE as a state-of-the-art solution for tackling real-world time series forecasting challenges with superior capability, efficiency, and flexibility.",
+   "comment": "Accepted by the 13th International Conference on Learning Representations (ICLR 2025)",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS037": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2505.14766v2",
+   "latest_version": "2505.14766v2",
+   "title": "This Time is Different: An Observability Perspective on Time Series Foundation Models",
+   "authors": [
+    "Ben Cohen",
+    "Emaad Khwaja",
+    "Youssef Doubli",
+    "Salahidine Lemaachi",
+    "Chris Lettieri",
+    "Charles Masson",
+    "Hugo Miccinilli",
+    "Elise Ramé",
+    "Qiqi Ren",
+    "Afshin Rostamizadeh",
+    "Jean Ogier du Terrail",
+    "Anna-Monica Toon",
+    "Kan Wang",
+    "Stephan Xie",
+    "Zongzhe Xu",
+    "Viktoriya Zhukova",
+    "David Asker",
+    "Ameet Talwalkar",
+    "Othmane Abou-Amal"
+   ],
+   "published": "2025-05-20T17:48:13Z",
+   "updated": "2025-11-04T23:19:57Z",
+   "abstract": "We introduce Toto, a time series forecasting foundation model with 151 million parameters. Toto uses a modern decoder-only architecture coupled with architectural innovations designed to account for specific challenges found in multivariate observability time series data. Toto's pre-training corpus is a mixture of observability data, open datasets, and synthetic data, and is 4-10$\\times$ larger than those of leading time series foundation models. Additionally, we introduce BOOM, a large-scale benchmark consisting of 350 million observations across 2,807 real-world time series. For both Toto and BOOM, we source observability data exclusively from Datadog's own telemetry and internal observability metrics. Extensive evaluations demonstrate that Toto achieves state-of-the-art performance on both BOOM and on established general purpose time series forecasting benchmarks. Toto's model weights, inference code, and evaluation scripts, as well as BOOM's data and evaluation code, are all available as open source under the Apache 2.0 License available at https://huggingface.co/Datadog/Toto-Open-Base-1.0 and https://github.com/DataDog/toto.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS038": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2505.23719v2",
+   "latest_version": "2505.23719v2",
+   "title": "TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning",
+   "authors": [
+    "Andreas Auer",
+    "Patrick Podest",
+    "Daniel Klotz",
+    "Sebastian Böck",
+    "Günter Klambauer",
+    "Sepp Hochreiter"
+   ],
+   "published": "2025-05-29T17:52:10Z",
+   "updated": "2025-11-02T19:05:06Z",
+   "abstract": "In-context learning, the ability of large language models to perform tasks using only examples provided in the prompt, has recently been adapted for time series forecasting. This paradigm enables zero-shot prediction, where past values serve as context for forecasting future values, making powerful forecasting tools accessible to non-experts and increasing the performance when training data are scarce. Most existing zero-shot forecasting approaches rely on transformer architectures, which, despite their success in language, often fall short of expectations in time series forecasting, where recurrent models like LSTMs frequently have the edge. Conversely, while LSTMs are well-suited for time series modeling due to their state-tracking capabilities, they lack strong in-context learning abilities. We introduce TiRex that closes this gap by leveraging xLSTM, an enhanced LSTM with competitive in-context learning skills. Unlike transformers, state-space models, or parallelizable RNNs such as RWKV, TiRex retains state-tracking, a critical property for long-horizon forecasting. To further facilitate its state-tracking ability, we propose a training-time masking strategy called CPM. TiRex sets a new state of the art in zero-shot time series forecasting on the HuggingFace benchmarks GiftEval and Chronos-ZS, outperforming significantly larger models including TabPFN-TS (Prior Labs), Chronos Bolt (Amazon), TimesFM (Google), and Moirai (Salesforce) across both short- and long-term forecasts.",
+   "comment": "presented at NeurIPS 2025",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS039": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2502.00816v4",
+   "latest_version": "2502.00816v4",
+   "title": "Sundial: A Family of Highly Capable Time Series Foundation Models",
+   "authors": [
+    "Yong Liu",
+    "Guo Qin",
+    "Zhiyuan Shi",
+    "Zhi Chen",
+    "Caiyin Yang",
+    "Xiangdong Huang",
+    "Jianmin Wang",
+    "Mingsheng Long"
+   ],
+   "published": "2025-02-02T14:52:50Z",
+   "updated": "2026-05-09T07:11:28Z",
+   "abstract": "We introduce Sundial, a family of native, flexible, and scalable time series foundation models. To predict the next-patch's distribution, we propose a TimeFlow Loss based on flow-matching, which facilitates native pre-training of Transformers on continuous-valued time series without discrete tokenization. Conditioned on arbitrary-length time series, our models are pre-trained without specifying any prior distribution and can generate multiple probable predictions, achieving more flexibility in representation learning than using parametric densities. Towards time series foundation models, we leverage minimal but crucial adaptations of Transformers and curate TimeBench with one trillion time points, comprising mostly real-world datasets and synthetic data. By mitigating mode collapse via TimeFlow Loss, we pre-train a family of Sundial models on TimeBench, which achieve unprecedented model capacity and generalization performance. In addition to excellent scalability, Sundial achieves state-of-the-art results on both point and probabilistic forecasting benchmarks with a just-in-time inference speed, i.e., making zero-shot predictions within a few milliseconds. We believe that Sundial's pioneering generative forecasting capability can improve model reliability in real-world decision-making. Code is available at: https://github.com/thuml/Sundial.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS040": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2510.15821v1",
+   "latest_version": "2510.15821v1",
+   "title": "Chronos-2: From Univariate to Universal Forecasting",
+   "authors": [
+    "Abdul Fatir Ansari",
+    "Oleksandr Shchur",
+    "Jaris Küken",
+    "Andreas Auer",
+    "Boran Han",
+    "Pedro Mercado",
+    "Syama Sundar Rangapuram",
+    "Huibin Shen",
+    "Lorenzo Stella",
+    "Xiyuan Zhang",
+    "Mononito Goswami",
+    "Shubham Kapoor",
+    "Danielle C. Maddix",
+    "Pablo Guerron",
+    "Tony Hu",
+    "Junming Yin",
+    "Nick Erickson",
+    "Prateek Mutalik Desai",
+    "Hao Wang",
+    "Huzefa Rangwala",
+    "George Karypis",
+    "Yuyang Wang",
+    "Michael Bohlke-Schneider"
+   ],
+   "published": "2025-10-17T17:00:53Z",
+   "updated": "2025-10-17T17:00:53Z",
+   "abstract": "Pretrained time series models have enabled inference-only forecasting systems that produce accurate predictions without task-specific training. However, existing approaches largely focus on univariate forecasting, limiting their applicability in real-world scenarios where multivariate data and covariates play a crucial role. We present Chronos-2, a pretrained model capable of handling univariate, multivariate, and covariate-informed forecasting tasks in a zero-shot manner. Chronos-2 employs a group attention mechanism that facilitates in-context learning (ICL) through efficient information sharing across multiple time series within a group, which may represent sets of related series, variates of a multivariate series, or targets and covariates in a forecasting task. These general capabilities are achieved through training on synthetic datasets that impose diverse multivariate structures on univariate series. Chronos-2 delivers state-of-the-art performance across three comprehensive benchmarks: fev-bench, GIFT-Eval, and Chronos Benchmark II. On fev-bench, which emphasizes multivariate and covariate-informed forecasting, Chronos-2's universal ICL capabilities lead to substantial improvements over existing models. On tasks involving covariates, it consistently outperforms baselines by a wide margin. Case studies in the energy and retail domains further highlight its practical advantages. The in-context learning capabilities of Chronos-2 establish it as a general-purpose forecasting model that can be used \"as is\" in real-world forecasting pipelines.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS041": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2503.12107v1",
+   "latest_version": "2503.12107v1",
+   "title": "ChronosX: Adapting Pretrained Time Series Models with Exogenous Variables",
+   "authors": [
+    "Sebastian Pineda Arango",
+    "Pedro Mercado",
+    "Shubham Kapoor",
+    "Abdul Fatir Ansari",
+    "Lorenzo Stella",
+    "Huibin Shen",
+    "Hugo Senetaire",
+    "Caner Turkmen",
+    "Oleksandr Shchur",
+    "Danielle C. Maddix",
+    "Michael Bohlke-Schneider",
+    "Yuyang Wang",
+    "Syama Sundar Rangapuram"
+   ],
+   "published": "2025-03-15T12:34:19Z",
+   "updated": "2025-03-15T12:34:19Z",
+   "abstract": "Covariates provide valuable information on external factors that influence time series and are critical in many real-world time series forecasting tasks. For example, in retail, covariates may indicate promotions or peak dates such as holiday seasons that heavily influence demand forecasts. Recent advances in pretraining large language model architectures for time series forecasting have led to highly accurate forecasters. However, the majority of these models do not readily use covariates as they are often specific to a certain task or domain. This paper introduces a new method to incorporate covariates into pretrained time series forecasting models. Our proposed approach incorporates covariate information into pretrained forecasting models through modular blocks that inject past and future covariate information, without necessarily modifying the pretrained model in consideration. In order to evaluate our approach, we introduce a benchmark composed of 32 different synthetic datasets with varying dynamics to evaluate the effectivity of forecasting models with covariates. Extensive evaluations on both synthetic and real datasets show that our approach effectively incorporates covariate information into pretrained models, outperforming existing baselines.",
+   "comment": "Accepted at the 28th International Conference on Artificial Intelligence and Statistics (AISTATS), 2025",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS042": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2410.24087v1",
+   "latest_version": "2410.24087v1",
+   "title": "In-Context Fine-Tuning for Time-Series Foundation Models",
+   "authors": [
+    "Abhimanyu Das",
+    "Matthew Faw",
+    "Rajat Sen",
+    "Yichen Zhou"
+   ],
+   "published": "2024-10-31T16:20:04Z",
+   "updated": "2024-10-31T16:20:04Z",
+   "abstract": "Motivated by the recent success of time-series foundation models for zero-shot forecasting, we present a methodology for $\\textit{in-context fine-tuning}$ of a time-series foundation model. In particular, we design a pretrained foundation model that can be prompted (at inference time) with multiple time-series examples, in order to forecast a target time-series into the future. Our foundation model is specifically trained to utilize examples from multiple related time-series in its context window (in addition to the history of the target time-series) to help it adapt to the specific distribution of the target domain at inference time. We show that such a foundation model that uses in-context examples at inference time can obtain much better performance on popular forecasting benchmarks compared to supervised deep learning methods, statistical models, as well as other time-series foundation models. Interestingly, our in-context fine-tuning approach even rivals the performance of a foundation model that is explicitly fine-tuned on the target domain.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS043": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2406.16964v2",
+   "latest_version": "2406.16964v2",
+   "title": "Are Language Models Actually Useful for Time Series Forecasting?",
+   "authors": [
+    "Mingtian Tan",
+    "Mike A. Merrill",
+    "Vinayak Gupta",
+    "Tim Althoff",
+    "Thomas Hartvigsen"
+   ],
+   "published": "2024-06-22T03:33:38Z",
+   "updated": "2024-10-26T01:43:07Z",
+   "abstract": "Large language models (LLMs) are being applied to time series forecasting. But are language models actually useful for time series? In a series of ablation studies on three recent and popular LLM-based time series forecasting methods, we find that removing the LLM component or replacing it with a basic attention layer does not degrade forecasting performance -- in most cases, the results even improve! We also find that despite their significant computational cost, pretrained LLMs do no better than models trained from scratch, do not represent the sequential dependencies in time series, and do not assist in few-shot settings. Additionally, we explore time series encoders and find that patching and attention structures perform similarly to LLM-based forecasters.",
+   "comment": "Accepted to NeurIPS 2024 (Spotlight)",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS044": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2403.14735v3",
+   "latest_version": "2403.14735v3",
+   "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
+   "authors": [
+    "Yuxuan Liang",
+    "Haomin Wen",
+    "Yuqi Nie",
+    "Yushan Jiang",
+    "Ming Jin",
+    "Dongjin Song",
+    "Shirui Pan",
+    "Qingsong Wen"
+   ],
+   "published": "2024-03-21T10:08:37Z",
+   "updated": "2024-06-18T08:10:07Z",
+   "abstract": "Time series analysis stands as a focal point within the data mining community, serving as a cornerstone for extracting valuable insights crucial to a myriad of real-world applications. Recent advances in Foundation Models (FMs) have fundamentally reshaped the paradigm of model design for time series analysis, boosting various downstream tasks in practice. These innovative approaches often leverage pre-trained or fine-tuned FMs to harness generalized knowledge tailored for time series analysis. This survey aims to furnish a comprehensive and up-to-date overview of FMs for time series analysis. While prior surveys have predominantly focused on either application or pipeline aspects of FMs in time series analysis, they have often lacked an in-depth understanding of the underlying mechanisms that elucidate why and how FMs benefit time series analysis. To address this gap, our survey adopts a methodology-centric classification, delineating various pivotal elements of time-series FMs, including model architectures, pre-training techniques, adaptation methods, and data modalities. Overall, this survey serves to consolidate the latest advancements in FMs pertinent to time series analysis, accentuating their theoretical underpinnings, recent strides in development, and avenues for future exploration.",
+   "comment": "In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'24)",
+   "journal_ref": "",
+   "doi": "10.1145/3637528.3671451",
+   "primary_category": "cs.LG"
+  },
+  "crossref": {
+   "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
+   "authors": [
+    "Yuxuan Liang",
+    "Haomin Wen",
+    "Yuqi Nie",
+    "Yushan Jiang",
+    "Ming Jin",
+    "Dongjin Song",
+    "Shirui Pan",
+    "Qingsong Wen"
+   ],
+   "year": 2024,
+   "container": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+   "volume": "",
+   "issue": "",
+   "page": "6555-6565",
+   "type": "proceedings-article",
+   "url": "https://doi.org/10.1145/3637528.3671451",
+   "abstract": ""
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4393177791",
+   "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
+   "year": 2024,
+   "oa_status": "green",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.1145/3637528.3671451",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+     "source_type": "conference",
+     "host_org": null
+    },
+    {
+     "pdf_url": "https://arxiv.org/pdf/2403.14735",
+     "landing": "http://arxiv.org/abs/2403.14735",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://hdl.handle.net/10072/432602",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "other-oa",
+     "source": "Griffith Research Online",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.48550/arxiv.2403.14735",
+     "is_oa": true,
+     "version": null,
+     "license": null,
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    }
+   ],
+   "abstract": "Time series analysis stands as a focal point within the data mining community, serving as a cornerstone for extracting valuable insights crucial to a myriad of real-world applications. Recent advances in Foundation Models (FMs) have fundamentally reshaped the paradigm of model design for time series analysis, boosting various downstream tasks in practice. These innovative approaches often leverage pre-trained or fine-tuned FMs to harness generalized knowledge tailored for time series analysis. This survey aims to furnish a comprehensive and up-to-date overview of FMs for time series analysis. While prior surveys have predominantly focused on either application or pipeline aspects of FMs in time series analysis, they have often lacked an in-depth understanding of the underlying mechanisms that elucidate why and how FMs benefit time series analysis. To address this gap, our survey adopts a methodology-centric classification, delineating various pivotal elements of time-series FMs, including model architectures, pre-training techniques, adaptation methods, and data modalities. Overall, this survey serves to consolidate the latest advancements in FMs pertinent to time series analysis, accentuating their theoretical underpinnings, recent strides in development, and avenues for future exploration."
+  }
+ },
+ "TS045": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2410.10393v2",
+   "latest_version": "2410.10393v2",
+   "title": "GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation",
+   "authors": [
+    "Taha Aksu",
+    "Gerald Woo",
+    "Juncheng Liu",
+    "Xu Liu",
+    "Chenghao Liu",
+    "Silvio Savarese",
+    "Caiming Xiong",
+    "Doyen Sahoo"
+   ],
+   "published": "2024-10-14T11:29:38Z",
+   "updated": "2024-11-11T04:48:24Z",
+   "abstract": "Time series foundation models excel in zero-shot forecasting, handling diverse tasks without explicit training. However, the advancement of these models has been hindered by the lack of comprehensive benchmarks. To address this gap, we introduce the General Time Series Forecasting Model Evaluation, GIFT-Eval, a pioneering benchmark aimed at promoting evaluation across diverse datasets. GIFT-Eval encompasses 23 datasets over 144,000 time series and 177 million data points, spanning seven domains, 10 frequencies, multivariate inputs, and prediction lengths ranging from short to long-term forecasts. To facilitate the effective pretraining and evaluation of foundation models, we also provide a non-leaking pretraining dataset containing approximately 230 billion data points. Additionally, we provide a comprehensive analysis of 17 baselines, which includes statistical models, deep learning models, and foundation models. We discuss each model in the context of various benchmark characteristics and offer a qualitative analysis that spans both deep learning and foundation models. We believe the insights from this analysis, along with access to this new standard zero-shot time series forecasting benchmark, will guide future developments in time series foundation models. Code, data, and the leaderboard can be found at https://github.com/SalesforceAIResearch/gift-eval .",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS046": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2403.20150v4",
+   "latest_version": "2403.20150v4",
+   "title": "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods",
+   "authors": [
+    "Xiangfei Qiu",
+    "Jilin Hu",
+    "Lekui Zhou",
+    "Xingjian Wu",
+    "Junyang Du",
+    "Buang Zhang",
+    "Chenjuan Guo",
+    "Aoying Zhou",
+    "Christian S. Jensen",
+    "Zhenli Sheng",
+    "Bin Yang"
+   ],
+   "published": "2024-03-29T12:37:57Z",
+   "updated": "2025-08-18T05:01:29Z",
+   "abstract": "Time series are generated in diverse domains such as economic, traffic, health, and energy, where forecasting of future values has numerous important applications. Not surprisingly, many forecasting methods are being proposed. To ensure progress, it is essential to be able to study and compare such methods empirically in a comprehensive and reliable manner. To achieve this, we propose TFB, an automated benchmark for Time Series Forecasting (TSF) methods. TFB advances the state-of-the-art by addressing shortcomings related to datasets, comparison methods, and evaluation pipelines: 1) insufficient coverage of data domains, 2) stereotype bias against traditional methods, and 3) inconsistent and inflexible pipelines. To achieve better domain coverage, we include datasets from 10 different domains: traffic, electricity, energy, the environment, nature, economic, stock markets, banking, health, and the web. We also provide a time series characterization to ensure that the selected datasets are comprehensive. To remove biases against some methods, we include a diverse range of methods, including statistical learning, machine learning, and deep learning methods, and we also support a variety of evaluation strategies and metrics to ensure a more comprehensive evaluations of different methods. To support the integration of different methods into the benchmark and enable fair comparisons, TFB features a flexible and scalable pipeline that eliminates biases. Next, we employ TFB to perform a thorough evaluation of 21 Univariate Time Series Forecasting (UTSF) methods on 8,068 univariate time series and 14 Multivariate Time Series Forecasting (MTSF) methods on 25 datasets. The benchmark code and data are available at https://github.com/decisionintelligence/TFB. We have also launched an online time series leaderboard: https://decisionintelligence.github.io/OpenTS/OpenTS-Bench/.",
+   "comment": "Directly accepted by PVLDB 2024, VLDB Best Research Paper Award Nomination 2024",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS047": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2509.26468v4",
+   "latest_version": "2509.26468v4",
+   "title": "fev-bench: A Realistic Benchmark for Time Series Forecasting",
+   "authors": [
+    "Oleksandr Shchur",
+    "Abdul Fatir Ansari",
+    "Caner Turkmen",
+    "Lorenzo Stella",
+    "Nick Erickson",
+    "Pablo Guerron",
+    "Michael Bohlke-Schneider",
+    "Yuyang Wang"
+   ],
+   "published": "2025-09-30T16:17:18Z",
+   "updated": "2026-06-30T06:32:20Z",
+   "abstract": "Benchmark quality is critical for meaningful evaluation and sustained progress in time series forecasting, particularly with the rise of pretrained models. Existing benchmarks often have limited domain coverage or overlook real-world settings such as tasks with covariates. Their aggregation procedures frequently lack statistical rigor, making it unclear whether observed performance differences reflect true improvements or random variation. Many benchmarks lack consistent evaluation infrastructure or are too rigid for integration into existing pipelines. To address these gaps, we propose fev-bench, a benchmark of 100 forecasting tasks across seven domains, including 46 with covariates. Supporting the benchmark, we introduce fev, a lightweight Python library for forecasting evaluation emphasizing reproducibility and integration with existing workflows. Using fev, fev-bench employs principled aggregation with bootstrapped confidence intervals to report performance along two dimensions: win rates and skill scores. We report results on fev-bench for pretrained, statistical, and baseline models and identify promising future research directions.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS048": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2502.14045v2",
+   "latest_version": "2502.14045v2",
+   "title": "There are no Champions in Supervised Long-Term Time Series Forecasting",
+   "authors": [
+    "Lorenzo Brigato",
+    "Rafael Morand",
+    "Knut Strømmen",
+    "Maria Panagiotou",
+    "Markus Schmidt",
+    "Stavroula Mougiakakou"
+   ],
+   "published": "2025-02-19T19:08:37Z",
+   "updated": "2026-01-09T18:37:55Z",
+   "abstract": "Recent advances in long-term time series forecasting have introduced numerous complex supervised prediction models that consistently outperform previously published architectures. However, this rapid progression raises concerns regarding inconsistent benchmarking and reporting practices, which may undermine the reliability of these comparisons. In this study, we first perform a broad, thorough, and reproducible evaluation of the top-performing supervised models on the most popular benchmark and additional baselines representing the most active architecture families. This extensive evaluation assesses eight models on 14 datasets, encompassing $\\sim$5,000 trained networks for the hyperparameter (HP) searches. Then, through a comprehensive analysis, we find that slight changes to experimental setups or current evaluation metrics drastically shift the common belief that newly published results are advancing the state of the art. Our findings emphasize the need to shift focus away from pursuing ever-more complex models, towards enhancing benchmarking practices through rigorous and standardized evaluations that enable more substantiated claims, including reproducible HP setups and statistical testing. We offer recommendations for future research.",
+   "comment": "Accepted at TMLR",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS049": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2510.13654v3",
+   "latest_version": "2510.13654v3",
+   "title": "Rethinking Evaluation in the Era of Time Series Foundation Models: (Un)known Information Leakage Challenges",
+   "authors": [
+    "Marcel Meyer",
+    "Sascha Kaltenpoth",
+    "Kevin Zalipski",
+    "Oliver Müller"
+   ],
+   "published": "2025-10-15T15:15:45Z",
+   "updated": "2026-02-25T14:48:58Z",
+   "abstract": "Time Series Foundation Models (TSFMs) represent a new paradigm for time-series forecasting, promising zero-shot predictions without the need for task-specific training or fine-tuning. However, similar to Large Language Models (LLMs), the evaluation of TSFMs is challenging: as training corpora grow increasingly large, it becomes difficult to ensure the integrity of the test sets used for benchmarking. An investigation of existing TSFM evaluation studies identifies two kinds of information leakage: (1) train-test sample overlaps arising from the multi-purpose reuse of datasets and (2) temporal overlap of correlated train and test series. Ignoring these forms of information leakage when benchmarking TSFMs risks producing overly optimistic performance estimates that fail to generalize to real-world settings. We therefore argue for the development of novel evaluation methodologies that avoid pitfalls already observed in both LLM and classical time-series benchmarking, and we call on the research community to adopt principled approaches to safeguard the integrity of TSFM evaluation.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS050": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2604.11529v3",
+   "latest_version": "2604.11529v3",
+   "title": "TempusBench: An Evaluation Framework for Time-Series Forecasting",
+   "authors": [
+    "Denizalp Goktas",
+    "Gerardo Riaño-Briceño",
+    "Omkar Tekawade",
+    "Alif Abdullah",
+    "Md Yasif Jamal",
+    "Vinesha Shaik",
+    "Arsh Singh",
+    "Aryan Nair",
+    "Chenkai Shen",
+    "Beatriz de Lucio",
+    "Alexandra Magnusson",
+    "Farhan Mashrur",
+    "Ahmed Abdulla",
+    "Shawrna Sen",
+    "Mahitha Thippireddy",
+    "Gregory Schwartz",
+    "Amy Greenwald"
+   ],
+   "published": "2026-04-13T14:29:34Z",
+   "updated": "2026-10-05T12:00:35Z",
+   "abstract": "Foundation models have transformed natural language processing and computer vision, and a rapidly growing literature on time-series foundation models (TSFMs) seeks to replicate this success in forecasting. While recent open-source models demonstrate the promise of TSFMs, the field lacks a comprehensive and community-accepted model evaluation framework. We see at least four major issues impeding progress on the development of such a framework. First, existing evaluation frameworks comprise benchmark forecasting tasks derived from often outdated datasets (e.g., M3), many of which lack clear metadata and overlap with the corpora used to pre-train TSFMs. Second, these frameworks evaluate models along a narrowly defined set of benchmark forecasting tasks, such as forecast horizon length or domain, but overlook core statistical properties such as non-stationarity and seasonality. Third, domain-specific models (e.g., XGBoost) are often compared unfairly, as existing frameworks do not enforce a systematic and consistent hyperparameter tuning convention for all models. Fourth, visualization tools for interpreting comparative performance are lacking. To address these issues, we introduce TempusBench, an open-source evaluation framework for TSFMs. TempusBench consists of 1) new datasets which are not included in existing TSFM pretraining corpora, 2) a set of novel benchmark tasks that go beyond existing ones, 3) a model evaluation pipeline with a standardized hyperparameter tuning protocol, and 4) a tensorboard-based visualization interface. We provide access to our code on GitHub: https://github.com/Smlcrm/TempusBench and maintain a live leaderboard at https://smlcrm.com/tempusbench.",
+   "comment": "Technical report. Adds authors and corrects references",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS051": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2512.06932v1",
+   "latest_version": "2512.06932v1",
+   "title": "Hidden Leaks in Time Series Forecasting: How Data Leakage Affects LSTM Evaluation Across Configurations and Validation Strategies",
+   "authors": [
+    "Salma Albelali",
+    "Moataz Ahmed"
+   ],
+   "published": "2025-12-07T17:21:27Z",
+   "updated": "2025-12-07T17:21:27Z",
+   "abstract": "Deep learning models, particularly Long Short-Term Memory (LSTM) networks, are widely used in time series forecasting due to their ability to capture complex temporal dependencies. However, evaluation integrity is often compromised by data leakage, a methodological flaw in which input-output sequences are constructed before dataset partitioning, allowing future information to unintentionally influence training. This study investigates the impact of data leakage on performance, focusing on how validation design mediates leakage sensitivity. Three widely used validation techniques (2-way split, 3-way split, and 10-fold cross-validation) are evaluated under both leaky (pre-split sequence generation) and clean conditions, with the latter mitigating leakage risk by enforcing temporal separation during data splitting prior to sequence construction. The effect of leakage is assessed using RMSE Gain, which measures the relative increase in RMSE caused by leakage, computed as the percentage difference between leaky and clean setups. Empirical results show that 10-fold cross-validation exhibits RMSE Gain values of up to 20.5% at extended lag steps. In contrast, 2-way and 3-way splits demonstrate greater robustness, typically maintaining RMSE Gain below 5% across diverse configurations. Moreover, input window size and lag step significantly influence leakage sensitivity: smaller windows and longer lags increase the risk of leakage, whereas larger windows help reduce it. These findings underscore the need for configuration-aware, leakage-resistant evaluation pipelines to ensure reliable performance estimation.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS052": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2512.05900v1",
+   "latest_version": "2512.05900v1",
+   "title": "A Note on the Finite Sample Bias in Time Series Cross-Validation",
+   "authors": [
+    "Amaze Lusompa"
+   ],
+   "published": "2025-12-05T17:23:54Z",
+   "updated": "2025-12-05T17:23:54Z",
+   "abstract": "It is well known that model selection via cross validation can be biased for time series models. However, many researchers have argued that this bias does not apply when using cross-validation with vector autoregressions (VAR) or with time series models whose errors follow a martingale-like structure. I show that even under these circumstances, performing cross-validation on time series data will still generate bias in general.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ME"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS053": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2606.24715v2",
+   "latest_version": "2606.24715v2",
+   "title": "Model selection with proper scoring rules on data sets of time series: prefer the mean scaled score",
+   "authors": [
+    "Giorgio Corani",
+    "Stefano Damato",
+    "Dario Azzimonti",
+    "Lorenzo Zambon"
+   ],
+   "published": "2026-06-23T15:36:28Z",
+   "updated": "2026-06-24T07:19:17Z",
+   "abstract": "We study the problem of model selection among probabilistic forecasting models evaluated on datasets of multiple time series. The performance of a model on a single time series is quantified by the average value (score) of a proper scoring rule over a test set, but extending model selection to data sets of time series requires aggregating these scores. Common approaches either rely on scaling scores and averaging them (mean scaled score) or avoid scaling by using alternative statistics such as mean ranks or win rates. However, these approaches can yield conflicting conclusions. We show that such discrepancies arise from the skewness of the distribution of the scores, which is particularly pronounced when test sets are short. The skewness can cause non-mean criteria (e.g., mean rank, median, win rate) to select misspecified models. In contrast, the mean score is immune from this problem. We further show that, as the size of the test sets increases, all aggregation criteria converge to the same model selection decision, mitigating these discrepancies. Our experiments on intermittent demand time series, including data from the M5 competition, highlight the importance of sufficiently large test sets; the mean scaled score appears to be the more reliable approach, also because empirically we found its decision to remain consistent when different scaling factors are adopted.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.ML"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ },
+ "TS054": {
+  "crossref": {
+   "title": "Automatic Time Series Forecasting: The <b>forecast</b> Package for <i>R</i>",
+   "authors": [
+    "Rob J. Hyndman",
+    "Yeasmin Khandakar"
+   ],
+   "year": 2008,
+   "container": "Journal of Statistical Software",
+   "volume": "27",
+   "issue": "3",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.18637/jss.v027.i03",
+   "abstract": ""
+  },
+  "openalex": {
+   "id": "https://openalex.org/W2116512828",
+   "title": "Automatic Time Series Forecasting: The forecast Package for R",
+   "year": 2008,
+   "oa_status": "diamond",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.18637/jss.v027.i03",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Journal of Statistical Software",
+     "source_type": "journal",
+     "host_org": "Foundation for Open Access Statistics"
+    }
+   ],
+   "abstract": "Automatic forecasts of large numbers of univariate time series are often needed in business and other contexts. We describe two automatic forecasting algorithms that have been implemented in the forecast package for R. The first is based on innovations state space models that underly exponential smoothing methods. The second is a step-wise algorithm for forecasting with ARIMA models. The algorithms are applicable to both seasonal and non-seasonal data, and are compared and illustrated using four real time series. We also briefly describe some of the other functionality available in the forecast package."
+  }
+ },
+ "TS055": {
+  "crossref": {
+   "title": "Another look at measures of forecast accuracy",
+   "authors": [
+    "Rob J. Hyndman",
+    "Anne B. Koehler"
+   ],
+   "year": 2006,
+   "container": "International Journal of Forecasting",
+   "volume": "22",
+   "issue": "4",
+   "page": "679-688",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+   "abstract": ""
+  },
+  "openalex": {
+   "id": "https://openalex.org/W2016210396",
+   "title": "Another look at measures of forecast accuracy",
+   "year": 2006,
+   "oa_status": "green",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "International Journal of Forecasting",
+     "source_type": "journal",
+     "host_org": "Elsevier BV"
+    },
+    {
+     "pdf_url": "http://www.buseco.monash.edu.au/ebs/pubs/wpapers/2005/wp13-05.pdf",
+     "landing": "http://www.buseco.monash.edu.au/ebs/pubs/wpapers/2005/wp13-05.pdf",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "RePEc: Research Papers in Economics",
+     "source_type": "repository",
+     "host_org": "Federal Reserve Bank of St. Louis"
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.154.9771",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": null,
+     "source_type": null,
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://econpapers.repec.org/paper/mshebswps/2005-13.htm",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "RePEc: Research Papers in Economics",
+     "source_type": "repository",
+     "host_org": "Federal Reserve Bank of St. Louis"
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://www.sciencedirect.com/science/article/pii/S0169-2070(06)00023-9",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "RePEc: Research Papers in Economics",
+     "source_type": "repository",
+     "host_org": "Federal Reserve Bank of St. Louis"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://figshare.com/articles/journal_contribution/Another_look_at_measures_of_forecast_accuracy/5091436",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "Figshare",
+     "source_type": "repository",
+     "host_org": "Figshare (United Kingdom)"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.26180/5091436",
+     "is_oa": true,
+     "version": null,
+     "license": null,
+     "source": "Monash University",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.26180/5091436.v1",
+     "is_oa": true,
+     "version": null,
+     "license": null,
+     "source": "Monash University",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.4225/03/5938ee13a8cc7",
+     "is_oa": true,
+     "version": null,
+     "license": null,
+     "source": "Monash University",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "abstract": ""
+  }
+ },
+ "TS056": {
+  "crossref": {
+   "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+   "authors": [
+    "Tilmann Gneiting",
+    "Adrian E Raftery"
+   ],
+   "year": 2007,
+   "container": "Journal of the American Statistical Association",
+   "volume": "102",
+   "issue": "477",
+   "page": "359-378",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1198/016214506000001437",
+   "abstract": ""
+  },
+  "openalex": {
+   "id": "https://openalex.org/W2025720061",
+   "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+   "year": 2007,
+   "oa_status": "closed",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.1198/016214506000001437",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "Journal of the American Statistical Association",
+     "source_type": "journal",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.143.879",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": null,
+     "source_type": null,
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.77.9716",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": null,
+     "source_type": null,
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.78.9897",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": null,
+     "source_type": null,
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://oai.dtic.mil/oai/oai?&amp;verb=getRecord&amp;metadataPrefix=html&amp;identifier=ADA454828",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "Defense Technical Information Center (DTIC)",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://oai.dtic.mil/oai/oai?&amp;verb=getRecord&amp;metadataPrefix=html&amp;identifier=ADA459827",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "Defense Technical Information Center (DTIC)",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://www.ingentaconnect.com/content/asa/jasa/2007/00000102/00000477/art00032",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "RePEc: Research Papers in Economics",
+     "source_type": "repository",
+     "host_org": "Federal Reserve Bank of St. Louis"
+    }
+   ],
+   "abstract": "Scoring rules assess the quality of probabilistic forecasts, by assigning a numerical score based on the predictive distribution and on the event or value that materializes. A scoring rule is proper if the forecaster maximizes the expected score for an observation drawn from the distributionF if he or she issues the probabilistic forecast F, rather than G ≠ F. It is strictly proper if the maximum is unique. In prediction problems, proper scoring rules encourage the forecaster to make careful assessments and to be honest. In estimation problems, strictly proper scoring rules provide attractive loss and utility functions that can be tailored to the problem at hand. This article reviews and develops the theory of proper scoring rules on general probability spaces, and proposes and discusses examples thereof. Proper scoring rules derive from convex functions and relate to information measures, entropy functions, and Bregman divergences. In the case of categorical variables, we prove a rigorous version of the Savage representation. Examples of scoring rules for probabilistic forecasts in the form of predictive densities include the logarithmic, spherical, pseudospherical, and quadratic scores. The continuous ranked probability score applies to probabilistic forecasts that take the form of predictive cumulative distribution functions. It generalizes the absolute error and forms a special case of a new and very general type of score, the energy score. Like many other scoring rules, the energy score admits a kernel representation in terms of negative definite functions, with links to inequalities of Hoeffding type, in both univariate and multivariate settings. Proper scoring rules for quantile and interval forecasts are also discussed. We relate proper scoring rules to Bayes factors and to cross-validation, and propose a novel form of cross-validation known as random-fold cross-validation. A case study on probabilistic weather forecasts in the North American Pacific Northwest illustrates the importance of propriety. We note optimum score approaches to point and quantile estimation, and propose the intuitively appealing interval score as a utility function in interval estimation that addresses width as well as coverage."
+  }
+ },
+ "TS057": {
+  "crossref": {
+   "title": "A note on the validity of cross-validation for evaluating autoregressive time series prediction",
+   "authors": [
+    "Christoph Bergmeir",
+    "Rob J. Hyndman",
+    "Bonsoo Koo"
+   ],
+   "year": 2018,
+   "container": "Computational Statistics &amp; Data Analysis",
+   "volume": "120",
+   "issue": "",
+   "page": "70-83",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1016/j.csda.2017.11.003",
+   "abstract": ""
+  },
+  "openalex": {
+   "id": "https://openalex.org/W2770188460",
+   "title": "A note on the validity of cross-validation for evaluating autoregressive time series prediction",
+   "year": 2017,
+   "oa_status": "closed",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.1016/j.csda.2017.11.003",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "Computational Statistics & Data Analysis",
+     "source_type": "journal",
+     "host_org": "Elsevier BV"
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://www.sciencedirect.com/science/article/pii/S0167947317302384",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "RePEc: Research Papers in Economics",
+     "source_type": "repository",
+     "host_org": "Federal Reserve Bank of St. Louis"
+    }
+   ],
+   "abstract": ""
+  }
+ },
+ "TS058": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2205.13504v3",
+   "latest_version": "2205.13504v3",
+   "title": "Are Transformers Effective for Time Series Forecasting?",
+   "authors": [
+    "Ailing Zeng",
+    "Muxi Chen",
+    "Lei Zhang",
+    "Qiang Xu"
+   ],
+   "published": "2022-05-26T17:17:08Z",
+   "updated": "2022-08-17T17:09:38Z",
+   "abstract": "Recently, there has been a surge of Transformer-based solutions for the long-term time series forecasting (LTSF) task. Despite the growing performance over the past few years, we question the validity of this line of research in this work. Specifically, Transformers is arguably the most successful solution to extract the semantic correlations among the elements in a long sequence. However, in time series modeling, we are to extract the temporal relations in an ordered set of continuous points. While employing positional encoding and using tokens to embed sub-series in Transformers facilitate preserving some ordering information, the nature of the \\emph{permutation-invariant} self-attention mechanism inevitably results in temporal information loss. To validate our claim, we introduce a set of embarrassingly simple one-layer linear models named LTSF-Linear for comparison. Experimental results on nine real-life datasets show that LTSF-Linear surprisingly outperforms existing sophisticated Transformer-based LTSF models in all cases, and often by a large margin. Moreover, we conduct comprehensive empirical studies to explore the impacts of various design elements of LTSF models on their temporal relation extraction capability. We hope this surprising finding opens up new research directions for the LTSF task. We also advocate revisiting the validity of Transformer-based solutions for other time series analysis tasks (e.g., anomaly detection) in the future. Code is available at: \\url{https://github.com/cure-lab/LTSF-Linear}.",
+   "comment": "Code is available at https://github.com/cure-lab/LTSF-Linear",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.AI"
+  },
+  "dblp": {
+   "error": "status 202"
+  }
+ }
+}
