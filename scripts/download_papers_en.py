@@ -55,8 +55,8 @@ NAME2SLUG = {"通用方法": "01_general_methods", "金融": "02_finance", "空�
              "水质": "04_water_quality", "气象与气候": "05_weather_climate",
              "能源与电力": "06_energy_power", "水文与水资源": "07_hydrology",
              "交通与出行": "08_transport", "工业与设备": "09_industrial", "医疗与公共卫生": "10_health"}
-REF_RE = re.compile(r"\b(references|bibliography|literature cited|works cited|reference list)\b|参考文献",
-                    re.I)
+REF_RE = re.compile(r"\b(references|bibliography|literature cited|works cited|reference list)\b"
+                    r"|\breference\s*:|参考文献", re.I)
 
 
 def raw_surname(authors):
@@ -91,8 +91,10 @@ def fetch(url, dest):
         ratelimit_en.wait("dl_" + key, interval)
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/pdf,*/*"})
-            with urllib.request.urlopen(req, timeout=120) as r, open(dest, "wb") as f:
-                shutil.copyfileobj(r, f)
+            with urllib.request.urlopen(req, timeout=120) as r:
+                with open(dest, "wb") as f:
+                    shutil.copyfileobj(r, f)
+                # compare only after the file is closed (flushed); earlier versions measured too soon
                 cl = r.headers.get("Content-Length")
                 size = dest.stat().st_size
                 if cl and cl.isdigit() and int(cl) != size:
@@ -216,6 +218,7 @@ def main():
     ap.add_argument("--target", type=int, default=50)
     ap.add_argument("--only")
     ap.add_argument("--retry-failed", action="store_true")
+    ap.add_argument("--retry-reasons", help="regex: re-attempt failed entries whose reason matches")
     a = ap.parse_args()
     sys.path.insert(0, a.pylib)
     proj, staging_root = Path(a.proj), Path(a.staging)
@@ -291,7 +294,8 @@ def main():
                 break
             sid = e["id"]
             prev = results.get(sid, {})
-            if prev.get("status") in ("ok", "pending") or (prev.get("status") == "failed" and not a.retry_failed):
+            retry = a.retry_failed or (a.retry_reasons and re.search(a.retry_reasons, prev.get("reason") or ""))
+            if prev.get("status") in ("ok", "pending") or (prev.get("status") == "failed" and not retry):
                 continue
             rec = meta.get(sid, {})
             title, authors = resolve_title(rec, e), resolve_authors(rec, e)

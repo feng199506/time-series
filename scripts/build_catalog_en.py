@@ -161,7 +161,7 @@ def main():
             check = "未通过：" + (d.get("reason") or "")
         mem = members(e)
         row = {
-            "文献编号": sid, "主分类": e["primary"],
+            "文献编号": sid, "资料类型": "论文", "主分类": e["primary"],
             "交叉分类": "; ".join(e.get("cross", [])), "交叉分类依据": " | ".join(e.get("cross_basis", [])),
             "子方向": e.get("sub", "") or e.get("topic", ""),
             "时间窗口": "三年前（补充/基础）" if window == "三年前" else window, "时间核验备注": flag,
@@ -196,6 +196,10 @@ def main():
                           else "不计入完成数量；需人工核验后才可计入"})
 
     pub = [k for k in rows[0] if not k.startswith("_")]
+    mat_rows = material_rows(proj)
+    mcs = proj / "scripts/materials_checksums_en.txt"
+    if mcs.exists():
+        sums += [l for l in mcs.read_text().splitlines() if l.strip()]
 
     def write_csv(path, rs, fields):
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -204,7 +208,7 @@ def main():
             w.writeheader()
             w.writerows(rs)
 
-    write_csv(proj / "catalog_cn.csv", rows, pub)
+    write_csv(proj / "catalog_cn.csv", rows + mat_rows, pub)
     write_csv(proj / "download_failures_cn.csv", fails,
               ["文献编号", "主分类", "状态", "标题", "原始页面", "尝试的PDF URL", "原因", "本地暂存路径", "处理"])
     (proj / "checksums_en.sha256").write_text("\n".join(sorted(sums, key=lambda x: x.split()[1])) + "\n")
@@ -265,8 +269,16 @@ def write_reading_map(proj, dom, slug, cname, ok, st):
         lines.append(f"| {n} | {r['文献编号']} | [{r['标题']}](../../{r['本地相对路径']}) | {t['reason']} |")
         if n == 10:
             break
-    if not top:
-        lines.append("| - | - | （待整理） | - |")
+    used = {t["id"] for t in top if t["id"] in byid}
+    pr = {"高": 0, "中": 1, "低": 2}
+    for r in sorted(ok, key=lambda r: (pr.get(r["阅读优先级"], 3), r["_ranks"].get(slug, 999))):
+        if n >= 10:
+            break
+        if r["文献编号"] in used:
+            continue
+        n += 1
+        lines.append(f"| {n} | {r['文献编号']} | [{r['标题']}](../../{r['本地相对路径']}) | "
+                     f"（补位：原推荐条目未核验通过或不足 10 篇）{r['选入理由']} |")
     lines += ["", "## 按子方向", ""]
     groups = {}
     for r in sorted(ok, key=lambda r: (r["_ranks"].get(slug, 999), r["文献编号"])):
@@ -279,6 +291,28 @@ def write_reading_map(proj, dom, slug, cname, ok, st):
                          f"{r['任务类型']}；目标：{r['预测目标']}；方法：{r['方法类别']}")
         lines.append("")
     (dom / "reading_map_cn.md").write_text("\n".join(lines) + "\n")
+
+
+def material_rows(proj):
+    """Learning materials (courses/books) as rows of the library-wide catalogue."""
+    out = []
+    for sub in ("university_materials", "books"):
+        p = proj / sub / "catalog_cn.csv"
+        if not p.exists():
+            continue
+        for m in csv.DictReader(open(p, encoding="utf-8-sig")):
+            out.append({
+                "文献编号": m["编号"], "资料类型": m["类型"], "主分类": "学习资料",
+                "子方向": m["主题覆盖"], "标题": m["标题"], "作者": m["作者或教师"],
+                "首次公开日期": m["原著年份"], "日期精度": "年", "首次公开依据": "种子（官方页面）",
+                "正式发表日期": m["学期"] or m["版本年份"],
+                "渠道": " ".join(x for x in (m["学校或出版社"], m["课程名称"], m["课程代码"]) if x),
+                "渠道核验依据": "官方课程/出版页面", "原始页面": m["原始来源"], "PDF URL": m["下载文件 URL"],
+                "本地相对路径": m["本地路径"], "版本": " ".join(x for x in (m["版本"], m["版本年份"]) if x),
+                "下载状态": m["下载状态"], "核验状态": m["完整性核验"] or m["未通过原因"], "SHA256": m["SHA256"],
+                "内容简介": m["简介"], "简介依据": m["简介依据"], "选入理由": m["选入理由"],
+                "阅读优先级": m["阅读优先级"], "_members": [], "_status": "", "_window": "", "_ranks": {}})
+    return out
 
 
 def update_readme(proj, stats):
@@ -294,6 +328,15 @@ def update_readme(proj, stats):
     lines.append("")
     lines.append(f"全库去重：已核验论文 {lib['unique_verified_papers']} 篇，已核验 PDF 文件 {lib['pdf_files_verified']} 个；"
                  f"待核验 {lib['pending']}；下载失败 {lib['failed']}（均不计入）。")
+    ms = proj / "scripts/materials_stats_en.json"
+    if ms.exists():
+        lines += ["", "| 学习资料 | 进度 | 年份分布（已核验） | 格式 |", "|---|---|---|---|"]
+        for k, sub in (("course", "university_materials"), ("book", "books")):
+            m = json.loads(ms.read_text()).get(k)
+            if m:
+                lines.append(f"| [{m['name']}]({sub}/) | {m['progress']} | "
+                             f"{'；'.join(f'{a}: {b}' for a, b in m['year_distribution'].items())} | "
+                             f"{'；'.join(f'{a}: {b}' for a, b in m['formats'].items())} |")
     text = p.read_text()
     block = "<!-- PROGRESS:START -->\n" + "\n".join(lines) + "\n<!-- PROGRESS:END -->"
     if "<!-- PROGRESS:START -->" in text:

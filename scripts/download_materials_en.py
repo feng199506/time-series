@@ -4,7 +4,8 @@
 Inputs : scripts/seeds/materials_courses_seed_cn.json, scripts/seeds/materials_books_seed_cn.json
 Outputs: university_materials/files/..., books/files/...
          scripts/materials_registry_cn.json   merged items with stable ids (UMxxx / BKxxx)
-         scripts/materials_results_en.json    per-item download/verification record (resume-safe)
+         scripts/materials_results_en.json (books) and scripts/materials_courses_results_en.json
+         (courses): per-item download/verification records (resume-safe)
 
 One item counts once: a book, or a complete course-notes package (never per lecture file).
 An item that appears in both lists (same normalised title or same file URL) is kept once, as a
@@ -135,7 +136,7 @@ class LinkParser(HTMLParser):
         a = dict(attrs)
         if tag == "a" and a.get("href"):
             self.links.append(a["href"])
-        if tag in ("img", "script") and a.get("src"):
+        if tag == "img" and a.get("src") and not a["src"].startswith("data:"):
             self.res.append(a["src"])
         if tag == "link" and a.get("href") and "stylesheet" in (a.get("rel") or ""):
             self.res.append(a["href"])
@@ -146,7 +147,9 @@ def html_text_len(html):
     return len(" ".join(re.sub(r"<[^>]+>", " ", t).split()))
 
 
-def crawl_html(toc_url, expected, zpath, max_pages=600):
+def crawl_html(toc_url, expected, zpath, max_pages=400):
+    """Save the TOC page and every same-site page it links to (one level: the TOC of a
+    bookdown/quarto book lists all chapters and sections), plus their images and CSS."""
     base = toc_url if toc_url.endswith("/") else toc_url.rsplit("/", 1)[0] + "/"
     host = urllib.parse.urlparse(toc_url).netloc
     queue, seen, pages, res_urls, missing, thin = [toc_url], set(), {}, set(), [], []
@@ -165,10 +168,12 @@ def crawl_html(toc_url, expected, zpath, max_pages=600):
             thin.append(u)
         p = LinkParser()
         p.feed(html)
-        for l in p.links:
-            v = urllib.parse.urldefrag(urllib.parse.urljoin(u, l))[0]
-            if v.startswith(base) and (v.endswith(".html") or v.endswith("/")) and v not in seen:
-                queue.append(v)
+        if u == toc_url:              # follow links from the table of contents only
+            for l in p.links:
+                v = urllib.parse.urldefrag(urllib.parse.urljoin(u, l))[0]
+                if v.startswith(base) and "?" not in v and (v.endswith((".html", ".htm")) or v.endswith("/")) \
+                        and v not in seen and v not in queue:
+                    queue.append(v)
         for s in p.res:
             v = urllib.parse.urljoin(u, s)
             if urllib.parse.urlparse(v).netloc == host:
@@ -346,13 +351,17 @@ def main():
     proj, stage_root = Path(a.proj), Path(a.staging)
     stage_root.mkdir(parents=True, exist_ok=True)
     items = merge(proj)
-    rp = proj / "scripts/materials_results_en.json"
-    res = json.loads(rp.read_text()) if rp.exists() else {}
     for kind in ("course", "book"):
         if a.kind and kind != a.kind:
             continue
+        # separate result files so the course and book runs can proceed in parallel
+        rp = proj / ("scripts/materials_results_en.json" if kind == "book"
+                     else "scripts/materials_courses_results_en.json")
+        res = json.loads(rp.read_text()) if rp.exists() else {}
         done = sum(1 for e in items if e["kind"] == kind and res.get(e["id"], {}).get("status") == "ok")
-        for e in sorted((x for x in items if x["kind"] == kind), key=lambda x: x["rank"]):
+        # PDF items first; slow HTML crawls last so they do not block the rest
+        for e in sorted((x for x in items if x["kind"] == kind),
+                        key=lambda x: (x.get("format") == "html", x["rank"])):
             if done >= a.target:
                 break
             prev = res.get(e["id"], {})
@@ -363,8 +372,8 @@ def main():
             if res[e["id"]]["status"] == "ok":
                 done += 1
             rp.write_text(json.dumps(res, ensure_ascii=False, indent=1))
+        rp.write_text(json.dumps(res, ensure_ascii=False, indent=1))
         print(f"== {kind}: verified {done} / {a.target}", file=sys.stderr)
-    rp.write_text(json.dumps(res, ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":

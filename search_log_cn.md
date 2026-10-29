@@ -98,3 +98,72 @@
 - arXiv PDF 请求间隔 ≥4 秒，其他主机 ≥3 秒；每个 URL 最多 3 次尝试；401/402/403/404/451 立即停止不重试。
 - 未尝试任何需要登录、付费或验证码的页面；OpenAlex 标为“非开放”的出版社链接未请求。
 - 每个文件下载到独立的空暂存目录，核验通过后才移入 pdfs/。
+
+---
+
+# 第二轮：多领域扩展（2026-10-29）
+
+## 7. 任务与分工
+- 范围扩展为 10 个分类（通用方法 + 9 个应用领域），每类目标约 50 篇“已核验全文”论文；新增大学课程讲义（目标约 50 套）与书籍（目标约 50 本），单独统计。
+- 检索、筛选与摘要级标注由各分类独立的检索代理执行。它们按统一简报工作：时间窗口、相关性标准、合法全文路线、字段定义均一致。每类提交 50 篇主选 + 15 篇备选（水质另补 25 篇），并写检索笔记。
+- 元数据核验、下载、全文核验、去重、计数和目录生成，由协调脚本统一完成；检索代理提供的元数据一律以 arXiv/Crossref/OpenAlex/出版方页面重新核实。
+
+## 8. 各分类检索记录
+每类的检索词、平台、纳入/排除记录、子方向覆盖、缺口与扩展建议，见对应笔记：
+
+| 分类 | 检索笔记 |
+|---|---|
+| 金融 | [scripts/seeds/02_finance_notes_cn.md](scripts/seeds/02_finance_notes_cn.md) |
+| 空气质量 | [scripts/seeds/03_air_quality_notes_cn.md](scripts/seeds/03_air_quality_notes_cn.md) |
+| 水质 | [scripts/seeds/04_water_quality_notes_cn.md](scripts/seeds/04_water_quality_notes_cn.md)；补充检索 [04_water_quality_supp_notes_cn.md](scripts/seeds/04_water_quality_supp_notes_cn.md) |
+| 气象与气候 | [scripts/seeds/05_weather_climate_notes_cn.md](scripts/seeds/05_weather_climate_notes_cn.md) |
+| 能源与电力 | [scripts/seeds/06_energy_power_notes_cn.md](scripts/seeds/06_energy_power_notes_cn.md) |
+| 水文与水资源 | [scripts/seeds/07_hydrology_notes_cn.md](scripts/seeds/07_hydrology_notes_cn.md) |
+| 交通与出行 | [scripts/seeds/08_transport_notes_cn.md](scripts/seeds/08_transport_notes_cn.md) |
+| 工业与设备 | [scripts/seeds/09_industrial_notes_cn.md](scripts/seeds/09_industrial_notes_cn.md) |
+| 医疗与公共卫生 | [scripts/seeds/10_health_notes_cn.md](scripts/seeds/10_health_notes_cn.md) |
+| 大学讲义 | [scripts/seeds/materials_courses_notes_cn.md](scripts/seeds/materials_courses_notes_cn.md) |
+| 书籍 | [scripts/seeds/materials_books_notes_cn.md](scripts/seeds/materials_books_notes_cn.md) |
+
+通用方法类沿用第一轮的 58 篇，新增字段（任务类型、预测目标、数据集等）依据摘要补充。
+
+## 9. 检索受限情况（影响覆盖面）
+- 多个检索代理并行工作期间，本机 IP 访问 arXiv API 与 OpenAlex 检索接口频繁返回 HTTP 429。交通、能源、水文、金融类的 OpenAlex 关键词检索几乎全部失败；单篇 DOI 查询多数可用。
+- 后果：
+  - 没有 arXiv 版本的期刊论文在这些类中偏少，例如交通的 TR-C/T-ITS、能源的 WES/Solar Energy、金融的 JFEC/IJF 开放获取文章。
+  - 气象类的季节预测和湿度主题检索未能执行。
+- 这些缺口已在各类笔记中列出；限流解除后可补检。
+
+## 10. 时间资格核验
+- 统一以首次公开日期判断：
+  - arXiv v1；
+  - Crossref 在线、印刷、posted、created 日期中最早者；
+  - Crossref `has-preprint` 关系登记的预印本或讨论稿（如 EGUsphere、HESSD、ESSOAr、medRxiv、Research Square）。
+- 日期选择规则：精确到日的日期优先；只有当月或年精度日期的整个区间都早于该日时，才取月/年精度日期。OpenAlex 日期仅在缺少其他来源时作为兜底（它会把月份补齐为 1 日）。
+- 典型修正：
+  - 金融 2601.13014 的 arXiv 元数据把 DOI 写成期刊更正声明，经 Crossref 检索改为原文 DOI 10.1093/jjfinec/nbac020，首次公开日期为 2022-06-21，按三年前文献计。
+  - TS097、TS254 等期刊版改了题名，题名比对同时接受 arXiv 版与期刊版题名。
+- 交通类 2 篇（2412.03307、2403.09969）的 arXiv v1 在窗口内，但 journal_ref 显示已在 ITSC 2023 正式发表，首次公开早于窗口，因此排除。
+
+## 11. 执行中的问题与修复（如实记录）
+1. **完整性检查误判**：下载脚本最初在文件句柄尚未关闭时比较文件大小与 Content-Length，导致约 50 篇实际完整的 PDF 被误判为“截断”。发现后停止运行、修复脚本，只对因此失败（以及因旧题名比对规则失败）的条目重新下载；其他失败条目不重复请求。
+2. **作者核验**：PDF 中德语姓氏写作转写形式（Schlüter → Schlueter），已支持转写匹配。
+3. **参考文献节识别**：增加单数形式 “Reference:”。
+4. **错误文献**：TS156 的开放获取链接实际指向 CSIRO 2020 年项目报告，记为“下载错文献”失败并删除文件。
+5. **不可用来源**：
+   - 下列出版社对自动下载返回 403：Wiley/AGU、ACS、PNAS、RSC、AMS、Elsevier。
+   - PMC 与 Europe PMC 返回网页或 Cloudflare 挑战页；ResearchSquare、ESSOAr 也不可用。
+   - 以上均记为失败，未尝试绕过，并按排名用备选论文补位。水质类因此追加了一轮补充检索。
+
+## 12. 学习资料检索
+- 来源：
+  - 官方课程主页（MIT OCW、各大学课程页）；
+  - 作者主页；
+  - 出版社开放获取页面；
+  - 机构页面。
+- OAPEN/DOAB 对本机返回 403，未能系统检索。
+- Springer OA 书页面对直连返回机器人验证页（Client Challenge）；下载阶段只做普通请求，遇到验证页即记失败，不绕过。
+- 协调人剔除的条目：
+  - 1 条期刊长综述（不是书籍）；
+  - 1 套主页上仅以 HTML 注释形式存在、未公开列出的讲义；
+  - 1 套缺第 10 讲的不完整讲义。

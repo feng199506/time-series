@@ -32896,5 +32896,1447 @@
    "doi": "",
    "primary_category": "cs.LG"
   }
+ },
+ "TS642": {
+  "crossref": {
+   "title": "Harmful algal blooms are preceded by a predictable and quantifiable shift in the oceanic microbiome",
+   "authors": [
+    "Miranda C. Mudge",
+    "Michael Riffle",
+    "Gabriella Chebli",
+    "Deanna L. Plubell",
+    "Tatiana A. Rynearson",
+    "William S. Noble",
+    "Emma Timmins-Schiffman",
+    "Julia Kubanek",
+    "Brook L. Nunn"
+   ],
+   "year": 2025,
+   "dates": {
+    "published-online": "2025-04-29",
+    "published-print": "",
+    "posted": "",
+    "issued": "2025-04-29",
+    "created": "2025-04-28"
+   },
+   "container": "Nature Communications",
+   "volume": "16",
+   "issue": "1",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1038/s41467-025-59250-y",
+   "publisher": "Springer Science and Business Media LLC",
+   "abstract": "",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4409879428",
+   "title": "Harmful algal blooms are preceded by a predictable and quantifiable shift in the oceanic microbiome",
+   "year": 2025,
+   "publication_date": "2025-04-28",
+   "authors": [
+    "Miranda C. Mudge",
+    "Michael E. Riffle",
+    "Gabriella Chebli",
+    "Deanna L. Plubell",
+    "Tatiana A. Rynearson",
+    "William Stafford Noble",
+    "Emma Timmins‐Schiffman",
+    "Julia Kubanek",
+    "Brook L. Nunn"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": "https://www.nature.com/articles/s41467-025-59250-y.pdf",
+     "landing": "https://doi.org/10.1038/s41467-025-59250-y",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by-nc-nd",
+     "source": "Nature Communications",
+     "source_type": "journal",
+     "host_org": "Nature Portfolio"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://www.ncbi.nlm.nih.gov/pmc/articles/12037917",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by-nc-nd",
+     "source": "PubMed Central",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://pubmed.ncbi.nlm.nih.gov/40295559",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "PubMed",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://www.nature.com/articles/s41467-025-59250-y",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "RePEc: Research Papers in Economics",
+     "source_type": "repository",
+     "host_org": "Federal Reserve Bank of St. Louis"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/acfeda00d23b456a8de1ecf1fb3eeae4",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by-sa",
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Harmful algal blooms (HABs) have become a worldwide environmental and human health problem, stressing the urgent need for a reliable forecasting tool. Dynamic interactions between algae, including harmful algae, and bacteria play a large role regulating water chemistry. Free-living bacteria quickly respond to small physical and/or chemical environmental changes by adjusting their proteome. We hypothesize that this response is detectable at the peptide level and occurs before rapid phytoplankton growth characteristic of harmful bloom events. To characterize the microbiome’s physiological changes preceding bloom onset, we collected and analyzed a high-resolution metaproteomic time series of a free-living microbiome in a coastal ecosystem. We confirm that twelve candidate HAB biomarkers are detectable, quantifiable, and correlated across two pre-bloom periods. This study identifies proteomic shifts in bacterial peptides which may be used as predictive biomarkers for forecasting harmful algal bloom initiation, potentially mitigating detrimental algal bloom outcomes in the future. Harmful algal blooms (HABs) pose negative worldwide impacts that could be minimized through the development of a forecasting tool. Quantitative analysis of peptides produced by a coastal microbiome prior to a HAB reveals predictive biomarkers that can forecast bloom events over 24 hours in advance."
+  }
+ },
+ "TS643": {
+  "crossref": {
+   "title": "LakeBeD-US: a benchmark dataset for lake water quality time series and vertical profiles",
+   "authors": [
+    "Bennett J. McAfee",
+    "Aanish Pradhan",
+    "Abhilash Neog",
+    "Sepideh Fatemi",
+    "Robert T. Hensley",
+    "Mary E. Lofton",
+    "Anuj Karpatne",
+    "Cayelan C. Carey",
+    "Paul C. Hanson"
+   ],
+   "year": 2025,
+   "dates": {
+    "published-online": "2025-07-02",
+    "published-print": "",
+    "posted": "",
+    "issued": "2025-07-02",
+    "created": "2025-07-02"
+   },
+   "container": "Earth System Science Data",
+   "volume": "17",
+   "issue": "7",
+   "page": "3141-3165",
+   "type": "journal-article",
+   "url": "https://doi.org/10.5194/essd-17-3141-2025",
+   "publisher": "Copernicus GmbH",
+   "abstract": "<jats:p>Water quality in lakes is an emergent property of complex biotic and abiotic processes that differ across spatial and temporal scales. Water quality is also a determinant of ecosystem services that lakes provide and is thus of great interest to ecologists. Machine learning and other computer science techniques are increasingly being used to predict water quality dynamics as well as to gain a greater understanding of water quality patterns and controls. To benefit the sciences of both ecology and computer science, we have created a benchmark dataset of lake water quality time series and vertical profiles. LakeBeD-US contains over 500 million unique observations of lake water quality collected by multiple long-term monitoring programs across 17 water quality variables from 21 lakes in the United States. There are two published versions of LakeBeD-US: the “Ecology Edition” published in the Environmental Data Initiative repository (https://doi.org/10.6073/pasta/c56a204a65483790f6277de4896d7140, McAfee et al., 2024) and the “Computer Science Edition” published in the Hugging Face repository (https://doi.org/10.57967/hf/3771, Pradhan et al., 2024). Each edition is formatted in a manner conducive to inquiries and analyses specific to each domain. For ecologists, LakeBeD-US: Ecology Edition provides an opportunity to study the spatial and temporal dynamics of several lakes with varying water quality, ecosystem, and landscape characteristics. For computer scientists, LakeBeD-US: Computer Science Edition acts as a benchmark dataset that enables the advancement of machine learning for water quality prediction.</jats:p>",
+   "preprints": [
+    "10.5194/essd-2025-27"
+   ]
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4411893887",
+   "title": "LakeBeD-US: a benchmark dataset for lake water quality time series and vertical profiles",
+   "year": 2025,
+   "publication_date": "2025-07-02",
+   "authors": [
+    "Bennett McAfee",
+    "Aanish Pradhan",
+    "Abhilash Neog",
+    "Sepideh Fatemi",
+    "Robert T. Hensley",
+    "Mary E. Lofton",
+    "Anuj Karpatne",
+    "Cayelan C. Carey",
+    "Paul C. Hanson"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": "https://essd.copernicus.org/articles/17/3141/2025/essd-17-3141-2025.pdf",
+     "landing": "https://doi.org/10.5194/essd-17-3141-2025",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Earth system science data",
+     "source_type": "journal",
+     "host_org": "Copernicus Publications"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.5194/essd-2025-27",
+     "is_oa": true,
+     "version": "acceptedVersion",
+     "license": "cc-by",
+     "source": null,
+     "source_type": null,
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/4f7fac2a615d404ea99ee0efbc675cbb",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by-sa",
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Abstract. Water quality in lakes is an emergent property of complex biotic and abiotic processes that differ across spatial and temporal scales. Water quality is also a determinant of ecosystem services that lakes provide, and thus is of great interest to ecologists. Increasingly, machine learning and other computer science techniques are being used to predict water quality dynamics as well as to gain a greater understanding of water quality patterns and controls. To benefit both the sciences of ecology and computer science, we have created a benchmark dataset of lake water quality time series and vertical profiles. LakeBeD-US contains over 500 million unique observations of lake water quality collected by multiple long-term monitoring organizations across 17 water quality variables in 21 lakes in the United States. There are two published versions of LakeBeD-US: an \"Ecology Edition\" published in the Environmental Data Initiative repository, and a \"Computer Science Edition\" published in the Hugging Face repository. Each edition is formatted in a manner conducive to inquiries and analyses specific to each domain. For ecologists, LakeBeD-US provides an opportunity to study the spatial and temporal dynamics of several lakes with varying water quality, ecosystem, and landscape characteristics. For computer scientists, LakeBeD-US acts as a benchmark dataset that enables the advancement of machine learning for water quality prediction."
+  },
+  "preprint_dates": {
+   "10.5194/essd-2025-27": {
+    "published-online": "",
+    "published-print": "",
+    "posted": "2025-02-05",
+    "issued": "2025-02-05",
+    "created": "2025-02-05"
+   }
+  }
+ },
+ "TS644": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2508.08279v2",
+   "latest_version": "2508.08279v2",
+   "title": "Learning Intrinsic Water-Quality Dynamics with Rainfall for Data-Driven Forecasting",
+   "authors": [
+    "Ziqi Wang",
+    "Hailiang Zhao",
+    "Cheng Bao",
+    "Daojiang Hu",
+    "Wenzhuo Qian",
+    "Shuiguang Deng"
+   ],
+   "published": "2025-08-01T04:11:36Z",
+   "updated": "2026-09-10T01:00:37Z",
+   "abstract": "Rainfall is an important environmental driver of water-quality variations through processes such as runoff, pollutant transport, dilution, and resuspension. Traditional mechanistic models can explicitly describe these processes but often require substantial process specification and site-specific calibration, limiting their flexibility under changing hydrological conditions. In this work, we explore a data-driven alternative by proposing RaiNet to jointly model multiscale water-quality dynamics and station-specific rainfall effects across relative lags and temporal scales. RaiNet employs LocTrend to capture irregular water-quality dynamics, constructs station-oriented rainfall events from gridded precipitation, and introduces XGateFusion for conditional lag-aware fusion across scales. We further release three real-world multimodal datasets comprising over 150,000 temporally aligned water quality observations and gridded precipitation raster images. Experiments show that RaiNet outperforms general time-series, water quality, diffusion-based, and spatiotemporal models by over 20%, while component-wise analyses confirm the distinct contribution of each module.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS645": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2607.20230v1",
+   "latest_version": "2607.20230v1",
+   "title": "PIER: Physics-Informed Environmental Retrieval for Time-Series Modeling",
+   "authors": [
+    "Shiyuan Luo",
+    "Runlong Yu",
+    "Chonghao Qiu",
+    "Yue Qin",
+    "Rahul Ghosh",
+    "Robert Ladwig",
+    "Paul C. Hanson",
+    "Yiqun Xie",
+    "Xiaowei Jia"
+   ],
+   "published": "2026-07-22T14:49:10Z",
+   "updated": "2026-07-22T14:49:10Z",
+   "abstract": "Accurate modeling of environmental systems is fundamental to scientific understanding and decision-making, yet remains challenging because observations are limited and physical dynamics vary across systems. Retrieval-augmented approaches offer a natural path to transfer knowledge across systems, but standard embedding-based retrieval does not guarantee consistency of underlying physical processes, since scenarios with similar embeddings may arise from different underlying mechanisms. We propose Physics-Informed Environmental Retrieval (PIER), a model-agnostic framework that augments embedding-based retrieval with a physics-aware stream that scores candidates by flux-response consistency with the target, using local verifiers trained on physics-derived flux features. A weight adjustment mechanism then learns per-scenario weights that adaptively balance the two retrieval streams based on diagnostic features summarizing physics-stream reliability. Experiments on 356 lakes across the Midwestern United States spanning 41 years show that PIER consistently outperforms baselines for water temperature and dissolved oxygen prediction, and serves as a general augmentation strategy across diverse backbones.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS646": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2606.27168v1",
+   "latest_version": "2606.27168v1",
+   "title": "Deep learning model emulators for marine biogeochemistry forecasting from days to decades",
+   "authors": [
+    "Jozef Skakala",
+    "Ieuan Higgs",
+    "David Moffat"
+   ],
+   "published": "2026-06-25T15:35:37Z",
+   "updated": "2026-06-25T15:35:37Z",
+   "abstract": "Deep-learning emulators have emerged as a promising approach for reducing the computational cost of Earth System Models while potentially improving forecasting skill. Here, we demonstrate the successful emulation of a high-complexity marine biogeochemistry model within a simplified one-dimensional water-column framework. We explore two emulator architectures: Long Short-Term Memory (LSTM) neural networks that emulate a selected subset of variables at daily resolution, and physics-informed one-dimensional Convolutional Neural Networks (1D CNNs) that emulate the full pelagic system throughout the water column also at daily resolution. Using ocean physics simulator inputs, both emulators remain largely stable over multi-decadal timescales and accurately reproduce the parent model in both decadal climate projections and short-range (10-day) forecasting applications. The former includes the ability to predict the timing of phytoplankton Spring blooms several years in advance. When trained on reanalysis data, the emulators substantially outperform the parent model's forecast skill score for several key ecosystem variables, including phytoplankton and zooplankton. If similar performance can be achieved in three-dimensional regional applications, these emulators could provide substantially higher-quality predictions at a fraction of the computational cost. We further apply novel explainability techniques to identify key drivers of emulator behaviour and gain insights into emergent ecosystem dynamics. Performance is evaluated using a range of metrics, including the reproduction of daily variability and extreme events. These approaches have considerable potential for future applications in operational forecasting, climate-scale simulations, and marine autonomous systems.",
+   "comment": "53 pages, 25 figures (incl. 10 in the Appendix), submitted to Biogeosciences",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "q-bio.QM"
+  }
+ },
+ "TS647": {
+  "crossref": {
+   "title": "Analyzing spatio-temporal dynamics of dissolved oxygen for the River Thames using superstatistical methods and machine learning",
+   "authors": [
+    "Hankun He",
+    "Takuya Boehringer",
+    "Benjamin Schäfer",
+    "Kate Heppell",
+    "Christian Beck"
+   ],
+   "year": 2024,
+   "dates": {
+    "published-online": "2024-09-12",
+    "published-print": "",
+    "posted": "",
+    "issued": "2024-09-12",
+    "created": "2024-09-12"
+   },
+   "container": "Scientific Reports",
+   "volume": "14",
+   "issue": "1",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1038/s41598-024-72084-w",
+   "publisher": "Springer Science and Business Media LLC",
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    By employing superstatistical methods and machine learning, we analyze time series data of water quality indicators for the River Thames (UK). The indicators analyzed include dissolved oxygen, temperature, electrical conductivity, pH, ammonium, turbidity, and rainfall, with a specific focus on the dynamics of dissolved oxygen. After detrending, the probability density functions of dissolved oxygen fluctuations exhibit heavy tails that are effectively modeled using\n                    <jats:italic>q</jats:italic>\n                    -Gaussian distributions. Our findings indicate that the multiplicative Empirical Mode Decomposition method stands out as the most effective detrending technique, yielding the highest log-likelihood in nearly all fittings. We also observe that the optimally fitted width parameter of the\n                    <jats:italic>q</jats:italic>\n                    -Gaussian shows a negative correlation with the distance to the sea, highlighting the influence of geographical factors on water quality dynamics. In the context of same-time prediction of dissolved oxygen, regression analysis incorporating various water quality indicators and temporal features identify the Light Gradient Boosting Machine as the best model. SHapley Additive exPlanations reveal that temperature, pH, and time of year play crucial roles in the predictions. Furthermore, we use the Transformer, a state-of-the-art machine learning model, to forecast dissolved oxygen concentrations. For long-term forecasting, the Informer model consistently delivers superior performance, achieving the lowest Mean Absolute Error (0.15) and Symmetric Mean Absolute Percentage Error (21.96%) with the 192 historical time steps that we used. This performance is attributed to the Informer’s ProbSparse self-attention mechanism, which allows it to capture long-range dependencies in time-series data more effectively than other machine learning models. It effectively recognizes the half-life cycle of dissolved oxygen, with particular attention to critical periods such as morning to early afternoon, late evening to early morning, and key intervals between the 16th and 26th quarter-hours of the previous half-day. Our findings provide valuable insights for policymakers involved in ecological health assessments, aiding in accurate predictions of river water quality and the maintenance of healthy aquatic ecosystems.\n                  </jats:p>",
+   "preprints": [
+    "10.21203/rs.3.rs-4654354/v1"
+   ]
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4402498423",
+   "title": "Analyzing spatio-temporal dynamics of dissolved oxygen for the River Thames using superstatistical methods and machine learning",
+   "year": 2024,
+   "publication_date": "2024-09-12",
+   "authors": [
+    "Hankun He",
+    "Takuya Boehringer",
+    "Benjamin Schäfer",
+    "Kate Heppell",
+    "Christian Beck"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": "https://www.nature.com/articles/s41598-024-72084-w.pdf",
+     "landing": "https://doi.org/10.1038/s41598-024-72084-w",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Scientific Reports",
+     "source_type": "journal",
+     "host_org": "Nature Portfolio"
+    },
+    {
+     "pdf_url": null,
+     "landing": "http://dx.doi.org/10.21203/rs.3.rs-4654354/v1",
+     "is_oa": true,
+     "version": "acceptedVersion",
+     "license": "cc-by",
+     "source": "Research Square",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11393100/pdf/41598_2024_Article_72084.pdf",
+     "landing": "https://www.ncbi.nlm.nih.gov/pmc/articles/11393100",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "PubMed Central",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://pubmed.ncbi.nlm.nih.gov/39266599",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "PubMed",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": "https://arxiv.org/pdf/2501.07599",
+     "landing": "http://arxiv.org/abs/2501.07599",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    },
+    {
+     "pdf_url": "https://publikationen.bibliothek.kit.edu/1000174431/154796435",
+     "landing": "https://publikationen.bibliothek.kit.edu/1000174431",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "Repository KITopen (Karlsruhe Institute of Technology)",
+     "source_type": "repository",
+     "host_org": "Karlsruhe Institute of Technology"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/e10d3382999040d4b0f3764c1be7b09a",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by-sa",
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.48550/arxiv.2501.07599",
+     "is_oa": true,
+     "version": null,
+     "license": "cc-by",
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.5445/ir/1000174431",
+     "is_oa": true,
+     "version": null,
+     "license": "cc-by",
+     "source": "KITopen",
+     "source_type": "repository",
+     "host_org": "Karlsruhe Institute of Technology"
+    }
+   ],
+   "arxiv_ids": [
+    "2501.07599"
+   ],
+   "abstract": "By employing superstatistical methods and machine learning, we analyze time series data of water quality indicators for the River Thames (UK). The indicators analyzed include dissolved oxygen, temperature, electrical conductivity, pH, ammonium, turbidity, and rainfall, with a specific focus on the dynamics of dissolved oxygen. After detrending, the probability density functions of dissolved oxygen fluctuations exhibit heavy tails that are effectively modeled using q-Gaussian distributions. Our findings indicate that the multiplicative Empirical Mode Decomposition method stands out as the most effective detrending technique, yielding the highest log-likelihood in nearly all fittings. We also observe that the optimally fitted width parameter of the q-Gaussian shows a negative correlation with the distance to the sea, highlighting the influence of geographical factors on water quality dynamics. In the context of same-time prediction of dissolved oxygen, regression analysis incorporating various water quality indicators and temporal features identify the Light Gradient Boosting Machine as the best model. SHapley Additive exPlanations reveal that temperature, pH, and time of year play crucial roles in the predictions. Furthermore, we use the Transformer, a state-of-the-art machine learning model, to forecast dissolved oxygen concentrations. For long-term forecasting, the Informer model consistently delivers superior performance, achieving the lowest Mean Absolute Error (0.15) and Symmetric Mean Absolute Percentage Error (21.96%) with the 192 historical time steps that we used. This performance is attributed to the Informer's ProbSparse self-attention mechanism, which allows it to capture long-range dependencies in time-series data more effectively than other machine learning models. It effectively recognizes the half-life cycle of dissolved oxygen, with particular attention to critical periods such as morning to early afternoon, late evening to early morning, and key intervals between the 16th and 26th quarter-hours of the previous half-day. Our findings provide valuable insights for policymakers involved in ecological health assessments, aiding in accurate predictions of river water quality and the maintenance of healthy aquatic ecosystems."
+  },
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2501.07599v1",
+   "latest_version": "2501.07599v1",
+   "title": "Analyzing Spatio-Temporal Dynamics of Dissolved Oxygen for the River Thames using Superstatistical Methods and Machine Learning",
+   "authors": [
+    "Hankun He",
+    "Takuya Boehringer",
+    "Benjamin Schäfer",
+    "Kate Heppell",
+    "Christian Beck"
+   ],
+   "published": "2025-01-10T16:54:52Z",
+   "updated": "2025-01-10T16:54:52Z",
+   "abstract": "By employing superstatistical methods and machine learning, we analyze time series data of water quality indicators for the River Thames, with a specific focus on the dynamics of dissolved oxygen. After detrending, the probability density functions of dissolved oxygen fluctuations exhibit heavy tails that are effectively modeled using $q$-Gaussian distributions. Our findings indicate that the multiplicative Empirical Mode Decomposition method stands out as the most effective detrending technique, yielding the highest log-likelihood in nearly all fittings. We also observe that the optimally fitted width parameter of the $q$-Gaussian shows a negative correlation with the distance to the sea, highlighting the influence of geographical factors on water quality dynamics. In the context of same-time prediction of dissolved oxygen, regression analysis incorporating various water quality indicators and temporal features identify the Light Gradient Boosting Machine as the best model. SHapley Additive exPlanations reveal that temperature, pH, and time of year play crucial roles in the predictions. Furthermore, we use the Transformer to forecast dissolved oxygen concentrations. For long-term forecasting, the Informer model consistently delivers superior performance, achieving the lowest MAE and SMAPE with the 192 historical time steps that we used. This performance is attributed to the Informer's ProbSparse self-attention mechanism, which allows it to capture long-range dependencies in time-series data more effectively than other machine learning models. It effectively recognizes the half-life cycle of dissolved oxygen, with particular attention to key intervals. Our findings provide valuable insights for policymakers involved in ecological health assessments, aiding in accurate predictions of river water quality and the maintenance of healthy aquatic ecosystems.",
+   "comment": "",
+   "journal_ref": "Sci. Rep. 14, 21288 (2024)",
+   "doi": "10.1038/s41598-024-72084-w",
+   "primary_category": "cs.LG"
+  },
+  "preprint_dates": {
+   "10.21203/rs.3.rs-4654354/v1": {
+    "published-online": "",
+    "published-print": "",
+    "posted": "2024-07-25",
+    "issued": "2024-07-25",
+    "created": "2024-07-25"
+   }
+  }
+ },
+ "TS648": {
+  "crossref": {
+   "title": "Attribution analysis and forecast of salinity intrusion in the Modaomen estuary of the Pearl River Delta",
+   "authors": [
+    "Qingqing Tian",
+    "Hang Gao",
+    "Yu Tian",
+    "Qiongyao Wang",
+    "Lei Guo",
+    "Qihui Chai"
+   ],
+   "year": 2024,
+   "dates": {
+    "published-online": "2024-05-14",
+    "published-print": "",
+    "posted": "",
+    "issued": "2024-05-14",
+    "created": "2024-05-14"
+   },
+   "container": "Frontiers in Marine Science",
+   "volume": "11",
+   "issue": "",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.3389/fmars.2024.1407690",
+   "publisher": "Frontiers Media SA",
+   "abstract": "<jats:p>\n                    Under the influence of climate change and human activities, the intensification of salinity intrusion in the Modaomen (MDM) estuary poses a significant threat to the water supply security of the Greater Bay Area of Guangdong, Hong Kong, and Macao. Based on the daily exceedance time data from six stations in the MDM waterway for the years 2016-2020, this study conducted Empirical Orthogonal Function (EOF) and decision tree analyses with runoff, maximum tidal range, and wind. It investigated the variation characteristics and key factors influencing salinity intrusion. Additionally, Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNN) were employed to predict the severity of salinity intrusion. The results indicated that: (1) the first mode (PC1) obtained from EOF decomposition explained 89% of the variation in daily chlorine exceedance time, effectively reflecting the temporal changes in salinity intrusion; (2) the largest contributor to salinity intrusion was runoff (40%), followed by maximum tidal range, wind speed, and wind direction, contributing 25%, 20%, and 15%, respectively. Salinity intrusion lagged behind runoff by 1-day, tidal range by 3 days, and wind by 2 days; North Pacific Index (NPI) has the strongest positive correlation with saltwater intrusion among the 9 atmospheric circulation factors. (3) LSTM achieved the highest accuracy with an\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                    of 0.89 for a horizon of 1 day. For horizons of 2 days and 3 days, CNN exhibited the highest accuracy with\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                    values of 0.73 and 0.68, respectively. This study provides theoretical support for basin scheduling and salinity intrusion prediction and serves as a reference for ensuring water supply security in coastal areas.\n                  </jats:p>",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4396900519",
+   "title": "Attribution analysis and forecast of salinity intrusion in the Modaomen estuary of the Pearl River Delta",
+   "year": 2024,
+   "publication_date": "2024-05-14",
+   "authors": [
+    "Qingqing Tian",
+    "Hang Gao",
+    "Yu Tian",
+    "Qiongyao Wang",
+    "Lei Guo",
+    "Qihui Chai"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.3389/fmars.2024.1407690",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Frontiers in Marine Science",
+     "source_type": "journal",
+     "host_org": "Frontiers Media"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/73a41ad6900b46178b1548945aa130aa",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Under the influence of climate change and human activities, the intensification of salinity intrusion in the Modaomen (MDM) estuary poses a significant threat to the water supply security of the Greater Bay Area of Guangdong, Hong Kong, and Macao. Based on the daily exceedance time data from six stations in the MDM waterway for the years 2016-2020, this study conducted Empirical Orthogonal Function (EOF) and decision tree analyses with runoff, maximum tidal range, and wind. It investigated the variation characteristics and key factors influencing salinity intrusion. Additionally, Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNN) were employed to predict the severity of salinity intrusion. The results indicated that: (1) the first mode (PC1) obtained from EOF decomposition explained 89% of the variation in daily chlorine exceedance time, effectively reflecting the temporal changes in salinity intrusion; (2) the largest contributor to salinity intrusion was runoff (40%), followed by maximum tidal range, wind speed, and wind direction, contributing 25%, 20%, and 15%, respectively. Salinity intrusion lagged behind runoff by 1-day, tidal range by 3 days, and wind by 2 days; North Pacific Index (NPI) has the strongest positive correlation with saltwater intrusion among the 9 atmospheric circulation factors. (3) LSTM achieved the highest accuracy with an R 2 of 0.89 for a horizon of 1 day. For horizons of 2 days and 3 days, CNN exhibited the highest accuracy with R 2 values of 0.73 and 0.68, respectively. This study provides theoretical support for basin scheduling and salinity intrusion prediction and serves as a reference for ensuring water supply security in coastal areas."
+  }
+ },
+ "TS649": {
+  "crossref": {
+   "title": "Attention-based self-learning graph neural networks for robust multi-node water quality prediction",
+   "authors": [
+    "Bo Zhu",
+    "Chen Wu",
+    "Jiyun Li",
+    "Yezheng Liu",
+    "Cuiqin Yin",
+    "Wei Wang",
+    "Xiao Zhou"
+   ],
+   "year": 2026,
+   "dates": {
+    "published-online": "2026-09-07",
+    "published-print": "2026-10",
+    "posted": "",
+    "issued": "2026-09-07",
+    "created": "2026-09-07"
+   },
+   "container": "Applied Water Science",
+   "volume": "16",
+   "issue": "10",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1007/s13201-026-02962-3",
+   "publisher": "Springer Science and Business Media LLC",
+   "abstract": "",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W7211895148",
+   "title": "Attention-based self-learning graph neural networks for robust multi-node water quality prediction",
+   "year": 2026,
+   "publication_date": "2026-09-07",
+   "authors": [
+    "Bo Zhu",
+    "Chen Wu",
+    "Jiyun Li",
+    "Yezheng Liu",
+    "Cuiqin Yin",
+    "Wei Wang",
+    "Xiao Hu Zhou"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.1007/s13201-026-02962-3",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by-nc-nd",
+     "source": "Applied Water Science",
+     "source_type": "journal",
+     "host_org": "Springer Nature"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/4e682cfcfc3b41ba8e3fb714a5a51405",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Water quality prediction plays a critical role in water supply systems (WSSs) management such as optimizing chlorination, identifying anomalies, and tracing pollutants. In contrast to traditional single-objective prediction, multi-node prediction holds increasing importance given the rising monitoring capabilities today. Despite several existing studies on multi-node water quality prediction, how to leverage the spatiotemporal relationships among monitoring point data to enhance prediction accuracy and stability, and how to ensure model robustness under abnormal conditions such as missing data are still problems that have not yet been fully addressed. This study proposes an Attention-based Multivariate Time Series Graph Neural Network (AMTGNN) for multi-node water quality prediction, which dynamically learns the correlations between different locations to jointly model temporal and spatial dependencies for improved prediction accuracy and robustness. The model is tested on a real-world urban-rural WSS. A comparative analysis with other state-of-the-art models is conducted, and the impact of different inputs and the robustness under missing data scenarios are also investigated. Experimental results show that AMTGNN achieves an $$\\:{R}^{2}$$ of 0.92 when predicting residual chlorine variation 3 h ahead, and maintains a Mean Absolute Percentage Error (MAPE) below 5.5% with an $$\\:{R}^{2}$$ above 0.85 even under 90% missing data, demonstrating robustness under realistic and imperfect WSS conditions."
+  }
+ },
+ "TS650": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2610.09996v1",
+   "latest_version": "2610.09996v1",
+   "title": "Multivariate LSTM Modeling for Wastewater Quality Prediction",
+   "authors": [
+    "Sophie Laruelle",
+    "Innocentia Bénédicta Sossou"
+   ],
+   "published": "2026-10-07T12:55:16Z",
+   "updated": "2026-10-07T12:55:16Z",
+   "abstract": "The proposed approach relies on high-frequency multivariate time series collected at the Seine aval (SIAAP 1 ) treatment plant, including pH, temperature, conductivity, and total suspended solids, as well as exogenous variables related to precipitation and measurements from an upstream plant. The objective is to forecast wastewater quality over a 24-hour horizon. A multivariate Long Short-Term Memory (LSTM) recurrent neural network is implemented to capture complex temporal dependencies and nonlinear patterns in the data. The model is trained on one year of data and validated on four months of data (one per season), and is compared with a persistence model and SARIMA models. The evaluation shows an overall superiority of the LSTM model, particularly for variables exhibiting high levels of noise and nonlinearity.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.AP"
+  }
+ },
+ "TS651": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2402.13304v1",
+   "latest_version": "2402.13304v1",
+   "title": "Harmful algal bloom forecasting. A comparison between stream and batch learning",
+   "authors": [
+    "Andres Molares-Ulloa",
+    "Elisabet Rocruz",
+    "Daniel Rivero",
+    "Xosé A. Padin",
+    "Rita Nolasco",
+    "Jesús Dubert",
+    "Enrique Fernandez-Blanco"
+   ],
+   "published": "2024-02-20T15:01:11Z",
+   "updated": "2024-02-20T15:01:11Z",
+   "abstract": "Diarrhetic Shellfish Poisoning (DSP) is a global health threat arising from shellfish contaminated with toxins produced by dinoflagellates. The condition, with its widespread incidence, high morbidity rate, and persistent shellfish toxicity, poses risks to public health and the shellfish industry. High biomass of toxin-producing algae such as DSP are known as Harmful Algal Blooms (HABs). Monitoring and forecasting systems are crucial for mitigating HABs impact. Predicting harmful algal blooms involves a time-series-based problem with a strong historical seasonal component, however, recent anomalies due to changes in meteorological and oceanographic events have been observed. Stream Learning stands out as one of the most promising approaches for addressing time-series-based problems with concept drifts. However, its efficacy in predicting HABs remains unproven and needs to be tested in comparison with Batch Learning. Historical data availability is a critical point in developing predictive systems. In oceanography, the available data collection can have some constrains and limitations, which has led to exploring new tools to obtain more exhaustive time series. In this study, a machine learning workflow for predicting the number of cells of a toxic dinoflagellate, Dinophysis acuminata, was developed with several key advancements. Seven machine learning algorithms were compared within two learning paradigms. Notably, the output data from CROCO, the ocean hydrodynamic model, was employed as the primary dataset, palliating the limitation of time-continuous historical data. This study highlights the value of models interpretability, fair models comparison methodology, and the incorporation of Stream Learning models. The model DoME, with an average R2 of 0.77 in the 3-day-ahead prediction, emerged as the most effective and interpretable predictor, outperforming the other algorithms.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS652": {
+  "crossref": {
+   "title": "Explainable machine learning for predicting diarrhetic shellfish poisoning events in the Adriatic Sea using long-term monitoring data",
+   "authors": [
+    "Martin Marzidovšek",
+    "Janja Francé",
+    "Vid Podpečan",
+    "Stanka Vadnjal",
+    "Jožica Dolenc",
+    "Patricija Mozetič"
+   ],
+   "year": 2024,
+   "dates": {
+    "published-online": "",
+    "published-print": "2024-11",
+    "posted": "",
+    "issued": "2024-11",
+    "created": "2024-09-23"
+   },
+   "container": "Harmful Algae",
+   "volume": "139",
+   "issue": "",
+   "page": "102728",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1016/j.hal.2024.102728",
+   "publisher": "Elsevier BV",
+   "abstract": "",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4402738099",
+   "title": "Explainable machine learning for predicting diarrhetic shellfish poisoning events in the Adriatic Sea using long-term monitoring data",
+   "year": 2024,
+   "publication_date": "2024-09-23",
+   "authors": [
+    "Martin Marzidovšek",
+    "Janja Francé",
+    "Vid Podpečan",
+    "Stanka Vadnjal",
+    "Jožica Dolenc",
+    "Patricija Mozetič"
+   ],
+   "oa_status": "hybrid",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.1016/j.hal.2024.102728",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Harmful Algae",
+     "source_type": "journal",
+     "host_org": "Elsevier BV"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://pubmed.ncbi.nlm.nih.gov/39567082",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "PubMed",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": "https://arxiv.org/pdf/2405.04372",
+     "landing": "http://arxiv.org/abs/2405.04372",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://repozitorij.uni-lj.si/Dokument.php?id=192612&amp;dn=",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by-nc-nd",
+     "source": "Repository of the University of Ljubljana (University of Ljubljana)",
+     "source_type": "repository",
+     "host_org": "University of Ljubljana"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.48550/arxiv.2405.04372",
+     "is_oa": true,
+     "version": null,
+     "license": null,
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    }
+   ],
+   "arxiv_ids": [
+    "2405.04372"
+   ],
+   "abstract": "• Explainable machine learning (ML) models accurately predict DSP toxicity in mussels in the Adriatic Sea. • Identification of Dinophysis fortii and salinity-related abiotic factors as key drivers of DSP toxicity. • Enhanced trustworthiness of ML-based early warning systems through advanced explainability methods. • Creation of a comprehensive, 28-year dataset of phytoplankton and environmental data. In this study, explainable machine learning techniques are applied to predict the toxicity of mussels in the Gulf of Trieste (Adriatic Sea) caused by harmful algal blooms. By analysing a newly created 28-year dataset containing records of toxic phytoplankton in mussel farming areas and diarrhetic shellfish toxins in mussels ( Mytilus galloprovincialis ), we train and evaluate the performance of machine learning (ML) models to accurately predict diarrhetic shellfish poisoning (DSP) events. Based on the F1 score, the random forest model provided the best prediction of toxicity results at which the harvesting of mussels is stopped according to EU regulations. Explainability methods such as permutation importance and Shapley Additive Explanations (SHAP) identified key species ( Dinophysis fortii and D. caudata ) and environmental factors (salinity, river discharge and precipitation) as the best predictors of DSP toxins above regulatory limits. These findings are important for improving early warning systems, which until now were based solely on empirically defined alert abundances of DSP species. They provide experts, aquaculture practitioners, and authorities with additional information to make informed risk management decisions."
+  },
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2405.04372v2",
+   "latest_version": "2405.04372v2",
+   "title": "Explainable machine learning for predicting shellfish toxicity in the Adriatic Sea using long-term monitoring data of HABs",
+   "authors": [
+    "Martin Marzidovšek",
+    "Janja Francé",
+    "Vid Podpečan",
+    "Stanka Vadnjal",
+    "Jožica Dolenc",
+    "Patricija Mozetič"
+   ],
+   "published": "2024-05-07T14:55:42Z",
+   "updated": "2024-05-09T09:46:35Z",
+   "abstract": "In this study, explainable machine learning techniques are applied to predict the toxicity of mussels in the Gulf of Trieste (Adriatic Sea) caused by harmful algal blooms. By analysing a newly created 28-year dataset containing records of toxic phytoplankton in mussel farming areas and toxin concentrations in mussels (Mytilus galloprovincialis), we train and evaluate the performance of ML models to accurately predict diarrhetic shellfish poisoning (DSP) events. The random forest model provided the best prediction of positive toxicity results based on the F1 score. Explainability methods such as permutation importance and SHAP identified key species (Dinophysis fortii and D. caudata) and environmental factors (salinity, river discharge and precipitation) as the best predictors of DSP outbreaks. These findings are important for improving early warning systems and supporting sustainable aquaculture practices.",
+   "comment": "",
+   "journal_ref": "Harmful Algae, Volume 139, 2024",
+   "doi": "10.1016/j.hal.2024.102728",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS653": {
+  "crossref": {
+   "title": "A demographic model to forecast Dinophysis acuminata harmful algal blooms",
+   "authors": [
+    "Vasco Manuel Nobre de Carvalho da Silva Vieira",
+    "Teresa Leal Rosa",
+    "Luís Sobrinho-Gonçalves",
+    "Marcos Duarte Mateus",
+    "Bernardo Mota"
+   ],
+   "year": 2024,
+   "dates": {
+    "published-online": "2024-03-11",
+    "published-print": "",
+    "posted": "",
+    "issued": "2024-03-11",
+    "created": "2024-03-11"
+   },
+   "container": "Frontiers in Marine Science",
+   "volume": "11",
+   "issue": "",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.3389/fmars.2024.1355706",
+   "publisher": "Frontiers Media SA",
+   "abstract": "<jats:p>Harmful algal blooms (HABs) in marine environments have significant adverse effects on public health, aquaculture and recreational activities. Surges of certain phytoplanktonic toxin-producing microalgae (mostly dinoflagellates or diatoms species) can induce Amnesic, Diarrhetic or Paralytic Shellfish Poisoning (ASP, DSP and PSP). Among HAB species, the genus <jats:italic>Dinophysis</jats:italic> leads to DSP in human consumers; this being the most recurrent problem in the Iberian Peninsula with the biggest economic impact on clam production and harvesting. While complete elimination of HABs is not feasible, timely implementation of appropriate measures can prevent their negative consequences. This is critical for aquaculture. Research on <jats:italic>D. acuminata</jats:italic> (dominant <jats:italic>Dinophysis</jats:italic> species in the North Atlantic) has been focused on ecophysiology and population dynamics, although with few modelling attempts. Weekly monitoring along the Portuguese coast since 2006 has revealed that <jats:italic>D. acuminata</jats:italic> thrives under spring/summer photosynthetically active radiation (PAR) coupled with water temperatures below 20°C, which typically coincide with the local upwelling regime. In order to advance this knowledge numerically, we developed a demographic model linking <jats:italic>D. acuminata</jats:italic> growth rate to PAR and sea surface temperature (SST). The 13-year (1-Jan-2006 to 31-Dec-2018) time-series of observations was closely fit by model forecasts. However, the model demonstrated limitations in issuing timely warnings of harmful proliferation of D. acuminata, failing to do so in 50% of cases, and issuing incorrect warnings in 5% of the cases. Furthermore, improving the odds of emitting timely warnings always worsened the odds of emitting false warnings, and vice-versa. To simultaneously improve both aspects, the modelling results clearly indicated the need of implementing both census/projection intervals smaller than 7 days and a laboratory detection limit below 20 cell/L. The time resolution of the census and of the model proved to be the most limiting factor that must be addressed in order to improve numerical forecasting of HABs.</jats:p>",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4392656631",
+   "title": "A demographic model to forecast Dinophysis acuminata harmful algal blooms",
+   "year": 2024,
+   "publication_date": "2024-03-11",
+   "authors": [
+    "Vasco M. N. C. S. Vieira",
+    "Teresa Leal Rosa",
+    "Luís Sobrinho-Gonçalves",
+    "Marcos Duarte Mateus",
+    "Bernardo Mota"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmars.2024.1355706/pdf?isPublishedV2=False",
+     "landing": "https://doi.org/10.3389/fmars.2024.1355706",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Frontiers in Marine Science",
+     "source_type": "journal",
+     "host_org": "Frontiers Media"
+    },
+    {
+     "pdf_url": "https://sapientia.ualg.pt/bitstreams/5020e167-1eff-4c28-9909-534e31b37d30/download",
+     "landing": "http://hdl.handle.net/10400.1/29001",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/47d1ab3e6e9c48a6a78dfebbbb654eef",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://www.scopus.com/pages/publications/85188460406",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "other-oa",
+     "source": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Harmful algal blooms (HABs) in marine environments have significant adverse effects on public health, aquaculture and recreational activities. Surges of certain phytoplanktonic toxin-producing microalgae (mostly dinoflagellates or diatoms species) can induce Amnesic, Diarrhetic or Paralytic Shellfish Poisoning (ASP, DSP and PSP). Among HAB species, the genus Dinophysis leads to DSP in human consumers; this being the most recurrent problem in the Iberian Peninsula with the biggest economic impact on clam production and harvesting. While complete elimination of HABs is not feasible, timely implementation of appropriate measures can prevent their negative consequences. This is critical for aquaculture. Research on D. acuminata (dominant Dinophysis species in the North Atlantic) has been focused on ecophysiology and population dynamics, although with few modelling attempts. Weekly monitoring along the Portuguese coast since 2006 has revealed that D. acuminata thrives under spring/summer photosynthetically active radiation (PAR) coupled with water temperatures below 20°C, which typically coincide with the local upwelling regime. In order to advance this knowledge numerically, we developed a demographic model linking D. acuminata growth rate to PAR and sea surface temperature (SST). The 13-year (1-Jan-2006 to 31-Dec-2018) time-series of observations was closely fit by model forecasts. However, the model demonstrated limitations in issuing timely warnings of harmful proliferation of D. acuminata, failing to do so in 50% of cases, and issuing incorrect warnings in 5% of the cases. Furthermore, improving the odds of emitting timely warnings always worsened the odds of emitting false warnings, and vice-versa. To simultaneously improve both aspects, the modelling results clearly indicated the need of implementing both census/projection intervals smaller than 7 days and a laboratory detection limit below 20 cell/L. The time resolution of the census and of the model proved to be the most limiting factor that must be addressed in order to improve numerical forecasting of HABs."
+  }
+ },
+ "TS654": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2609.36637v1",
+   "latest_version": "2609.36637v1",
+   "title": "Decompose Dynamics Before Learning Dependencies in Spatiotemporal Systems",
+   "authors": [
+    "Ziqi Wang",
+    "Daojiang Hu",
+    "Cheng Bao",
+    "Zhiwei Ling",
+    "Wenzhuo Qian",
+    "Jiahui Zhai",
+    "Hailiang Zhao"
+   ],
+   "published": "2026-09-29T03:44:21Z",
+   "updated": "2026-09-29T03:44:21Z",
+   "abstract": "Relations in networked spatiotemporal systems are often learned from observations that entangle dynamics governed by different mechanisms, obscuring what evolves locally and how it propagates across nodes. We introduce Component-Aware Network Dynamics with Ordered Relations (CANDOR), which decomposes local dynamics before learning their dependencies. CANDOR represents each trajectory through a persistent background, gradual accumulation and release, and sparse shocks. Conditioned on these components, a delay-aware physical branch models edge and sample-dependent propagation over directed topology, while a topology-unconstrained functional branch discovers latent dependencies from background dynamics. Context-adaptive fusion combines functional, forward-propagation, and reverse-support forecasts, with training objectives encouraging specialized and semantically consistent representations. Experiments on two traffic benchmarks and three long-horizon water-quality datasets span two distinct spatiotemporal systems: human-driven urban traffic and naturally evolving river water quality. CANDOR consistently outperforms the strongest baselines, reducing MAE by up to 4.31% for traffic and MSE by up to 5.47% for water-quality forecasting. These results establish decomposition before dependency learning as an effective principle for spatiotemporal representation learning.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.CE"
+  }
+ },
+ "TS655": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2510.09500v1",
+   "latest_version": "2510.09500v1",
+   "title": "Geo-Aware Models for Stream Temperature Prediction across Different Spatial Regions and Scales",
+   "authors": [
+    "Shiyuan Luo",
+    "Runlong Yu",
+    "Shengyu Chen",
+    "Yingda Fan",
+    "Yiqun Xie",
+    "Yanhua Li",
+    "Xiaowei Jia"
+   ],
+   "published": "2025-10-10T16:04:35Z",
+   "updated": "2025-10-10T16:04:35Z",
+   "abstract": "Understanding environmental ecosystems is vital for the sustainable management of our planet. However,existing physics-based and data-driven models often fail to generalize to varying spatial regions and scales due to the inherent data heterogeneity presented in real environmental ecosystems. This generalization issue is further exacerbated by the limited observation samples available for model training. To address these issues, we propose Geo-STARS, a geo-aware spatio-temporal modeling framework for predicting stream water temperature across different watersheds and spatial scales. The major innovation of Geo-STARS is the introduction of geo-aware embedding, which leverages geographic information to explicitly capture shared principles and patterns across spatial regions and scales. We further integrate the geo-aware embedding into a gated spatio-temporal graph neural network. This design enables the model to learn complex spatial and temporal patterns guided by geographic and hydrological context, even with sparse or no observational data. We evaluate Geo-STARS's efficacy in predicting stream water temperature, which is a master factor for water quality. Using real-world datasets spanning 37 years across multiple watersheds along the eastern coast of the United States, Geo-STARS demonstrates its superior generalization performance across both regions and scales, outperforming state-of-the-art baselines. These results highlight the promise of Geo-STARS for scalable, data-efficient environmental monitoring and decision-making.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS656": {
+  "crossref": {
+   "title": "Viral particle prediction in wastewater treatment plants using nonlinear lifelong learning models",
+   "authors": [
+    "Jianxu Chen",
+    "Ibrahima N’Doye",
+    "Yevhen Myshkevych",
+    "Fahad Aljehani",
+    "Mohammad Khalil Monjed",
+    "Taous-Meriem Laleg-Kirati",
+    "Pei-Ying Hong"
+   ],
+   "year": 2025,
+   "dates": {
+    "published-online": "2025-04-06",
+    "published-print": "",
+    "posted": "",
+    "issued": "2025-04-06",
+    "created": "2025-04-05"
+   },
+   "container": "npj Clean Water",
+   "volume": "8",
+   "issue": "1",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1038/s41545-025-00461-7",
+   "publisher": "Springer Science and Business Media LLC",
+   "abstract": "",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4409189794",
+   "title": "Viral particle prediction in wastewater treatment plants using nonlinear lifelong learning models",
+   "year": 2025,
+   "publication_date": "2025-04-05",
+   "authors": [
+    "Jianxu Chen",
+    "Ibrahima N’Doye",
+    "Yevhen Myshkevych",
+    "Fahad Aljehani",
+    "Mohammad Khalil Monjed",
+    "Taous‐Meriem Laleg‐Kirati",
+    "Pei‐Ying Hong"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": "https://www.nature.com/articles/s41545-025-00461-7.pdf",
+     "landing": "https://doi.org/10.1038/s41545-025-00461-7",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by-nc-nd",
+     "source": "npj Clean Water",
+     "source_type": "journal",
+     "host_org": "Nature Portfolio"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://inria.hal.science/hal-05131594",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "HAL",
+     "source_type": "repository",
+     "host_org": "Centre pour la Communication Scientifique Directe"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/427d30df38104d9f81469ed3ac1e7da6",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by-sa",
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Predicting new unseen data using only wastewater process inputs remains an open challenge. This paper proposes lifelong learning approaches that integrate long short-term memory (LSTM), gated recurrent unit (GRU) and tree-based machine learning models with knowledge-based dictionaries for real-time viral prediction across various wastewater treatment plants (WWTPs) in Saudi Arabia. Limited data prompted the use of a Wasserstein generative adversarial network to generate synthetic data from physicochemical parameters (e.g., pH, chemical oxygen demand, total dissolved solids, total suspended solids, turbidity, conductivity, NO 2 -N, NO 3 -N, NH 4 -N), virometry, and PCR-based methods. The input features and predictors are combined into a coupled dictionary learning framework, enabling knowledge transfer for new WWTP batches. We tested the framework for predicting total virus, adenovirus, and pepper mild mottle virus from WWTP stages, including conventional activated sludge, sand filter, and ultrafiltration effluents. The LSTM and GRU models adapted well to new data, maintaining robust performance. Tests on total viral prediction across four municipal WWTPs in Saudi Arabia showed the lifelong learning model’s value for adaptive viral particle prediction and performance enhancement."
+  }
+ },
+ "TS657": {
+  "crossref": {
+   "title": "Analyzing Multi-Year Nitrate Concentration Evolution in Alabama Aquatic Systems Using a Machine Learning Model",
+   "authors": [
+    "Bahareh KarimiDermani",
+    "Christopher T. Green",
+    "Geoffrey R. Tick",
+    "Hossein Gholizadeh",
+    "Wei Wei",
+    "Yong Zhang"
+   ],
+   "year": 2025,
+   "dates": {
+    "published-online": "2025-03-01",
+    "published-print": "",
+    "posted": "",
+    "issued": "2025-03-01",
+    "created": "2025-03-03"
+   },
+   "container": "Environments",
+   "volume": "12",
+   "issue": "3",
+   "page": "75",
+   "type": "journal-article",
+   "url": "https://doi.org/10.3390/environments12030075",
+   "publisher": "MDPI AG",
+   "abstract": "<jats:p>Rising nitrate contamination in water systems poses significant risks to public health and ecosystem stability, necessitating advanced modeling to understand nitrate dynamics more accurately. This study applies the long short-term memory (LSTM) modeling to investigate the hydrologic and environmental factors influencing nitrate concentration dynamics in rivers and aquifers across the state of Alabama in the southeast of the United States. By integrating dynamic data such as streamflow and groundwater levels with static catchment attributes, the machine learning model identifies primary drivers of nitrate fluctuations, offering detailed insights into the complex interactions affecting multi-year nitrate concentrations in natural aquatic systems. In addition, a novel LSTM-based approach utilizes synthetic surface water nitrate data to predict groundwater nitrate levels, helping to address monitoring gaps in aquifers connected to these rivers. This method reveals potential correlations between surface water and groundwater nitrate dynamics, which is particularly meaningful given the lack of water quality observations in many aquifers. Field applications further show that, while the LSTM model effectively captures seasonal trends, limitations in representing extreme nitrate events suggest areas for further refinement. These findings contribute to data-driven water quality management, enhancing understanding of nitrate behavior in interconnected water systems.</jats:p>",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4408105989",
+   "title": "Analyzing Multi-Year Nitrate Concentration Evolution in Alabama Aquatic Systems Using a Machine Learning Model",
+   "year": 2025,
+   "publication_date": "2025-03-01",
+   "authors": [
+    "Bahareh KarimiDermani",
+    "Christopher T. Green",
+    "Geoffrey R. Tick",
+    "Hossein Gholizadeh",
+    "Wei Wei",
+    "Yong Zhang"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.3390/environments12030075",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Environments",
+     "source_type": "journal",
+     "host_org": "Multidisciplinary Digital Publishing Institute"
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Rising nitrate contamination in water systems poses significant risks to public health and ecosystem stability, necessitating advanced modeling to understand nitrate dynamics more accurately. This study applies the long short-term memory (LSTM) modeling to investigate the hydrologic and environmental factors influencing nitrate concentration dynamics in rivers and aquifers across the state of Alabama in the southeast of the United States. By integrating dynamic data such as streamflow and groundwater levels with static catchment attributes, the machine learning model identifies primary drivers of nitrate fluctuations, offering detailed insights into the complex interactions affecting multi-year nitrate concentrations in natural aquatic systems. In addition, a novel LSTM-based approach utilizes synthetic surface water nitrate data to predict groundwater nitrate levels, helping to address monitoring gaps in aquifers connected to these rivers. This method reveals potential correlations between surface water and groundwater nitrate dynamics, which is particularly meaningful given the lack of water quality observations in many aquifers. Field applications further show that, while the LSTM model effectively captures seasonal trends, limitations in representing extreme nitrate events suggest areas for further refinement. These findings contribute to data-driven water quality management, enhancing understanding of nitrate behavior in interconnected water systems."
+  }
+ },
+ "TS658": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2602.04689v1",
+   "latest_version": "2602.04689v1",
+   "title": "Static and auto-regressive neural emulation of phytoplankton biomass dynamics from physical predictors in the global ocean",
+   "authors": [
+    "Mahima Lakra",
+    "Ronan Fablet",
+    "Lucas Drumetz",
+    "Etienne Pauthenet",
+    "Elodie Martinez"
+   ],
+   "published": "2026-02-04T15:55:34Z",
+   "updated": "2026-02-04T15:55:34Z",
+   "abstract": "Phytoplankton is the basis of marine food webs, driving both ecological processes and global biogeochemical cycles. Despite their ecological and climatic significance, accurately simulating phytoplankton dynamics remains a major challenge for biogeochemical numerical models due to limited parameterizations, sparse observational data, and the complexity of oceanic processes. Here, we explore how deep learning models can be used to address these limitations predicting the spatio-temporal distribution of phytoplankton biomass in the global ocean based on satellite observations and environmental conditions. First, we investigate several deep learning architectures. Among the tested models, the UNet architecture stands out for its ability to reproduce the seasonal and interannual patterns of phytoplankton biomass more accurately than other models like CNNs, ConvLSTM, and 4CastNet. When using one to two months of environmental data as input, UNet performs better, although it tends to underestimate the amplitude of low-frequency changes in phytoplankton biomass. Thus, to improve predictions over time, an auto-regressive version of UNet was also tested, where the model uses its own previous predictions to forecast future conditions. This approach works well for short-term forecasts (up to five months), though its performance decreases for longer time scales. Overall, our study shows that combining ocean physical predictors with deep learning allows for reconstruction and short-term prediction of phytoplankton dynamics. These models could become powerful tools for monitoring ocean health and supporting marine ecosystem management, especially in the context of climate change.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS659": {
+  "crossref": {
+   "title": "A novel approach for forecasting algal bloom: long short-term memory artificial neural network with exponential smoothing feedback optimized by the arithmetic mean algorithm",
+   "authors": [
+    "Hakan Isık",
+    "Erol Egrioglu",
+    "Eren Bas",
+    "Buse Eraslan Akkan",
+    "Tamer Akkan"
+   ],
+   "year": 2026,
+   "dates": {
+    "published-online": "2026-06-11",
+    "published-print": "",
+    "posted": "",
+    "issued": "2026-06-11",
+    "created": "2026-06-11"
+   },
+   "container": "Scientific Reports",
+   "volume": "16",
+   "issue": "1",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1038/s41598-026-57110-3",
+   "publisher": "Springer Science and Business Media LLC",
+   "abstract": "",
+   "preprints": [
+    "10.21203/rs.3.rs-9300766/v1"
+   ]
+  },
+  "openalex": {
+   "id": "https://openalex.org/W7164408335",
+   "title": "A novel approach for forecasting algal bloom: long short-term memory artificial neural network with exponential smoothing feedback optimized by the arithmetic mean algorithm",
+   "year": 2026,
+   "publication_date": "2026-06-11",
+   "authors": [
+    "Hakan Işık",
+    "Erol Eğrioğlu",
+    "Eren Baş",
+    "Buse Eraslan Akkan",
+    "Tamer Akkan"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": "https://www.nature.com/articles/s41598-026-57110-3_reference.pdf",
+     "landing": "https://doi.org/10.1038/s41598-026-57110-3",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by-nc-nd",
+     "source": "Scientific Reports",
+     "source_type": "journal",
+     "host_org": "Nature Portfolio"
+    },
+    {
+     "pdf_url": "https://www.researchsquare.com/article/rs-9300766/latest.pdf",
+     "landing": "https://doi.org/10.21203/rs.3.rs-9300766/v1",
+     "is_oa": true,
+     "version": "acceptedVersion",
+     "license": "cc-by",
+     "source": "Research Square",
+     "source_type": "repository",
+     "host_org": null
+    },
+    {
+     "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13530177/pdf/41598_2026_Article_57110.pdf",
+     "landing": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13530177/",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by-nc-nd",
+     "source": "PubMed Central",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://pubmed.ncbi.nlm.nih.gov/42277175",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "PubMed",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/32e3d9a9c57646a7aefe0b84ae4eec63",
+     "is_oa": false,
+     "version": "submittedVersion",
+     "license": null,
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Artificial intelligence-based methods have gained increasing attention for sustainable environmental monitoring due to their efficiency and low operational cost. In this study, a new long short-term memory with an exponential smoothing method is proposed, and an arithmetic mean optimization algorithm-based training strategy is introduced for the proposed neural networks. The resulting proposed neural network method is used to forecast chlorophyll-a concentrations, a key indicator of algal bloom dynamics, using satellite-derived time series data from 15 estuarine monitoring stations in the Black Sea region. To evaluate the effectiveness of this framework, comprehensive experiments are conducted by comparing the proposed neural network with several shallow and deep learning models. The results show that the proposed neural network model achieves superior forecasting performance in terms of root mean square error and mean absolute percentage error across the majority of the analysed time series. Furthermore, statistical significance analyses based on the Friedman and Wilcoxon signed-rank tests confirm that the observed performance improvements are statistically significant. The proposed neural network model attains the best overall ranking with a mean rank of 1.06 and significantly outperforms all competing models under the Holm-Bonferroni correction. The findings indicate that the proposed neural network improves both forecasting accuracy and robustness, providing a reliable and effective framework for modelling chlorophyll-a dynamics. This approach offers a promising tool for the early detection and management of algal bloom events in marine ecosystems."
+  },
+  "preprint_dates": {
+   "10.21203/rs.3.rs-9300766/v1": {
+    "published-online": "",
+    "published-print": "",
+    "posted": "2026-04-24",
+    "issued": "2026-04-24",
+    "created": "2026-04-24"
+   }
+  }
+ },
+ "TS660": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2511.01837v1",
+   "latest_version": "2511.01837v1",
+   "title": "Interpretable Machine Learning for Reservoir Water Temperatures in the U.S. Red River Basin of the South",
+   "authors": [
+    "Isabela Suaza-Sierra",
+    "Hernan A. Moreno",
+    "Luis A De la Fuente",
+    "Thomas M. Neeson"
+   ],
+   "published": "2025-11-03T18:45:27Z",
+   "updated": "2025-11-03T18:45:27Z",
+   "abstract": "Accurate prediction of Reservoir Water Temperature (RWT) is vital for sustainable water management, ecosystem health, and climate resilience. Yet, prediction alone offers limited insight into the governing physical processes. To bridge this gap, we integrated explainable machine learning (ML) with symbolic modeling to uncover the drivers of RWT dynamics across ten reservoirs in the Red River Basin, USA, using over 10,000 depth-resolved temperature profiles. We first employed ensemble and neural models, including Random Forest (RF), Extreme Gradient Boosting (XGBoost), and Multilayer Perceptron (MLP), achieving high predictive skill (best RMSE = 1.20 degree Celsius, R^2 = 0.97). Using SHAP (SHapley Additive exPlanations), we quantified the contribution of physical drivers such as air temperature, depth, wind, and lake volume, revealing consistent patterns across reservoirs. To translate these data-driven insights into compact analytical expressions, we developed Kolmogorov Arnold Networks (KANs) to symbolically approximate RWT. Ten progressively complex KAN equations were derived, improving from R^2 = 0.84 using a single predictor (7-day antecedent air temperature) to R^2 = 0.92 with ten predictors, though gains diminished beyond five, highlighting a balance between simplicity and accuracy. The resulting equations, dominated by linear and rational forms, incrementally captured nonlinear behavior while preserving interpretability. Depth consistently emerged as a secondary but critical predictor, whereas precipitation had limited effect. By coupling predictive accuracy with explanatory power, this framework demonstrates how KANs and explainable ML can transform black-box models into transparent surrogates that advance both prediction and understanding of reservoir thermal dynamics.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS661": {
+  "crossref": {
+   "title": "Multi-factor modeling of chlorophyll-a in South China’s subtropical reservoirs using long-term monitoring data for quantitative analysis",
+   "authors": [
+    "Haizhao Guan",
+    "Yiyuan Niu",
+    "Chuanjin Zu",
+    "Ju Kang"
+   ],
+   "year": 2026,
+   "dates": {
+    "published-online": "",
+    "published-print": "2026-06",
+    "posted": "",
+    "issued": "2026-06",
+    "created": "2026-03-05"
+   },
+   "container": "Environmental Research",
+   "volume": "298",
+   "issue": "",
+   "page": "124149",
+   "type": "journal-article",
+   "url": "https://doi.org/10.1016/j.envres.2026.124149",
+   "publisher": "Elsevier BV",
+   "abstract": "",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4417461873",
+   "title": "Multi-factor modeling of chlorophyll-a in South China’s subtropical reservoirs using long-term monitoring data for quantitative analysis",
+   "year": 2026,
+   "publication_date": "2026-03-05",
+   "authors": [
+    "Haizhao Guan",
+    "Yiyuan Niu",
+    "Chuanjin Zu",
+    "Ju Whan Kang"
+   ],
+   "oa_status": "green",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.1016/j.envres.2026.124149",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "Environmental Research",
+     "source_type": "journal",
+     "host_org": "Elsevier BV"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://pubmed.ncbi.nlm.nih.gov/41794104",
+     "is_oa": false,
+     "version": "publishedVersion",
+     "license": null,
+     "source": "PubMed",
+     "source_type": "repository",
+     "host_org": "National Institutes of Health"
+    },
+    {
+     "pdf_url": "https://arxiv.org/pdf/2507.19553",
+     "landing": "http://arxiv.org/abs/2507.19553",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by",
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.48550/arxiv.2507.19553",
+     "is_oa": true,
+     "version": null,
+     "license": "cc-by",
+     "source": "arXiv (Cornell University)",
+     "source_type": "repository",
+     "host_org": "Cornell University"
+    }
+   ],
+   "arxiv_ids": [
+    "2507.19553"
+   ],
+   "abstract": ""
+  },
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2507.19553v3",
+   "latest_version": "2507.19553v3",
+   "title": "Multi-factor modeling of chlorophyll-a in South China's subtropical reservoirs using long-term monitoring data for quantitative analysis",
+   "authors": [
+    "Haizhao Guan",
+    "Yiyuan Niu",
+    "Chuanjin Zu",
+    "Ju Kang"
+   ],
+   "published": "2025-07-25T02:51:16Z",
+   "updated": "2026-03-11T12:20:34Z",
+   "abstract": "Eutrophication and harmful algal blooms, driven by complex interactions among nutrients and climate, threaten freshwater ecosystems globally, particularly in densely populated Asian regions where rapid urbanization and agricultural intensification exacerbate nutrient pollution. Understanding the non-linear interactions among water temperature, nutrient levels, and chlorophyll-a (Chl-a) dynamics is crucial for addressing eutrophication in freshwater ecosystems. Many existing studies, however, tend to oversimplify these relationships and lack validation with long-term field data. Here, we conducted multi-year field monitoring (2020-2024) of key environmental factors, including total nitrogen (TN), total phosphorus (TP), water temperature, and Chl-a, across three reservoirs in Guangdong Province, China: Tiantangshan (S1), Baisha River (S2), and Meizhou (S3). Strong positive correlations were found between Chl-a and TN, TP, and temperature. Numerical analysis of the long-term data revealed TN as a more influential driver than TP for Chl-a proliferation in these systems, with Chl-a increasing by an average of 4.2 ug/L per unit increase in TN, compared to 2.8 ug/L per unit increase in TP. Based on the collected data, we developed and calibrated a dynamic multi-factor hydro-ecological model. The model accurately reproduced the observed Chl-a patterns, identifying synergistic effects between temperature and nutrients, particularly a 15% enhancement in Chl-a growth rate when temperature exceeded 25 concurrent with high TN.",
+   "comment": "11 pages, 7 figures",
+   "journal_ref": "Environmental Research 298 (2026) 124149",
+   "doi": "10.1016/j.envres.2026.124149",
+   "primary_category": "q-bio.QM"
+  }
+ },
+ "TS662": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2407.05959v1",
+   "latest_version": "2407.05959v1",
+   "title": "Time Series Dataset for Modeling and Forecasting of $N_2O$ in Wastewater Treatment",
+   "authors": [
+    "Laura Debel Hansen",
+    "Anju Rani",
+    "Mikkel Algren Stokholm-Bjerregaard",
+    "Peter Alexander Stentoft",
+    "Daniel Ortiz Arroyo",
+    "Petar Durdevic"
+   ],
+   "published": "2024-07-08T13:58:48Z",
+   "updated": "2024-07-08T13:58:48Z",
+   "abstract": "In this paper, we present two years of high-resolution nitrous oxide ($N_2O$) measurements for time series modeling and forecasting in wastewater treatment plants (WWTP). The dataset comprises frequent, real-time measurements from a full-scale WWTP, with a sample interval of 2 minutes, making it ideal for developing models for real-time operation and control. This comprehensive bio-chemical dataset includes detailed influent and effluent parameters, operational conditions, and environmental factors. Unlike existing datasets, it addresses the unique challenges of modeling $N_2O$, a potent greenhouse gas, providing a valuable resource for researchers to enhance predictive accuracy and control strategies in wastewater treatment processes. Additionally, this dataset significantly contributes to the fields of machine learning and deep learning time series forecasting by serving as a benchmark that mirrors the complexities of real-world processes, thus facilitating advancements in these domains. We provide a detailed description of the dataset along with a statistical analysis to highlight its characteristics, such as nonstationarity, nonnormality, seasonality, heteroscedasticity, structural breaks, asymmetric distributions, and intermittency, which are common in many real-world time series datasets and pose challenges for forecasting models.",
+   "comment": "10 pages, 4 figures. This publication accompanies the Mendeley dataset available at this URL (version 1): https://data.mendeley.com/datasets/xmbxhscgpr/1",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "eess.SY"
+  }
+ },
+ "TS663": {
+  "crossref": {
+   "title": "Recent Advances in Remote Sensing and Artificial Intelligence for River Water Quality Forecasting: A Review",
+   "authors": [
+    "Daiwei Pan",
+    "Ying Deng",
+    "Simon X. Yang",
+    "Bahram Gharabaghi"
+   ],
+   "year": 2025,
+   "dates": {
+    "published-online": "2025-05-10",
+    "published-print": "",
+    "posted": "",
+    "issued": "2025-05-10",
+    "created": "2025-05-12"
+   },
+   "container": "Environments",
+   "volume": "12",
+   "issue": "5",
+   "page": "158",
+   "type": "journal-article",
+   "url": "https://doi.org/10.3390/environments12050158",
+   "publisher": "MDPI AG",
+   "abstract": "<jats:p>Rapid population growth and climate change have created challenges for managing water quality. Protecting water sources and devising practical solutions are essential for restoring impaired inland rivers. Traditional water quality monitoring and forecasting methods rely on labor-intensive sampling and analysis, which are often costly. In recent years, real-time monitoring, remote sensing, and machine learning have significantly improved the accuracy of water quality forecasting. This paper categorizes machine learning approaches into traditional, deep learning, and hybrid models, evaluating their performance in forecasting water quality parameters. In recent years, the long short-term memory (LSTMs), gated recurrent units (GRUs) and LSTM- and GRU-based hybrid models have been widely used in forecasting inland river water quality. Combining remote sensing with a real-time water quality monitoring network has enhanced data collection efficiency by capturing spatial variability within the river network, complementing the high temporal resolution of in situ measurements, and improving the overall robustness of predictive deep learning models. Additionally, leveraging weather prediction models can further enhance the accuracy of water quality forecasting and better decision-making for water resource management.</jats:p>",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4410309320",
+   "title": "Recent Advances in Remote Sensing and Artificial Intelligence for River Water Quality Forecasting: A Review",
+   "year": 2025,
+   "publication_date": "2025-05-10",
+   "authors": [
+    "Daiwei Pan",
+    "Ying Deng",
+    "Simon X. Yang",
+    "Bahram Gharabaghi"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": "https://www.mdpi.com/2076-3298/12/5/158/pdf?version=1747037169",
+     "landing": "https://doi.org/10.3390/environments12050158",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Environments",
+     "source_type": "journal",
+     "host_org": "Multidisciplinary Digital Publishing Institute"
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Rapid population growth and climate change have created challenges for managing water quality. Protecting water sources and devising practical solutions are essential for restoring impaired inland rivers. Traditional water quality monitoring and forecasting methods rely on labor-intensive sampling and analysis, which are often costly. In recent years, real-time monitoring, remote sensing, and machine learning have significantly improved the accuracy of water quality forecasting. This paper categorizes machine learning approaches into traditional, deep learning, and hybrid models, evaluating their performance in forecasting water quality parameters. In recent years, the long short-term memory (LSTMs), gated recurrent units (GRUs) and LSTM- and GRU-based hybrid models have been widely used in forecasting inland river water quality. Combining remote sensing with a real-time water quality monitoring network has enhanced data collection efficiency by capturing spatial variability within the river network, complementing the high temporal resolution of in situ measurements, and improving the overall robustness of predictive deep learning models. Additionally, leveraging weather prediction models can further enhance the accuracy of water quality forecasting and better decision-making for water resource management."
+  }
+ },
+ "TS664": {
+  "crossref": {
+   "title": "A dissolved oxygen prediction model based on GRU–N-Beats",
+   "authors": [
+    "Zhenhui Hao"
+   ],
+   "year": 2024,
+   "dates": {
+    "published-online": "2024-05-21",
+    "published-print": "",
+    "posted": "",
+    "issued": "2024-05-21",
+    "created": "2024-05-21"
+   },
+   "container": "Frontiers in Marine Science",
+   "volume": "11",
+   "issue": "",
+   "page": "",
+   "type": "journal-article",
+   "url": "https://doi.org/10.3389/fmars.2024.1365047",
+   "publisher": "Frontiers Media SA",
+   "abstract": "<jats:p>Dissolved oxygen is one of the most important water quality parameters in aquaculture, and the level determines whether fish can grow healthily. Since there is a delay in equipment control in the aquaculture environment, dissolved oxygen prediction is needed to reduce the loss due to low dissolved oxygen. To solve the problem of insufficient accuracy and poor interpretability of traditional methods in predicting dissolved oxygen from multivariate water quality parameters, this paper proposes an improved N-Beats-based prediction network. First, the maximum expectation algorithm [expectation–maximization (EM)] was used to fill in the original data by fitting the missing values. Second, the discrete wavelet transform (DWT) was used to reduce the overall noise of the sample, then the gated recurrent unit (GRU) feature extraction network was employed to extract the water quality information from the temporal dimension, the N-Beats was utilized to predict the preprocessed data, and the residual operation through Stack was performed to obtain the prediction results. The improved algorithm overcomes the challenge of insufficient prediction accuracy of the traditional algorithm. The GRU–N-Beats network proposed in this paper can extract features from multivariate time dimensions for prediction. The values of root mean square error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and R<jats:sup>2</jats:sup> for the proposed algorithm were 0.171, 0.120, 0.015, and 0.97, respectively. In particular, they were 28.5%, 32.1%, 51.6%, 24.3%, 14.9%, 36.4%, and 19.3% higher than those of long short-term memory (LSTM), GRU, temporal convolutional network (TCN), LSTM–TCN, PatchTST, back-propagation neural network (BPNN), and N-Beats on RMSE, respectively.</jats:p>",
+   "preprints": []
+  },
+  "openalex": {
+   "id": "https://openalex.org/W4398174114",
+   "title": "A dissolved oxygen prediction model based on GRU–N-Beats",
+   "year": 2024,
+   "publication_date": "2024-05-21",
+   "authors": [
+    "Zhenhui Hao"
+   ],
+   "oa_status": "gold",
+   "locations": [
+    {
+     "pdf_url": null,
+     "landing": "https://doi.org/10.3389/fmars.2024.1365047",
+     "is_oa": true,
+     "version": "publishedVersion",
+     "license": "cc-by",
+     "source": "Frontiers in Marine Science",
+     "source_type": "journal",
+     "host_org": "Frontiers Media"
+    },
+    {
+     "pdf_url": null,
+     "landing": "https://doaj.org/article/335c0f5fd6fb48b198d6604fa2c77ab5",
+     "is_oa": true,
+     "version": "submittedVersion",
+     "license": "cc-by-sa",
+     "source": "DOAJ (DOAJ: Directory of Open Access Journals)",
+     "source_type": "repository",
+     "host_org": null
+    }
+   ],
+   "arxiv_ids": [],
+   "abstract": "Dissolved oxygen is one of the most important water quality parameters in aquaculture, and the level determines whether fish can grow healthily. Since there is a delay in equipment control in the aquaculture environment, dissolved oxygen prediction is needed to reduce the loss due to low dissolved oxygen. To solve the problem of insufficient accuracy and poor interpretability of traditional methods in predicting dissolved oxygen from multivariate water quality parameters, this paper proposes an improved N-Beats-based prediction network. First, the maximum expectation algorithm [expectation–maximization (EM)] was used to fill in the original data by fitting the missing values. Second, the discrete wavelet transform (DWT) was used to reduce the overall noise of the sample, then the gated recurrent unit (GRU) feature extraction network was employed to extract the water quality information from the temporal dimension, the N-Beats was utilized to predict the preprocessed data, and the residual operation through Stack was performed to obtain the prediction results. The improved algorithm overcomes the challenge of insufficient prediction accuracy of the traditional algorithm. The GRU–N-Beats network proposed in this paper can extract features from multivariate time dimensions for prediction. The values of root mean square error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and R2 for the proposed algorithm were 0.171, 0.120, 0.015, and 0.97, respectively. In particular, they were 28.5%, 32.1%, 51.6%, 24.3%, 14.9%, 36.4%, and 19.3% higher than those of long short-term memory (LSTM), GRU, temporal convolutional network (TCN), LSTM–TCN, PatchTST, back-propagation neural network (BPNN), and N-Beats on RMSE, respectively."
+  }
+ },
+ "TS665": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2602.07478v1",
+   "latest_version": "2602.07478v1",
+   "title": "AI-Driven Predictive Modelling for Groundwater Salinization in Israel",
+   "authors": [
+    "Laxmi Pandey",
+    "Ariel Meroz",
+    "Ben Cheng",
+    "Ankita Manekar",
+    "Abhijit Mukherjee",
+    "Meirav Cohen",
+    "Adway Mitra"
+   ],
+   "published": "2026-02-07T10:17:51Z",
+   "updated": "2026-02-07T10:17:51Z",
+   "abstract": "Increasing salinity and contamination of groundwater is a serious issue in many parts of the world, causing degradation of water resources. The aim of this work is to form a comprehensive understanding of groundwater salinization underlying causal factors and identify important meteorological, geological and anthropogenic drivers of salinity. We have integrated different datasets of potential covariates, to create a robust framework for machine learning based predictive models including Random Forest (RF), XGBoost, Neural network, Long Short-Term Memory (LSTM), convolution neural network (CNN) and linear regression (LR), of groundwater salinity. Additionally, Recursive Feature Elimination (RFE) followed by Global sensitivity analysis (GSA) and Explainable AI (XAI) based SHapley Additive exPlanations (SHAP) were used to estimate the importance scores and find insights into the drivers of salinization. We also did causality analysis via Double machine learning using various predictive models. From these analyses, key meteorological (Precipitation, Temperature), geological (Distance from river, Distance to saline body, TWI, Shoreline distance), and anthropogenic (Area of agriculture field, Treated Wastewater) covariates are identified to be influential drivers of groundwater salinity across Israel. XAI analysis also identified Treated Wastewater (TWW) as an essential anthropogenic driver of salinity, its significance being context-dependent but critical in vulnerable hydro-climatic environment. Our approach provides deeper insight into global salinization mechanisms at country scale, reducing AI model uncertainty and highlighting the need for tailored strategies to address salinity.",
+   "comment": "60 pages, 9 figures in main text and 6 figures in appendix, 2 tables, 3 Appendix",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "cs.LG"
+  }
+ },
+ "TS666": {
+  "arxiv": {
+   "abs_url": "http://arxiv.org/abs/2311.12736v1",
+   "latest_version": "2311.12736v1",
+   "title": "Spatio-Temporal Modeling of Surface Water Quality Distribution in California (1956-2023)",
+   "authors": [
+    "Houlin Chen",
+    "Meredith Franklin"
+   ],
+   "published": "2023-11-21T17:21:45Z",
+   "updated": "2023-11-21T17:21:45Z",
+   "abstract": "Surface water quality has a direct impact on public health, ecosystems, and agriculture, in addition to being an important indicator of the overall health of the environment. California's diverse climate, extensive coastline, and varied topography lead to distinct spatial and temporal patterns in surface water. This study offers a comprehensive assessment of these patterns by leveraging around 70 years of data, taking into account climate zones and geographical types. We analyzed surface water quality indicators, including pH, dissolved oxygen, specific conductance, and water temperature, based on field results from approximately 5,000 water quality stations in California Water Quality Data (CWQD). Machine learning (ML) models were developed to establish relationships between spatial and temporal variables, climate zones, geographical types, and water quality indicators. Applying these models to spatially interpolate and temporally predict the four water quality indicators over California for the next 50 years, the research results indicate an uneven distribution of water quality indicators in California, suggesting the presence of potential pollution zones, seawater erosion, and effects of climate change.",
+   "comment": "",
+   "journal_ref": "",
+   "doi": "",
+   "primary_category": "stat.AP"
+  }
  }
 }

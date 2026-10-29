@@ -3254,56 +3254,6 @@
   "cross_basis": []
  },
  {
-  "rank": 5,
-  "kind": "course",
-  "title": "Time Series Analysis — lecture notes (ETH Zürich, Autumn 2018)",
-  "authors": [
-   "Nicolai Meinshausen"
-  ],
-  "institution": "ETH Zürich, Seminar for Statistics",
-  "course_name": "Time Series Analysis",
-  "course_code": "待核实",
-  "term": "Autumn semester 2018",
-  "prerequisites": "待核实",
-  "publisher": "",
-  "edition": "",
-  "original_year": "2018",
-  "version_year": "2018",
-  "homepage": "https://stat.ethz.ch/lectures/as18/timeseries.php",
-  "format": "pdf",
-  "files": [
-   {
-    "url": "https://stat.ethz.ch/~nicolai/ts/TimeSeries2018.pdf",
-    "label": "entire lecture notes"
-   }
-  ],
-  "html_toc": "",
-  "html_chapters": 0,
-  "completeness_evidence": "课程页 Course materials 除逐周 notes 外明确给出 “entire lecture notes” 单一 PDF",
-  "legal_basis": "课程官方页面公开",
-  "language": "en",
-  "topics": [
-   "平稳性",
-   "趋势估计",
-   "ARMA",
-   "预测",
-   "谱分析",
-   "状态空间与 Kalman 滤波",
-   "GARCH"
-  ],
-  "level": "进阶",
-  "order_hint": "在入门课之后、需要数学推导时阅读；可与 UvA van der Vaart 讲义互补",
-  "classic_reason": "ETH 硕士层次理论课的完整讲义（部分沿用 Künsch 讲义），推导严谨、篇幅适中，近年无更新公开版本",
-  "cross_kind": "",
-  "summary": "ETH 统计研讨室硕士课程讲义，系统讲授依赖观测的统计分析：平稳性、趋势估计、ARMA 模型与预测、谱方法与非线性/状态空间等主题。",
-  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "欧洲顶级统计系的理论型完整讲义，适合补齐平稳过程与谱理论基础。",
-  "priority": 1,
-  "id": "UM005",
-  "cross": [],
-  "cross_basis": []
- },
- {
   "rank": 6,
   "kind": "course",
   "title": "Time Series Analysis (14.384) lecture notes",
@@ -3567,7 +3517,7 @@
   "cross_basis": []
  },
  {
-  "rank": 8,
+  "rank": 60,
   "kind": "course",
   "title": "Applied Time Series Analysis — Scriptum (SS 2014)",
   "authors": [
@@ -3592,27 +3542,24 @@
   ],
   "html_toc": "",
   "html_chapters": 0,
-  "completeness_evidence": "课程页 Scriptum 栏给出当前版本 Scriptum_v140523.pdf（2014-05-23），为整门课的完整讲义（另有 13 周幻灯片）",
+  "completeness_evidence": "课程页 Scriptum 栏给出整本讲义 PDF（2014-05-23 版）",
   "legal_basis": "课程官方页面公开",
   "language": "en",
   "topics": [
-   "描述性分析与分解",
-   "平稳性",
-   "ARMA/ARIMA/SARIMA",
+   "ARMA",
    "预测",
    "GARCH",
-   "多变量时间序列",
    "谱分析",
    "R 实操"
   ],
   "level": "入门",
-  "order_hint": "偏应用的入门讲义，可与 ETH Meinshausen 理论讲义配对",
-  "classic_reason": "ETH 应用时间序列课程的公开完整讲义（2020 后转入 Moodle 不再公开），以 R 实例见长",
+  "order_hint": "备选：替代 SS2016 版",
+  "classic_reason": "同一课程较早版本",
   "cross_kind": "",
-  "summary": "ETH 面向应用的时间序列课程讲义：描述性分析、分解、平稳性、ARMA 族建模与预测、条件异方差、多元与谱分析，配大量 R 代码。",
+  "summary": "ETH 应用时间序列 2014 年版讲义。",
   "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "完整单 PDF、应用导向、R 实例丰富，适合工程与环境领域读者快速上手。",
-  "priority": 2,
+  "reason": "备选（若 ETH Dettling 2016 版下载失败）。",
+  "priority": 3,
   "id": "UM008",
   "cross": [],
   "cross_basis": []
@@ -4395,108 +4342,6 @@
  {
   "rank": 19,
   "kind": "course",
-  "title": "What's New in Econometrics: Time Series — NBER Summer Institute 2008 lecture slides",
-  "authors": [
-   "James H. Stock",
-   "Mark W. Watson"
-  ],
-  "institution": "National Bureau of Economic Research（讲者分属 Harvard / Princeton）",
-  "course_name": "What's New in Econometrics: Time Series (NBER SI methods lectures)",
-  "course_code": "NBER SI 2008",
-  "term": "July 14–16, 2008",
-  "prerequisites": "待核实",
-  "publisher": "",
-  "edition": "",
-  "original_year": "2008",
-  "version_year": "2008",
-  "homepage": "https://conference.nber.org/confer/2008/si2008/tseprg.html",
-  "format": "multi_pdf",
-  "files": [
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/References.pdf",
-    "label": "References (all lectures)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture1.pdf",
-    "label": "L1 Spectral preliminaries, HP filter, linear filtering theory (Watson)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/lecture2.pdf",
-    "label": "L2 Functional CLT and structural breaks (Watson)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture3.pdf",
-    "label": "L3 Many instruments / weak identification in GMM I (Stock)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture4.pdf",
-    "label": "L4 Many instruments / weak identification in GMM II (Stock)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture5.pdf",
-    "label": "L5 Kalman filter, nonlinear filtering and MCMC (Watson)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture6.pdf",
-    "label": "L6 Models with stochastic time variation (Watson)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture7.pdf",
-    "label": "L7 Recent developments in structural VAR modeling (Stock)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture8.pdf",
-    "label": "L8 Econometrics of DSGE models (Stock)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture9.pdf",
-    "label": "L9 HAC standard errors (Watson)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture10.pdf",
-    "label": "L10 Forecast assessment (Watson)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture11.pdf",
-    "label": "L11 Dynamic factor models and forecasting with many predictors (Stock)"
-   },
-   {
-    "url": "https://conference.nber.org/confer/2008/si2008/TSE/Lecture12.pdf",
-    "label": "L12 Macro modeling with many predictors (Stock)"
-   }
-  ],
-  "html_toc": "",
-  "html_chapters": 0,
-  "completeness_evidence": "NBER 程序页 12 场讲座每场给出 Slides 链接，另有全部讲座参考文献 PDF，共 13 份全部列出",
-  "legal_basis": "NBER 官方会议页面公开",
-  "language": "en",
-  "topics": [
-   "谱与滤波",
-   "结构突变",
-   "弱识别",
-   "Kalman 滤波与 MCMC",
-   "时变参数/随机波动",
-   "结构 VAR",
-   "DSGE 计量",
-   "HAC",
-   "预测评估",
-   "动态因子模型与高维预测"
-  ],
-  "level": "高级",
-  "order_hint": "在 MIT 14.384 之后阅读，作为前沿专题综述",
-  "classic_reason": "Stock 与 Watson 主讲的时间序列计量前沿短期课程，结构突变、预测评估与多预测变量部分至今是标准参考",
-  "cross_kind": "",
-  "summary": "NBER 夏季学院方法讲座：谱与 HP 滤波、泛函中心极限与结构突变、弱识别、Kalman/非线性滤波与 MCMC、时变参数、结构 VAR、DSGE、HAC、预测评估、动态因子模型与多预测变量预测。",
-  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "以极高密度覆盖结构突变、预测评估、高维（因子）预测，弥补大学课程中较少系统讲授的专题。",
-  "priority": 2,
-  "id": "UM019",
-  "cross": [],
-  "cross_basis": []
- },
- {
-  "rank": 20,
-  "kind": "course",
   "title": "Data over Space and Time (36-467/667) — lecture notes",
   "authors": [
    "Cosma Rohilla Shalizi"
@@ -4544,7 +4389,7 @@
   "cross_basis": []
  },
  {
-  "rank": 21,
+  "rank": 20,
   "kind": "course",
   "title": "Time Series (lecture notes by A.W. van der Vaart, used in UvA course ST410016)",
   "authors": [
@@ -4596,7 +4441,7 @@
   "cross_basis": []
  },
  {
-  "rank": 22,
+  "rank": 21,
   "kind": "course",
   "title": "Time Series — course notes (Cambridge M.Phil in Statistics)",
   "authors": [
@@ -4644,7 +4489,7 @@
   "cross_basis": []
  },
  {
-  "rank": 23,
+  "rank": 22,
   "kind": "course",
   "title": "IEOR E4602 Quantitative Risk Management — lecture notes",
   "authors": [
@@ -4730,7 +4575,7 @@
   "cross_basis": []
  },
  {
-  "rank": 24,
+  "rank": 23,
   "kind": "course",
   "title": "Econ 584: Time Series Econometrics — lecture notes and slides",
   "authors": [
@@ -4882,56 +4727,6 @@
  {
   "rank": 25,
   "kind": "course",
-  "title": "Hidden Markov Models — lecture notes (ORF 557)",
-  "authors": [
-   "Ramon van Handel"
-  ],
-  "institution": "Princeton University",
-  "course_name": "Hidden Markov Models",
-  "course_code": "ORF 557",
-  "term": "Fall 2008",
-  "prerequisites": "待核实",
-  "publisher": "",
-  "edition": "",
-  "original_year": "2008",
-  "version_year": "2008",
-  "homepage": "https://web.math.princeton.edu/~rvan/orf557/",
-  "format": "pdf",
-  "files": [
-   {
-    "url": "https://web.math.princeton.edu/~rvan/orf557/hmm080728.pdf",
-    "label": "lecture notes (2008-07-28)"
-   }
-  ],
-  "html_toc": "",
-  "html_chapters": 0,
-  "completeness_evidence": "作者站点 orf557 目录列出讲义 hmm080728.pdf 与课程大纲；注意：作者主页上该课程条目目前位于 HTML 注释中（页面不可见），文件仍在作者站点公开",
-  "legal_basis": "作者主页公开",
-  "language": "en",
-  "topics": [
-   "隐马尔可夫模型",
-   "滤波/平滑/预测",
-   "前向后向算法",
-   "Kalman 滤波",
-   "粒子滤波",
-   "参数估计/EM",
-   "滤波稳定性"
-  ],
-  "level": "高级",
-  "order_hint": "在概率论与马尔可夫链之后阅读",
-  "classic_reason": "HMM 与非线性滤波理论的高质量研究生讲义，统一处理有限状态 HMM、线性高斯与粒子方法",
-  "cross_kind": "",
-  "summary": "普林斯顿研究生课程讲义：HMM 的滤波、平滑与预测，有限状态与线性高斯模型，蒙特卡罗/粒子方法，统计推断（EM 等）与滤波稳定性。",
-  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "状态空间/HMM 理论的权威公开讲义，补足贝叶斯滤波的数学基础。",
-  "priority": 2,
-  "id": "UM025",
-  "cross": [],
-  "cross_basis": []
- },
- {
-  "rank": 26,
-  "kind": "course",
   "title": "Discrete Stochastic Processes — course text (6.262)",
   "authors": [
    "Robert Gallager"
@@ -4981,7 +4776,7 @@
   "cross_basis": []
  },
  {
-  "rank": 27,
+  "rank": 26,
   "kind": "course",
   "title": "Topics in Mathematics with Applications in Finance (18.S096) lecture notes",
   "authors": [
@@ -5122,7 +4917,7 @@
   "cross_basis": []
  },
  {
-  "rank": 28,
+  "rank": 27,
   "kind": "course",
   "title": "Stat 479: Time Series Analysis — course notes",
   "authors": [
@@ -5170,7 +4965,7 @@
   "cross_basis": []
  },
  {
-  "rank": 29,
+  "rank": 28,
   "kind": "course",
   "title": "STK4060/STK9060 Time Series — lecture notes (Autumn 2025)",
   "authors": [
@@ -5237,7 +5032,7 @@
   "cross_basis": []
  },
  {
-  "rank": 30,
+  "rank": 29,
   "kind": "course",
   "title": "Statistical forecasting: notes on regression and time series analysis",
   "authors": [
@@ -5283,7 +5078,7 @@
   "cross_basis": []
  },
  {
-  "rank": 31,
+  "rank": 30,
   "kind": "course",
   "title": "TSRT14 Sensor Fusion — lecture slides",
   "authors": [
@@ -5371,7 +5166,7 @@
   "cross_basis": []
  },
  {
-  "rank": 32,
+  "rank": 31,
   "kind": "course",
   "title": "Time Series Analysis: A Heuristic Primer (12.864 lecture notes)",
   "authors": [
@@ -5440,7 +5235,7 @@
   "cross_basis": []
  },
  {
-  "rank": 33,
+  "rank": 32,
   "kind": "course",
   "title": "Stochastic Estimation and Control (16.322) lecture notes",
   "authors": [
@@ -5587,7 +5382,7 @@
   "cross_basis": []
  },
  {
-  "rank": 34,
+  "rank": 33,
   "kind": "course",
   "title": "Stochastic Calculus, Filtering, and Stochastic Control — lecture notes (ACM 217)",
   "authors": [
@@ -5635,7 +5430,7 @@
   "cross_basis": []
  },
  {
-  "rank": 35,
+  "rank": 34,
   "kind": "course",
   "title": "Statistics 312: Stochastic Processes — lecture notes",
   "authors": [
@@ -5714,7 +5509,7 @@
   "cross_basis": []
  },
  {
-  "rank": 36,
+  "rank": 35,
   "kind": "course",
   "title": "Deep Learning (UNIGE 14x050 / formerly EPFL EE-559) — lecture handouts",
   "authors": [
@@ -6007,7 +5802,7 @@
   "cross_basis": []
  },
  {
-  "rank": 37,
+  "rank": 36,
   "kind": "course",
   "title": "Solving and Estimating Dynamic Equilibrium Models — lecture notes (estimation part: Bayesian econometrics, MCMC, filtering)",
   "authors": [
@@ -6098,7 +5893,7 @@
   "cross_basis": []
  },
  {
-  "rank": 38,
+  "rank": 37,
   "kind": "course",
   "title": "Signals, Systems and Inference (6.011) lecture slides",
   "authors": [
@@ -6240,7 +6035,7 @@
   "cross_basis": []
  },
  {
-  "rank": 39,
+  "rank": 38,
   "kind": "course",
   "title": "应用时间序列分析备课笔记",
   "authors": [
@@ -6292,7 +6087,7 @@
   ]
  },
  {
-  "rank": 40,
+  "rank": 39,
   "kind": "course",
   "title": "Applied Spatio-temporal Statistics (STAT 764) — class notes",
   "authors": [
@@ -6336,7 +6131,7 @@
   "cross_basis": []
  },
  {
-  "rank": 41,
+  "rank": 40,
   "kind": "course",
   "title": "Anomaly Detection (Master course) — lecture slides",
   "authors": [
@@ -6433,7 +6228,7 @@
   "cross_basis": []
  },
  {
-  "rank": 42,
+  "rank": 41,
   "kind": "course",
   "title": "Identification, Estimation, and Learning (2.160) lecture notes",
   "authors": [
@@ -6570,7 +6365,7 @@
   "cross_basis": []
  },
  {
-  "rank": 43,
+  "rank": 42,
   "kind": "course",
   "title": "EE363: Linear Dynamical Systems — lecture slides (Winter 2008-09)",
   "authors": [
@@ -6684,7 +6479,7 @@
   "cross_basis": []
  },
  {
-  "rank": 44,
+  "rank": 43,
   "kind": "course",
   "title": "Fundamentals of Probability (6.436J) lecture notes",
   "authors": [
@@ -6834,7 +6629,7 @@
   "cross_basis": []
  },
  {
-  "rank": 45,
+  "rank": 44,
   "kind": "course",
   "title": "Statistics 153: Introduction to Time Series Analysis — lecture notes (Spring 2013)",
   "authors": [
@@ -6982,7 +6777,7 @@
   "cross_basis": []
  },
  {
-  "rank": 46,
+  "rank": 45,
   "kind": "course",
   "title": "System Identification (6.435) lecture notes",
   "authors": [
@@ -7076,94 +6871,6 @@
  {
   "rank": 47,
   "kind": "course",
-  "title": "Bayesian Statistics: Dynamic Linear Modelling — lecture handouts (2003)",
-  "authors": [
-   "Jonathan Rougier"
-  ],
-  "institution": "Durham University",
-  "course_name": "4H Bayesian Statistics: Dynamic Linear Modelling",
-  "course_code": "4H",
-  "term": "2003（Epiphany）",
-  "prerequisites": "待核实",
-  "publisher": "",
-  "edition": "",
-  "original_year": "2003",
-  "version_year": "2003",
-  "homepage": "https://maths.dur.ac.uk/stats/people/jcr/DLM/",
-  "format": "multi_pdf",
-  "files": [
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm0.pdf",
-    "label": "Handout 0"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm1.pdf",
-    "label": "Handout 1"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm2.pdf",
-    "label": "Handout 2"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm3.pdf",
-    "label": "Handout 3"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm4.pdf",
-    "label": "Handout 4"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm5.pdf",
-    "label": "Handout 5"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm6.pdf",
-    "label": "Handout 6"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm7.pdf",
-    "label": "Handout 7"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm8.pdf",
-    "label": "Handout 8"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm9.pdf",
-    "label": "Handout 9"
-   },
-   {
-    "url": "https://maths.dur.ac.uk/stats/people/jcr/DLM/dlm11.pdf",
-    "label": "Handout 11"
-   }
-  ],
-  "html_toc": "",
-  "html_chapters": 0,
-  "completeness_evidence": "课程页 Handouts 列出 dlm0-dlm9 与 dlm11 共 11 份 PDF（页面未列 dlm10，疑缺一讲），全部列出",
-  "legal_basis": "授课教师课程页面公开",
-  "language": "en",
-  "topics": [
-   "动态线性模型 DLM",
-   "贝叶斯预测",
-   "折扣因子",
-   "干预与监控",
-   "非线性模型"
-  ],
-  "level": "进阶",
-  "order_hint": "在 Wilkinson 讲义 DLM 章之后阅读",
-  "classic_reason": "基于 West & Harrison 的贝叶斯预测/DLM 课程讲义，公开资料中稀缺",
-  "cross_kind": "",
-  "summary": "杜伦大学本科四年级贝叶斯动态线性模型课程讲义，对应 West & Harrison《Bayesian Forecasting and Dynamic Models》：DLM 基本特征与预测、折扣、监控与干预、非线性模型。",
-  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "补足贝叶斯预测（DLM）主题；疑缺第 10 份讲义，需下载核对。",
-  "priority": 3,
-  "id": "UM047",
-  "cross": [],
-  "cross_basis": []
- },
- {
-  "rank": 48,
-  "kind": "course",
   "title": "STAT 510: Applied Time Series Analysis (online course notes)",
   "authors": [
    "Bob Heckard",
@@ -7209,7 +6916,7 @@
   "cross_basis": []
  },
  {
-  "rank": 49,
+  "rank": 48,
   "kind": "course",
   "title": "Advanced Stochastic Processes (15.070J) lecture notes",
   "authors": [
@@ -7341,7 +7048,7 @@
   "cross_basis": []
  },
  {
-  "rank": 50,
+  "rank": 49,
   "kind": "course",
   "title": "Statistics for Applications (18.650) lecture slides",
   "authors": [
@@ -7561,7 +7268,7 @@
   "cross_kind": "",
   "summary": "伯克利 Stat 153 2010 秋季讲义：平稳性、自相关、ARMA 模型、预测、谱分析等。",
   "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "备选（若第 2/45 项下载失败）。",
+  "reason": "备选（若 Berkeley Stat 153 其他版本下载失败）。",
   "priority": 3,
   "id": "UM051",
   "cross": [],
@@ -7609,7 +7316,7 @@
   "cross_kind": "",
   "summary": "Särkkä 贝叶斯滤波课程 2010 年合订讲义。",
   "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "备选（若 2012 版下载失败）。",
+  "reason": "备选（若 Särkkä 2012 合订本下载失败）。",
   "priority": 3,
   "id": "UM052",
   "cross": [],
@@ -7712,21 +7419,22 @@
   "cross_basis": []
  },
  {
-  "rank": 58,
+  "rank": 5,
   "kind": "course",
-  "title": "Zeitreihen HS 2012 — Skript and lecture handouts",
+  "title": "Zeitreihen / Time Series (HS 2012) — Skript",
   "authors": [
-   "Peter Bühlmann（HS2012 课程目录归属；讲义作者待核实）"
+   "Hans Rudolf Künsch（讲义作者，据检索摘要，待核实）",
+   "Peter Bühlmann（HS2012 授课，据课程目录归属）"
   ],
   "institution": "ETH Zürich, Seminar for Statistics",
-  "course_name": "Zeitreihen / Time Series",
+  "course_name": "Zeitreihen (Time Series Analysis)",
   "course_code": "待核实",
-  "term": "HS 2012",
+  "term": "HS 2012 (Autumn 2012)",
   "prerequisites": "待核实",
   "publisher": "",
   "edition": "",
-  "original_year": "待核实",
-  "version_year": "2012",
+  "original_year": "2010（讲义注明为 fall 2010 课程所写，待核实）",
+  "version_year": "2011（Version August 2011，据检索摘要，待核实）",
   "homepage": "https://stat.ethz.ch/Teaching/buhlmann/Zeitreihen/2012/",
   "format": "pdf",
   "files": [
@@ -7737,31 +7445,33 @@
   ],
   "html_toc": "",
   "html_chapters": 0,
-  "completeness_evidence": "课程目录列出 skript2012.pdf 及 introduction/stationarity/arma/spectral/kalmanfilter/arch 等分讲讲义，取整本 skript",
+  "completeness_evidence": "HS2012 课程目录列出整本 skript2012.pdf，另有 introduction、stationarity、arma、multistep-pred、aic、spectral、fourier、kalmanfilter、arch1 等分讲讲义；取整本 Skript",
   "legal_basis": "课程官方页面公开",
   "language": "en",
   "topics": [
    "平稳性",
+   "弱相依中心极限",
    "ARMA",
-   "谱分析",
+   "多步预测",
+   "AIC 模型选择",
+   "谱分析与傅里叶",
    "Kalman 滤波",
-   "ARCH",
-   "多步预测"
+   "ARCH"
   ],
   "level": "进阶",
-  "order_hint": "备选：替代 ETH Meinshausen 讲义",
-  "classic_reason": "ETH 理论时间序列课 2012 年版本",
+  "order_hint": "在入门课之后、需要数学推导时阅读；可与 UvA van der Vaart 讲义互补",
+  "classic_reason": "ETH 硕士层次理论时间序列课的完整讲义（后续 Meinshausen 2018 版讲义沿用其部分内容，但该版对外返回 403 不可下载）",
   "cross_kind": "",
-  "summary": "ETH HS2012 时间序列课程讲义（目录含 ARMA、谱、Kalman、ARCH 等分讲材料）。",
+  "summary": "ETH 统计研讨室硕士时间序列课程讲义：平稳过程与相依 CLT、ARMA 模型、多步预测与模型选择、谱方法、Kalman 滤波与 ARCH 模型。",
   "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "备选（若第 5 项下载失败）。",
-  "priority": 3,
+  "reason": "欧洲顶级统计系理论型完整讲义，补齐平稳过程、谱理论与状态空间推导。",
+  "priority": 1,
   "id": "UM055",
   "cross": [],
   "cross_basis": []
  },
  {
-  "rank": 59,
+  "rank": 58,
   "kind": "course",
   "title": "Spatial statistics script",
   "authors": [
@@ -7807,7 +7517,7 @@
   "cross_basis": []
  },
  {
-  "rank": 60,
+  "rank": 59,
   "kind": "course",
   "title": "Applied Time Series Analysis — Scriptum (SS 2012)",
   "authors": [
@@ -7848,9 +7558,1058 @@
   "cross_kind": "",
   "summary": "ETH 应用时间序列 2012 年版讲义。",
   "summary_basis": "官方课程页面描述与讲义目录（未精读）",
-  "reason": "备选（若第 8 项下载失败）。",
+  "reason": "备选（若 ETH Dettling 2016 版下载失败）。",
   "priority": 3,
   "id": "UM057",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 8,
+  "kind": "course",
+  "title": "Applied Time Series Analysis — Script (SS 2016)",
+  "authors": [
+   "Marcel Dettling"
+  ],
+  "institution": "ETH Zürich, Seminar for Statistics",
+  "course_name": "Applied Time Series Analysis",
+  "course_code": "待核实",
+  "term": "Spring Semester 2016",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2016",
+  "homepage": "https://stat.ethz.ch/education/semesters/ss2016/atsa/",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://stat.ethz.ch/education/semesters/ss2016/atsa/ATSA_Script_v160527.pdf",
+    "label": "ATSA Script v160527 (full script)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页给出整本 Script（ATSA_Script_v160527.pdf）与整本 Slides；为 ETH 公开页面中最新版本（其后转入 Moodle）",
+  "legal_basis": "课程官方页面公开",
+  "language": "en",
+  "topics": [
+   "描述性分析与分解",
+   "平稳性",
+   "ARMA/ARIMA/SARIMA",
+   "预测",
+   "GARCH",
+   "多变量时间序列",
+   "谱分析",
+   "R 实操"
+  ],
+  "level": "入门",
+  "order_hint": "偏应用的入门讲义，可与 ETH Meinshausen 理论讲义配对",
+  "classic_reason": "ETH 应用时间序列课程的公开完整讲义（2020 后转入 Moodle 不再公开），以 R 实例见长",
+  "cross_kind": "",
+  "summary": "ETH 面向应用的时间序列课程讲义：描述性分析、分解、平稳性、ARMA 族建模与预测、条件异方差、多元与谱分析，配大量 R 代码。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "完整单 PDF、应用导向、R 实例丰富，适合工程与环境领域读者快速上手。",
+  "priority": 2,
+  "id": "UM058",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 50,
+  "kind": "course",
+  "title": "Energy Systems (Summer Semester 2022) — lecture slides",
+  "authors": [
+   "Tom Brown"
+  ],
+  "institution": "Technische Universität Berlin",
+  "course_name": "Energy Systems",
+  "course_code": "待核实",
+  "term": "Summer Semester 2022",
+  "prerequisites": "待核实",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2022",
+  "homepage": "https://nworbmot.org/courses/es-22/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-1-orga_intro.pdf",
+    "label": "Lecture 1: Introduction"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-2-energy_balances.pdf",
+    "label": "Lecture 2: Energy Balances"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-3-input_output.pdf",
+    "label": "Lecture 3: Input-Output Models"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-4-time_series.pdf",
+    "label": "Lecture 4: Time Series"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-5-networks.pdf",
+    "label": "Lecture 5: Networks"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-6-power_flow.pdf",
+    "label": "Lecture 6: Power Flow"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-7-storage.pdf",
+    "label": "Lecture 7: Storage"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-8-optimisation.pdf",
+    "label": "Lecture 8: Optimisation"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-9-electricity_markets.pdf",
+    "label": "Lecture 9: Electricity Markets"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-10-complex_markets.pdf",
+    "label": "Lecture 10: Networks in Markets"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-11-investment.pdf",
+    "label": "Lecture 11: Generation Investment"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-12-renewables.pdf",
+    "label": "Lecture 12: Modelling Variable Renewables"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-13-dynamics.pdf",
+    "label": "Lecture 13: Multi-Decadal Dynamics"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-14-sector_coupling.pdf",
+    "label": "Lecture 14: Sector Coupling"
+   },
+   {
+    "url": "https://nworbmot.org/courses/es-22/es-15-research_topics.pdf",
+    "label": "Lecture 15: Research Topics"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Lecture Slides 列出第 1-15 讲幻灯片 PDF，全部列出",
+  "legal_basis": "授课教师课程页面公开（页面声明 LaTeX 源以 CC BY 4.0 发布）",
+  "language": "en",
+  "topics": [
+   "能源系统时间序列",
+   "风光出力变率",
+   "储能",
+   "电网潮流",
+   "电力市场",
+   "能源系统优化"
+  ],
+  "level": "入门",
+  "order_hint": "能源应用背景读物；与预测课程配合理解电力负荷与可再生能源时间序列的用途",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "柏林工业大学能源系统课程 15 讲幻灯片，含能源平衡、投入产出、能源时间序列、电网与潮流、储能、优化、电力市场、可再生能源变率建模与部门耦合。",
+  "summary_basis": "官方课程页面描述与讲义目录（未精读）",
+  "reason": "能源应用领域的完整课程（含时间序列与可再生能源变率专讲），弥补能源预测应用背景；本身不讲预测方法，优先级低。",
+  "priority": 3,
+  "id": "UM059",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 61,
+  "kind": "course",
+  "title": "Renewables in Electricity Markets — lecture slides (10 modules)",
+  "authors": [
+   "Pierre Pinson"
+  ],
+  "institution": "Technical University of Denmark (DTU)（现由作者个人站点作为开放课程发布）",
+  "course_name": "Renewables in Electricity Markets",
+  "course_code": "31761",
+  "term": "幻灯片版本 2018（PDF 元数据 CreationDate 2018-11/12）；开放课程页 2026 年仍在维护；具体学期待核实",
+  "prerequisites": "基础概率统计与优化（课程页未列明，待核实）",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2018",
+  "version_year": "2018",
+  "homepage": "https://pierrepinson.com/teaching/index.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://pierrepinson.com/files/31761/Module1/Lecture1p0/31761lecture1p0.pdf",
+    "label": "Lecture 1.0 Module introduction (Module 1: Fundamentals of electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module1/Lecture1p1/31761lecture1p1.pdf",
+    "label": "Lecture 1.1 Historical perspective (Module 1: Fundamentals of electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module1/Lecture1p2/31761lecture1p2.pdf",
+    "label": "Lecture 1.2 Actors, role and market organization (Module 1: Fundamentals of electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module1/Lecture1p3/31761lecture1p3.pdf",
+    "label": "Lecture 1.3 The various markets and their purpose (Module 1: Fundamentals of electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module1/Lecture1p4/31761lecture1p4.pdf",
+    "label": "Lecture 1.4 Current challenges with renewables in electricity markets (Module 1: Fundamentals of electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module2/Lecture2p0/31761lecture2p0.pdf",
+    "label": "Lecture 2.0 Introduction (Module 2: Electricity spot markets (e.g., day-ahead))"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module2/Lecture2p1/31761lecture2p1.pdf",
+    "label": "Lecture 2.1 From bilateral contracts to the electricity pool (Module 2: Electricity spot markets (e.g., day-ahead))"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module2/Lecture2p2/31761lecture2p2.pdf",
+    "label": "Lecture 2.2 Market clearing as an optimization problem (Module 2: Electricity spot markets (e.g., day-ahead))"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module2/Lecture2p3/31761lecture2p3.pdf",
+    "label": "Lecture 2.3 From prices to settlement (Module 2: Electricity spot markets (e.g., day-ahead))"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module2/Lecture2p4/31761lecture2p4.pdf",
+    "label": "Lecture 2.4 Zonal and network aspects (Module 2: Electricity spot markets (e.g., day-ahead))"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module2/Lecture2p5/31761lecture2p5.pdf",
+    "label": "Lecture 2.5 Impact of regulation and support schemes (Module 2: Electricity spot markets (e.g., day-ahead))"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module3/Lecture3p0/31761lecture3p0.pdf",
+    "label": "Lecture 3.0 Module introduction (Module 3: Intra-day and balancing markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module3/Lecture3p1/31761lecture3p1.pdf",
+    "label": "Lecture 3.1 From market outcomes to physical operation (Module 3: Intra-day and balancing markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module3/Lecture3p2/31761lecture3p2.pdf",
+    "label": "Lecture 3.2 Intra-day markets (Module 3: Intra-day and balancing markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module3/Lecture3p3/31761lecture3p3.pdf",
+    "label": "Lecture 3.3 Balancing market and imbalance definition (Module 3: Intra-day and balancing markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module3/Lecture3p4/31761lecture3p4.pdf",
+    "label": "Lecture 3.4 Balancing market operation and clearing (Module 3: Intra-day and balancing markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module3/Lecture3p5/31761lecture3p5.pdf",
+    "label": "Lecture 3.5 One-price vs.&nbsp;two-price settlement (Module 3: Intra-day and balancing markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module4/Lecture4p0/31761lecture4p0.pdf",
+    "label": "Lecture 4.0 Module introduction (Module 4: Ancillary services)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module4/Lecture4p1/31761lecture4p1.pdf",
+    "label": "Lecture 4.1 Why ancillary services? (Module 4: Ancillary services)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module4/Lecture4p2/31761lecture4p2.pdf",
+    "label": "Lecture 4.2 Payments for capacity and energy (Module 4: Ancillary services)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module4/Lecture4p3/31761lecture4p3.pdf",
+    "label": "Lecture 4.3 Ancillary services and payments (Module 4: Ancillary services)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module5/Lecture5p0/31761lecture5p0.pdf",
+    "label": "Lecture 5.0 Module introduction (Module 5: Impact of renewables on electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module5/Lecture5p1/31761lecture5p1.pdf",
+    "label": "Lecture 5.1 Electricity cost and cost structure (Module 5: Impact of renewables on electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module5/Lecture5p2/31761lecture5p2.pdf",
+    "label": "Lecture 5.2 What impacts wholesale prices? (Module 5: Impact of renewables on electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module5/Lecture5p3/31761lecture5p3.pdf",
+    "label": "Lecture 5.3 How do renewables impact electricity prices? (Module 5: Impact of renewables on electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module5/Lecture5p4/31761lecture5p4.pdf",
+    "label": "Lecture 5.4 The impact of renewables: from simulation to reality (Module 5: Impact of renewables on electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module6/Lecture6p0/31761lecture6p0.pdf",
+    "label": "Lecture 6.0 Module introduction (Module 6: Participation of renewables in electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module6/Lecture6p1/31761lecture6p1.pdf",
+    "label": "Lecture 6.1 What is a market participation strategy? (Module 6: Participation of renewables in electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module6/Lecture6p2/31761lecture6p2.pdf",
+    "label": "Lecture 6.2 Decision-making under uncertainty (Module 6: Participation of renewables in electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module6/Lecture6p3/31761lecture6p3.pdf",
+    "label": "Lecture 6.3 Offering renewable energy under uncertainty (Module 6: Participation of renewables in electricity markets)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module7/Lecture7p0/31761lecture7p0.pdf",
+    "label": "Lecture 7.0 Module introduction (Module 7: Introduction to renewable energy analytics)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module7/Lecture7p1/31761lecture7p1.pdf",
+    "label": "Lecture 7.1 Forecasts, why and in what form? (Module 7: Introduction to renewable energy analytics)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module7/Lecture7p2/31761lecture7p2.pdf",
+    "label": "Lecture 7.2 Uncertainty origins and characterization (Module 7: Introduction to renewable energy analytics)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module7/Lecture7p3/31761lecture7p3.pdf",
+    "label": "Lecture 7.3 Various types of forecasting products (Module 7: Introduction to renewable energy analytics)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module8/Lecture8p0/31761lecture8p0.pdf",
+    "label": "Lecture 8.0 Module introduction (Module 8: Verification of renewable energy forecasts)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module8/Lecture8p1/31761lecture8p1.pdf",
+    "label": "Lecture 8.1 What makes a good forecast? (Module 8: Verification of renewable energy forecasts)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module8/Lecture8p2/31761lecture8p2.pdf",
+    "label": "Lecture 8.2 Verification of deterministic forecasts (Module 8: Verification of renewable energy forecasts)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module8/Lecture8p3/31761lecture8p3.pdf",
+    "label": "Lecture 8.3 Verification of probabilistic forecasts (Module 8: Verification of renewable energy forecasts)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module9/Lecture9p0/31761lecture9p0.pdf",
+    "label": "Lecture 9.0 Module introduction (Module 9: Renewable energy forecasting – First steps)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module9/Lecture9p1/31761lecture9p1.pdf",
+    "label": "Lecture 9.1 Generalities and benchmark approaches (Module 9: Renewable energy forecasting – First steps)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module9/Lecture9p2/31761lecture9p2.pdf",
+    "label": "Lecture 9.2 Going further in a regression framework (Module 9: Renewable energy forecasting – First steps)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module9/Lecture9p3/31761lecture9p3.pdf",
+    "label": "Lecture 9.3 Digging in the data (Module 9: Renewable energy forecasting – First steps)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module10/Lecture10p0/31761lecture10p0.pdf",
+    "label": "Lecture 10.0 Module introduction (Module 10: Renewable energy forecasting – Advanced topics)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module10/Lecture10p1/31761lecture10p1.pdf",
+    "label": "Lecture 10.1 From linear to nonlinear regression (Module 10: Renewable energy forecasting – Advanced topics)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module10/Lecture10p2/31761lecture10p2.pdf",
+    "label": "Lecture 10.2 Nonstationarity and time-adaptivity (Module 10: Renewable energy forecasting – Advanced topics)"
+   },
+   {
+    "url": "https://pierrepinson.com/files/31761/Module10/Lecture10p3/31761lecture10p3.pdf",
+    "label": "Lecture 10.3 Data-driven decisions (Module 10: Renewable energy forecasting – Advanced topics)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程总览页列出 10 个模块（共 46 讲），每个模块页逐讲给出 Slides (PDF)；46 个 PDF 全部列出且 HEAD 均为 200 application/pdf（beamer 文本 PDF）",
+  "legal_basis": "作者本人站点公开的开放课程（页面写明 All the course material is shared here for anyone who wants to learn）",
+  "language": "en",
+  "topics": [
+   "能源预测",
+   "风电/光伏功率预测",
+   "概率预测",
+   "预测检验（确定性与概率预测）",
+   "电力市场",
+   "非平稳与时变自适应模型",
+   "预测价值与决策"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在 ARIMA/回归基础课（如排名 1–3）之后阅读；模块 7–10 可单独作为能源预测专题",
+  "classic_reason": "幻灯片制作于 2018 年，但作者 2026 年仍以开放课程形式维护；系统讲授可再生能源预测与概率预测检验，现有清单无同类课程",
+  "cross_kind": "",
+  "summary": "DTU 硕士课程的完整开放版：前 6 个模块讲电力市场机制与可再生能源参与市场，模块 7–10 讲可再生能源分析与预测，包括确定性与概率预测的检验、从线性到非线性回归、非平稳与时变自适应建模以及数据驱动决策。",
+  "summary_basis": "官方课程页与各模块页描述（未精读幻灯片）",
+  "reason": "填补能源预测与概率预测检验缺口；作者为能源预测领域代表性学者，资料完整、文本 PDF",
+  "priority": 1,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM060",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 62,
+  "kind": "course",
+  "title": "Advanced Time Series Econometrics (ATSE) — lecture slides",
+  "authors": [
+   "Niko Hauzenberger",
+   "Ping Wu",
+   "Gary Koop"
+  ],
+  "institution": "University of Edinburgh, Scottish Graduate Programme in Economics (SGPE)（授课教师来自 University of Strathclyde）",
+  "course_name": "Advanced Time Series Econometrics",
+  "course_code": "ECNM11049",
+  "term": "Academic Year 2026（block 4, semester 2）",
+  "prerequisites": "研究生计量经济学与时间序列基础（VAR、回归）；会用 R",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实（核心材料由 Gary Koop 编写）",
+  "version_year": "2026",
+  "homepage": "https://nhauzenb.github.io/SGPE-ECNM11049/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://nhauzenb.github.io/SGPE-ECNM11049/Lecture%20Slides/ATSE_Overview.pdf",
+    "label": "Course overview"
+   },
+   {
+    "url": "https://nhauzenb.github.io/SGPE-ECNM11049/Lecture%20Slides/ATSE_State_Space_Models.pdf",
+    "label": "State space models (unobserved components and trends)"
+   },
+   {
+    "url": "https://nhauzenb.github.io/SGPE-ECNM11049/Lecture%20Slides/ATSE_Nonlinear_Time_Series_Models_1.pdf",
+    "label": "Nonlinear time series models 1: structural breaks and threshold autoregression"
+   },
+   {
+    "url": "https://nhauzenb.github.io/SGPE-ECNM11049/Lecture%20Slides/ATSE_Nonlinear_Time_Series_Models_2.pdf",
+    "label": "Nonlinear time series models 2: TVP models and neural nets"
+   },
+   {
+    "url": "https://nhauzenb.github.io/SGPE-ECNM11049/Lecture%20Slides/ATSE_Factor_Models_1.pdf",
+    "label": "The static factor model and principal components"
+   },
+   {
+    "url": "https://nhauzenb.github.io/SGPE-ECNM11049/Lecture%20Slides/ATSE_Factor_Models_2.pdf",
+    "label": "Factor models as state space models and the dynamic factor model"
+   },
+   {
+    "url": "https://nhauzenb.github.io/SGPE-ECNM11049/Lecture%20Slides/ATSE_Mixed_Frequency_Models.pdf",
+    "label": "Mixed frequency models (MIDAS, stacked VAR, state space VAR)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Lecture Slides 栏列出 7 份讲义（概览 + 四大主题），全部给出；HEAD 均为 200 application/pdf",
+  "legal_basis": "课程官方页面（授课教师 GitHub Pages）公开",
+  "language": "en",
+  "topics": [
+   "非线性时间序列",
+   "结构突变",
+   "门限自回归 TAR",
+   "马尔可夫转换",
+   "时变参数与随机波动率",
+   "状态空间与 Kalman 滤波",
+   "动态因子模型",
+   "混频模型 MIDAS"
+  ],
+  "level": "高级",
+  "order_hint": "建议在 MIT 14.384（排名 6）或 UW Econ 584（排名 23）之后阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "爱丁堡 SGPE 研究生课程 2026 版，围绕宏观与金融预测常用的四类模型：状态空间/不可观测成分、非线性模型（结构突变、门限与马尔可夫转换、时变参数、随机波动率、神经网络）、大数据因子模型与混频模型，强调用 R 估计与预测。",
+  "summary_basis": "官方课程页描述与讲义标题",
+  "reason": "填补非线性时间序列与混频/因子预测缺口，版本最新",
+  "priority": 1,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM061",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 63,
+  "kind": "course",
+  "title": "Stochastic Methods in Water Resources — lecture notes",
+  "authors": [
+   "Luis Alejandro Morales"
+  ],
+  "institution": "Universidad Nacional de Colombia, Facultad de Ingeniería, Departamento de Ingeniería Civil y Agrícola",
+  "course_name": "Stochastic Methods in Water Resources",
+  "course_code": "2025858",
+  "term": "2025-II（讲义日期 2025-08 至 2025-10；考试 2025-10-20 与 2025-12-03）",
+  "prerequisites": "实分析、线性代数与概率基础（课程页 Required prior knowledge）",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2025",
+  "version_year": "2025",
+  "homepage": "https://lamhydro.github.io/stochasticMethodsInWR/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit1/lec01.pdf",
+    "label": "Lecture 1: Course introduction, definition of stochastic hydrology"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit1/lec02.pdf",
+    "label": "Lecture 2: Descriptive statistics, univariate and bivariate statistics"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit1/lec03.pdf",
+    "label": "Lecture 3: Random variables, probability theory, probability distributions"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit1/lec04.pdf",
+    "label": "Lecture 4: Moments, characteristic function, known and bivariate distributions"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit1/lec05.pdf",
+    "label": "Lecture 5: Model estimation and testing"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit2/lec06.pdf",
+    "label": "Lecture 6: Definitions and analysis of extremes"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit2/lec07.pdf",
+    "label": "Lecture 7: Probability distributions of extremes, distribution selection"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit2/lec08.pdf",
+    "label": "Lecture 8: Hydrological design"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit3/lec09.pdf",
+    "label": "Lecture 9: Random functions - definitions, types, stationary random functions"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit3/lec10.pdf",
+    "label": "Lecture 10: Conditional random functions, spectral representation"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit4/lec11.pdf",
+    "label": "Lecture 11: Time series analysis - introduction, stationarity and ergodicity"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit4/lec12.pdf",
+    "label": "Lecture 12: Time series components"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit4/lec13.pdf",
+    "label": "Lecture 13: Univariate time series - autoregressive models"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit4/lec14.pdf",
+    "label": "Lecture 14: Univariate time series - moving average models"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit4/lec15.pdf",
+    "label": "Lecture 15: Univariate time series - ARMA models"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit5/lec16.pdf",
+    "label": "Lecture 16: Geostatistics - introduction and descriptive spatial statistics"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit5/lec17.pdf",
+    "label": "Lecture 17: Spatial interpolation by kriging (1)"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit5/lec18.pdf",
+    "label": "Lecture 18: Spatial interpolation by kriging (2)"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit6/lec19.pdf",
+    "label": "Lecture 19: Stochastic differential equations"
+   },
+   {
+    "url": "https://lamhydro.github.io/stochasticMethodsInWR/lecs/unit6/lec20.pdf",
+    "label": "Lecture 20: Introduction to the Kalman filter"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Program 表列出 20 份 LECTURE NOTES（Lec01–Lec20），全部给出；表中少数课次（如多元序列、Hurst 分析、地统计模拟）页面未挂讲义；HEAD 均为 200 application/pdf（pdfTeX 文本）",
+  "legal_basis": "授课教师课程网站（GitHub Pages）公开",
+  "language": "en",
+  "topics": [
+   "水文时间序列",
+   "水文统计与极值",
+   "频率分析与设计",
+   "随机函数与谱表示",
+   "AR/MA/ARMA",
+   "地统计与克里金",
+   "随机微分方程",
+   "Kalman 滤波"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在概率统计基础之后、与 ARIMA 入门课（排名 1–3）并行阅读",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "哥伦比亚国立大学水资源硕士/博士课程，从概率统计、水文极值与设计，到随机函数、时间序列（成分、AR/MA/ARMA）、地统计克里金，再到随机微分方程与 Kalman 滤波，案例均来自径流、降水等水文变量。",
+  "summary_basis": "官方课程页描述与讲义目录",
+  "reason": "填补水文时间序列课程缺口；2025 年最新讲授，文本 PDF 完整",
+  "priority": 1,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM062",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 64,
+  "kind": "course",
+  "title": "Prognostics and Statistical Predictive Maintenance — lecture slides",
+  "authors": [
+   "Erik Frisk"
+  ],
+  "institution": "Linköping University, Department of Electrical Engineering (ISY), Division of Vehicular Systems",
+  "course_name": "Prognostics and Statistical Predictive Maintenance (PhD course, 6+3 hp)",
+  "course_code": "",
+  "term": "Spring 2025（讲次 3 月 12 日至 5 月 28 日；仓库提交 2025-03 至 2025-05）",
+  "prerequisites": "统计基础；Python/PyTorch 经验有帮助",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2025",
+  "version_year": "2025",
+  "homepage": "https://gitlab.liu.se/vehsys/phd_prognostics",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec01_introduction.pdf",
+    "label": "Lecture 1: Introduction and model-based techniques, industrial use-case"
+   },
+   {
+    "url": "https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec02_lifetime_modelling_KM.pdf",
+    "label": "Lecture 2: Statistical life-time modeling and Kaplan-Meier models"
+   },
+   {
+    "url": "https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec03_cox.pdf",
+    "label": "Lecture 3: Models with covariates; Cox proportional hazards models"
+   },
+   {
+    "url": "https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec04_rsf.pdf",
+    "label": "Lecture 4: Random survival forest models for prognostics"
+   },
+   {
+    "url": "https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec05_deep_nets.pdf",
+    "label": "Lecture 5: Deep neural nets for prognostics (mixture density, GNN, energy-based)"
+   },
+   {
+    "url": "https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec06_optimal_maintenance_policies.pdf",
+    "label": "Lecture 6: Statistical optimal maintenance policies"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "LiU 课程静态页指向公开 GitLab 仓库；README 讲次表列出 6 讲的 Slides 链接，6 个 PDF 全部给出；HEAD 均为 200 application/pdf",
+  "legal_basis": "LiU 官方 GitLab 公开仓库（课程负责人维护）",
+  "language": "en",
+  "topics": [
+   "预测性维护与预后 PHM",
+   "剩余寿命 RUL 预测",
+   "寿命/生存分析（Kaplan-Meier、Cox）",
+   "随机生存森林",
+   "深度学习预后",
+   "最优维护策略",
+   "工业多元时间序列数据（Scania Component X）"
+  ],
+  "level": "高级",
+  "order_hint": "建议具备回归与机器学习基础后阅读；可接在异常检测（排名 40）之后",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "林雪平大学博士课程，覆盖预后与维护策略导论、基于物理模型的预后、寿命统计建模与 Kaplan-Meier、Cox 比例风险模型、随机生存森林与 RUL 回归、深度网络预后以及统计最优维护策略，并用 Scania 工业数据集做 Python 练习。",
+  "summary_basis": "官方课程页与仓库 README 讲次表",
+  "reason": "填补工业预后/剩余寿命预测缺口，2025 年新课",
+  "priority": 1,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM063",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 65,
+  "kind": "course",
+  "title": "Spatial and spatio-temporal statistics — lecture slides",
+  "authors": [
+   "Peter Guttorp",
+   "Paul D. Sampson"
+  ],
+  "institution": "University of Washington（与 SFU STAT 890、UBC STAT 547L/547O 联合开课）",
+  "course_name": "Spatial and spatio-temporal statistics",
+  "course_code": "STAT 591A",
+  "term": "Fall 2017（依页面日期 9/28–11/30、11/23 停课推断，页面未写年份）",
+  "prerequisites": "硕士水平回归与似然；R",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2017",
+  "version_year": "2017",
+  "homepage": "https://sites.stat.washington.edu/peter/591/",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec1.pdf",
+    "label": "Lecture 1: Kriging"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec2.pdf",
+    "label": "Lecture 2: Spatial covariance"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec3.pdf",
+    "label": "Lecture 3: Nonstationary structures I - deformations"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec4.pdf",
+    "label": "Lecture 4: Nonstationary structures II - process convolution, basis functions"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec5_I.pdf",
+    "label": "Lecture 5 (part I): Space-time models - SVD, space-time covariance"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec5_II.pdf",
+    "label": "Lecture 5 (part II): Space-time models - dynamic linear models"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec6.pdf",
+    "label": "Lecture 6: Markov random fields, SPDE approach, INLA"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec7.pdf",
+    "label": "Lecture 7: Misalignment and use of deterministic models"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec8.pdf",
+    "label": "Lecture 8: Monitoring network design"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec9.pdf",
+    "label": "Lecture 9: Extremes (GEV, GPD, max-stable processes)"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec10.pdf",
+    "label": "Lecture 10: Compositional data"
+   },
+   {
+    "url": "https://sites.stat.washington.edu/peter/591/Lec11.pdf",
+    "label": "Lecture 11: Statistical climatology"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页 Course content 列出 11 讲（第 5 讲分两部分），每讲给出 Slides (PDF)，12 个 PDF 全部给出；HEAD 均为 200 application/pdf（PowerPoint 导出，含文本）",
+  "legal_basis": "授课教师在 UW 统计系站点公开",
+  "language": "en",
+  "topics": [
+   "时空统计",
+   "克里金",
+   "空间协方差与非平稳",
+   "时空协方差与动态线性模型",
+   "GMRF/SPDE/INLA",
+   "监测网络设计",
+   "极值与最大稳定过程",
+   "统计气候学"
+  ],
+  "level": "高级",
+  "order_hint": "建议在 Durham 时空统计（排名 4）或 CMU Data over Space and Time（排名 19）之后阅读",
+  "classic_reason": "2017 年课程；由环境时空统计代表学者讲授，覆盖监测网络设计、极值与统计气候学等现有清单缺少的环境应用主题",
+  "cross_kind": "",
+  "summary": "UW 与 SFU、UBC 联合研究生课程：从克里金与空间协方差、非平稳结构，到时空协方差与 DLM、马尔可夫随机场与 INLA、错位数据与确定性模型融合、监测网络设计、极值和成分数据，最后讲区域气候模型的时空趋势。",
+  "summary_basis": "官方课程页各讲描述",
+  "reason": "补充时空统计与环境监测/气候应用；讲义齐全",
+  "priority": 2,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM064",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 67,
+  "kind": "course",
+  "title": "Projet Machine Learning & Forecasting — lecture slides (M2 Statistics & Machine Learning)",
+  "authors": [
+   "Yannig Goude"
+  ],
+  "institution": "Université Paris-Saclay, Laboratoire de Mathématiques d'Orsay（M2 MDA/StatML；授课教师就职于 EDF R&D）",
+  "course_name": "Projet Machine Learning & Forecasting",
+  "course_code": "",
+  "term": "2025-2026（课程页 planning 文件 cours_orga2025_2026.pdf）；部分幻灯片为 2021–2024 版",
+  "prerequisites": "线性回归、统计学习基础、R",
+  "publisher": "",
+  "edition": "",
+  "original_year": "待核实",
+  "version_year": "2025",
+  "homepage": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/teaching.html",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/intro2024.pdf",
+    "label": "Introduction, organisation (forecasting at EDF)"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/Rappels_Reg_Lin.pdf",
+    "label": "Rappels de régression linéaire"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/ridge.pdf",
+    "label": "Ridge regression"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/GAM.pdf",
+    "label": "Adaptive GAMs (generalized additive models for time series / load forecasting)"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/GAM_pratique.pdf",
+    "label": "GAM in practice"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/cart_beamer.pdf",
+    "label": "CART (regression trees)"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/rf_beamer.pdf",
+    "label": "Random forests"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/boosting_beamer.pdf",
+    "label": "Boosting"
+   },
+   {
+    "url": "https://www.imo.universite-paris-saclay.fr/~yannig.goude/Materials/ProjetMLF/agregation_experts_beamer.pdf",
+    "label": "Agrégation d'experts (online aggregation of experts / forecast combination)"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "课程页“Projet Machine Learning & Forecasting / Cours”栏列出的全部 PDF 讲义 9 份均给出；同栏另有 3 个 HTML 页（R 包编写、数据导入清洗、time series 实操）未纳入（HTML 不收）；HEAD 均为 200 application/pdf（旧域名 math.u-psud.fr 301 跳转到此）",
+  "legal_basis": "授课教师在 Paris-Saclay 数学所个人页公开",
+  "language": "en/fr（部分幻灯片为法文，待核实）",
+  "topics": [
+   "电力负荷预测",
+   "广义可加模型 GAM",
+   "自适应/在线模型",
+   "专家聚合与预测组合",
+   "树模型/随机森林/提升",
+   "能源预测"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在回归与统计学习基础之后阅读；与排名 61（Pinson）互补",
+  "classic_reason": "",
+  "cross_kind": "",
+  "summary": "巴黎-萨克雷 M2 预测项目课：以 EDF 电力负荷预测为主线，讲线性/岭回归、自适应 GAM 及其时间序列用法、CART/随机森林/提升，以及在线专家聚合（预测组合）方法。",
+  "summary_basis": "官方课程页讲义标题与讲义首页（未精读）",
+  "reason": "填补预测组合（专家聚合）与 GAM 负荷预测缺口",
+  "priority": 2,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM065",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 70,
+  "kind": "course",
+  "title": "Statistics of Extremes, with Applications in Environment, Insurance and Finance",
+  "authors": [
+   "Richard L. Smith"
+  ],
+  "institution": "University of North Carolina at Chapel Hill, Department of Statistics and Operations Research",
+  "course_name": "Extreme Value Theory（STOR 834 课程页列为 Instructor's Course Notes；原为 SEMSTAT 2001 短期课程讲义）",
+  "course_code": "STOR 834",
+  "term": "Spring 2023（STOR 834 课程页）；讲义为 SEMSTAT 2001 短期课程，PDF 版本日期 12 March 2003",
+  "prerequisites": "数理统计与似然推断",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2001",
+  "version_year": "2003",
+  "homepage": "https://rls.sites.oasis.unc.edu/s834-2023/s834.html",
+  "format": "pdf",
+  "files": [
+   {
+    "url": "https://rls.sites.oasis.unc.edu/postscript/rs/semstatrls.pdf",
+    "label": "full notes"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "STOR 834（Spring 2023）课程页将其列为讲师课程讲义；PDF 为完整讲义（目录 1–9 章，约 78 页，含参考文献）；HEAD 200 application/pdf（Type1 字体文本 PDF）",
+  "legal_basis": "作者在 UNC 个人页公开",
+  "language": "en",
+  "topics": [
+   "极值理论",
+   "GEV/GPD 与阈值超越",
+   "环境极值（臭氧、风速、降雨）",
+   "保险损失极值",
+   "金融时间序列极值",
+   "多元极值与最大稳定过程",
+   "贝叶斯极值分析"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在水文极值（排名 63 第 6–8 讲）之后深入阅读",
+  "classic_reason": "2001 年短期课程讲义，仍被作者 2023 年 STOR 834 课程使用；环境与金融极值的经典入门，现有清单无完整极值讲义",
+  "cross_kind": "Extreme Values in Finance, Telecommunications and the Environment (2003) 第 1 章预印本",
+  "summary": "以北卡降雪、保险与 VaR 为动机，讲单变量极值分布、阈值超越与点过程方法、极大似然与贝叶斯估计、诊断图，随后是臭氧/风速/降雨等环境极值、保险损失、多元极值与最大稳定过程以及金融时间序列极值。",
+  "summary_basis": "课程页条目与 PDF 首页目录",
+  "reason": "填补环境/水文/金融极值主题，文本完整",
+  "priority": 2,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM066",
+  "cross": [],
+  "cross_basis": []
+ },
+ {
+  "rank": 71,
+  "kind": "course",
+  "title": "AMATH 546/ECON 589: Financial Econometrics and Quantitative Risk Management — class slides",
+  "authors": [
+   "Eric Zivot"
+  ],
+  "institution": "University of Washington, Department of Economics / Applied Mathematics",
+  "course_name": "Financial Econometrics and Quantitative Risk Management",
+  "course_code": "AMATH 546/ECON 589",
+  "term": "Spring 2013（课程页 Syllabus 标注，最后更新 2013-06-05）",
+  "prerequisites": "研究生计量与时间序列（Econ 584 或同等）、R",
+  "publisher": "",
+  "edition": "",
+  "original_year": "2012",
+  "version_year": "2013",
+  "homepage": "https://faculty.washington.edu/ezivot/econ589/589syllabus.htm",
+  "format": "multi_pdf",
+  "files": [
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/overviewquantitativeriskmanagement.pdf",
+    "label": "Week 1 class slides: Overview of quantitative risk management"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/returnproperties.pdf",
+    "label": "Week 1 class slides: Return definitions and properties of returns"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/riskmeasures.pdf",
+    "label": "Week 1 class slides: Risk measures"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/empiricalReturnsPowerpoint.pdf",
+    "label": "Week 1 R-example slides: Distribution properties of returns"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/riskbudgeting.pdf",
+    "label": "Week 2 class slides: Risk budgeting"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/riskreporting.pdf",
+    "label": "Week 2 class slides: Risk budgeting and risk reporting"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/riskReportsPowerpoint.pdf",
+    "label": "Week 2 R-example slides: Risk report examples"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/estimatingriskmeasures.pdf",
+    "label": "Week 2 class slides: Estimating risk measures"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/riskMeasuresPowerpoint.pdf",
+    "label": "Week 2 R-example slides: Risk measures"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/univariategarch.pdf",
+    "label": "Class slides: Univariate GARCH models"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/univariateGarch2012powerpoint.pdf",
+    "label": "R-example slides: Univariate GARCH"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/univariategarchpart2.pdf",
+    "label": "Class slides: Univariate GARCH part 2 (advanced)"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/univariateGarchAdvancedpowerpoint.pdf",
+    "label": "R-example slides: Advanced univariate GARCH"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/backtestingriskmodels.pdf",
+    "label": "Class slides: Backtesting risk models"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/backtestingriskmodelspowerpoint.pdf",
+    "label": "R-example slides: Backtesting risk models"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/multivariategarch.pdf",
+    "label": "Class slides: Multivariate GARCH"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/MultivariateGarchPowerPoint.pdf",
+    "label": "R-example slides: Multivariate GARCH"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/DCCgarchPowerpoint.pdf",
+    "label": "R-example slides: DCC-GARCH"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/copulas.pdf",
+    "label": "Class slides: Copulas"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/copulasPowerpoint.pdf",
+    "label": "R-example slides: Copulas"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/factormodelriskanalysis.pdf",
+    "label": "Class slides: Factor model risk analysis"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/factorModelRiskAnalysisPowerpoint.pdf",
+    "label": "R-example slides: Factor model risk analysis"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/estimatingmacrofactormodels.pdf",
+    "label": "Class slides: Estimating macroeconomic factor models"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/estimatingfundamentalfactormodels.pdf",
+    "label": "Class slides: Estimating fundamental factor models"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/estimatingstatisticalfactormodels.pdf",
+    "label": "Class slides: Estimating statistical factor models"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/estimatefactorModelsPowerpoint.pdf",
+    "label": "R-example slides: Estimating factor models"
+   },
+   {
+    "url": "https://faculty.washington.edu/ezivot/econ589/bondoptionrisk.pdf",
+    "label": "Class slides: Bond and option risk"
+   }
+  ],
+  "html_toc": "",
+  "html_chapters": 0,
+  "completeness_evidence": "Syllabus 页逐周列出 Class slides 与 Powerpoint（R 示例）slides 共 27 份，全部给出；页面同时链接的教材章节 PDF 与他人论文不属讲师讲义、未纳入；HEAD 均为 200 application/pdf",
+  "legal_basis": "讲师在 UW 课程页公开（仅收讲师本人幻灯片）",
+  "language": "en",
+  "topics": [
+   "金融波动率",
+   "单变量 GARCH 与扩展",
+   "多元 GARCH/DCC",
+   "VaR/ES 估计",
+   "风险模型回测",
+   "copula",
+   "因子模型风险分析"
+  ],
+  "level": "进阶",
+  "order_hint": "建议在 UW Econ 584（排名 23）与 Oxford 金融计量（排名 9）之后阅读",
+  "classic_reason": "2013 年课程；GARCH 预测、多元波动率与 VaR 回测（风险预测评估）讲得系统，补充现有清单的回测与多元波动率内容",
+  "cross_kind": "",
+  "summary": "UW 金融计量与量化风险管理研究生课：收益性质与风险度量、风险预算与报告、风险度量估计，单变量 GARCH 及进阶、风险模型回测、多元 GARCH 与 DCC、copula 和三类因子模型风险分析，每讲配 R 示例幻灯片。",
+  "summary_basis": "官方 Syllabus 页逐周条目",
+  "reason": "补充波动率预测与风险预测回测；与排名 23 同一讲师但为不同课程",
+  "priority": 3,
+  "supplement": "第二轮补充检索（首轮核验不足 50 套）",
+  "id": "UM067",
   "cross": [],
   "cross_basis": []
  }
